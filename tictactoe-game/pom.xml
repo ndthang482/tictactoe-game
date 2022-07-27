@@ -75,7 +75,7 @@
             </snapshots>
             <id>cubeia-nexus</id>
             <name>Cubeia Repo</name>
-            <url>http://m2.cubeia.com/nexus/content/groups/public</url>
+            <url>https://192.168.1.34:8000</url>
         </repository>
     </repositories>
 
@@ -89,7 +89,7 @@
             </snapshots>
             <id>cubeia-nexus</id>
             <name>Cubeia Repo</name>
-            <url>http://m2.cubeia.com/nexus/content/groups/public</url>
+            <url>https://192.168.1.34:8000</url>
         </pluginRepository>
     </pluginRepositories>
 </project>

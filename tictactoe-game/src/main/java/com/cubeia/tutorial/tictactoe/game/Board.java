@@ -30,7 +30,7 @@ public class Board implements Serializable {
         this.naught = naught;
         playerToAct = cross;
     }
-
+    
     public Winner play(int cell, int playerId) {
         if (board[cell] == 'Z') {
             board[cell] = (playerId == cross) ? 'X' : 'O';
@@ -43,13 +43,14 @@ public class Board implements Serializable {
         Winner winner = Chars.contains(board, 'Z') ? Winner.NONE : Winner.TIE;
         char symbolToCheck = (playerId == cross) ? 'X' : 'O';
         for (int[] combo :getRowCombos()) {
-            if (board[combo[0]] == symbolToCheck && board[combo[1]] == symbolToCheck && board[combo[2]] == symbolToCheck) {
+            if (board[combo[0]] == symbolToCheck && board[combo[1]] == symbolToCheck &&
+            		board[combo[2]] == symbolToCheck) {
                 winner = (playerId == cross) ? Winner.CROSS : Winner.NAUGHT;
             }
         }
         return winner;
     }
-
+   
     private List<int[]> getRowCombos() {
         List<int[]> combos = new ArrayList<int[]>();
         combos.add(new int[] {0, 1, 2});

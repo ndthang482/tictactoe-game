@@ -3,7 +3,7 @@ package com.cubeia.tutorial.tictactoe.game;
 import com.cubeia.firebase.api.game.*;
 import com.cubeia.firebase.api.game.context.GameContext;
 import com.cubeia.firebase.api.game.table.Table;
-
+// thực hiện các hành động
 public class GameImpl implements Game, TableListenerProvider, TournamentGame {
 
     @Override

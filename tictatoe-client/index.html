@@ -20,8 +20,8 @@
 				//The user has WebSockets
 				$('#table').hide();
 				connector = new FIREBASE.Connector(packetCallback, lobbyCallback, loginCallback, statusCallback);
-				connector.connect("FIREBASE.WebSocketAdapter", '192.168.1.238', '8080', "socket");
-				//connector.connect("FIREBASE.WebSocketAdapter", 'localhost', '8080', "socket");
+				connector.connect("FIREBASE.WebSocketAdapter", '192.168.1.68', '8080', "socket");
+				//connector.connect("FIREBASE.WebSocketAdapter", 'localhost', '8080', "socket");	
 			} else {
 				$('#eventLog, input, button, #table').fadeOut("fast");
 				$('<p>Oh no, you need a browser that supports WebSockets. How about <a href="http://www.google.com/chrome">Google Chrome</a>?</p>').appendTo('#container');
