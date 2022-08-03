@@ -1,0 +1,300 @@
+2021-12-13 07:45:02,046 INFO  - T[] P[] M[] main SYSLOG - Firebase Server Platform initializing; Server id: 0871d6aa29c9
+2021-12-13 07:45:11,703 INFO  - T[] P[] M[] main firebase.server.statistics.StatisticsLevel - Statistics level for the system: PROFILING
+2021-12-13 07:45:13,014 WARN  - T[] P[] M[] main jboss.cache.transaction.GenericTransactionManagerLookup - Falling back to DummyTransactionManager from JBossCache
+2021-12-13 07:45:13,564 INFO  - T[] P[] M[] main service.systemstate.cache.SystemStateCacheHandler - SystemState repl Queue: false
+2021-12-13 07:45:13,641 INFO  - T[] P[] M[] main service.systemstate.cache.SystemStateCacheHandler - System State TreeCache service started.
+2021-12-13 07:45:18,889 INFO  - T[] P[] M[] main SYSLOG - Deployed: Service userlq-services-1.0-SNAPSHOT; Id: com.athena.services:userlq-services
+2021-12-13 07:45:18,980 WARN  - T[] P[] M[] main cubeia.service.crossdomain.FlashCrossDomainService - Unable to open config file, using defaults
+2021-12-13 07:45:19,209 INFO  - T[] P[] M[] main cubeia.service.crossdomain.FlashCrossDomainServer - Flash cross domain policy server listening on port 4122
+2021-12-13 07:45:19,510 INFO  - T[] P[] M[] main SYSLOG - Master node 'mas1' initialized as [primary] master.
+2021-12-13 07:45:19,578 INFO  - T[] P[] M[] pool-2-thread-1 firebase.server.master.MasterNode - Received handshake for role GAME_NODE from id: gam1[0871d6aa29c9[127.0.0.1:8635]]; Halting
+2021-12-13 07:45:19,583 INFO  - T[] P[] M[] pool-2-thread-2 firebase.server.instance.ServerInstance - Halting; Id: 947987093
+2021-12-13 07:45:19,617 INFO  - T[] P[] M[] pool-2-thread-1 firebase.server.master.MasterNode - Promoting node; Id: gam1; Role: GAME_NODE
+2021-12-13 07:45:19,651 INFO  - T[] P[] M[] pool-2-thread-2 server.lobby.systemstate.StateLobby - Lobby broadcast period set to: 2000
+2021-12-13 07:45:19,788 INFO  - T[] P[] M[] pool-2-thread-1 SYSLOG - Master node processed handshake for role GAME_NODE from id: gam1[0871d6aa29c9[127.0.0.1:8635]]
+2021-12-13 07:45:19,790 INFO  - T[] P[] M[] pool-2-thread-1 firebase.server.master.MasterNode - Resuming after processing role GAME_NODE from: gam1[0871d6aa29c9[127.0.0.1:8635]]; Halt id: 947987093
+2021-12-13 07:45:19,801 INFO  - T[] P[] M[] main firebase.server.game.GameNode - Configuration found for node: gam1 (null)
+2021-12-13 07:45:20,017 INFO  - T[] P[] M[] pool-2-thread-1 firebase.server.master.MasterNode - Received handshake for role CLIENT_NODE from id: cli1[0871d6aa29c9[127.0.0.1:8635]]; Halting
+2021-12-13 07:45:20,018 INFO  - T[] P[] M[] pool-2-thread-1 firebase.server.master.MasterNode - Promoting node; Id: cli1; Role: CLIENT_NODE
+2021-12-13 07:45:20,024 INFO  - T[] P[] M[] pool-2-thread-2 firebase.server.gateway.GatewayNode - Configuration found for node: cli1 (null)
+2021-12-13 07:45:20,030 INFO  - T[] P[] M[] pool-2-thread-2 firebase.server.gateway.GatewayNode - This node has been promoted to coordinator. Starting ClientReaper.
+2021-12-13 07:45:20,052 INFO  - T[] P[] M[] pool-2-thread-1 SYSLOG - Master node processed handshake for role CLIENT_NODE from id: cli1[0871d6aa29c9[127.0.0.1:8635]]
+2021-12-13 07:45:20,055 INFO  - T[] P[] M[] pool-2-thread-1 firebase.server.master.MasterNode - Resuming after processing role CLIENT_NODE from: cli1[0871d6aa29c9[127.0.0.1:8635]]; Halt id: 949996090
+2021-12-13 07:45:20,056 INFO  - T[] P[] M[] main firebase.server.gateway.GatewayNode - Init Client Gateway
+2021-12-13 07:45:20,057 INFO  - T[] P[] M[] main firebase.server.gateway.GatewayNode - Gateway ingoring minimum frequency protection
+2021-12-13 07:45:20,058 INFO  - T[] P[] M[] main firebase.server.gateway.GatewayNode - Gateway ingoring interval frequency protection
+2021-12-13 07:45:20,058 WARN  - T[] P[] M[] main firebase.server.gateway.GatewayNode - Gateway unprotected; Consider setting access frequency protection in the configuration.
+2021-12-13 07:45:20,556 INFO  - T[] P[] M[] pool-2-thread-1 firebase.server.instance.ServerInstance - Resuming; Id: 949996090
+2021-12-13 07:45:21,057 INFO  - T[] P[] M[] main gateway.comm.jetty.JettyServer - Static content is served from: /app/game/web
+2021-12-13 07:45:23,042 INFO  - T[] P[] M[] main SYSLOG - HTTP Server starting at: 0.0.0.0:8080; SSL configuration: Not Configured
+2021-12-13 07:45:23,071 INFO  - T[] P[] M[] pool-2-thread-1 firebase.server.master.MasterNode - Received handshake for role MTT_NODE from id: mtt1[0871d6aa29c9[127.0.0.1:8635]]; Halting
+2021-12-13 07:45:23,071 INFO  - T[] P[] M[] pool-2-thread-2 firebase.server.instance.ServerInstance - Halting; Id: 948053775
+2021-12-13 07:45:23,080 INFO  - T[] P[] M[] pool-2-thread-1 firebase.server.master.MasterNode - Promoting node; Id: mtt1; Role: MTT_NODE
+2021-12-13 07:45:23,081 INFO  - T[] P[] M[] pool-2-thread-1 SYSLOG - Master node processed handshake for role MTT_NODE from id: mtt1[0871d6aa29c9[127.0.0.1:8635]]
+2021-12-13 07:45:23,082 INFO  - T[] P[] M[] pool-2-thread-1 firebase.server.master.MasterNode - Resuming after processing role MTT_NODE from: mtt1[0871d6aa29c9[127.0.0.1:8635]]; Halt id: 948053775
+2021-12-13 07:45:23,087 INFO  - T[] P[] M[] main firebase.server.mtt.MttNode - Configuration found for node: mtt1 (null)
+2021-12-13 07:45:23,153 INFO  - T[] P[] M[] main firebase.server.gateway.GatewayNode - Starting Client Gateway (cli1) ...
+2021-12-13 07:45:23,153 INFO  - T[] P[] M[] main service.clientreg.state.StateClientRegistry - Client Registry is now managing the following nodes (added): [cli1]
+2021-12-13 07:45:23,202 INFO  - T[] P[] M[] main SYSLOG - NIO Server started at: /0.0.0.0:4123
+2021-12-13 07:45:23,339 INFO  - T[] P[] M[] main SYSLOG - System [Java HotSpot(TM) 64-Bit Server VM 25.212-b10; Linux Linux (amd64)]
+2021-12-13 07:45:23,366 INFO  - T[] P[] M[] main SYSLOG - Server started [Mon Dec 13 07:45:23 UTC 2021]
+2021-12-13 07:45:23,373 INFO  - T[] P[] M[] main SYSLOG - Firebase Server Platform [version: 1.8.0-CE]
+2021-12-13 07:45:23,583 INFO  - T[] P[] M[] pool-2-thread-1 firebase.server.instance.ServerInstance - Resuming; Id: 948053775
+2021-12-13 08:13:25,065 INFO  - T[] P[] M[] main SYSLOG - Firebase Server Platform initializing; Server id: 0871d6aa29c9
+2021-12-13 08:13:36,912 INFO  - T[] P[] M[] main firebase.server.statistics.StatisticsLevel - Statistics level for the system: PROFILING
+2021-12-13 08:13:39,753 WARN  - T[] P[] M[] main jboss.cache.transaction.GenericTransactionManagerLookup - Falling back to DummyTransactionManager from JBossCache
+2021-12-13 08:13:40,279 INFO  - T[] P[] M[] main service.systemstate.cache.SystemStateCacheHandler - SystemState repl Queue: false
+2021-12-13 08:13:40,323 INFO  - T[] P[] M[] main service.systemstate.cache.SystemStateCacheHandler - System State TreeCache service started.
+2021-12-13 08:13:45,728 ERROR - T[] P[] M[] main com.cachebase.memcache.Memcache - There is no available connection at this moment
+net.rubyeye.xmemcached.exception.MemcachedException: There is no available connection at this moment
+	at net.rubyeye.xmemcached.impl.MemcachedConnector.send(MemcachedConnector.java:498)
+	at net.rubyeye.xmemcached.XMemcachedClient.sendCommand(XMemcachedClient.java:315)
+	at net.rubyeye.xmemcached.XMemcachedClient.fetch0(XMemcachedClient.java:644)
+	at net.rubyeye.xmemcached.XMemcachedClient.get0(XMemcachedClient.java:1058)
+	at net.rubyeye.xmemcached.XMemcachedClient.get(XMemcachedClient.java:1016)
+	at net.rubyeye.xmemcached.XMemcachedClient.get(XMemcachedClient.java:1027)
+	at net.rubyeye.xmemcached.XMemcachedClient.get(XMemcachedClient.java:1049)
+	at com.cachebase.memcache.Memcache.get(Memcache.java:98)
+	at com.athena.services.chat.ChatHandler.getLogChat(ChatHandler.java:167)
+	at com.athena.services.impl.ServiceImpl.init(ServiceImpl.java:503)
+	at com.athena.services.impl.ServiceImpl.init(ServiceImpl.java:1)
+	at com.cubeia.firebase.server.service.DefaultServiceRegistry$Handle.initService(DefaultServiceRegistry.java:884)
+	at com.cubeia.firebase.server.service.DefaultServiceRegistry$Handle.init(DefaultServiceRegistry.java:822)
+	at com.cubeia.firebase.server.service.DefaultServiceRegistry.initSelectedServices(DefaultServiceRegistry.java:704)
+	at com.cubeia.firebase.server.service.DefaultServiceRegistry.initIsolatedServices(DefaultServiceRegistry.java:686)
+	at com.cubeia.firebase.server.service.DefaultServiceRegistry.initServices(DefaultServiceRegistry.java:678)
+	at com.cubeia.firebase.server.service.DefaultServiceRegistry.doInit(DefaultServiceRegistry.java:479)
+	at com.cubeia.firebase.server.service.DefaultServiceRegistry.init(DefaultServiceRegistry.java:122)
+	at com.cubeia.firebase.server.instance.ServerInstance.initAndStartRegistry(ServerInstance.java:738)
+	at com.cubeia.firebase.server.instance.ServerInstance.initServices(ServerInstance.java:671)
+	at com.cubeia.firebase.server.instance.ServerInstance.init(ServerInstance.java:256)
+	at sun.reflect.NativeMethodAccessorImpl.invoke0(Native Method)
+	at sun.reflect.NativeMethodAccessorImpl.invoke(NativeMethodAccessorImpl.java:62)
+	at sun.reflect.DelegatingMethodAccessorImpl.invoke(DelegatingMethodAccessorImpl.java:43)
+	at java.lang.reflect.Method.invoke(Method.java:498)
+	at com.game.server.bootstrap.Server.initServer(Server.java:493)
+	at com.game.server.bootstrap.Server.start(Server.java:166)
+	at com.game.server.bootstrap.Server.init(Server.java:148)
+	at com.game.server.bootstrap.Server.main(Server.java:102)
+2021-12-13 08:13:45,848 ERROR - T[] P[] M[] main com.cachebase.memcache.Memcache - There is no available connection at this moment
+net.rubyeye.xmemcached.exception.MemcachedException: There is no available connection at this moment
+	at net.rubyeye.xmemcached.impl.MemcachedConnector.send(MemcachedConnector.java:498)
+	at net.rubyeye.xmemcached.XMemcachedClient.sendCommand(XMemcachedClient.java:315)
+	at net.rubyeye.xmemcached.XMemcachedClient.fetch0(XMemcachedClient.java:644)
+	at net.rubyeye.xmemcached.XMemcachedClient.get0(XMemcachedClient.java:1058)
+	at net.rubyeye.xmemcached.XMemcachedClient.get(XMemcachedClient.java:1016)
+	at net.rubyeye.xmemcached.XMemcachedClient.get(XMemcachedClient.java:1027)
+	at net.rubyeye.xmemcached.XMemcachedClient.get(XMemcachedClient.java:1049)
+	at com.cachebase.memcache.Memcache.get(Memcache.java:98)
+	at com.athena.services.chat.ChatHandler.getLogChat(ChatHandler.java:176)
+	at com.athena.services.impl.ServiceImpl.init(ServiceImpl.java:503)
+	at com.athena.services.impl.ServiceImpl.init(ServiceImpl.java:1)
+	at com.cubeia.firebase.server.service.DefaultServiceRegistry$Handle.initService(DefaultServiceRegistry.java:884)
+	at com.cubeia.firebase.server.service.DefaultServiceRegistry$Handle.init(DefaultServiceRegistry.java:822)
+	at com.cubeia.firebase.server.service.DefaultServiceRegistry.initSelectedServices(DefaultServiceRegistry.java:704)
+	at com.cubeia.firebase.server.service.DefaultServiceRegistry.initIsolatedServices(DefaultServiceRegistry.java:686)
+	at com.cubeia.firebase.server.service.DefaultServiceRegistry.initServices(DefaultServiceRegistry.java:678)
+	at com.cubeia.firebase.server.service.DefaultServiceRegistry.doInit(DefaultServiceRegistry.java:479)
+	at com.cubeia.firebase.server.service.DefaultServiceRegistry.init(DefaultServiceRegistry.java:122)
+	at com.cubeia.firebase.server.instance.ServerInstance.initAndStartRegistry(ServerInstance.java:738)
+	at com.cubeia.firebase.server.instance.ServerInstance.initServices(ServerInstance.java:671)
+	at com.cubeia.firebase.server.instance.ServerInstance.init(ServerInstance.java:256)
+	at sun.reflect.NativeMethodAccessorImpl.invoke0(Native Method)
+	at sun.reflect.NativeMethodAccessorImpl.invoke(NativeMethodAccessorImpl.java:62)
+	at sun.reflect.DelegatingMethodAccessorImpl.invoke(DelegatingMethodAccessorImpl.java:43)
+	at java.lang.reflect.Method.invoke(Method.java:498)
+	at com.game.server.bootstrap.Server.initServer(Server.java:493)
+	at com.game.server.bootstrap.Server.start(Server.java:166)
+	at com.game.server.bootstrap.Server.init(Server.java:148)
+	at com.game.server.bootstrap.Server.main(Server.java:102)
+2021-12-13 08:13:45,913 ERROR - T[] P[] M[] main com.cachebase.memcache.Memcache - There is no available connection at this moment
+net.rubyeye.xmemcached.exception.MemcachedException: There is no available connection at this moment
+	at net.rubyeye.xmemcached.impl.MemcachedConnector.send(MemcachedConnector.java:498)
+	at net.rubyeye.xmemcached.XMemcachedClient.sendCommand(XMemcachedClient.java:315)
+	at net.rubyeye.xmemcached.XMemcachedClient.fetch0(XMemcachedClient.java:644)
+	at net.rubyeye.xmemcached.XMemcachedClient.get0(XMemcachedClient.java:1058)
+	at net.rubyeye.xmemcached.XMemcachedClient.get(XMemcachedClient.java:1016)
+	at net.rubyeye.xmemcached.XMemcachedClient.get(XMemcachedClient.java:1027)
+	at net.rubyeye.xmemcached.XMemcachedClient.get(XMemcachedClient.java:1049)
+	at com.cachebase.memcache.Memcache.get(Memcache.java:98)
+	at com.athena.services.chat.ChatHandler.getLogChat(ChatHandler.java:184)
+	at com.athena.services.impl.ServiceImpl.init(ServiceImpl.java:503)
+	at com.athena.services.impl.ServiceImpl.init(ServiceImpl.java:1)
+	at com.cubeia.firebase.server.service.DefaultServiceRegistry$Handle.initService(DefaultServiceRegistry.java:884)
+	at com.cubeia.firebase.server.service.DefaultServiceRegistry$Handle.init(DefaultServiceRegistry.java:822)
+	at com.cubeia.firebase.server.service.DefaultServiceRegistry.initSelectedServices(DefaultServiceRegistry.java:704)
+	at com.cubeia.firebase.server.service.DefaultServiceRegistry.initIsolatedServices(DefaultServiceRegistry.java:686)
+	at com.cubeia.firebase.server.service.DefaultServiceRegistry.initServices(DefaultServiceRegistry.java:678)
+	at com.cubeia.firebase.server.service.DefaultServiceRegistry.doInit(DefaultServiceRegistry.java:479)
+	at com.cubeia.firebase.server.service.DefaultServiceRegistry.init(DefaultServiceRegistry.java:122)
+	at com.cubeia.firebase.server.instance.ServerInstance.initAndStartRegistry(ServerInstance.java:738)
+	at com.cubeia.firebase.server.instance.ServerInstance.initServices(ServerInstance.java:671)
+	at com.cubeia.firebase.server.instance.ServerInstance.init(ServerInstance.java:256)
+	at sun.reflect.NativeMethodAccessorImpl.invoke0(Native Method)
+	at sun.reflect.NativeMethodAccessorImpl.invoke(NativeMethodAccessorImpl.java:62)
+	at sun.reflect.DelegatingMethodAccessorImpl.invoke(DelegatingMethodAccessorImpl.java:43)
+	at java.lang.reflect.Method.invoke(Method.java:498)
+	at com.game.server.bootstrap.Server.initServer(Server.java:493)
+	at com.game.server.bootstrap.Server.start(Server.java:166)
+	at com.game.server.bootstrap.Server.init(Server.java:148)
+	at com.game.server.bootstrap.Server.main(Server.java:102)
+2021-12-13 08:13:45,922 INFO  - T[] P[] M[] main SYSLOG - Deployed: Service userlq-services-1.0-SNAPSHOT; Id: com.athena.services:userlq-services
+2021-12-13 08:13:46,014 WARN  - T[] P[] M[] main cubeia.service.crossdomain.FlashCrossDomainService - Unable to open config file, using defaults
+2021-12-13 08:13:46,226 INFO  - T[] P[] M[] main cubeia.service.crossdomain.FlashCrossDomainServer - Flash cross domain policy server listening on port 4122
+2021-12-13 08:13:46,513 INFO  - T[] P[] M[] main SYSLOG - Master node 'mas1' initialized as [primary] master.
+2021-12-13 08:13:46,551 INFO  - T[] P[] M[] pool-2-thread-1 firebase.server.master.MasterNode - Received handshake for role GAME_NODE from id: gam1[0871d6aa29c9[127.0.0.1:8635]]; Halting
+2021-12-13 08:13:46,558 INFO  - T[] P[] M[] pool-2-thread-2 firebase.server.instance.ServerInstance - Halting; Id: 947987093
+2021-12-13 08:13:46,587 INFO  - T[] P[] M[] pool-2-thread-1 firebase.server.master.MasterNode - Promoting node; Id: gam1; Role: GAME_NODE
+2021-12-13 08:13:46,612 INFO  - T[] P[] M[] pool-2-thread-2 server.lobby.systemstate.StateLobby - Lobby broadcast period set to: 2000
+2021-12-13 08:13:46,743 INFO  - T[] P[] M[] pool-2-thread-1 SYSLOG - Master node processed handshake for role GAME_NODE from id: gam1[0871d6aa29c9[127.0.0.1:8635]]
+2021-12-13 08:13:46,746 INFO  - T[] P[] M[] pool-2-thread-1 firebase.server.master.MasterNode - Resuming after processing role GAME_NODE from: gam1[0871d6aa29c9[127.0.0.1:8635]]; Halt id: 947987093
+2021-12-13 08:13:46,755 INFO  - T[] P[] M[] main firebase.server.game.GameNode - Configuration found for node: gam1 (null)
+2021-12-13 08:13:47,027 INFO  - T[] P[] M[] pool-2-thread-1 firebase.server.master.MasterNode - Received handshake for role CLIENT_NODE from id: cli1[0871d6aa29c9[127.0.0.1:8635]]; Halting
+2021-12-13 08:13:47,034 INFO  - T[] P[] M[] pool-2-thread-1 firebase.server.master.MasterNode - Promoting node; Id: cli1; Role: CLIENT_NODE
+2021-12-13 08:13:47,042 INFO  - T[] P[] M[] pool-2-thread-2 firebase.server.gateway.GatewayNode - Configuration found for node: cli1 (null)
+2021-12-13 08:13:47,046 INFO  - T[] P[] M[] pool-2-thread-2 firebase.server.gateway.GatewayNode - This node has been promoted to coordinator. Starting ClientReaper.
+2021-12-13 08:13:47,069 INFO  - T[] P[] M[] pool-2-thread-1 SYSLOG - Master node processed handshake for role CLIENT_NODE from id: cli1[0871d6aa29c9[127.0.0.1:8635]]
+2021-12-13 08:13:47,073 INFO  - T[] P[] M[] pool-2-thread-1 firebase.server.master.MasterNode - Resuming after processing role CLIENT_NODE from: cli1[0871d6aa29c9[127.0.0.1:8635]]; Halt id: 949996090
+2021-12-13 08:13:47,074 INFO  - T[] P[] M[] main firebase.server.gateway.GatewayNode - Init Client Gateway
+2021-12-13 08:13:47,075 INFO  - T[] P[] M[] main firebase.server.gateway.GatewayNode - Gateway ingoring minimum frequency protection
+2021-12-13 08:13:47,075 INFO  - T[] P[] M[] main firebase.server.gateway.GatewayNode - Gateway ingoring interval frequency protection
+2021-12-13 08:13:47,075 WARN  - T[] P[] M[] main firebase.server.gateway.GatewayNode - Gateway unprotected; Consider setting access frequency protection in the configuration.
+2021-12-13 08:13:47,576 INFO  - T[] P[] M[] pool-2-thread-1 firebase.server.instance.ServerInstance - Resuming; Id: 949996090
+2021-12-13 08:13:47,860 INFO  - T[] P[] M[] main gateway.comm.jetty.JettyServer - Static content is served from: /app/game/web
+2021-12-13 08:13:49,768 INFO  - T[] P[] M[] main SYSLOG - HTTP Server starting at: 0.0.0.0:8080; SSL configuration: Not Configured
+2021-12-13 08:13:49,791 INFO  - T[] P[] M[] pool-2-thread-1 firebase.server.master.MasterNode - Received handshake for role MTT_NODE from id: mtt1[0871d6aa29c9[127.0.0.1:8635]]; Halting
+2021-12-13 08:13:49,792 INFO  - T[] P[] M[] pool-2-thread-2 firebase.server.instance.ServerInstance - Halting; Id: 948053775
+2021-12-13 08:13:49,807 INFO  - T[] P[] M[] pool-2-thread-1 firebase.server.master.MasterNode - Promoting node; Id: mtt1; Role: MTT_NODE
+2021-12-13 08:13:49,808 INFO  - T[] P[] M[] pool-2-thread-1 SYSLOG - Master node processed handshake for role MTT_NODE from id: mtt1[0871d6aa29c9[127.0.0.1:8635]]
+2021-12-13 08:13:49,810 INFO  - T[] P[] M[] pool-2-thread-1 firebase.server.master.MasterNode - Resuming after processing role MTT_NODE from: mtt1[0871d6aa29c9[127.0.0.1:8635]]; Halt id: 948053775
+2021-12-13 08:13:49,817 INFO  - T[] P[] M[] main firebase.server.mtt.MttNode - Configuration found for node: mtt1 (null)
+2021-12-13 08:13:49,932 INFO  - T[] P[] M[] main firebase.server.gateway.GatewayNode - Starting Client Gateway (cli1) ...
+2021-12-13 08:13:49,933 INFO  - T[] P[] M[] main service.clientreg.state.StateClientRegistry - Client Registry is now managing the following nodes (added): [cli1]
+2021-12-13 08:13:49,988 INFO  - T[] P[] M[] main SYSLOG - NIO Server started at: /0.0.0.0:4123
+2021-12-13 08:13:50,162 INFO  - T[] P[] M[] main SYSLOG - System [Java HotSpot(TM) 64-Bit Server VM 25.212-b10; Linux Linux (amd64)]
+2021-12-13 08:13:50,171 INFO  - T[] P[] M[] main SYSLOG - Server started [Mon Dec 13 08:13:50 UTC 2021]
+2021-12-13 08:13:50,173 INFO  - T[] P[] M[] main SYSLOG - Firebase Server Platform [version: 1.8.0-CE]
+2021-12-13 08:13:50,312 INFO  - T[] P[] M[] pool-2-thread-1 firebase.server.instance.ServerInstance - Resuming; Id: 948053775
+2021-12-13 08:14:55,251 INFO  - T[] P[] M[] shutdown hook SYSLOG - Server stopped [Mon Dec 13 08:14:55 UTC 2021]
+2021-12-13 08:14:55,258 INFO  - T[] P[] M[] pool-2-thread-3 firebase.server.master.MasterNode - Master node received node down for node: mtt1 (coordinator: true); This master is primary: true; This master is next primary: true
+2021-12-13 08:14:55,259 INFO  - T[] P[] M[] pool-2-thread-3 firebase.server.master.MasterNode - Before node down: ClusterNodeRegistry [{id: mas1[0871d6aa29c9[127.0.0.1:8635]]; role: MASTER_NODE; isCoordinator: true} {id: gam1[0871d6aa29c9[127.0.0.1:8635]]; role: GAME_NODE; isCoordinator: true} {id: cli1[0871d6aa29c9[127.0.0.1:8635]]; role: CLIENT_NODE; isCoordinator: true} {id: mtt1[0871d6aa29c9[127.0.0.1:8635]]; role: MTT_NODE; isCoordinator: true}]
+2021-12-13 08:14:55,264 INFO  - T[] P[] M[] pool-2-thread-4 firebase.server.instance.ServerInstance - Halting; Id: 951150891
+2021-12-13 08:14:55,268 WARN  - T[] P[] M[] pool-2-thread-3 SYSLOG - Cluster lost member mtt1[0871d6aa29c9[127.0.0.1:8635]]' which was coordinator for role MTT_NODE; Coordinator lost! Cluster is now in an incomplete state!
+2021-12-13 08:14:55,271 WARN  - T[] P[] M[] pool-2-thread-3 firebase.server.master.MasterNode - Lost member was coordinator for role MTT_NODE; Coordinator lost, cluster is in incomplete state!
+2021-12-13 08:14:55,271 INFO  - T[] P[] M[] pool-2-thread-3 SYSLOG - Master node processed node down for: mtt1
+2021-12-13 08:14:55,274 INFO  - T[] P[] M[] pool-2-thread-3 firebase.server.master.MasterNode - Resuming after processing node down for: mtt1; Halt id: 951150891
+2021-12-13 08:14:55,352 INFO  - T[] P[] M[] pool-2-thread-3 firebase.server.master.MasterNode - Master node received node down for node: cli1 (coordinator: true); This master is primary: true; This master is next primary: true
+2021-12-13 08:14:55,353 INFO  - T[] P[] M[] pool-2-thread-3 firebase.server.master.MasterNode - Before node down: ClusterNodeRegistry [{id: mas1[0871d6aa29c9[127.0.0.1:8635]]; role: MASTER_NODE; isCoordinator: true} {id: gam1[0871d6aa29c9[127.0.0.1:8635]]; role: GAME_NODE; isCoordinator: true} {id: cli1[0871d6aa29c9[127.0.0.1:8635]]; role: CLIENT_NODE; isCoordinator: true}]
+2021-12-13 08:14:55,354 INFO  - T[] P[] M[] pool-2-thread-4 firebase.server.instance.ServerInstance - Halting; Id: 951150891
+2021-12-13 08:14:55,357 WARN  - T[] P[] M[] pool-2-thread-3 SYSLOG - Cluster lost member cli1[0871d6aa29c9[127.0.0.1:8635]]' which was coordinator for role CLIENT_NODE; Coordinator lost! Cluster is now in an incomplete state!
+2021-12-13 08:14:55,360 WARN  - T[] P[] M[] pool-2-thread-3 firebase.server.master.MasterNode - Lost member was coordinator for role CLIENT_NODE; Coordinator lost, cluster is in incomplete state!
+2021-12-13 08:14:55,360 INFO  - T[] P[] M[] pool-2-thread-3 SYSLOG - Master node processed node down for: cli1
+2021-12-13 08:14:55,366 INFO  - T[] P[] M[] pool-2-thread-3 firebase.server.master.MasterNode - Resuming after processing node down for: cli1; Halt id: 951150891
+2021-12-13 08:14:55,369 INFO  - T[] P[] M[] pool-2-thread-3 firebase.server.master.MasterNode - Master node received node down for node: gam1 (coordinator: true); This master is primary: true; This master is next primary: true
+2021-12-13 08:14:55,369 INFO  - T[] P[] M[] pool-2-thread-3 firebase.server.master.MasterNode - Before node down: ClusterNodeRegistry [{id: mas1[0871d6aa29c9[127.0.0.1:8635]]; role: MASTER_NODE; isCoordinator: true} {id: gam1[0871d6aa29c9[127.0.0.1:8635]]; role: GAME_NODE; isCoordinator: true}]
+2021-12-13 08:14:55,373 INFO  - T[] P[] M[] pool-2-thread-4 firebase.server.instance.ServerInstance - Halting; Id: 951150891
+2021-12-13 08:14:55,374 WARN  - T[] P[] M[] pool-2-thread-3 SYSLOG - Cluster lost member gam1[0871d6aa29c9[127.0.0.1:8635]]' which was coordinator for role GAME_NODE; Coordinator lost! Cluster is now in an incomplete state!
+2021-12-13 08:14:55,376 WARN  - T[] P[] M[] pool-2-thread-3 firebase.server.master.MasterNode - Lost member was coordinator for role GAME_NODE; Coordinator lost, cluster is in incomplete state!
+2021-12-13 08:14:55,377 INFO  - T[] P[] M[] pool-2-thread-3 SYSLOG - Master node processed node down for: gam1
+2021-12-13 08:14:55,379 INFO  - T[] P[] M[] pool-2-thread-3 firebase.server.master.MasterNode - Resuming after processing node down for: gam1; Halt id: 951150891
+2021-12-13 08:15:04,553 INFO  - T[] P[] M[] main SYSLOG - Firebase Server Platform initializing; Server id: 0871d6aa29c9
+2021-12-13 08:15:12,404 INFO  - T[] P[] M[] main firebase.server.statistics.StatisticsLevel - Statistics level for the system: PROFILING
+2021-12-13 08:15:13,941 WARN  - T[] P[] M[] main jboss.cache.transaction.GenericTransactionManagerLookup - Falling back to DummyTransactionManager from JBossCache
+2021-12-13 08:15:14,442 INFO  - T[] P[] M[] main service.systemstate.cache.SystemStateCacheHandler - SystemState repl Queue: false
+2021-12-13 08:15:14,492 INFO  - T[] P[] M[] main service.systemstate.cache.SystemStateCacheHandler - System State TreeCache service started.
+2021-12-13 08:15:15,767 INFO  - T[] P[] M[] main SYSLOG - Deployed: Service userlq-services-1.0-SNAPSHOT; Id: com.athena.services:userlq-services
+2021-12-13 08:15:15,889 WARN  - T[] P[] M[] main cubeia.service.crossdomain.FlashCrossDomainService - Unable to open config file, using defaults
+2021-12-13 08:15:16,121 INFO  - T[] P[] M[] main cubeia.service.crossdomain.FlashCrossDomainServer - Flash cross domain policy server listening on port 4122
+2021-12-13 08:15:16,412 INFO  - T[] P[] M[] main SYSLOG - Master node 'mas1' initialized as [primary] master.
+2021-12-13 08:15:16,453 INFO  - T[] P[] M[] pool-2-thread-1 firebase.server.master.MasterNode - Received handshake for role GAME_NODE from id: gam1[0871d6aa29c9[127.0.0.1:8635]]; Halting
+2021-12-13 08:15:16,459 INFO  - T[] P[] M[] pool-2-thread-2 firebase.server.instance.ServerInstance - Halting; Id: 947987093
+2021-12-13 08:15:16,487 INFO  - T[] P[] M[] pool-2-thread-1 firebase.server.master.MasterNode - Promoting node; Id: gam1; Role: GAME_NODE
+2021-12-13 08:15:16,515 INFO  - T[] P[] M[] pool-2-thread-2 server.lobby.systemstate.StateLobby - Lobby broadcast period set to: 2000
+2021-12-13 08:15:16,636 INFO  - T[] P[] M[] pool-2-thread-1 SYSLOG - Master node processed handshake for role GAME_NODE from id: gam1[0871d6aa29c9[127.0.0.1:8635]]
+2021-12-13 08:15:16,639 INFO  - T[] P[] M[] pool-2-thread-1 firebase.server.master.MasterNode - Resuming after processing role GAME_NODE from: gam1[0871d6aa29c9[127.0.0.1:8635]]; Halt id: 947987093
+2021-12-13 08:15:16,648 INFO  - T[] P[] M[] main firebase.server.game.GameNode - Configuration found for node: gam1 (null)
+2021-12-13 08:15:16,824 INFO  - T[] P[] M[] pool-2-thread-1 firebase.server.master.MasterNode - Received handshake for role CLIENT_NODE from id: cli1[0871d6aa29c9[127.0.0.1:8635]]; Halting
+2021-12-13 08:15:16,824 INFO  - T[] P[] M[] pool-2-thread-1 firebase.server.master.MasterNode - Promoting node; Id: cli1; Role: CLIENT_NODE
+2021-12-13 08:15:16,830 INFO  - T[] P[] M[] pool-2-thread-2 firebase.server.gateway.GatewayNode - Configuration found for node: cli1 (null)
+2021-12-13 08:15:16,834 INFO  - T[] P[] M[] pool-2-thread-2 firebase.server.gateway.GatewayNode - This node has been promoted to coordinator. Starting ClientReaper.
+2021-12-13 08:15:16,852 INFO  - T[] P[] M[] pool-2-thread-1 SYSLOG - Master node processed handshake for role CLIENT_NODE from id: cli1[0871d6aa29c9[127.0.0.1:8635]]
+2021-12-13 08:15:16,854 INFO  - T[] P[] M[] pool-2-thread-1 firebase.server.master.MasterNode - Resuming after processing role CLIENT_NODE from: cli1[0871d6aa29c9[127.0.0.1:8635]]; Halt id: 949996090
+2021-12-13 08:15:16,855 INFO  - T[] P[] M[] main firebase.server.gateway.GatewayNode - Init Client Gateway
+2021-12-13 08:15:16,856 INFO  - T[] P[] M[] main firebase.server.gateway.GatewayNode - Gateway ingoring minimum frequency protection
+2021-12-13 08:15:16,856 INFO  - T[] P[] M[] main firebase.server.gateway.GatewayNode - Gateway ingoring interval frequency protection
+2021-12-13 08:15:16,857 WARN  - T[] P[] M[] main firebase.server.gateway.GatewayNode - Gateway unprotected; Consider setting access frequency protection in the configuration.
+2021-12-13 08:15:17,355 INFO  - T[] P[] M[] pool-2-thread-1 firebase.server.instance.ServerInstance - Resuming; Id: 949996090
+2021-12-13 08:15:17,709 INFO  - T[] P[] M[] main gateway.comm.jetty.JettyServer - Static content is served from: /app/game/web
+2021-12-13 08:15:19,483 INFO  - T[] P[] M[] main SYSLOG - HTTP Server starting at: 0.0.0.0:8080; SSL configuration: Not Configured
+2021-12-13 08:15:19,512 INFO  - T[] P[] M[] pool-2-thread-1 firebase.server.master.MasterNode - Received handshake for role MTT_NODE from id: mtt1[0871d6aa29c9[127.0.0.1:8635]]; Halting
+2021-12-13 08:15:19,512 INFO  - T[] P[] M[] pool-2-thread-2 firebase.server.instance.ServerInstance - Halting; Id: 948053775
+2021-12-13 08:15:19,525 INFO  - T[] P[] M[] pool-2-thread-1 firebase.server.master.MasterNode - Promoting node; Id: mtt1; Role: MTT_NODE
+2021-12-13 08:15:19,525 INFO  - T[] P[] M[] pool-2-thread-1 SYSLOG - Master node processed handshake for role MTT_NODE from id: mtt1[0871d6aa29c9[127.0.0.1:8635]]
+2021-12-13 08:15:19,528 INFO  - T[] P[] M[] pool-2-thread-1 firebase.server.master.MasterNode - Resuming after processing role MTT_NODE from: mtt1[0871d6aa29c9[127.0.0.1:8635]]; Halt id: 948053775
+2021-12-13 08:15:19,537 INFO  - T[] P[] M[] main firebase.server.mtt.MttNode - Configuration found for node: mtt1 (null)
+2021-12-13 08:15:19,615 INFO  - T[] P[] M[] main firebase.server.gateway.GatewayNode - Starting Client Gateway (cli1) ...
+2021-12-13 08:15:19,615 INFO  - T[] P[] M[] main service.clientreg.state.StateClientRegistry - Client Registry is now managing the following nodes (added): [cli1]
+2021-12-13 08:15:19,780 INFO  - T[] P[] M[] main SYSLOG - NIO Server started at: /0.0.0.0:4123
+2021-12-13 08:15:19,951 INFO  - T[] P[] M[] main SYSLOG - System [Java HotSpot(TM) 64-Bit Server VM 25.212-b10; Linux Linux (amd64)]
+2021-12-13 08:15:19,965 INFO  - T[] P[] M[] main SYSLOG - Server started [Mon Dec 13 08:15:19 UTC 2021]
+2021-12-13 08:15:19,968 INFO  - T[] P[] M[] main SYSLOG - Firebase Server Platform [version: 1.8.0-CE]
+2021-12-13 08:15:20,028 INFO  - T[] P[] M[] pool-2-thread-1 firebase.server.instance.ServerInstance - Resuming; Id: 948053775
+2021-12-13 09:30:54,375 INFO  - T[] P[] M[] AnonymousIoService-5 gateway.comm.mina.SessionHandler - Exception caught for session. Closing session: (SOCKET, R: /172.19.0.1:59582, L: /172.19.0.2:4123, S: /0.0.0.0:4123)
+org.apache.mina.filter.codec.ProtocolDecoderException: java.io.IOException: Packet too large  size=369296128 from ip-address:/172.19.0.1:59582 (Hexdump: 16 03 03 00 A4 01 00 00 A0 03 03 61 B7 12 CE A0 4C D2 7A 36 5F C4 98 DA B0 BA 60 82 72 DC 06 4B 5D 02 2D 07 B4 81 63 7E B7 DD 3E 00 00 2C 00 FF C0 2C C0 2B C0 24 C0 23 C0 0A C0 09 C0 08 C0 30 C0 2F C0 28 C0 27 C0 14 C0 13 C0 12 00 9D 00 9C 00 3D 00 3C 00 35 00 2F 00 0A 01 00 00 4B 00 00 00 0E 00 0C 00 00 09 31 32 37 2E 30 2E 30 2E 31 00 0A 00 08 00 06 00 17 00 18 00 19 00 0B 00 02 01 00 00 0D 00 12 00 10 04 01 02 01 05 01 06 01 04 03 02 03 05 03 06 03 00 05 00 05 01 00 00 00 00 00 12 00 00 00 17 00 00 00 00 00 00 00 00 00 00 00 00 00 00 00 00 00 00 00 00 00 00 00 00 00 00 00 00 00 00 00 00 00 00 00 00 00 00 00 00 00 00 00 00 00 00 00 00 00 00 00 00 00 00 00 00 00 00 00 00 00 00 00 00 00 00 00 00 00 00 00 00 00 00 00 00 00 00 00 00 00 00 00 00 00 00 00 00 00 00 00 00 00 00 00 00 00 00 00 00 00 00 00 00 00 00 00 00 00 00 00 00 00 00 00 00 00 00 00 00 00 00 00 00 00 00 00 00 00 00 00 00 00 00 00 00 00 00 00 00 00 00 00 00 00 00 00 00 00 00 00 00 00 00 00 00 00 00 00 00 00 00 00 00 00 00 00 00 00 00 00 00 00 00 00 00 00 00 00 00 00 00 00 00 00 00 00 00 00 00 00 00 00 00 00 00 00 00 00 00 00 00 00 00 00 00 00 00 00 00 00 00 00 00 00 00 00 00 00 00 00 00 00 00 00 00 00 00 00 00 00 00 00 00 00 00 00 00 00 00 00 00 00 00 00 00 00 00 00 00 00 00 00 00 00 00 00 00 00 00 00 00 00 00 00 00 00 00 00 00 00 00 00 00 00 00 00 00 00 00 00 00 00 00 00 00 00 00 00 00 00 00 00 00 00 00 00 00 00 00 00 00 00 00 00 00 00 00 00 00 00 00 00 00 00 00 00 00 00 00 00 00 00 00 00 00 00 00 00 00 00 00 00 00 00 00 00 00 00 00 00 00 00 00 00 00 00 00 00 00 00 00 00 00 00 00 00 00 00 00 00 00 00 00 00 00 00 00 00 00 00 00 00 00 00 00 00 00 00 00 00 00 00 00 00 00 00 00 00 00 00 00 00 00 00 00 00 00 00 00 00 00 00 00 00 00 00 00 00 00 00 00 00 00 00 00 00 00 00 00 00 00 00 00 00 00 00 00 00 00 00 00 00 00 00 00 00 00 00 00 00 00 00 00 00 00 00 00 00 00 00 00 00 00 00 00 00 00 00 00 00 00 00 00 00 00 00 00 00 00 00 00 00 00 00 00 00 00 00 00 00 00 00 00 00 00 00 00 00 00 00 00 00 00 00 00 00 00 00 00 00 00 00 00 00 00 00 00 00 00 00 00 00 00 00 00 00 00 00 00 00 00 00 00 00 00 00 00 00 00 00 00 00 00 00 00 00 00 00 00 00 00 00 00 00 00 00 00 00 00 00 00 00 00 00 00 00 00 00 00 00 00 00 00 00 00 00 00 00 00 00 00 00 00 00 00 00 00 00 00 00 00 00 00 00 00 00 00 00 00 00 00 00 00 00 00 00 00 00 00 00 00 00 00 00 00 00 00 00 00 00 00 00 00 00 00 00 00 00 00 00 00 00 00 00 00 00 00 00 00 00 00 00 00 00 00 00 00 00 00 00 00 00 00 00 00 00 00 00 00 00 00 00 00 00 00 00 00 00 00 00 00 00 00 00 00 00 00 00 00 00 00 00 00 00 00 00 00 00 00 00 00 00 00 00 00 00 00 00 00 00 00 00 00 00 00 00 00 00 00 00 00 00 00 00 00 00 00 00 00 00 00 00 00 00 00 00 00 00 00 00 00 00 00 00 00 00 00 00 00 00 00 00 00 00 00 00 00 00 00 00 00 00 00 00 00 00 00 00 00 00 00 00 00 00 00 00 00 00 00 00 00 00 00 00 00 00 00 00 00 00 00 00 00 00 00 00 00 00 00 00 00 00 00 00 00 00 00 00 00 00 00 00 00 00 00 00 00 00 00 00 00 00 00 00 00 00 00 00 00 00 00 00 00 00 00 00 00 00 00 00 00 00 00 00 00 00 00 00 00 00 00 00 00 00 00 00 00 00 00 00 00 00 00 00 00 00 00 00 00 00 00 00 00 00 00 00)
+	at org.apache.mina.filter.codec.ProtocolCodecFilter.messageReceived(ProtocolCodecFilter.java:165)
+	at org.apache.mina.common.support.AbstractIoFilterChain.callNextMessageReceived(AbstractIoFilterChain.java:299)
+	at org.apache.mina.common.support.AbstractIoFilterChain.access$1100(AbstractIoFilterChain.java:53)
+	at org.apache.mina.common.support.AbstractIoFilterChain$EntryImpl$1.messageReceived(AbstractIoFilterChain.java:648)
+	at org.apache.mina.filter.executor.ExecutorFilter.processEvent(ExecutorFilter.java:220)
+	at org.apache.mina.filter.executor.ExecutorFilter$ProcessEventsRunnable.run(ExecutorFilter.java:264)
+	at java.util.concurrent.ThreadPoolExecutor.runWorker(ThreadPoolExecutor.java:1149)
+	at java.util.concurrent.ThreadPoolExecutor$Worker.run(ThreadPoolExecutor.java:624)
+	at org.apache.mina.util.NamePreservingRunnable.run(NamePreservingRunnable.java:51)
+	at java.lang.Thread.run(Thread.java:748)
+Caused by: java.io.IOException: Packet too large  size=369296128 from ip-address:/172.19.0.1:59582
+	at com.cubeia.firebase.server.gateway.comm.mina.protocol.StyxDecoder.doDecode(StyxDecoder.java:77)
+	at org.apache.mina.filter.codec.CumulativeProtocolDecoder.decode(CumulativeProtocolDecoder.java:133)
+	at org.apache.mina.filter.codec.ProtocolCodecFilter.messageReceived(ProtocolCodecFilter.java:158)
+	... 9 more
+2021-12-13 10:16:19,972 INFO  - T[] P[] M[] main SYSLOG - Firebase Server Platform initializing; Server id: ebd2f3403af9
+2021-12-13 10:16:29,580 INFO  - T[] P[] M[] main firebase.server.statistics.StatisticsLevel - Statistics level for the system: PROFILING
+2021-12-13 10:16:30,971 WARN  - T[] P[] M[] main jboss.cache.transaction.GenericTransactionManagerLookup - Falling back to DummyTransactionManager from JBossCache
+2021-12-13 10:16:31,491 INFO  - T[] P[] M[] main service.systemstate.cache.SystemStateCacheHandler - SystemState repl Queue: false
+2021-12-13 10:16:31,565 INFO  - T[] P[] M[] main service.systemstate.cache.SystemStateCacheHandler - System State TreeCache service started.
+2021-12-13 10:16:32,844 INFO  - T[] P[] M[] main SYSLOG - Deployed: Service userlq-services-1.0-SNAPSHOT; Id: com.athena.services:userlq-services
+2021-12-13 10:16:32,948 WARN  - T[] P[] M[] main cubeia.service.crossdomain.FlashCrossDomainService - Unable to open config file, using defaults
+2021-12-13 10:16:33,202 INFO  - T[] P[] M[] main cubeia.service.crossdomain.FlashCrossDomainServer - Flash cross domain policy server listening on port 4122
+2021-12-13 10:16:33,486 INFO  - T[] P[] M[] main SYSLOG - Master node 'mas1' initialized as [primary] master.
+2021-12-13 10:16:33,530 INFO  - T[] P[] M[] pool-2-thread-1 firebase.server.master.MasterNode - Received handshake for role GAME_NODE from id: gam1[ebd2f3403af9[127.0.0.1:8635]]; Halting
+2021-12-13 10:16:33,535 INFO  - T[] P[] M[] pool-2-thread-2 firebase.server.instance.ServerInstance - Halting; Id: -863034479
+2021-12-13 10:16:33,567 INFO  - T[] P[] M[] pool-2-thread-1 firebase.server.master.MasterNode - Promoting node; Id: gam1; Role: GAME_NODE
+2021-12-13 10:16:33,602 INFO  - T[] P[] M[] pool-2-thread-2 server.lobby.systemstate.StateLobby - Lobby broadcast period set to: 2000
+2021-12-13 10:16:33,744 INFO  - T[] P[] M[] pool-2-thread-1 SYSLOG - Master node processed handshake for role GAME_NODE from id: gam1[ebd2f3403af9[127.0.0.1:8635]]
+2021-12-13 10:16:33,747 INFO  - T[] P[] M[] pool-2-thread-1 firebase.server.master.MasterNode - Resuming after processing role GAME_NODE from: gam1[ebd2f3403af9[127.0.0.1:8635]]; Halt id: -863034479
+2021-12-13 10:16:33,757 INFO  - T[] P[] M[] main firebase.server.game.GameNode - Configuration found for node: gam1 (null)
+2021-12-13 10:16:33,940 INFO  - T[] P[] M[] pool-2-thread-1 firebase.server.master.MasterNode - Received handshake for role CLIENT_NODE from id: cli1[ebd2f3403af9[127.0.0.1:8635]]; Halting
+2021-12-13 10:16:33,940 INFO  - T[] P[] M[] pool-2-thread-1 firebase.server.master.MasterNode - Promoting node; Id: cli1; Role: CLIENT_NODE
+2021-12-13 10:16:33,947 INFO  - T[] P[] M[] pool-2-thread-2 firebase.server.gateway.GatewayNode - Configuration found for node: cli1 (null)
+2021-12-13 10:16:33,951 INFO  - T[] P[] M[] pool-2-thread-2 firebase.server.gateway.GatewayNode - This node has been promoted to coordinator. Starting ClientReaper.
+2021-12-13 10:16:33,969 INFO  - T[] P[] M[] pool-2-thread-1 SYSLOG - Master node processed handshake for role CLIENT_NODE from id: cli1[ebd2f3403af9[127.0.0.1:8635]]
+2021-12-13 10:16:33,971 INFO  - T[] P[] M[] pool-2-thread-1 firebase.server.master.MasterNode - Resuming after processing role CLIENT_NODE from: cli1[ebd2f3403af9[127.0.0.1:8635]]; Halt id: -862860482
+2021-12-13 10:16:33,972 INFO  - T[] P[] M[] main firebase.server.gateway.GatewayNode - Init Client Gateway
+2021-12-13 10:16:33,974 INFO  - T[] P[] M[] main firebase.server.gateway.GatewayNode - Gateway ingoring minimum frequency protection
+2021-12-13 10:16:33,974 INFO  - T[] P[] M[] main firebase.server.gateway.GatewayNode - Gateway ingoring interval frequency protection
+2021-12-13 10:16:33,974 WARN  - T[] P[] M[] main firebase.server.gateway.GatewayNode - Gateway unprotected; Consider setting access frequency protection in the configuration.
+2021-12-13 10:16:34,472 INFO  - T[] P[] M[] pool-2-thread-1 firebase.server.instance.ServerInstance - Resuming; Id: -862860482
+2021-12-13 10:16:34,932 INFO  - T[] P[] M[] main gateway.comm.jetty.JettyServer - Static content is served from: /app/game/web
+2021-12-13 10:16:36,726 INFO  - T[] P[] M[] main SYSLOG - HTTP Server starting at: 0.0.0.0:8080; SSL configuration: Not Configured
+2021-12-13 10:16:36,762 INFO  - T[] P[] M[] pool-2-thread-1 firebase.server.master.MasterNode - Received handshake for role MTT_NODE from id: mtt1[ebd2f3403af9[127.0.0.1:8635]]; Halting
+2021-12-13 10:16:36,762 INFO  - T[] P[] M[] pool-2-thread-2 firebase.server.instance.ServerInstance - Halting; Id: -863230453
+2021-12-13 10:16:36,781 INFO  - T[] P[] M[] pool-2-thread-1 firebase.server.master.MasterNode - Promoting node; Id: mtt1; Role: MTT_NODE
+2021-12-13 10:16:36,782 INFO  - T[] P[] M[] pool-2-thread-1 SYSLOG - Master node processed handshake for role MTT_NODE from id: mtt1[ebd2f3403af9[127.0.0.1:8635]]
+2021-12-13 10:16:36,786 INFO  - T[] P[] M[] pool-2-thread-1 firebase.server.master.MasterNode - Resuming after processing role MTT_NODE from: mtt1[ebd2f3403af9[127.0.0.1:8635]]; Halt id: -863230453
+2021-12-13 10:16:36,794 INFO  - T[] P[] M[] main firebase.server.mtt.MttNode - Configuration found for node: mtt1 (null)
+2021-12-13 10:16:36,881 INFO  - T[] P[] M[] main firebase.server.gateway.GatewayNode - Starting Client Gateway (cli1) ...
+2021-12-13 10:16:36,881 INFO  - T[] P[] M[] main service.clientreg.state.StateClientRegistry - Client Registry is now managing the following nodes (added): [cli1]
+2021-12-13 10:16:36,947 INFO  - T[] P[] M[] main SYSLOG - NIO Server started at: /0.0.0.0:4123
+2021-12-13 10:16:37,141 INFO  - T[] P[] M[] main SYSLOG - System [Java HotSpot(TM) 64-Bit Server VM 25.212-b10; Linux Linux (amd64)]
+2021-12-13 10:16:37,148 INFO  - T[] P[] M[] main SYSLOG - Server started [Mon Dec 13 10:16:37 UTC 2021]
+2021-12-13 10:16:37,150 INFO  - T[] P[] M[] main SYSLOG - Firebase Server Platform [version: 1.8.0-CE]
+2021-12-13 10:16:37,286 INFO  - T[] P[] M[] pool-2-thread-1 firebase.server.instance.ServerInstance - Resuming; Id: -863230453

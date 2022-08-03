@@ -1,0 +1,72 @@
+2022-06-30 08:50:10,560 INFO  - T[] P[] M[] main SYSLOG - Firebase Server Platform initializing; Server id: 6ec92998650a
+2022-06-30 08:50:19,825 INFO  - T[] P[] M[] main firebase.server.statistics.StatisticsLevel - Statistics level for the system: PROFILING
+2022-06-30 08:50:21,280 WARN  - T[] P[] M[] main jboss.cache.transaction.GenericTransactionManagerLookup - Falling back to DummyTransactionManager from JBossCache
+2022-06-30 08:50:21,959 INFO  - T[] P[] M[] main service.systemstate.cache.SystemStateCacheHandler - SystemState repl Queue: false
+2022-06-30 08:50:22,027 INFO  - T[] P[] M[] main service.systemstate.cache.SystemStateCacheHandler - System State TreeCache service started.
+2022-06-30 08:50:22,879 WARN  - T[] P[] M[] main cubeia.service.crossdomain.FlashCrossDomainService - Unable to open config file, using defaults
+2022-06-30 08:50:23,185 INFO  - T[] P[] M[] main cubeia.service.crossdomain.FlashCrossDomainServer - Flash cross domain policy server listening on port 4122
+2022-06-30 08:50:24,924 INFO  - T[] P[] M[] main server.deployment.game.GameDeployment - New game revision created: v:1 resource:com.cubeia.firebase.server.deployment.resources.DeploymentFolderSet@6676f6a0 def:tictactoe-game - id[888] class[com.cubeia.tutorial.tictactoe.game.GameImpl] activator[com.cubeia.tutorial.tictactoe.game.Activator] version[1.0-SNAPSHOT]
+2022-06-30 08:50:24,999 INFO  - T[] P[] M[] main SYSLOG - Deployed: tictactoe-game 1.0-SNAPSHOT; Internal ID: 888; Deployment Revision: 1
+2022-06-30 08:50:25,296 INFO  - T[] P[] M[] main SYSLOG - Master node 'mas1' initialized as [primary] master.
+2022-06-30 08:50:25,342 INFO  - T[] P[] M[] pool-2-thread-1 firebase.server.master.MasterNode - Received handshake for role GAME_NODE from id: gam1[6ec92998650a[127.0.0.1:8635]]; Halting
+2022-06-30 08:50:25,348 INFO  - T[] P[] M[] pool-2-thread-2 firebase.server.instance.ServerInstance - Halting; Id: 808969791
+2022-06-30 08:50:25,372 INFO  - T[] P[] M[] pool-2-thread-1 firebase.server.master.MasterNode - Promoting node; Id: gam1; Role: GAME_NODE
+2022-06-30 08:50:25,404 INFO  - T[] P[] M[] pool-2-thread-2 server.lobby.systemstate.StateLobby - Lobby broadcast period set to: 2000
+2022-06-30 08:50:25,568 INFO  - T[] P[] M[] pool-2-thread-1 SYSLOG - Master node processed handshake for role GAME_NODE from id: gam1[6ec92998650a[127.0.0.1:8635]]
+2022-06-30 08:50:25,570 INFO  - T[] P[] M[] pool-2-thread-1 firebase.server.master.MasterNode - Resuming after processing role GAME_NODE from: gam1[6ec92998650a[127.0.0.1:8635]]; Halt id: 808969791
+2022-06-30 08:50:25,581 INFO  - T[] P[] M[] main firebase.server.game.GameNode - Configuration found for node: gam1 (null)
+2022-06-30 08:50:25,789 INFO  - T[] P[] M[] pool-2-thread-1 firebase.server.master.MasterNode - Received handshake for role CLIENT_NODE from id: cli1[6ec92998650a[127.0.0.1:8635]]; Halting
+2022-06-30 08:50:25,790 INFO  - T[] P[] M[] pool-2-thread-1 firebase.server.master.MasterNode - Promoting node; Id: cli1; Role: CLIENT_NODE
+2022-06-30 08:50:25,799 INFO  - T[] P[] M[] pool-2-thread-2 firebase.server.gateway.GatewayNode - Configuration found for node: cli1 (null)
+2022-06-30 08:50:25,811 INFO  - T[] P[] M[] pool-2-thread-2 firebase.server.gateway.GatewayNode - This node has been promoted to coordinator. Starting ClientReaper.
+2022-06-30 08:50:25,874 INFO  - T[] P[] M[] pool-2-thread-1 SYSLOG - Master node processed handshake for role CLIENT_NODE from id: cli1[6ec92998650a[127.0.0.1:8635]]
+2022-06-30 08:50:25,877 INFO  - T[] P[] M[] pool-2-thread-1 firebase.server.master.MasterNode - Resuming after processing role CLIENT_NODE from: cli1[6ec92998650a[127.0.0.1:8635]]; Halt id: 807997072
+2022-06-30 08:50:25,877 INFO  - T[] P[] M[] main firebase.server.gateway.GatewayNode - Init Client Gateway
+2022-06-30 08:50:25,881 INFO  - T[] P[] M[] main firebase.server.gateway.GatewayNode - Gateway ingoring minimum frequency protection
+2022-06-30 08:50:25,881 INFO  - T[] P[] M[] main firebase.server.gateway.GatewayNode - Gateway ingoring interval frequency protection
+2022-06-30 08:50:25,882 WARN  - T[] P[] M[] main firebase.server.gateway.GatewayNode - Gateway unprotected; Consider setting access frequency protection in the configuration.
+2022-06-30 08:50:26,377 INFO  - T[] P[] M[] pool-2-thread-1 firebase.server.instance.ServerInstance - Resuming; Id: 807997072
+2022-06-30 08:50:26,964 INFO  - T[] P[] M[] main gateway.comm.jetty.JettyServer - Static content is served from: /app/game/web
+2022-06-30 08:50:29,136 INFO  - T[] P[] M[] main SYSLOG - HTTP Server starting at: 0.0.0.0:8080; SSL configuration: Not Configured
+2022-06-30 08:50:29,170 INFO  - T[] P[] M[] pool-2-thread-1 firebase.server.master.MasterNode - Received handshake for role MTT_NODE from id: mtt1[6ec92998650a[127.0.0.1:8635]]; Halting
+2022-06-30 08:50:29,170 INFO  - T[] P[] M[] pool-2-thread-2 firebase.server.instance.ServerInstance - Halting; Id: 808772517
+2022-06-30 08:50:29,188 INFO  - T[] P[] M[] pool-2-thread-1 firebase.server.master.MasterNode - Promoting node; Id: mtt1; Role: MTT_NODE
+2022-06-30 08:50:29,189 INFO  - T[] P[] M[] pool-2-thread-1 SYSLOG - Master node processed handshake for role MTT_NODE from id: mtt1[6ec92998650a[127.0.0.1:8635]]
+2022-06-30 08:50:29,191 INFO  - T[] P[] M[] pool-2-thread-1 firebase.server.master.MasterNode - Resuming after processing role MTT_NODE from: mtt1[6ec92998650a[127.0.0.1:8635]]; Halt id: 808772517
+2022-06-30 08:50:29,202 INFO  - T[] P[] M[] main firebase.server.mtt.MttNode - Configuration found for node: mtt1 (null)
+2022-06-30 08:50:29,588 INFO  - T[] P[] M[] main tutorial.tictactoe.game.Activator - Default activator for game id 888 is used the default configuration
+2022-06-30 08:50:29,692 INFO  - T[] P[] M[] pool-2-thread-1 firebase.server.instance.ServerInstance - Resuming; Id: 808772517
+2022-06-30 08:50:30,156 INFO  - T[] P[] M[] main firebase.server.gateway.GatewayNode - Starting Client Gateway (cli1) ...
+2022-06-30 08:50:30,157 INFO  - T[] P[] M[] main service.clientreg.state.StateClientRegistry - Client Registry is now managing the following nodes (added): [cli1]
+2022-06-30 08:50:30,200 INFO  - T[] P[] M[] main SYSLOG - NIO Server started at: /0.0.0.0:4123
+2022-06-30 08:50:30,367 INFO  - T[] P[] M[] main SYSLOG - System [Java HotSpot(TM) 64-Bit Server VM 25.212-b10; Linux Linux (amd64)]
+2022-06-30 08:50:30,380 INFO  - T[] P[] M[] main SYSLOG - Server started [Thu Jun 30 08:50:30 UTC 2022]
+2022-06-30 08:50:30,382 INFO  - T[] P[] M[] main SYSLOG - Firebase Server Platform [version: 1.8.0-CE]
+2022-06-30 08:50:36,705 INFO  - T[] P[] M[] qtp280615803-78 firebase.server.login.LoginManagerImpl - Created executor for TrivialLoginHandler with 30 threads.
+2022-06-30 08:51:20,359 INFO  - T[1] P[31231] M[] ReceivingGameEventDaemon-1 tutorial.tictactoe.game.Listener - Player joined!
+2022-06-30 08:51:24,967 INFO  - T[1] P[33] M[] ReceivingGameEventDaemon-1 tutorial.tictactoe.game.Listener - Player joined!
+2022-06-30 08:51:24,967 INFO  - T[1] P[33] M[] ReceivingGameEventDaemon-1 tutorial.tictactoe.game.Listener - We got two players, starting game at 3s!
+2022-06-30 08:51:28,024 INFO  - T[1] P[0] M[] ReceivingGameEventDaemon-2 tutorial.tictactoe.game.Board - Cross = 33 Naught = 31231
+2022-06-30 08:51:28,832 INFO  - T[1] P[31231] M[] ReceivingGameEventDaemon-3 tutorial.tictactoe.game.TicTacToe - Ignoring action from 31231, expected: 33
+2022-06-30 08:51:38,245 INFO  - T[1] P[0] M[] ReceivingGameEventDaemon-4 tutorial.tictactoe.game.TicTacToe - Received action with data: next 3s
+2022-06-30 08:51:55,895 INFO  - T[1] P[33] M[] ReceivingGameEventDaemon-2 tutorial.tictactoe.game.TicTacToe - Ignoring action from 33, expected: 31231
+2022-06-30 08:51:57,946 INFO  - T[1] P[33] M[] ReceivingGameEventDaemon-3 tutorial.tictactoe.game.TicTacToe - Ignoring action from 33, expected: 31231
+2022-06-30 08:52:11,514 INFO  - T[1] P[0] M[] ReceivingGameEventDaemon-1 tutorial.tictactoe.game.TicTacToe - Received action with data: next 3s
+2022-06-30 08:52:19,849 INFO  - T[1] P[0] M[] ReceivingGameEventDaemon-4 tutorial.tictactoe.game.TicTacToe - Received action with data: next 3s
+2022-06-30 08:52:26,448 INFO  - T[1] P[0] M[] ReceivingGameEventDaemon-2 tutorial.tictactoe.game.TicTacToe - Received action with data: next 3s
+2022-06-30 08:52:32,664 INFO  - T[1] P[31231] M[] ReceivingGameEventDaemon-15 tutorial.tictactoe.game.TicTacToe - Ignoring action from 31231, expected: 33
+2022-06-30 08:52:34,325 INFO  - T[1] P[31231] M[] ReceivingGameEventDaemon-3 tutorial.tictactoe.game.TicTacToe - Ignoring action from 31231, expected: 33
+2022-06-30 08:52:36,249 INFO  - T[1] P[31231] M[] ReceivingGameEventDaemon-5 tutorial.tictactoe.game.TicTacToe - Ignoring action from 31231, expected: 33
+2022-06-30 08:52:38,765 INFO  - T[1] P[31231] M[] ReceivingGameEventDaemon-9 tutorial.tictactoe.game.TicTacToe - Ignoring action from 31231, expected: 33
+2022-06-30 08:52:39,292 INFO  - T[1] P[31231] M[] ReceivingGameEventDaemon-19 tutorial.tictactoe.game.TicTacToe - Ignoring action from 31231, expected: 33
+2022-06-30 08:52:39,599 INFO  - T[1] P[31231] M[] ReceivingGameEventDaemon-1 tutorial.tictactoe.game.TicTacToe - Ignoring action from 31231, expected: 33
+2022-06-30 08:52:40,148 INFO  - T[1] P[31231] M[] ReceivingGameEventDaemon-11 tutorial.tictactoe.game.TicTacToe - Ignoring action from 31231, expected: 33
+2022-06-30 08:52:40,969 INFO  - T[1] P[31231] M[] ReceivingGameEventDaemon-22 tutorial.tictactoe.game.TicTacToe - Ignoring action from 31231, expected: 33
+2022-06-30 08:52:49,652 INFO  - T[1] P[0] M[] ReceivingGameEventDaemon-4 tutorial.tictactoe.game.TicTacToe - Received action with data: next 3s
+2022-06-30 08:52:55,513 INFO  - T[1] P[31231] M[] ReceivingGameEventDaemon-14 tutorial.tictactoe.game.TicTacToe - Ignoring action from 31231, expected: 33
+2022-06-30 08:52:56,752 INFO  - T[1] P[0] M[] ReceivingGameEventDaemon-2 tutorial.tictactoe.game.TicTacToe - Received action with data: next 3s
+2022-06-30 08:53:01,425 INFO  - T[1] P[0] M[] ReceivingGameEventDaemon-15 tutorial.tictactoe.game.TicTacToe - Received action with data: next 3s
+2022-06-30 08:53:04,292 INFO  - T[1] P[31231] M[] ReceivingGameEventDaemon-17 tutorial.tictactoe.game.TicTacToe - Ignoring action from 31231, expected: 33
+2022-06-30 08:53:05,470 INFO  - T[1] P[0] M[] ReceivingGameEventDaemon-16 tutorial.tictactoe.game.TicTacToe - Received action with data: next 3s
+2022-06-30 08:53:08,431 INFO  - T[1] P[0] M[] ReceivingGameEventDaemon-18 tutorial.tictactoe.game.TicTacToe - Received action with data: start at 3s
+2022-06-30 08:53:08,433 INFO  - T[1] P[0] M[] ReceivingGameEventDaemon-10 tutorial.tictactoe.game.TicTacToe - Received action with data: next 3s

@@ -1,0 +1,1083 @@
+2022-07-27 09:05:16,586 INFO  - T[] P[] M[] main SYSLOG - Firebase Server Platform initializing; Server id: 982237735
+2022-07-27 09:05:17,236 INFO  - T[] P[] M[] main firebase.server.statistics.StatisticsLevel - Statistics level for the system: PROFILING
+2022-07-27 09:05:17,411 WARN  - T[] P[] M[] main jboss.cache.transaction.GenericTransactionManagerLookup - Falling back to DummyTransactionManager from JBossCache
+2022-07-27 09:05:17,477 INFO  - T[] P[] M[] main service.systemstate.cache.SystemStateCacheHandler - SystemState repl Queue: false
+2022-07-27 09:05:17,488 INFO  - T[] P[] M[] main service.systemstate.cache.SystemStateCacheHandler - System State TreeCache service started.
+2022-07-27 09:05:17,582 WARN  - T[] P[] M[] main cubeia.service.crossdomain.FlashCrossDomainService - Unable to open config file, using defaults
+2022-07-27 09:05:17,621 INFO  - T[] P[] M[] main cubeia.service.crossdomain.FlashCrossDomainServer - Flash cross domain policy server listening on port 4122
+2022-07-27 09:05:17,751 INFO  - T[] P[] M[] main server.deployment.game.GameDeployment - New game revision created: v:1 resource:com.cubeia.firebase.server.deployment.resources.DeploymentFolderSet@1611043 def:tictactoe-game - id[888] class[com.cubeia.tutorial.tictactoe.game.GameImpl] activator[com.cubeia.tutorial.tictactoe.game.Activator] version[1.0-SNAPSHOT]
+2022-07-27 09:05:17,761 INFO  - T[] P[] M[] main SYSLOG - Deployed: tictactoe-game 1.0-SNAPSHOT; Internal ID: 888; Deployment Revision: 1
+2022-07-27 09:05:17,793 INFO  - T[] P[] M[] main SYSLOG - Master node 'mas1' initialized as [primary] master.
+2022-07-27 09:05:17,798 INFO  - T[] P[] M[] pool-2-thread-1 firebase.server.master.MasterNode - Received handshake for role GAME_NODE from id: gam1[982237735[127.0.0.1:8635]]; Halting
+2022-07-27 09:05:17,799 INFO  - T[] P[] M[] pool-2-thread-2 firebase.server.instance.ServerInstance - Halting; Id: 377522098
+2022-07-27 09:05:17,801 INFO  - T[] P[] M[] pool-2-thread-1 firebase.server.master.MasterNode - Promoting node; Id: gam1; Role: GAME_NODE
+2022-07-27 09:05:17,805 INFO  - T[] P[] M[] pool-2-thread-2 server.lobby.systemstate.StateLobby - Lobby broadcast period set to: 2000
+2022-07-27 09:05:17,822 INFO  - T[] P[] M[] pool-2-thread-1 SYSLOG - Master node processed handshake for role GAME_NODE from id: gam1[982237735[127.0.0.1:8635]]
+2022-07-27 09:05:17,822 INFO  - T[] P[] M[] pool-2-thread-1 firebase.server.master.MasterNode - Resuming after processing role GAME_NODE from: gam1[982237735[127.0.0.1:8635]]; Halt id: 377522098
+2022-07-27 09:05:17,824 INFO  - T[] P[] M[] main firebase.server.game.GameNode - Configuration found for node: gam1 (null)
+2022-07-27 09:05:17,842 INFO  - T[] P[] M[] pool-2-thread-1 firebase.server.master.MasterNode - Received handshake for role CLIENT_NODE from id: cli1[982237735[127.0.0.1:8635]]; Halting
+2022-07-27 09:05:17,842 INFO  - T[] P[] M[] pool-2-thread-1 firebase.server.master.MasterNode - Promoting node; Id: cli1; Role: CLIENT_NODE
+2022-07-27 09:05:17,843 INFO  - T[] P[] M[] pool-2-thread-2 firebase.server.gateway.GatewayNode - Configuration found for node: cli1 (null)
+2022-07-27 09:05:17,844 INFO  - T[] P[] M[] pool-2-thread-2 firebase.server.gateway.GatewayNode - This node has been promoted to coordinator. Starting ClientReaper.
+2022-07-27 09:05:17,846 INFO  - T[] P[] M[] pool-2-thread-1 SYSLOG - Master node processed handshake for role CLIENT_NODE from id: cli1[982237735[127.0.0.1:8635]]
+2022-07-27 09:05:17,846 INFO  - T[] P[] M[] pool-2-thread-1 firebase.server.master.MasterNode - Resuming after processing role CLIENT_NODE from: cli1[982237735[127.0.0.1:8635]]; Halt id: 379481885
+2022-07-27 09:05:17,846 INFO  - T[] P[] M[] main firebase.server.gateway.GatewayNode - Init Client Gateway
+2022-07-27 09:05:17,847 INFO  - T[] P[] M[] main firebase.server.gateway.GatewayNode - Gateway ingoring minimum frequency protection
+2022-07-27 09:05:17,847 INFO  - T[] P[] M[] main firebase.server.gateway.GatewayNode - Gateway ingoring interval frequency protection
+2022-07-27 09:05:17,847 WARN  - T[] P[] M[] main firebase.server.gateway.GatewayNode - Gateway unprotected; Consider setting access frequency protection in the configuration.
+2022-07-27 09:05:17,952 INFO  - T[] P[] M[] main gateway.comm.jetty.JettyServer - Static content is served from: C:\Users\admin\Desktop\firebase_server\game\web
+2022-07-27 09:05:18,161 INFO  - T[] P[] M[] main SYSLOG - HTTP Server starting at: 0.0.0.0:8080; SSL configuration: Not Configured
+2022-07-27 09:05:18,165 INFO  - T[] P[] M[] pool-2-thread-1 firebase.server.master.MasterNode - Received handshake for role MTT_NODE from id: mtt1[982237735[127.0.0.1:8635]]; Halting
+2022-07-27 09:05:18,165 INFO  - T[] P[] M[] pool-2-thread-1 firebase.server.master.MasterNode - Promoting node; Id: mtt1; Role: MTT_NODE
+2022-07-27 09:05:18,165 INFO  - T[] P[] M[] pool-2-thread-1 SYSLOG - Master node processed handshake for role MTT_NODE from id: mtt1[982237735[127.0.0.1:8635]]
+2022-07-27 09:05:18,165 INFO  - T[] P[] M[] pool-2-thread-1 firebase.server.master.MasterNode - Resuming after processing role MTT_NODE from: mtt1[982237735[127.0.0.1:8635]]; Halt id: 377717288
+2022-07-27 09:05:18,166 INFO  - T[] P[] M[] main firebase.server.mtt.MttNode - Configuration found for node: mtt1 (null)
+2022-07-27 09:05:18,253 INFO  - T[] P[] M[] main firebase.server.gateway.GatewayNode - Starting Client Gateway (cli1) ...
+2022-07-27 09:05:18,253 INFO  - T[] P[] M[] main service.clientreg.state.StateClientRegistry - Client Registry is now managing the following nodes (added): [cli1]
+2022-07-27 09:05:18,259 INFO  - T[] P[] M[] main SYSLOG - NIO Server started at: /0.0.0.0:4123
+2022-07-27 09:05:18,271 INFO  - T[] P[] M[] main SYSLOG - System [Java HotSpot(TM) Client VM 25.141-b15; Windows 10 Windows 10 (x86)]
+2022-07-27 09:05:18,273 INFO  - T[] P[] M[] main SYSLOG - Server started [Wed Jul 27 09:05:18 ICT 2022]
+2022-07-27 09:05:18,274 INFO  - T[] P[] M[] main SYSLOG - Firebase Server Platform [version: 1.8.0-CE]
+2022-07-27 09:05:18,679 INFO  - T[] P[] M[] pool-2-thread-1 firebase.server.instance.ServerInstance - Resuming; Id: 377717288
+2022-07-27 09:06:10,129 INFO  - T[] P[] M[] qtp12334946-82 firebase.server.login.LoginManagerImpl - Created executor for TrivialLoginHandler with 30 threads.
+2022-07-27 09:12:22,267 INFO  - T[] P[] M[] pool-1-thread-1 server.deployment.game.GameDeploymentHandler - Redeploying Game Archive: tictactoe-game-1.0-SNAPSHOT
+2022-07-27 09:12:22,304 INFO  - T[] P[] M[] pool-1-thread-1 server.deployment.game.GameDeployment - New game revision created: v:2 resource:com.cubeia.firebase.server.deployment.resources.DeploymentFolderSet@16ae345 def:tictactoe-game - id[888] class[com.cubeia.tutorial.tictactoe.game.GameImpl] activator[com.cubeia.tutorial.tictactoe.game.Activator] version[1.0-SNAPSHOT]
+2022-07-27 09:12:22,304 INFO  - T[] P[] M[] pool-1-thread-1 SYSLOG - Deployed: tictactoe-game 1.0-SNAPSHOT; Internal ID: 888; Deployment Revision: 2
+2022-07-27 09:12:46,486 INFO  - T[] P[] M[] main SYSLOG - Firebase Server Platform initializing; Server id: -1338304349
+2022-07-27 09:12:47,031 INFO  - T[] P[] M[] main firebase.server.statistics.StatisticsLevel - Statistics level for the system: PROFILING
+2022-07-27 09:12:47,151 WARN  - T[] P[] M[] main jboss.cache.transaction.GenericTransactionManagerLookup - Falling back to DummyTransactionManager from JBossCache
+2022-07-27 09:12:47,201 INFO  - T[] P[] M[] main service.systemstate.cache.SystemStateCacheHandler - SystemState repl Queue: false
+2022-07-27 09:12:47,210 INFO  - T[] P[] M[] main service.systemstate.cache.SystemStateCacheHandler - System State TreeCache service started.
+2022-07-27 09:12:47,285 WARN  - T[] P[] M[] main cubeia.service.crossdomain.FlashCrossDomainService - Unable to open config file, using defaults
+2022-07-27 09:12:47,309 INFO  - T[] P[] M[] main cubeia.service.crossdomain.FlashCrossDomainServer - Flash cross domain policy server listening on port 4122
+2022-07-27 09:12:47,404 INFO  - T[] P[] M[] main server.deployment.game.GameDeployment - New game revision created: v:1 resource:com.cubeia.firebase.server.deployment.resources.DeploymentFolderSet@1611043 def:tictactoe-game - id[888] class[com.cubeia.tutorial.tictactoe.game.GameImpl] activator[com.cubeia.tutorial.tictactoe.game.Activator] version[1.0-SNAPSHOT]
+2022-07-27 09:12:47,411 INFO  - T[] P[] M[] main SYSLOG - Deployed: tictactoe-game 1.0-SNAPSHOT; Internal ID: 888; Deployment Revision: 1
+2022-07-27 09:12:47,438 INFO  - T[] P[] M[] main SYSLOG - Master node 'mas1' initialized as [primary] master.
+2022-07-27 09:12:47,442 INFO  - T[] P[] M[] pool-2-thread-1 firebase.server.master.MasterNode - Received handshake for role GAME_NODE from id: gam1[-1338304349[127.0.0.1:8635]]; Halting
+2022-07-27 09:12:47,443 INFO  - T[] P[] M[] pool-2-thread-2 firebase.server.instance.ServerInstance - Halting; Id: 1792107985
+2022-07-27 09:12:47,444 INFO  - T[] P[] M[] pool-2-thread-1 firebase.server.master.MasterNode - Promoting node; Id: gam1; Role: GAME_NODE
+2022-07-27 09:12:47,448 INFO  - T[] P[] M[] pool-2-thread-2 server.lobby.systemstate.StateLobby - Lobby broadcast period set to: 2000
+2022-07-27 09:12:47,464 INFO  - T[] P[] M[] pool-2-thread-1 SYSLOG - Master node processed handshake for role GAME_NODE from id: gam1[-1338304349[127.0.0.1:8635]]
+2022-07-27 09:12:47,464 INFO  - T[] P[] M[] pool-2-thread-1 firebase.server.master.MasterNode - Resuming after processing role GAME_NODE from: gam1[-1338304349[127.0.0.1:8635]]; Halt id: 1792107985
+2022-07-27 09:12:47,466 INFO  - T[] P[] M[] main firebase.server.game.GameNode - Configuration found for node: gam1 (null)
+2022-07-27 09:12:47,480 INFO  - T[] P[] M[] pool-2-thread-1 firebase.server.master.MasterNode - Received handshake for role CLIENT_NODE from id: cli1[-1338304349[127.0.0.1:8635]]; Halting
+2022-07-27 09:12:47,481 INFO  - T[] P[] M[] pool-2-thread-1 firebase.server.master.MasterNode - Promoting node; Id: cli1; Role: CLIENT_NODE
+2022-07-27 09:12:47,482 INFO  - T[] P[] M[] pool-2-thread-2 firebase.server.gateway.GatewayNode - Configuration found for node: cli1 (null)
+2022-07-27 09:12:47,483 INFO  - T[] P[] M[] pool-2-thread-2 firebase.server.gateway.GatewayNode - This node has been promoted to coordinator. Starting ClientReaper.
+2022-07-27 09:12:47,484 INFO  - T[] P[] M[] pool-2-thread-1 SYSLOG - Master node processed handshake for role CLIENT_NODE from id: cli1[-1338304349[127.0.0.1:8635]]
+2022-07-27 09:12:47,485 INFO  - T[] P[] M[] pool-2-thread-1 firebase.server.master.MasterNode - Resuming after processing role CLIENT_NODE from: cli1[-1338304349[127.0.0.1:8635]]; Halt id: 1791987070
+2022-07-27 09:12:47,485 INFO  - T[] P[] M[] main firebase.server.gateway.GatewayNode - Init Client Gateway
+2022-07-27 09:12:47,485 INFO  - T[] P[] M[] main firebase.server.gateway.GatewayNode - Gateway ingoring minimum frequency protection
+2022-07-27 09:12:47,485 INFO  - T[] P[] M[] main firebase.server.gateway.GatewayNode - Gateway ingoring interval frequency protection
+2022-07-27 09:12:47,485 WARN  - T[] P[] M[] main firebase.server.gateway.GatewayNode - Gateway unprotected; Consider setting access frequency protection in the configuration.
+2022-07-27 09:12:47,562 INFO  - T[] P[] M[] main gateway.comm.jetty.JettyServer - Static content is served from: C:\Users\admin\Desktop\firebase_server\game\web
+2022-07-27 09:12:47,726 INFO  - T[] P[] M[] main SYSLOG - HTTP Server starting at: 0.0.0.0:8080; SSL configuration: Not Configured
+2022-07-27 09:12:47,728 INFO  - T[] P[] M[] pool-2-thread-1 firebase.server.master.MasterNode - Received handshake for role MTT_NODE from id: mtt1[-1338304349[127.0.0.1:8635]]; Halting
+2022-07-27 09:12:47,728 INFO  - T[] P[] M[] pool-2-thread-1 firebase.server.master.MasterNode - Promoting node; Id: mtt1; Role: MTT_NODE
+2022-07-27 09:12:47,728 INFO  - T[] P[] M[] pool-2-thread-1 SYSLOG - Master node processed handshake for role MTT_NODE from id: mtt1[-1338304349[127.0.0.1:8635]]
+2022-07-27 09:12:47,728 INFO  - T[] P[] M[] pool-2-thread-1 firebase.server.master.MasterNode - Resuming after processing role MTT_NODE from: mtt1[-1338304349[127.0.0.1:8635]]; Halt id: 1792172107
+2022-07-27 09:12:47,729 INFO  - T[] P[] M[] main firebase.server.mtt.MttNode - Configuration found for node: mtt1 (null)
+2022-07-27 09:12:47,792 INFO  - T[] P[] M[] main firebase.server.gateway.GatewayNode - Starting Client Gateway (cli1) ...
+2022-07-27 09:12:47,792 INFO  - T[] P[] M[] main service.clientreg.state.StateClientRegistry - Client Registry is now managing the following nodes (added): [cli1]
+2022-07-27 09:12:47,797 INFO  - T[] P[] M[] main SYSLOG - NIO Server started at: /0.0.0.0:4123
+2022-07-27 09:12:47,806 INFO  - T[] P[] M[] main SYSLOG - System [Java HotSpot(TM) Client VM 25.141-b15; Windows 10 Windows 10 (x86)]
+2022-07-27 09:12:47,807 INFO  - T[] P[] M[] main SYSLOG - Server started [Wed Jul 27 09:12:47 ICT 2022]
+2022-07-27 09:12:47,807 INFO  - T[] P[] M[] main SYSLOG - Firebase Server Platform [version: 1.8.0-CE]
+2022-07-27 09:12:48,239 INFO  - T[] P[] M[] pool-2-thread-1 firebase.server.instance.ServerInstance - Resuming; Id: 1792172107
+2022-07-27 09:12:57,096 INFO  - T[] P[] M[] qtp12334946-77 firebase.server.login.LoginManagerImpl - Created executor for TrivialLoginHandler with 30 threads.
+2022-07-27 09:29:50,666 INFO  - T[] P[] M[] pool-1-thread-1 server.deployment.game.GameDeploymentHandler - Redeploying Game Archive: tictactoe-game-1.0-SNAPSHOT
+2022-07-27 09:29:50,706 INFO  - T[] P[] M[] pool-1-thread-1 server.deployment.game.GameDeployment - New game revision created: v:2 resource:com.cubeia.firebase.server.deployment.resources.DeploymentFolderSet@884f75 def:tictactoe-game - id[888] class[com.cubeia.tutorial.tictactoe.game.GameImpl] activator[com.cubeia.tutorial.tictactoe.game.Activator] version[1.0-SNAPSHOT]
+2022-07-27 09:29:50,706 INFO  - T[] P[] M[] pool-1-thread-1 SYSLOG - Deployed: tictactoe-game 1.0-SNAPSHOT; Internal ID: 888; Deployment Revision: 2
+2022-07-27 09:30:04,404 INFO  - T[] P[] M[] main SYSLOG - Firebase Server Platform initializing; Server id: 207258489
+2022-07-27 09:30:04,948 INFO  - T[] P[] M[] main firebase.server.statistics.StatisticsLevel - Statistics level for the system: PROFILING
+2022-07-27 09:30:05,070 WARN  - T[] P[] M[] main jboss.cache.transaction.GenericTransactionManagerLookup - Falling back to DummyTransactionManager from JBossCache
+2022-07-27 09:30:05,119 INFO  - T[] P[] M[] main service.systemstate.cache.SystemStateCacheHandler - SystemState repl Queue: false
+2022-07-27 09:30:05,129 INFO  - T[] P[] M[] main service.systemstate.cache.SystemStateCacheHandler - System State TreeCache service started.
+2022-07-27 09:30:05,200 WARN  - T[] P[] M[] main cubeia.service.crossdomain.FlashCrossDomainService - Unable to open config file, using defaults
+2022-07-27 09:30:05,227 INFO  - T[] P[] M[] main cubeia.service.crossdomain.FlashCrossDomainServer - Flash cross domain policy server listening on port 4122
+2022-07-27 09:30:05,330 INFO  - T[] P[] M[] main server.deployment.game.GameDeployment - New game revision created: v:1 resource:com.cubeia.firebase.server.deployment.resources.DeploymentFolderSet@1611043 def:tictactoe-game - id[888] class[com.cubeia.tutorial.tictactoe.game.GameImpl] activator[com.cubeia.tutorial.tictactoe.game.Activator] version[1.0-SNAPSHOT]
+2022-07-27 09:30:05,338 INFO  - T[] P[] M[] main SYSLOG - Deployed: tictactoe-game 1.0-SNAPSHOT; Internal ID: 888; Deployment Revision: 1
+2022-07-27 09:30:05,365 INFO  - T[] P[] M[] main SYSLOG - Master node 'mas1' initialized as [primary] master.
+2022-07-27 09:30:05,369 INFO  - T[] P[] M[] pool-2-thread-1 firebase.server.master.MasterNode - Received handshake for role GAME_NODE from id: gam1[207258489[127.0.0.1:8635]]; Halting
+2022-07-27 09:30:05,370 INFO  - T[] P[] M[] pool-2-thread-2 firebase.server.instance.ServerInstance - Halting; Id: 1515476157
+2022-07-27 09:30:05,371 INFO  - T[] P[] M[] pool-2-thread-1 firebase.server.master.MasterNode - Promoting node; Id: gam1; Role: GAME_NODE
+2022-07-27 09:30:05,374 INFO  - T[] P[] M[] pool-2-thread-2 server.lobby.systemstate.StateLobby - Lobby broadcast period set to: 2000
+2022-07-27 09:30:05,389 INFO  - T[] P[] M[] pool-2-thread-1 SYSLOG - Master node processed handshake for role GAME_NODE from id: gam1[207258489[127.0.0.1:8635]]
+2022-07-27 09:30:05,390 INFO  - T[] P[] M[] pool-2-thread-1 firebase.server.master.MasterNode - Resuming after processing role GAME_NODE from: gam1[207258489[127.0.0.1:8635]]; Halt id: 1515476157
+2022-07-27 09:30:05,391 INFO  - T[] P[] M[] main firebase.server.game.GameNode - Configuration found for node: gam1 (null)
+2022-07-27 09:30:05,405 INFO  - T[] P[] M[] pool-2-thread-1 firebase.server.master.MasterNode - Received handshake for role CLIENT_NODE from id: cli1[207258489[127.0.0.1:8635]]; Halting
+2022-07-27 09:30:05,405 INFO  - T[] P[] M[] pool-2-thread-1 firebase.server.master.MasterNode - Promoting node; Id: cli1; Role: CLIENT_NODE
+2022-07-27 09:30:05,406 INFO  - T[] P[] M[] pool-2-thread-2 firebase.server.gateway.GatewayNode - Configuration found for node: cli1 (null)
+2022-07-27 09:30:05,406 INFO  - T[] P[] M[] pool-2-thread-2 firebase.server.gateway.GatewayNode - This node has been promoted to coordinator. Starting ClientReaper.
+2022-07-27 09:30:05,408 INFO  - T[] P[] M[] pool-2-thread-1 SYSLOG - Master node processed handshake for role CLIENT_NODE from id: cli1[207258489[127.0.0.1:8635]]
+2022-07-27 09:30:05,409 INFO  - T[] P[] M[] pool-2-thread-1 firebase.server.master.MasterNode - Resuming after processing role CLIENT_NODE from: cli1[207258489[127.0.0.1:8635]]; Halt id: 1514847250
+2022-07-27 09:30:05,409 INFO  - T[] P[] M[] main firebase.server.gateway.GatewayNode - Init Client Gateway
+2022-07-27 09:30:05,409 INFO  - T[] P[] M[] main firebase.server.gateway.GatewayNode - Gateway ingoring minimum frequency protection
+2022-07-27 09:30:05,409 INFO  - T[] P[] M[] main firebase.server.gateway.GatewayNode - Gateway ingoring interval frequency protection
+2022-07-27 09:30:05,409 WARN  - T[] P[] M[] main firebase.server.gateway.GatewayNode - Gateway unprotected; Consider setting access frequency protection in the configuration.
+2022-07-27 09:30:05,486 INFO  - T[] P[] M[] main gateway.comm.jetty.JettyServer - Static content is served from: C:\Users\admin\Desktop\firebase_server\game\web
+2022-07-27 09:30:05,648 INFO  - T[] P[] M[] main SYSLOG - HTTP Server starting at: 0.0.0.0:8080; SSL configuration: Not Configured
+2022-07-27 09:30:05,650 INFO  - T[] P[] M[] pool-2-thread-1 firebase.server.master.MasterNode - Received handshake for role MTT_NODE from id: mtt1[207258489[127.0.0.1:8635]]; Halting
+2022-07-27 09:30:05,651 INFO  - T[] P[] M[] pool-2-thread-1 firebase.server.master.MasterNode - Promoting node; Id: mtt1; Role: MTT_NODE
+2022-07-27 09:30:05,651 INFO  - T[] P[] M[] pool-2-thread-1 SYSLOG - Master node processed handshake for role MTT_NODE from id: mtt1[207258489[127.0.0.1:8635]]
+2022-07-27 09:30:05,651 INFO  - T[] P[] M[] pool-2-thread-1 firebase.server.master.MasterNode - Resuming after processing role MTT_NODE from: mtt1[207258489[127.0.0.1:8635]]; Halt id: 1515671847
+2022-07-27 09:30:05,652 INFO  - T[] P[] M[] main firebase.server.mtt.MttNode - Configuration found for node: mtt1 (null)
+2022-07-27 09:30:05,718 INFO  - T[] P[] M[] main firebase.server.gateway.GatewayNode - Starting Client Gateway (cli1) ...
+2022-07-27 09:30:05,718 INFO  - T[] P[] M[] main service.clientreg.state.StateClientRegistry - Client Registry is now managing the following nodes (added): [cli1]
+2022-07-27 09:30:05,722 INFO  - T[] P[] M[] main SYSLOG - NIO Server started at: /0.0.0.0:4123
+2022-07-27 09:30:05,731 INFO  - T[] P[] M[] main SYSLOG - System [Java HotSpot(TM) Client VM 25.141-b15; Windows 10 Windows 10 (x86)]
+2022-07-27 09:30:05,733 INFO  - T[] P[] M[] main SYSLOG - Server started [Wed Jul 27 09:30:05 ICT 2022]
+2022-07-27 09:30:05,733 INFO  - T[] P[] M[] main SYSLOG - Firebase Server Platform [version: 1.8.0-CE]
+2022-07-27 09:30:06,165 INFO  - T[] P[] M[] pool-2-thread-1 firebase.server.instance.ServerInstance - Resuming; Id: 1515671847
+2022-07-27 09:30:16,093 INFO  - T[] P[] M[] qtp12334946-82 firebase.server.login.LoginManagerImpl - Created executor for TrivialLoginHandler with 30 threads.
+2022-07-27 09:37:23,961 INFO  - T[] P[] M[] pool-1-thread-1 server.deployment.game.GameDeploymentHandler - Redeploying Game Archive: tictactoe-game-1.0-SNAPSHOT
+2022-07-27 09:37:24,010 INFO  - T[] P[] M[] pool-1-thread-1 server.deployment.game.GameDeployment - New game revision created: v:2 resource:com.cubeia.firebase.server.deployment.resources.DeploymentFolderSet@884f75 def:tictactoe-game - id[888] class[com.cubeia.tutorial.tictactoe.game.GameImpl] activator[com.cubeia.tutorial.tictactoe.game.Activator] version[1.0-SNAPSHOT]
+2022-07-27 09:37:24,010 INFO  - T[] P[] M[] pool-1-thread-1 SYSLOG - Deployed: tictactoe-game 1.0-SNAPSHOT; Internal ID: 888; Deployment Revision: 2
+2022-07-27 09:37:31,687 INFO  - T[] P[] M[] main SYSLOG - Firebase Server Platform initializing; Server id: -1024605643
+2022-07-27 09:37:32,228 INFO  - T[] P[] M[] main firebase.server.statistics.StatisticsLevel - Statistics level for the system: PROFILING
+2022-07-27 09:37:32,346 WARN  - T[] P[] M[] main jboss.cache.transaction.GenericTransactionManagerLookup - Falling back to DummyTransactionManager from JBossCache
+2022-07-27 09:37:32,397 INFO  - T[] P[] M[] main service.systemstate.cache.SystemStateCacheHandler - SystemState repl Queue: false
+2022-07-27 09:37:32,408 INFO  - T[] P[] M[] main service.systemstate.cache.SystemStateCacheHandler - System State TreeCache service started.
+2022-07-27 09:37:32,486 WARN  - T[] P[] M[] main cubeia.service.crossdomain.FlashCrossDomainService - Unable to open config file, using defaults
+2022-07-27 09:37:32,510 INFO  - T[] P[] M[] main cubeia.service.crossdomain.FlashCrossDomainServer - Flash cross domain policy server listening on port 4122
+2022-07-27 09:37:32,614 INFO  - T[] P[] M[] main server.deployment.game.GameDeployment - New game revision created: v:1 resource:com.cubeia.firebase.server.deployment.resources.DeploymentFolderSet@1611043 def:tictactoe-game - id[888] class[com.cubeia.tutorial.tictactoe.game.GameImpl] activator[com.cubeia.tutorial.tictactoe.game.Activator] version[1.0-SNAPSHOT]
+2022-07-27 09:37:32,621 INFO  - T[] P[] M[] main SYSLOG - Deployed: tictactoe-game 1.0-SNAPSHOT; Internal ID: 888; Deployment Revision: 1
+2022-07-27 09:37:32,648 INFO  - T[] P[] M[] main SYSLOG - Master node 'mas1' initialized as [primary] master.
+2022-07-27 09:37:32,652 INFO  - T[] P[] M[] pool-2-thread-1 firebase.server.master.MasterNode - Received handshake for role GAME_NODE from id: gam1[-1024605643[127.0.0.1:8635]]; Halting
+2022-07-27 09:37:32,653 INFO  - T[] P[] M[] pool-2-thread-2 firebase.server.instance.ServerInstance - Halting; Id: 1569249388
+2022-07-27 09:37:32,655 INFO  - T[] P[] M[] pool-2-thread-1 firebase.server.master.MasterNode - Promoting node; Id: gam1; Role: GAME_NODE
+2022-07-27 09:37:32,658 INFO  - T[] P[] M[] pool-2-thread-2 server.lobby.systemstate.StateLobby - Lobby broadcast period set to: 2000
+2022-07-27 09:37:32,674 INFO  - T[] P[] M[] pool-2-thread-1 SYSLOG - Master node processed handshake for role GAME_NODE from id: gam1[-1024605643[127.0.0.1:8635]]
+2022-07-27 09:37:32,674 INFO  - T[] P[] M[] pool-2-thread-1 firebase.server.master.MasterNode - Resuming after processing role GAME_NODE from: gam1[-1024605643[127.0.0.1:8635]]; Halt id: 1569249388
+2022-07-27 09:37:32,676 INFO  - T[] P[] M[] main firebase.server.game.GameNode - Configuration found for node: gam1 (null)
+2022-07-27 09:37:32,690 INFO  - T[] P[] M[] pool-2-thread-1 firebase.server.master.MasterNode - Received handshake for role CLIENT_NODE from id: cli1[-1024605643[127.0.0.1:8635]]; Halting
+2022-07-27 09:37:32,691 INFO  - T[] P[] M[] pool-2-thread-1 firebase.server.master.MasterNode - Promoting node; Id: cli1; Role: CLIENT_NODE
+2022-07-27 09:37:32,692 INFO  - T[] P[] M[] pool-2-thread-2 firebase.server.gateway.GatewayNode - Configuration found for node: cli1 (null)
+2022-07-27 09:37:32,692 INFO  - T[] P[] M[] pool-2-thread-2 firebase.server.gateway.GatewayNode - This node has been promoted to coordinator. Starting ClientReaper.
+2022-07-27 09:37:32,694 INFO  - T[] P[] M[] pool-2-thread-1 SYSLOG - Master node processed handshake for role CLIENT_NODE from id: cli1[-1024605643[127.0.0.1:8635]]
+2022-07-27 09:37:32,694 INFO  - T[] P[] M[] pool-2-thread-1 firebase.server.master.MasterNode - Resuming after processing role CLIENT_NODE from: cli1[-1024605643[127.0.0.1:8635]]; Halt id: 1570123971
+2022-07-27 09:37:32,694 INFO  - T[] P[] M[] main firebase.server.gateway.GatewayNode - Init Client Gateway
+2022-07-27 09:37:32,695 INFO  - T[] P[] M[] main firebase.server.gateway.GatewayNode - Gateway ingoring minimum frequency protection
+2022-07-27 09:37:32,695 INFO  - T[] P[] M[] main firebase.server.gateway.GatewayNode - Gateway ingoring interval frequency protection
+2022-07-27 09:37:32,695 WARN  - T[] P[] M[] main firebase.server.gateway.GatewayNode - Gateway unprotected; Consider setting access frequency protection in the configuration.
+2022-07-27 09:37:32,771 INFO  - T[] P[] M[] main gateway.comm.jetty.JettyServer - Static content is served from: C:\Users\admin\Desktop\firebase_server\game\web
+2022-07-27 09:37:32,936 INFO  - T[] P[] M[] main SYSLOG - HTTP Server starting at: 0.0.0.0:8080; SSL configuration: Not Configured
+2022-07-27 09:37:32,938 INFO  - T[] P[] M[] pool-2-thread-1 firebase.server.master.MasterNode - Received handshake for role MTT_NODE from id: mtt1[-1024605643[127.0.0.1:8635]]; Halting
+2022-07-27 09:37:32,939 INFO  - T[] P[] M[] pool-2-thread-1 firebase.server.master.MasterNode - Promoting node; Id: mtt1; Role: MTT_NODE
+2022-07-27 09:37:32,939 INFO  - T[] P[] M[] pool-2-thread-1 SYSLOG - Master node processed handshake for role MTT_NODE from id: mtt1[-1024605643[127.0.0.1:8635]]
+2022-07-27 09:37:32,939 INFO  - T[] P[] M[] pool-2-thread-1 firebase.server.master.MasterNode - Resuming after processing role MTT_NODE from: mtt1[-1024605643[127.0.0.1:8635]]; Halt id: 1569447414
+2022-07-27 09:37:32,940 INFO  - T[] P[] M[] main firebase.server.mtt.MttNode - Configuration found for node: mtt1 (null)
+2022-07-27 09:37:33,006 INFO  - T[] P[] M[] main firebase.server.gateway.GatewayNode - Starting Client Gateway (cli1) ...
+2022-07-27 09:37:33,006 INFO  - T[] P[] M[] main service.clientreg.state.StateClientRegistry - Client Registry is now managing the following nodes (added): [cli1]
+2022-07-27 09:37:33,010 INFO  - T[] P[] M[] main SYSLOG - NIO Server started at: /0.0.0.0:4123
+2022-07-27 09:37:33,019 INFO  - T[] P[] M[] main SYSLOG - System [Java HotSpot(TM) Client VM 25.141-b15; Windows 10 Windows 10 (x86)]
+2022-07-27 09:37:33,020 INFO  - T[] P[] M[] main SYSLOG - Server started [Wed Jul 27 09:37:33 ICT 2022]
+2022-07-27 09:37:33,020 INFO  - T[] P[] M[] main SYSLOG - Firebase Server Platform [version: 1.8.0-CE]
+2022-07-27 09:37:33,447 INFO  - T[] P[] M[] pool-2-thread-1 firebase.server.instance.ServerInstance - Resuming; Id: 1569447414
+2022-07-27 09:37:42,333 INFO  - T[] P[] M[] qtp12334946-78 firebase.server.login.LoginManagerImpl - Created executor for TrivialLoginHandler with 30 threads.
+2022-07-27 09:47:33,212 INFO  - T[] P[] M[] pool-1-thread-1 server.deployment.game.GameDeploymentHandler - Redeploying Game Archive: tictactoe-game-1.0-SNAPSHOT
+2022-07-27 09:47:33,262 INFO  - T[] P[] M[] pool-1-thread-1 server.deployment.game.GameDeployment - New game revision created: v:2 resource:com.cubeia.firebase.server.deployment.resources.DeploymentFolderSet@16ae345 def:tictactoe-game - id[888] class[com.cubeia.tutorial.tictactoe.game.GameImpl] activator[com.cubeia.tutorial.tictactoe.game.Activator] version[1.0-SNAPSHOT]
+2022-07-27 09:47:33,262 INFO  - T[] P[] M[] pool-1-thread-1 SYSLOG - Deployed: tictactoe-game 1.0-SNAPSHOT; Internal ID: 888; Deployment Revision: 2
+2022-07-27 09:47:42,276 INFO  - T[] P[] M[] main SYSLOG - Firebase Server Platform initializing; Server id: -1170632042
+2022-07-27 09:47:42,824 INFO  - T[] P[] M[] main firebase.server.statistics.StatisticsLevel - Statistics level for the system: PROFILING
+2022-07-27 09:47:42,943 WARN  - T[] P[] M[] main jboss.cache.transaction.GenericTransactionManagerLookup - Falling back to DummyTransactionManager from JBossCache
+2022-07-27 09:47:42,995 INFO  - T[] P[] M[] main service.systemstate.cache.SystemStateCacheHandler - SystemState repl Queue: false
+2022-07-27 09:47:43,005 INFO  - T[] P[] M[] main service.systemstate.cache.SystemStateCacheHandler - System State TreeCache service started.
+2022-07-27 09:47:43,080 WARN  - T[] P[] M[] main cubeia.service.crossdomain.FlashCrossDomainService - Unable to open config file, using defaults
+2022-07-27 09:47:43,104 INFO  - T[] P[] M[] main cubeia.service.crossdomain.FlashCrossDomainServer - Flash cross domain policy server listening on port 4122
+2022-07-27 09:47:43,210 INFO  - T[] P[] M[] main server.deployment.game.GameDeployment - New game revision created: v:1 resource:com.cubeia.firebase.server.deployment.resources.DeploymentFolderSet@1611043 def:tictactoe-game - id[888] class[com.cubeia.tutorial.tictactoe.game.GameImpl] activator[com.cubeia.tutorial.tictactoe.game.Activator] version[1.0-SNAPSHOT]
+2022-07-27 09:47:43,217 INFO  - T[] P[] M[] main SYSLOG - Deployed: tictactoe-game 1.0-SNAPSHOT; Internal ID: 888; Deployment Revision: 1
+2022-07-27 09:47:43,244 INFO  - T[] P[] M[] main SYSLOG - Master node 'mas1' initialized as [primary] master.
+2022-07-27 09:47:43,248 INFO  - T[] P[] M[] pool-2-thread-1 firebase.server.master.MasterNode - Received handshake for role GAME_NODE from id: gam1[-1170632042[127.0.0.1:8635]]; Halting
+2022-07-27 09:47:43,248 INFO  - T[] P[] M[] pool-2-thread-2 firebase.server.instance.ServerInstance - Halting; Id: -1782411877
+2022-07-27 09:47:43,250 INFO  - T[] P[] M[] pool-2-thread-1 firebase.server.master.MasterNode - Promoting node; Id: gam1; Role: GAME_NODE
+2022-07-27 09:47:43,254 INFO  - T[] P[] M[] pool-2-thread-2 server.lobby.systemstate.StateLobby - Lobby broadcast period set to: 2000
+2022-07-27 09:47:43,269 INFO  - T[] P[] M[] pool-2-thread-1 SYSLOG - Master node processed handshake for role GAME_NODE from id: gam1[-1170632042[127.0.0.1:8635]]
+2022-07-27 09:47:43,269 INFO  - T[] P[] M[] pool-2-thread-1 firebase.server.master.MasterNode - Resuming after processing role GAME_NODE from: gam1[-1170632042[127.0.0.1:8635]]; Halt id: -1782411877
+2022-07-27 09:47:43,271 INFO  - T[] P[] M[] main firebase.server.game.GameNode - Configuration found for node: gam1 (null)
+2022-07-27 09:47:43,289 INFO  - T[] P[] M[] pool-2-thread-1 firebase.server.master.MasterNode - Received handshake for role CLIENT_NODE from id: cli1[-1170632042[127.0.0.1:8635]]; Halting
+2022-07-27 09:47:43,289 INFO  - T[] P[] M[] pool-2-thread-1 firebase.server.master.MasterNode - Promoting node; Id: cli1; Role: CLIENT_NODE
+2022-07-27 09:47:43,291 INFO  - T[] P[] M[] pool-2-thread-2 firebase.server.gateway.GatewayNode - Configuration found for node: cli1 (null)
+2022-07-27 09:47:43,292 INFO  - T[] P[] M[] pool-2-thread-2 firebase.server.gateway.GatewayNode - This node has been promoted to coordinator. Starting ClientReaper.
+2022-07-27 09:47:43,293 INFO  - T[] P[] M[] pool-2-thread-1 SYSLOG - Master node processed handshake for role CLIENT_NODE from id: cli1[-1170632042[127.0.0.1:8635]]
+2022-07-27 09:47:43,293 INFO  - T[] P[] M[] pool-2-thread-1 firebase.server.master.MasterNode - Resuming after processing role CLIENT_NODE from: cli1[-1170632042[127.0.0.1:8635]]; Halt id: -1780718284
+2022-07-27 09:47:43,293 INFO  - T[] P[] M[] main firebase.server.gateway.GatewayNode - Init Client Gateway
+2022-07-27 09:47:43,293 INFO  - T[] P[] M[] main firebase.server.gateway.GatewayNode - Gateway ingoring minimum frequency protection
+2022-07-27 09:47:43,294 INFO  - T[] P[] M[] main firebase.server.gateway.GatewayNode - Gateway ingoring interval frequency protection
+2022-07-27 09:47:43,294 WARN  - T[] P[] M[] main firebase.server.gateway.GatewayNode - Gateway unprotected; Consider setting access frequency protection in the configuration.
+2022-07-27 09:47:43,369 INFO  - T[] P[] M[] main gateway.comm.jetty.JettyServer - Static content is served from: C:\Users\admin\Desktop\firebase_server\game\web
+2022-07-27 09:47:43,529 INFO  - T[] P[] M[] main SYSLOG - HTTP Server starting at: 0.0.0.0:8080; SSL configuration: Not Configured
+2022-07-27 09:47:43,532 INFO  - T[] P[] M[] pool-2-thread-1 firebase.server.master.MasterNode - Received handshake for role MTT_NODE from id: mtt1[-1170632042[127.0.0.1:8635]]; Halting
+2022-07-27 09:47:43,532 INFO  - T[] P[] M[] pool-2-thread-1 firebase.server.master.MasterNode - Promoting node; Id: mtt1; Role: MTT_NODE
+2022-07-27 09:47:43,532 INFO  - T[] P[] M[] pool-2-thread-1 SYSLOG - Master node processed handshake for role MTT_NODE from id: mtt1[-1170632042[127.0.0.1:8635]]
+2022-07-27 09:47:43,532 INFO  - T[] P[] M[] pool-2-thread-1 firebase.server.master.MasterNode - Resuming after processing role MTT_NODE from: mtt1[-1170632042[127.0.0.1:8635]]; Halt id: -1782478847
+2022-07-27 09:47:43,533 INFO  - T[] P[] M[] main firebase.server.mtt.MttNode - Configuration found for node: mtt1 (null)
+2022-07-27 09:47:43,598 INFO  - T[] P[] M[] main firebase.server.gateway.GatewayNode - Starting Client Gateway (cli1) ...
+2022-07-27 09:47:43,598 INFO  - T[] P[] M[] main service.clientreg.state.StateClientRegistry - Client Registry is now managing the following nodes (added): [cli1]
+2022-07-27 09:47:43,603 INFO  - T[] P[] M[] main SYSLOG - NIO Server started at: /0.0.0.0:4123
+2022-07-27 09:47:43,612 INFO  - T[] P[] M[] main SYSLOG - System [Java HotSpot(TM) Client VM 25.141-b15; Windows 10 Windows 10 (x86)]
+2022-07-27 09:47:43,614 INFO  - T[] P[] M[] main SYSLOG - Server started [Wed Jul 27 09:47:43 ICT 2022]
+2022-07-27 09:47:43,614 INFO  - T[] P[] M[] main SYSLOG - Firebase Server Platform [version: 1.8.0-CE]
+2022-07-27 09:47:44,039 INFO  - T[] P[] M[] pool-2-thread-1 firebase.server.instance.ServerInstance - Resuming; Id: -1782478847
+2022-07-27 09:47:52,964 INFO  - T[] P[] M[] qtp12334946-81 firebase.server.login.LoginManagerImpl - Created executor for TrivialLoginHandler with 30 threads.
+2022-07-27 10:48:09,147 INFO  - T[] P[] M[] pool-1-thread-1 server.deployment.game.GameDeploymentHandler - Redeploying Game Archive: tictactoe-game-1.0-SNAPSHOT
+2022-07-27 10:48:09,195 INFO  - T[] P[] M[] pool-1-thread-1 server.deployment.game.GameDeployment - New game revision created: v:2 resource:com.cubeia.firebase.server.deployment.resources.DeploymentFolderSet@884f75 def:tictactoe-game - id[888] class[com.cubeia.tutorial.tictactoe.game.GameImpl] activator[com.cubeia.tutorial.tictactoe.game.Activator] version[1.0-SNAPSHOT]
+2022-07-27 10:48:09,195 INFO  - T[] P[] M[] pool-1-thread-1 SYSLOG - Deployed: tictactoe-game 1.0-SNAPSHOT; Internal ID: 888; Deployment Revision: 2
+2022-07-27 10:48:17,101 INFO  - T[] P[] M[] main SYSLOG - Firebase Server Platform initializing; Server id: 20181675
+2022-07-27 10:48:17,650 INFO  - T[] P[] M[] main firebase.server.statistics.StatisticsLevel - Statistics level for the system: PROFILING
+2022-07-27 10:48:17,770 WARN  - T[] P[] M[] main jboss.cache.transaction.GenericTransactionManagerLookup - Falling back to DummyTransactionManager from JBossCache
+2022-07-27 10:48:17,821 INFO  - T[] P[] M[] main service.systemstate.cache.SystemStateCacheHandler - SystemState repl Queue: false
+2022-07-27 10:48:17,831 INFO  - T[] P[] M[] main service.systemstate.cache.SystemStateCacheHandler - System State TreeCache service started.
+2022-07-27 10:48:17,907 WARN  - T[] P[] M[] main cubeia.service.crossdomain.FlashCrossDomainService - Unable to open config file, using defaults
+2022-07-27 10:48:17,932 INFO  - T[] P[] M[] main cubeia.service.crossdomain.FlashCrossDomainServer - Flash cross domain policy server listening on port 4122
+2022-07-27 10:48:18,035 INFO  - T[] P[] M[] main server.deployment.game.GameDeployment - New game revision created: v:1 resource:com.cubeia.firebase.server.deployment.resources.DeploymentFolderSet@1611043 def:tictactoe-game - id[888] class[com.cubeia.tutorial.tictactoe.game.GameImpl] activator[com.cubeia.tutorial.tictactoe.game.Activator] version[1.0-SNAPSHOT]
+2022-07-27 10:48:18,042 INFO  - T[] P[] M[] main SYSLOG - Deployed: tictactoe-game 1.0-SNAPSHOT; Internal ID: 888; Deployment Revision: 1
+2022-07-27 10:48:18,069 INFO  - T[] P[] M[] main SYSLOG - Master node 'mas1' initialized as [primary] master.
+2022-07-27 10:48:18,073 INFO  - T[] P[] M[] pool-2-thread-1 firebase.server.master.MasterNode - Received handshake for role GAME_NODE from id: gam1[20181675[127.0.0.1:8635]]; Halting
+2022-07-27 10:48:18,073 INFO  - T[] P[] M[] pool-2-thread-2 firebase.server.instance.ServerInstance - Halting; Id: -186648532
+2022-07-27 10:48:18,075 INFO  - T[] P[] M[] pool-2-thread-1 firebase.server.master.MasterNode - Promoting node; Id: gam1; Role: GAME_NODE
+2022-07-27 10:48:18,078 INFO  - T[] P[] M[] pool-2-thread-2 server.lobby.systemstate.StateLobby - Lobby broadcast period set to: 2000
+2022-07-27 10:48:18,094 INFO  - T[] P[] M[] pool-2-thread-1 SYSLOG - Master node processed handshake for role GAME_NODE from id: gam1[20181675[127.0.0.1:8635]]
+2022-07-27 10:48:18,094 INFO  - T[] P[] M[] pool-2-thread-1 firebase.server.master.MasterNode - Resuming after processing role GAME_NODE from: gam1[20181675[127.0.0.1:8635]]; Halt id: -186648532
+2022-07-27 10:48:18,096 INFO  - T[] P[] M[] main firebase.server.game.GameNode - Configuration found for node: gam1 (null)
+2022-07-27 10:48:18,113 INFO  - T[] P[] M[] pool-2-thread-1 firebase.server.master.MasterNode - Received handshake for role CLIENT_NODE from id: cli1[20181675[127.0.0.1:8635]]; Halting
+2022-07-27 10:48:18,113 INFO  - T[] P[] M[] pool-2-thread-1 firebase.server.master.MasterNode - Promoting node; Id: cli1; Role: CLIENT_NODE
+2022-07-27 10:48:18,115 INFO  - T[] P[] M[] pool-2-thread-2 firebase.server.gateway.GatewayNode - Configuration found for node: cli1 (null)
+2022-07-27 10:48:18,115 INFO  - T[] P[] M[] pool-2-thread-2 firebase.server.gateway.GatewayNode - This node has been promoted to coordinator. Starting ClientReaper.
+2022-07-27 10:48:18,118 INFO  - T[] P[] M[] pool-2-thread-1 SYSLOG - Master node processed handshake for role CLIENT_NODE from id: cli1[20181675[127.0.0.1:8635]]
+2022-07-27 10:48:18,118 INFO  - T[] P[] M[] pool-2-thread-1 firebase.server.master.MasterNode - Resuming after processing role CLIENT_NODE from: cli1[20181675[127.0.0.1:8635]]; Halt id: -188673917
+2022-07-27 10:48:18,118 INFO  - T[] P[] M[] main firebase.server.gateway.GatewayNode - Init Client Gateway
+2022-07-27 10:48:18,118 INFO  - T[] P[] M[] main firebase.server.gateway.GatewayNode - Gateway ingoring minimum frequency protection
+2022-07-27 10:48:18,118 INFO  - T[] P[] M[] main firebase.server.gateway.GatewayNode - Gateway ingoring interval frequency protection
+2022-07-27 10:48:18,118 WARN  - T[] P[] M[] main firebase.server.gateway.GatewayNode - Gateway unprotected; Consider setting access frequency protection in the configuration.
+2022-07-27 10:48:18,193 INFO  - T[] P[] M[] main gateway.comm.jetty.JettyServer - Static content is served from: C:\Users\admin\Desktop\firebase_server\game\web
+2022-07-27 10:48:18,362 INFO  - T[] P[] M[] main SYSLOG - HTTP Server starting at: 0.0.0.0:8080; SSL configuration: Not Configured
+2022-07-27 10:48:18,365 INFO  - T[] P[] M[] pool-2-thread-1 firebase.server.master.MasterNode - Received handshake for role MTT_NODE from id: mtt1[20181675[127.0.0.1:8635]]; Halting
+2022-07-27 10:48:18,365 INFO  - T[] P[] M[] pool-2-thread-1 firebase.server.master.MasterNode - Promoting node; Id: mtt1; Role: MTT_NODE
+2022-07-27 10:48:18,365 INFO  - T[] P[] M[] pool-2-thread-1 SYSLOG - Master node processed handshake for role MTT_NODE from id: mtt1[20181675[127.0.0.1:8635]]
+2022-07-27 10:48:18,365 INFO  - T[] P[] M[] pool-2-thread-1 firebase.server.master.MasterNode - Resuming after processing role MTT_NODE from: mtt1[20181675[127.0.0.1:8635]]; Halt id: -186843722
+2022-07-27 10:48:18,366 INFO  - T[] P[] M[] main firebase.server.mtt.MttNode - Configuration found for node: mtt1 (null)
+2022-07-27 10:48:18,437 INFO  - T[] P[] M[] main firebase.server.gateway.GatewayNode - Starting Client Gateway (cli1) ...
+2022-07-27 10:48:18,438 INFO  - T[] P[] M[] main service.clientreg.state.StateClientRegistry - Client Registry is now managing the following nodes (added): [cli1]
+2022-07-27 10:48:18,441 INFO  - T[] P[] M[] main SYSLOG - NIO Server started at: /0.0.0.0:4123
+2022-07-27 10:48:18,451 INFO  - T[] P[] M[] main SYSLOG - System [Java HotSpot(TM) Client VM 25.141-b15; Windows 10 Windows 10 (x86)]
+2022-07-27 10:48:18,452 INFO  - T[] P[] M[] main SYSLOG - Server started [Wed Jul 27 10:48:18 ICT 2022]
+2022-07-27 10:48:18,452 INFO  - T[] P[] M[] main SYSLOG - Firebase Server Platform [version: 1.8.0-CE]
+2022-07-27 10:48:18,879 INFO  - T[] P[] M[] pool-2-thread-1 firebase.server.instance.ServerInstance - Resuming; Id: -186843722
+2022-07-27 10:48:25,013 INFO  - T[] P[] M[] qtp12334946-82 firebase.server.login.LoginManagerImpl - Created executor for TrivialLoginHandler with 30 threads.
+2022-07-27 11:48:20,464 INFO  - T[] P[] M[] main SYSLOG - Firebase Server Platform initializing; Server id: 1379512335
+2022-07-27 11:48:20,994 INFO  - T[] P[] M[] main firebase.server.statistics.StatisticsLevel - Statistics level for the system: PROFILING
+2022-07-27 11:48:21,117 WARN  - T[] P[] M[] main jboss.cache.transaction.GenericTransactionManagerLookup - Falling back to DummyTransactionManager from JBossCache
+2022-07-27 11:48:21,180 INFO  - T[] P[] M[] main service.systemstate.cache.SystemStateCacheHandler - SystemState repl Queue: false
+2022-07-27 11:48:21,190 INFO  - T[] P[] M[] main service.systemstate.cache.SystemStateCacheHandler - System State TreeCache service started.
+2022-07-27 11:48:21,262 WARN  - T[] P[] M[] main cubeia.service.crossdomain.FlashCrossDomainService - Unable to open config file, using defaults
+2022-07-27 11:48:21,286 INFO  - T[] P[] M[] main cubeia.service.crossdomain.FlashCrossDomainServer - Flash cross domain policy server listening on port 4122
+2022-07-27 11:48:21,380 INFO  - T[] P[] M[] main server.deployment.game.GameDeployment - New game revision created: v:1 resource:com.cubeia.firebase.server.deployment.resources.DeploymentFolderSet@1611043 def:tictactoe-game - id[888] class[com.cubeia.tutorial.tictactoe.game.GameImpl] activator[com.cubeia.tutorial.tictactoe.game.Activator] version[1.0-SNAPSHOT]
+2022-07-27 11:48:21,387 INFO  - T[] P[] M[] main SYSLOG - Deployed: tictactoe-game 1.0-SNAPSHOT; Internal ID: 888; Deployment Revision: 1
+2022-07-27 11:48:21,414 INFO  - T[] P[] M[] main SYSLOG - Master node 'mas1' initialized as [primary] master.
+2022-07-27 11:48:21,418 INFO  - T[] P[] M[] pool-2-thread-1 firebase.server.master.MasterNode - Received handshake for role GAME_NODE from id: gam1[1379512335[127.0.0.1:8635]]; Halting
+2022-07-27 11:48:21,418 INFO  - T[] P[] M[] pool-2-thread-2 firebase.server.instance.ServerInstance - Halting; Id: -1094772601
+2022-07-27 11:48:21,420 INFO  - T[] P[] M[] pool-2-thread-1 firebase.server.master.MasterNode - Promoting node; Id: gam1; Role: GAME_NODE
+2022-07-27 11:48:21,424 INFO  - T[] P[] M[] pool-2-thread-2 server.lobby.systemstate.StateLobby - Lobby broadcast period set to: 2000
+2022-07-27 11:48:21,439 INFO  - T[] P[] M[] pool-2-thread-1 SYSLOG - Master node processed handshake for role GAME_NODE from id: gam1[1379512335[127.0.0.1:8635]]
+2022-07-27 11:48:21,439 INFO  - T[] P[] M[] pool-2-thread-1 firebase.server.master.MasterNode - Resuming after processing role GAME_NODE from: gam1[1379512335[127.0.0.1:8635]]; Halt id: -1094772601
+2022-07-27 11:48:21,441 INFO  - T[] P[] M[] main firebase.server.game.GameNode - Configuration found for node: gam1 (null)
+2022-07-27 11:48:21,456 INFO  - T[] P[] M[] pool-2-thread-1 firebase.server.master.MasterNode - Received handshake for role CLIENT_NODE from id: cli1[1379512335[127.0.0.1:8635]]; Halting
+2022-07-27 11:48:21,456 INFO  - T[] P[] M[] pool-2-thread-1 firebase.server.master.MasterNode - Promoting node; Id: cli1; Role: CLIENT_NODE
+2022-07-27 11:48:21,458 INFO  - T[] P[] M[] pool-2-thread-2 firebase.server.gateway.GatewayNode - Configuration found for node: cli1 (null)
+2022-07-27 11:48:21,458 INFO  - T[] P[] M[] pool-2-thread-2 firebase.server.gateway.GatewayNode - This node has been promoted to coordinator. Starting ClientReaper.
+2022-07-27 11:48:21,460 INFO  - T[] P[] M[] pool-2-thread-1 SYSLOG - Master node processed handshake for role CLIENT_NODE from id: cli1[1379512335[127.0.0.1:8635]]
+2022-07-27 11:48:21,461 INFO  - T[] P[] M[] pool-2-thread-1 firebase.server.master.MasterNode - Resuming after processing role CLIENT_NODE from: cli1[1379512335[127.0.0.1:8635]]; Halt id: -1096683480
+2022-07-27 11:48:21,461 INFO  - T[] P[] M[] main firebase.server.gateway.GatewayNode - Init Client Gateway
+2022-07-27 11:48:21,461 INFO  - T[] P[] M[] main firebase.server.gateway.GatewayNode - Gateway ingoring minimum frequency protection
+2022-07-27 11:48:21,461 INFO  - T[] P[] M[] main firebase.server.gateway.GatewayNode - Gateway ingoring interval frequency protection
+2022-07-27 11:48:21,461 WARN  - T[] P[] M[] main firebase.server.gateway.GatewayNode - Gateway unprotected; Consider setting access frequency protection in the configuration.
+2022-07-27 11:48:21,536 INFO  - T[] P[] M[] main gateway.comm.jetty.JettyServer - Static content is served from: C:\Users\admin\Desktop\firebase_server\game\web
+2022-07-27 11:48:21,699 INFO  - T[] P[] M[] main SYSLOG - HTTP Server starting at: 0.0.0.0:8080; SSL configuration: Not Configured
+2022-07-27 11:48:21,702 INFO  - T[] P[] M[] pool-2-thread-1 firebase.server.master.MasterNode - Received handshake for role MTT_NODE from id: mtt1[1379512335[127.0.0.1:8635]]; Halting
+2022-07-27 11:48:21,702 INFO  - T[] P[] M[] pool-2-thread-1 firebase.server.master.MasterNode - Promoting node; Id: mtt1; Role: MTT_NODE
+2022-07-27 11:48:21,702 INFO  - T[] P[] M[] pool-2-thread-1 SYSLOG - Master node processed handshake for role MTT_NODE from id: mtt1[1379512335[127.0.0.1:8635]]
+2022-07-27 11:48:21,702 INFO  - T[] P[] M[] pool-2-thread-1 firebase.server.master.MasterNode - Resuming after processing role MTT_NODE from: mtt1[1379512335[127.0.0.1:8635]]; Halt id: -1094968035
+2022-07-27 11:48:21,702 INFO  - T[] P[] M[] main firebase.server.mtt.MttNode - Configuration found for node: mtt1 (null)
+2022-07-27 11:48:21,767 INFO  - T[] P[] M[] main firebase.server.gateway.GatewayNode - Starting Client Gateway (cli1) ...
+2022-07-27 11:48:21,767 INFO  - T[] P[] M[] main service.clientreg.state.StateClientRegistry - Client Registry is now managing the following nodes (added): [cli1]
+2022-07-27 11:48:21,773 INFO  - T[] P[] M[] main SYSLOG - NIO Server started at: /0.0.0.0:4123
+2022-07-27 11:48:21,783 INFO  - T[] P[] M[] main SYSLOG - System [Java HotSpot(TM) Client VM 25.141-b15; Windows 10 Windows 10 (x86)]
+2022-07-27 11:48:21,784 INFO  - T[] P[] M[] main SYSLOG - Server started [Wed Jul 27 11:48:21 ICT 2022]
+2022-07-27 11:48:21,784 INFO  - T[] P[] M[] main SYSLOG - Firebase Server Platform [version: 1.8.0-CE]
+2022-07-27 11:48:22,206 INFO  - T[] P[] M[] pool-2-thread-1 firebase.server.instance.ServerInstance - Resuming; Id: -1094968035
+2022-07-27 11:48:31,343 INFO  - T[] P[] M[] qtp12334946-77 firebase.server.login.LoginManagerImpl - Created executor for TrivialLoginHandler with 30 threads.
+2022-07-27 12:00:11,931 INFO  - T[] P[] M[] pool-1-thread-1 server.deployment.game.GameDeploymentHandler - Redeploying Game Archive: tictactoe-game-1.0-SNAPSHOT
+2022-07-27 12:00:11,979 INFO  - T[] P[] M[] pool-1-thread-1 server.deployment.game.GameDeployment - New game revision created: v:2 resource:com.cubeia.firebase.server.deployment.resources.DeploymentFolderSet@884f75 def:tictactoe-game - id[888] class[com.cubeia.tutorial.tictactoe.game.GameImpl] activator[com.cubeia.tutorial.tictactoe.game.Activator] version[1.0-SNAPSHOT]
+2022-07-27 12:00:11,979 INFO  - T[] P[] M[] pool-1-thread-1 SYSLOG - Deployed: tictactoe-game 1.0-SNAPSHOT; Internal ID: 888; Deployment Revision: 2
+2022-07-27 12:00:18,812 INFO  - T[] P[] M[] main SYSLOG - Firebase Server Platform initializing; Server id: -977813099
+2022-07-27 12:00:19,373 INFO  - T[] P[] M[] main firebase.server.statistics.StatisticsLevel - Statistics level for the system: PROFILING
+2022-07-27 12:00:19,501 WARN  - T[] P[] M[] main jboss.cache.transaction.GenericTransactionManagerLookup - Falling back to DummyTransactionManager from JBossCache
+2022-07-27 12:00:19,557 INFO  - T[] P[] M[] main service.systemstate.cache.SystemStateCacheHandler - SystemState repl Queue: false
+2022-07-27 12:00:19,567 INFO  - T[] P[] M[] main service.systemstate.cache.SystemStateCacheHandler - System State TreeCache service started.
+2022-07-27 12:00:19,647 WARN  - T[] P[] M[] main cubeia.service.crossdomain.FlashCrossDomainService - Unable to open config file, using defaults
+2022-07-27 12:00:19,673 INFO  - T[] P[] M[] main cubeia.service.crossdomain.FlashCrossDomainServer - Flash cross domain policy server listening on port 4122
+2022-07-27 12:00:19,782 INFO  - T[] P[] M[] main server.deployment.game.GameDeployment - New game revision created: v:1 resource:com.cubeia.firebase.server.deployment.resources.DeploymentFolderSet@1611043 def:tictactoe-game - id[888] class[com.cubeia.tutorial.tictactoe.game.GameImpl] activator[com.cubeia.tutorial.tictactoe.game.Activator] version[1.0-SNAPSHOT]
+2022-07-27 12:00:19,790 INFO  - T[] P[] M[] main SYSLOG - Deployed: tictactoe-game 1.0-SNAPSHOT; Internal ID: 888; Deployment Revision: 1
+2022-07-27 12:00:19,820 INFO  - T[] P[] M[] main SYSLOG - Master node 'mas1' initialized as [primary] master.
+2022-07-27 12:00:19,825 INFO  - T[] P[] M[] pool-2-thread-1 firebase.server.master.MasterNode - Received handshake for role GAME_NODE from id: gam1[-977813099[127.0.0.1:8635]]; Halting
+2022-07-27 12:00:19,826 INFO  - T[] P[] M[] pool-2-thread-2 firebase.server.instance.ServerInstance - Halting; Id: 2053549894
+2022-07-27 12:00:19,828 INFO  - T[] P[] M[] pool-2-thread-1 firebase.server.master.MasterNode - Promoting node; Id: gam1; Role: GAME_NODE
+2022-07-27 12:00:19,832 INFO  - T[] P[] M[] pool-2-thread-2 server.lobby.systemstate.StateLobby - Lobby broadcast period set to: 2000
+2022-07-27 12:00:19,851 INFO  - T[] P[] M[] pool-2-thread-1 SYSLOG - Master node processed handshake for role GAME_NODE from id: gam1[-977813099[127.0.0.1:8635]]
+2022-07-27 12:00:19,851 INFO  - T[] P[] M[] pool-2-thread-1 firebase.server.master.MasterNode - Resuming after processing role GAME_NODE from: gam1[-977813099[127.0.0.1:8635]]; Halt id: 2053549894
+2022-07-27 12:00:19,855 INFO  - T[] P[] M[] main firebase.server.game.GameNode - Configuration found for node: gam1 (null)
+2022-07-27 12:00:19,878 INFO  - T[] P[] M[] pool-2-thread-1 firebase.server.master.MasterNode - Received handshake for role CLIENT_NODE from id: cli1[-977813099[127.0.0.1:8635]]; Halting
+2022-07-27 12:00:19,878 INFO  - T[] P[] M[] pool-2-thread-1 firebase.server.master.MasterNode - Promoting node; Id: cli1; Role: CLIENT_NODE
+2022-07-27 12:00:19,880 INFO  - T[] P[] M[] pool-2-thread-2 firebase.server.gateway.GatewayNode - Configuration found for node: cli1 (null)
+2022-07-27 12:00:19,880 INFO  - T[] P[] M[] pool-2-thread-2 firebase.server.gateway.GatewayNode - This node has been promoted to coordinator. Starting ClientReaper.
+2022-07-27 12:00:19,882 INFO  - T[] P[] M[] pool-2-thread-1 SYSLOG - Master node processed handshake for role CLIENT_NODE from id: cli1[-977813099[127.0.0.1:8635]]
+2022-07-27 12:00:19,882 INFO  - T[] P[] M[] pool-2-thread-1 firebase.server.master.MasterNode - Resuming after processing role CLIENT_NODE from: cli1[-977813099[127.0.0.1:8635]]; Halt id: 2054703081
+2022-07-27 12:00:19,882 INFO  - T[] P[] M[] main firebase.server.gateway.GatewayNode - Init Client Gateway
+2022-07-27 12:00:19,882 INFO  - T[] P[] M[] main firebase.server.gateway.GatewayNode - Gateway ingoring minimum frequency protection
+2022-07-27 12:00:19,882 INFO  - T[] P[] M[] main firebase.server.gateway.GatewayNode - Gateway ingoring interval frequency protection
+2022-07-27 12:00:19,883 WARN  - T[] P[] M[] main firebase.server.gateway.GatewayNode - Gateway unprotected; Consider setting access frequency protection in the configuration.
+2022-07-27 12:00:19,950 INFO  - T[] P[] M[] main gateway.comm.jetty.JettyServer - Static content is served from: C:\Users\admin\Desktop\firebase_server\game\web
+2022-07-27 12:00:20,123 INFO  - T[] P[] M[] main SYSLOG - HTTP Server starting at: 0.0.0.0:8080; SSL configuration: Not Configured
+2022-07-27 12:00:20,126 INFO  - T[] P[] M[] pool-2-thread-1 firebase.server.master.MasterNode - Received handshake for role MTT_NODE from id: mtt1[-977813099[127.0.0.1:8635]]; Halting
+2022-07-27 12:00:20,126 INFO  - T[] P[] M[] pool-2-thread-1 firebase.server.master.MasterNode - Promoting node; Id: mtt1; Role: MTT_NODE
+2022-07-27 12:00:20,126 INFO  - T[] P[] M[] pool-2-thread-1 SYSLOG - Master node processed handshake for role MTT_NODE from id: mtt1[-977813099[127.0.0.1:8635]]
+2022-07-27 12:00:20,126 INFO  - T[] P[] M[] pool-2-thread-1 firebase.server.master.MasterNode - Resuming after processing role MTT_NODE from: mtt1[-977813099[127.0.0.1:8635]]; Halt id: 2053483228
+2022-07-27 12:00:20,127 INFO  - T[] P[] M[] main firebase.server.mtt.MttNode - Configuration found for node: mtt1 (null)
+2022-07-27 12:00:20,194 INFO  - T[] P[] M[] main firebase.server.gateway.GatewayNode - Starting Client Gateway (cli1) ...
+2022-07-27 12:00:20,194 INFO  - T[] P[] M[] main service.clientreg.state.StateClientRegistry - Client Registry is now managing the following nodes (added): [cli1]
+2022-07-27 12:00:20,199 INFO  - T[] P[] M[] main SYSLOG - NIO Server started at: /0.0.0.0:4123
+2022-07-27 12:00:20,208 INFO  - T[] P[] M[] main SYSLOG - System [Java HotSpot(TM) Client VM 25.141-b15; Windows 10 Windows 10 (x86)]
+2022-07-27 12:00:20,210 INFO  - T[] P[] M[] main SYSLOG - Server started [Wed Jul 27 12:00:20 ICT 2022]
+2022-07-27 12:00:20,210 INFO  - T[] P[] M[] main SYSLOG - Firebase Server Platform [version: 1.8.0-CE]
+2022-07-27 12:00:20,633 INFO  - T[] P[] M[] pool-2-thread-1 firebase.server.instance.ServerInstance - Resuming; Id: 2053483228
+2022-07-27 12:00:28,005 INFO  - T[] P[] M[] qtp12334946-82 firebase.server.login.LoginManagerImpl - Created executor for TrivialLoginHandler with 30 threads.
+2022-07-27 12:05:16,052 INFO  - T[] P[] M[] main SYSLOG - Firebase Server Platform initializing; Server id: 305721014
+2022-07-27 12:05:16,592 INFO  - T[] P[] M[] main firebase.server.statistics.StatisticsLevel - Statistics level for the system: PROFILING
+2022-07-27 12:05:16,714 WARN  - T[] P[] M[] main jboss.cache.transaction.GenericTransactionManagerLookup - Falling back to DummyTransactionManager from JBossCache
+2022-07-27 12:05:16,766 INFO  - T[] P[] M[] main service.systemstate.cache.SystemStateCacheHandler - SystemState repl Queue: false
+2022-07-27 12:05:16,775 INFO  - T[] P[] M[] main service.systemstate.cache.SystemStateCacheHandler - System State TreeCache service started.
+2022-07-27 12:05:16,849 WARN  - T[] P[] M[] main cubeia.service.crossdomain.FlashCrossDomainService - Unable to open config file, using defaults
+2022-07-27 12:05:16,876 INFO  - T[] P[] M[] main cubeia.service.crossdomain.FlashCrossDomainServer - Flash cross domain policy server listening on port 4122
+2022-07-27 12:05:16,986 INFO  - T[] P[] M[] main server.deployment.game.GameDeployment - New game revision created: v:1 resource:com.cubeia.firebase.server.deployment.resources.DeploymentFolderSet@1611043 def:tictactoe-game - id[888] class[com.cubeia.tutorial.tictactoe.game.GameImpl] activator[com.cubeia.tutorial.tictactoe.game.Activator] version[1.0-SNAPSHOT]
+2022-07-27 12:05:16,993 INFO  - T[] P[] M[] main SYSLOG - Deployed: tictactoe-game 1.0-SNAPSHOT; Internal ID: 888; Deployment Revision: 1
+2022-07-27 12:05:17,022 INFO  - T[] P[] M[] main SYSLOG - Master node 'mas1' initialized as [primary] master.
+2022-07-27 12:05:17,026 INFO  - T[] P[] M[] pool-2-thread-1 firebase.server.master.MasterNode - Received handshake for role GAME_NODE from id: gam1[305721014[127.0.0.1:8635]]; Halting
+2022-07-27 12:05:17,027 INFO  - T[] P[] M[] pool-2-thread-2 firebase.server.instance.ServerInstance - Halting; Id: 654739281
+2022-07-27 12:05:17,028 INFO  - T[] P[] M[] pool-2-thread-1 firebase.server.master.MasterNode - Promoting node; Id: gam1; Role: GAME_NODE
+2022-07-27 12:05:17,032 INFO  - T[] P[] M[] pool-2-thread-2 server.lobby.systemstate.StateLobby - Lobby broadcast period set to: 2000
+2022-07-27 12:05:17,049 INFO  - T[] P[] M[] pool-2-thread-1 SYSLOG - Master node processed handshake for role GAME_NODE from id: gam1[305721014[127.0.0.1:8635]]
+2022-07-27 12:05:17,050 INFO  - T[] P[] M[] pool-2-thread-1 firebase.server.master.MasterNode - Resuming after processing role GAME_NODE from: gam1[305721014[127.0.0.1:8635]]; Halt id: 654739281
+2022-07-27 12:05:17,052 INFO  - T[] P[] M[] main firebase.server.game.GameNode - Configuration found for node: gam1 (null)
+2022-07-27 12:05:17,070 INFO  - T[] P[] M[] pool-2-thread-1 firebase.server.master.MasterNode - Received handshake for role CLIENT_NODE from id: cli1[305721014[127.0.0.1:8635]]; Halting
+2022-07-27 12:05:17,071 INFO  - T[] P[] M[] pool-2-thread-1 firebase.server.master.MasterNode - Promoting node; Id: cli1; Role: CLIENT_NODE
+2022-07-27 12:05:17,073 INFO  - T[] P[] M[] pool-2-thread-2 firebase.server.gateway.GatewayNode - Configuration found for node: cli1 (null)
+2022-07-27 12:05:17,074 INFO  - T[] P[] M[] pool-2-thread-2 firebase.server.gateway.GatewayNode - This node has been promoted to coordinator. Starting ClientReaper.
+2022-07-27 12:05:17,076 INFO  - T[] P[] M[] pool-2-thread-1 SYSLOG - Master node processed handshake for role CLIENT_NODE from id: cli1[305721014[127.0.0.1:8635]]
+2022-07-27 12:05:17,077 INFO  - T[] P[] M[] pool-2-thread-1 firebase.server.master.MasterNode - Resuming after processing role CLIENT_NODE from: cli1[305721014[127.0.0.1:8635]]; Halt id: 655912958
+2022-07-27 12:05:17,077 INFO  - T[] P[] M[] main firebase.server.gateway.GatewayNode - Init Client Gateway
+2022-07-27 12:05:17,077 INFO  - T[] P[] M[] main firebase.server.gateway.GatewayNode - Gateway ingoring minimum frequency protection
+2022-07-27 12:05:17,078 INFO  - T[] P[] M[] main firebase.server.gateway.GatewayNode - Gateway ingoring interval frequency protection
+2022-07-27 12:05:17,078 WARN  - T[] P[] M[] main firebase.server.gateway.GatewayNode - Gateway unprotected; Consider setting access frequency protection in the configuration.
+2022-07-27 12:05:17,160 INFO  - T[] P[] M[] main gateway.comm.jetty.JettyServer - Static content is served from: C:\Users\admin\Desktop\firebase_server\game\web
+2022-07-27 12:05:17,322 INFO  - T[] P[] M[] main SYSLOG - HTTP Server starting at: 0.0.0.0:8080; SSL configuration: Not Configured
+2022-07-27 12:05:17,324 INFO  - T[] P[] M[] pool-2-thread-1 firebase.server.master.MasterNode - Received handshake for role MTT_NODE from id: mtt1[305721014[127.0.0.1:8635]]; Halting
+2022-07-27 12:05:17,325 INFO  - T[] P[] M[] pool-2-thread-1 firebase.server.master.MasterNode - Promoting node; Id: mtt1; Role: MTT_NODE
+2022-07-27 12:05:17,325 INFO  - T[] P[] M[] pool-2-thread-1 SYSLOG - Master node processed handshake for role MTT_NODE from id: mtt1[305721014[127.0.0.1:8635]]
+2022-07-27 12:05:17,325 INFO  - T[] P[] M[] pool-2-thread-1 firebase.server.master.MasterNode - Resuming after processing role MTT_NODE from: mtt1[305721014[127.0.0.1:8635]]; Halt id: 654672587
+2022-07-27 12:05:17,326 INFO  - T[] P[] M[] main firebase.server.mtt.MttNode - Configuration found for node: mtt1 (null)
+2022-07-27 12:05:17,394 INFO  - T[] P[] M[] main firebase.server.gateway.GatewayNode - Starting Client Gateway (cli1) ...
+2022-07-27 12:05:17,394 INFO  - T[] P[] M[] main service.clientreg.state.StateClientRegistry - Client Registry is now managing the following nodes (added): [cli1]
+2022-07-27 12:05:17,398 INFO  - T[] P[] M[] main SYSLOG - NIO Server started at: /0.0.0.0:4123
+2022-07-27 12:05:17,407 INFO  - T[] P[] M[] main SYSLOG - System [Java HotSpot(TM) Client VM 25.141-b15; Windows 10 Windows 10 (x86)]
+2022-07-27 12:05:17,408 INFO  - T[] P[] M[] main SYSLOG - Server started [Wed Jul 27 12:05:17 ICT 2022]
+2022-07-27 12:05:17,409 INFO  - T[] P[] M[] main SYSLOG - Firebase Server Platform [version: 1.8.0-CE]
+2022-07-27 12:05:17,826 INFO  - T[] P[] M[] pool-2-thread-1 firebase.server.instance.ServerInstance - Resuming; Id: 654672587
+2022-07-27 12:05:27,325 INFO  - T[] P[] M[] qtp12334946-82 firebase.server.login.LoginManagerImpl - Created executor for TrivialLoginHandler with 30 threads.
+2022-07-27 13:37:48,844 INFO  - T[] P[] M[] main SYSLOG - Firebase Server Platform initializing; Server id: -22876946
+2022-07-27 13:37:49,450 INFO  - T[] P[] M[] main firebase.server.statistics.StatisticsLevel - Statistics level for the system: PROFILING
+2022-07-27 13:37:49,588 WARN  - T[] P[] M[] main jboss.cache.transaction.GenericTransactionManagerLookup - Falling back to DummyTransactionManager from JBossCache
+2022-07-27 13:37:49,650 INFO  - T[] P[] M[] main service.systemstate.cache.SystemStateCacheHandler - SystemState repl Queue: false
+2022-07-27 13:37:49,662 INFO  - T[] P[] M[] main service.systemstate.cache.SystemStateCacheHandler - System State TreeCache service started.
+2022-07-27 13:37:49,757 WARN  - T[] P[] M[] main cubeia.service.crossdomain.FlashCrossDomainService - Unable to open config file, using defaults
+2022-07-27 13:37:49,796 INFO  - T[] P[] M[] main cubeia.service.crossdomain.FlashCrossDomainServer - Flash cross domain policy server listening on port 4122
+2022-07-27 13:37:49,913 INFO  - T[] P[] M[] main server.deployment.game.GameDeployment - New game revision created: v:1 resource:com.cubeia.firebase.server.deployment.resources.DeploymentFolderSet@1611043 def:tictactoe-game - id[888] class[com.cubeia.tutorial.tictactoe.game.GameImpl] activator[com.cubeia.tutorial.tictactoe.game.Activator] version[1.0-SNAPSHOT]
+2022-07-27 13:37:49,921 INFO  - T[] P[] M[] main SYSLOG - Deployed: tictactoe-game 1.0-SNAPSHOT; Internal ID: 888; Deployment Revision: 1
+2022-07-27 13:37:49,949 INFO  - T[] P[] M[] main SYSLOG - Master node 'mas1' initialized as [primary] master.
+2022-07-27 13:37:49,955 INFO  - T[] P[] M[] pool-2-thread-1 firebase.server.master.MasterNode - Received handshake for role GAME_NODE from id: gam1[-22876946[127.0.0.1:8635]]; Halting
+2022-07-27 13:37:49,955 INFO  - T[] P[] M[] pool-2-thread-2 firebase.server.instance.ServerInstance - Halting; Id: 1855576949
+2022-07-27 13:37:49,956 INFO  - T[] P[] M[] pool-2-thread-1 firebase.server.master.MasterNode - Promoting node; Id: gam1; Role: GAME_NODE
+2022-07-27 13:37:49,960 INFO  - T[] P[] M[] pool-2-thread-2 server.lobby.systemstate.StateLobby - Lobby broadcast period set to: 2000
+2022-07-27 13:37:49,977 INFO  - T[] P[] M[] pool-2-thread-1 SYSLOG - Master node processed handshake for role GAME_NODE from id: gam1[-22876946[127.0.0.1:8635]]
+2022-07-27 13:37:49,977 INFO  - T[] P[] M[] pool-2-thread-1 firebase.server.master.MasterNode - Resuming after processing role GAME_NODE from: gam1[-22876946[127.0.0.1:8635]]; Halt id: 1855576949
+2022-07-27 13:37:49,978 INFO  - T[] P[] M[] main firebase.server.game.GameNode - Configuration found for node: gam1 (null)
+2022-07-27 13:37:49,997 INFO  - T[] P[] M[] pool-2-thread-1 firebase.server.master.MasterNode - Received handshake for role CLIENT_NODE from id: cli1[-22876946[127.0.0.1:8635]]; Halting
+2022-07-27 13:37:49,997 INFO  - T[] P[] M[] pool-2-thread-1 firebase.server.master.MasterNode - Promoting node; Id: cli1; Role: CLIENT_NODE
+2022-07-27 13:37:49,998 INFO  - T[] P[] M[] pool-2-thread-2 firebase.server.gateway.GatewayNode - Configuration found for node: cli1 (null)
+2022-07-27 13:37:50,000 INFO  - T[] P[] M[] pool-2-thread-2 firebase.server.gateway.GatewayNode - This node has been promoted to coordinator. Starting ClientReaper.
+2022-07-27 13:37:50,001 INFO  - T[] P[] M[] pool-2-thread-1 SYSLOG - Master node processed handshake for role CLIENT_NODE from id: cli1[-22876946[127.0.0.1:8635]]
+2022-07-27 13:37:50,002 INFO  - T[] P[] M[] pool-2-thread-1 firebase.server.master.MasterNode - Resuming after processing role CLIENT_NODE from: cli1[-22876946[127.0.0.1:8635]]; Halt id: 1854354394
+2022-07-27 13:37:50,002 INFO  - T[] P[] M[] main firebase.server.gateway.GatewayNode - Init Client Gateway
+2022-07-27 13:37:50,002 INFO  - T[] P[] M[] main firebase.server.gateway.GatewayNode - Gateway ingoring minimum frequency protection
+2022-07-27 13:37:50,002 INFO  - T[] P[] M[] main firebase.server.gateway.GatewayNode - Gateway ingoring interval frequency protection
+2022-07-27 13:37:50,002 WARN  - T[] P[] M[] main firebase.server.gateway.GatewayNode - Gateway unprotected; Consider setting access frequency protection in the configuration.
+2022-07-27 13:37:50,107 INFO  - T[] P[] M[] main gateway.comm.jetty.JettyServer - Static content is served from: C:\Users\admin\Desktop\firebase_server\game\web
+2022-07-27 13:37:50,293 INFO  - T[] P[] M[] main SYSLOG - HTTP Server starting at: 0.0.0.0:8080; SSL configuration: Not Configured
+2022-07-27 13:37:50,296 INFO  - T[] P[] M[] pool-2-thread-1 firebase.server.master.MasterNode - Received handshake for role MTT_NODE from id: mtt1[-22876946[127.0.0.1:8635]]; Halting
+2022-07-27 13:37:50,296 INFO  - T[] P[] M[] pool-2-thread-1 firebase.server.master.MasterNode - Promoting node; Id: mtt1; Role: MTT_NODE
+2022-07-27 13:37:50,296 INFO  - T[] P[] M[] pool-2-thread-1 SYSLOG - Master node processed handshake for role MTT_NODE from id: mtt1[-22876946[127.0.0.1:8635]]
+2022-07-27 13:37:50,297 INFO  - T[] P[] M[] pool-2-thread-1 firebase.server.master.MasterNode - Resuming after processing role MTT_NODE from: mtt1[-22876946[127.0.0.1:8635]]; Halt id: 1855643375
+2022-07-27 13:37:50,297 INFO  - T[] P[] M[] main firebase.server.mtt.MttNode - Configuration found for node: mtt1 (null)
+2022-07-27 13:37:50,373 INFO  - T[] P[] M[] main firebase.server.gateway.GatewayNode - Starting Client Gateway (cli1) ...
+2022-07-27 13:37:50,373 INFO  - T[] P[] M[] main service.clientreg.state.StateClientRegistry - Client Registry is now managing the following nodes (added): [cli1]
+2022-07-27 13:37:50,378 INFO  - T[] P[] M[] main SYSLOG - NIO Server started at: /0.0.0.0:4123
+2022-07-27 13:37:50,390 INFO  - T[] P[] M[] main SYSLOG - System [Java HotSpot(TM) Client VM 25.141-b15; Windows 10 Windows 10 (x86)]
+2022-07-27 13:37:50,393 INFO  - T[] P[] M[] main SYSLOG - Server started [Wed Jul 27 13:37:50 ICT 2022]
+2022-07-27 13:37:50,393 INFO  - T[] P[] M[] main SYSLOG - Firebase Server Platform [version: 1.8.0-CE]
+2022-07-27 13:37:50,804 INFO  - T[] P[] M[] pool-2-thread-1 firebase.server.instance.ServerInstance - Resuming; Id: 1855643375
+2022-07-27 13:38:03,172 INFO  - T[] P[] M[] qtp12334946-82 firebase.server.login.LoginManagerImpl - Created executor for TrivialLoginHandler with 30 threads.
+2022-07-27 13:45:35,091 INFO  - T[] P[] M[] main SYSLOG - Firebase Server Platform initializing; Server id: 1795177135
+2022-07-27 13:45:35,626 INFO  - T[] P[] M[] main firebase.server.statistics.StatisticsLevel - Statistics level for the system: PROFILING
+2022-07-27 13:45:35,747 WARN  - T[] P[] M[] main jboss.cache.transaction.GenericTransactionManagerLookup - Falling back to DummyTransactionManager from JBossCache
+2022-07-27 13:45:35,799 INFO  - T[] P[] M[] main service.systemstate.cache.SystemStateCacheHandler - SystemState repl Queue: false
+2022-07-27 13:45:35,809 INFO  - T[] P[] M[] main service.systemstate.cache.SystemStateCacheHandler - System State TreeCache service started.
+2022-07-27 13:45:35,887 WARN  - T[] P[] M[] main cubeia.service.crossdomain.FlashCrossDomainService - Unable to open config file, using defaults
+2022-07-27 13:45:35,910 INFO  - T[] P[] M[] main cubeia.service.crossdomain.FlashCrossDomainServer - Flash cross domain policy server listening on port 4122
+2022-07-27 13:45:36,013 INFO  - T[] P[] M[] main server.deployment.game.GameDeployment - New game revision created: v:1 resource:com.cubeia.firebase.server.deployment.resources.DeploymentFolderSet@1611043 def:tictactoe-game - id[888] class[com.cubeia.tutorial.tictactoe.game.GameImpl] activator[com.cubeia.tutorial.tictactoe.game.Activator] version[1.0-SNAPSHOT]
+2022-07-27 13:45:36,020 INFO  - T[] P[] M[] main SYSLOG - Deployed: tictactoe-game 1.0-SNAPSHOT; Internal ID: 888; Deployment Revision: 1
+2022-07-27 13:45:36,047 INFO  - T[] P[] M[] main SYSLOG - Master node 'mas1' initialized as [primary] master.
+2022-07-27 13:45:36,050 INFO  - T[] P[] M[] pool-2-thread-1 firebase.server.master.MasterNode - Received handshake for role GAME_NODE from id: gam1[1795177135[127.0.0.1:8635]]; Halting
+2022-07-27 13:45:36,051 INFO  - T[] P[] M[] pool-2-thread-2 firebase.server.instance.ServerInstance - Halting; Id: 2004774432
+2022-07-27 13:45:36,052 INFO  - T[] P[] M[] pool-2-thread-1 firebase.server.master.MasterNode - Promoting node; Id: gam1; Role: GAME_NODE
+2022-07-27 13:45:36,055 INFO  - T[] P[] M[] pool-2-thread-2 server.lobby.systemstate.StateLobby - Lobby broadcast period set to: 2000
+2022-07-27 13:45:36,070 INFO  - T[] P[] M[] pool-2-thread-1 SYSLOG - Master node processed handshake for role GAME_NODE from id: gam1[1795177135[127.0.0.1:8635]]
+2022-07-27 13:45:36,070 INFO  - T[] P[] M[] pool-2-thread-1 firebase.server.master.MasterNode - Resuming after processing role GAME_NODE from: gam1[1795177135[127.0.0.1:8635]]; Halt id: 2004774432
+2022-07-27 13:45:36,071 INFO  - T[] P[] M[] main firebase.server.game.GameNode - Configuration found for node: gam1 (null)
+2022-07-27 13:45:36,085 INFO  - T[] P[] M[] pool-2-thread-1 firebase.server.master.MasterNode - Received handshake for role CLIENT_NODE from id: cli1[1795177135[127.0.0.1:8635]]; Halting
+2022-07-27 13:45:36,085 INFO  - T[] P[] M[] pool-2-thread-1 firebase.server.master.MasterNode - Promoting node; Id: cli1; Role: CLIENT_NODE
+2022-07-27 13:45:36,086 INFO  - T[] P[] M[] pool-2-thread-2 firebase.server.gateway.GatewayNode - Configuration found for node: cli1 (null)
+2022-07-27 13:45:36,087 INFO  - T[] P[] M[] pool-2-thread-2 firebase.server.gateway.GatewayNode - This node has been promoted to coordinator. Starting ClientReaper.
+2022-07-27 13:45:36,089 INFO  - T[] P[] M[] pool-2-thread-1 SYSLOG - Master node processed handshake for role CLIENT_NODE from id: cli1[1795177135[127.0.0.1:8635]]
+2022-07-27 13:45:36,089 INFO  - T[] P[] M[] pool-2-thread-1 firebase.server.master.MasterNode - Resuming after processing role CLIENT_NODE from: cli1[1795177135[127.0.0.1:8635]]; Halt id: 2002814607
+2022-07-27 13:45:36,089 INFO  - T[] P[] M[] main firebase.server.gateway.GatewayNode - Init Client Gateway
+2022-07-27 13:45:36,089 INFO  - T[] P[] M[] main firebase.server.gateway.GatewayNode - Gateway ingoring minimum frequency protection
+2022-07-27 13:45:36,089 INFO  - T[] P[] M[] main firebase.server.gateway.GatewayNode - Gateway ingoring interval frequency protection
+2022-07-27 13:45:36,089 WARN  - T[] P[] M[] main firebase.server.gateway.GatewayNode - Gateway unprotected; Consider setting access frequency protection in the configuration.
+2022-07-27 13:45:36,151 INFO  - T[] P[] M[] main gateway.comm.jetty.JettyServer - Static content is served from: C:\Users\admin\Desktop\firebase_server\game\web
+2022-07-27 13:45:36,323 INFO  - T[] P[] M[] main SYSLOG - HTTP Server starting at: 0.0.0.0:8080; SSL configuration: Not Configured
+2022-07-27 13:45:36,326 INFO  - T[] P[] M[] pool-2-thread-1 firebase.server.master.MasterNode - Received handshake for role MTT_NODE from id: mtt1[1795177135[127.0.0.1:8635]]; Halting
+2022-07-27 13:45:36,326 INFO  - T[] P[] M[] pool-2-thread-1 firebase.server.master.MasterNode - Promoting node; Id: mtt1; Role: MTT_NODE
+2022-07-27 13:45:36,326 INFO  - T[] P[] M[] pool-2-thread-1 SYSLOG - Master node processed handshake for role MTT_NODE from id: mtt1[1795177135[127.0.0.1:8635]]
+2022-07-27 13:45:36,326 INFO  - T[] P[] M[] pool-2-thread-1 firebase.server.master.MasterNode - Resuming after processing role MTT_NODE from: mtt1[1795177135[127.0.0.1:8635]]; Halt id: 2004708282
+2022-07-27 13:45:36,327 INFO  - T[] P[] M[] main firebase.server.mtt.MttNode - Configuration found for node: mtt1 (null)
+2022-07-27 13:45:36,390 INFO  - T[] P[] M[] main firebase.server.gateway.GatewayNode - Starting Client Gateway (cli1) ...
+2022-07-27 13:45:36,390 INFO  - T[] P[] M[] main service.clientreg.state.StateClientRegistry - Client Registry is now managing the following nodes (added): [cli1]
+2022-07-27 13:45:36,393 INFO  - T[] P[] M[] main SYSLOG - NIO Server started at: /0.0.0.0:4123
+2022-07-27 13:45:36,402 INFO  - T[] P[] M[] main SYSLOG - System [Java HotSpot(TM) Client VM 25.141-b15; Windows 10 Windows 10 (x86)]
+2022-07-27 13:45:36,403 INFO  - T[] P[] M[] main SYSLOG - Server started [Wed Jul 27 13:45:36 ICT 2022]
+2022-07-27 13:45:36,403 INFO  - T[] P[] M[] main SYSLOG - Firebase Server Platform [version: 1.8.0-CE]
+2022-07-27 13:45:36,830 INFO  - T[] P[] M[] pool-2-thread-1 firebase.server.instance.ServerInstance - Resuming; Id: 2004708282
+2022-07-27 13:45:44,655 INFO  - T[] P[] M[] qtp12334946-81 firebase.server.login.LoginManagerImpl - Created executor for TrivialLoginHandler with 30 threads.
+2022-07-27 13:55:18,034 INFO  - T[] P[] M[] main SYSLOG - Firebase Server Platform initializing; Server id: -553559272
+2022-07-27 13:55:18,580 INFO  - T[] P[] M[] main firebase.server.statistics.StatisticsLevel - Statistics level for the system: PROFILING
+2022-07-27 13:55:18,701 WARN  - T[] P[] M[] main jboss.cache.transaction.GenericTransactionManagerLookup - Falling back to DummyTransactionManager from JBossCache
+2022-07-27 13:55:18,751 INFO  - T[] P[] M[] main service.systemstate.cache.SystemStateCacheHandler - SystemState repl Queue: false
+2022-07-27 13:55:18,760 INFO  - T[] P[] M[] main service.systemstate.cache.SystemStateCacheHandler - System State TreeCache service started.
+2022-07-27 13:55:18,834 WARN  - T[] P[] M[] main cubeia.service.crossdomain.FlashCrossDomainService - Unable to open config file, using defaults
+2022-07-27 13:55:18,859 INFO  - T[] P[] M[] main cubeia.service.crossdomain.FlashCrossDomainServer - Flash cross domain policy server listening on port 4122
+2022-07-27 13:55:18,954 INFO  - T[] P[] M[] main server.deployment.game.GameDeployment - New game revision created: v:1 resource:com.cubeia.firebase.server.deployment.resources.DeploymentFolderSet@1611043 def:tictactoe-game - id[888] class[com.cubeia.tutorial.tictactoe.game.GameImpl] activator[com.cubeia.tutorial.tictactoe.game.Activator] version[1.0-SNAPSHOT]
+2022-07-27 13:55:18,961 INFO  - T[] P[] M[] main SYSLOG - Deployed: tictactoe-game 1.0-SNAPSHOT; Internal ID: 888; Deployment Revision: 1
+2022-07-27 13:55:18,989 INFO  - T[] P[] M[] main SYSLOG - Master node 'mas1' initialized as [primary] master.
+2022-07-27 13:55:18,994 INFO  - T[] P[] M[] pool-2-thread-1 firebase.server.master.MasterNode - Received handshake for role GAME_NODE from id: gam1[-553559272[127.0.0.1:8635]]; Halting
+2022-07-27 13:55:18,994 INFO  - T[] P[] M[] pool-2-thread-2 firebase.server.instance.ServerInstance - Halting; Id: 1932931614
+2022-07-27 13:55:18,996 INFO  - T[] P[] M[] pool-2-thread-1 firebase.server.master.MasterNode - Promoting node; Id: gam1; Role: GAME_NODE
+2022-07-27 13:55:18,999 INFO  - T[] P[] M[] pool-2-thread-2 server.lobby.systemstate.StateLobby - Lobby broadcast period set to: 2000
+2022-07-27 13:55:19,015 INFO  - T[] P[] M[] pool-2-thread-1 SYSLOG - Master node processed handshake for role GAME_NODE from id: gam1[-553559272[127.0.0.1:8635]]
+2022-07-27 13:55:19,015 INFO  - T[] P[] M[] pool-2-thread-1 firebase.server.master.MasterNode - Resuming after processing role GAME_NODE from: gam1[-553559272[127.0.0.1:8635]]; Halt id: 1932931614
+2022-07-27 13:55:19,017 INFO  - T[] P[] M[] main firebase.server.game.GameNode - Configuration found for node: gam1 (null)
+2022-07-27 13:55:19,031 INFO  - T[] P[] M[] pool-2-thread-1 firebase.server.master.MasterNode - Received handshake for role CLIENT_NODE from id: cli1[-553559272[127.0.0.1:8635]]; Halting
+2022-07-27 13:55:19,031 INFO  - T[] P[] M[] pool-2-thread-1 firebase.server.master.MasterNode - Promoting node; Id: cli1; Role: CLIENT_NODE
+2022-07-27 13:55:19,033 INFO  - T[] P[] M[] pool-2-thread-2 firebase.server.gateway.GatewayNode - Configuration found for node: cli1 (null)
+2022-07-27 13:55:19,033 INFO  - T[] P[] M[] pool-2-thread-2 firebase.server.gateway.GatewayNode - This node has been promoted to coordinator. Starting ClientReaper.
+2022-07-27 13:55:19,035 INFO  - T[] P[] M[] pool-2-thread-1 SYSLOG - Master node processed handshake for role CLIENT_NODE from id: cli1[-553559272[127.0.0.1:8635]]
+2022-07-27 13:55:19,035 INFO  - T[] P[] M[] pool-2-thread-1 firebase.server.master.MasterNode - Resuming after processing role CLIENT_NODE from: cli1[-553559272[127.0.0.1:8635]]; Halt id: 1932057265
+2022-07-27 13:55:19,035 INFO  - T[] P[] M[] main firebase.server.gateway.GatewayNode - Init Client Gateway
+2022-07-27 13:55:19,035 INFO  - T[] P[] M[] main firebase.server.gateway.GatewayNode - Gateway ingoring minimum frequency protection
+2022-07-27 13:55:19,035 INFO  - T[] P[] M[] main firebase.server.gateway.GatewayNode - Gateway ingoring interval frequency protection
+2022-07-27 13:55:19,035 WARN  - T[] P[] M[] main firebase.server.gateway.GatewayNode - Gateway unprotected; Consider setting access frequency protection in the configuration.
+2022-07-27 13:55:19,111 INFO  - T[] P[] M[] main gateway.comm.jetty.JettyServer - Static content is served from: C:\Users\admin\Desktop\firebase_server\game\web
+2022-07-27 13:55:19,276 INFO  - T[] P[] M[] main SYSLOG - HTTP Server starting at: 0.0.0.0:8080; SSL configuration: Not Configured
+2022-07-27 13:55:19,279 INFO  - T[] P[] M[] pool-2-thread-1 firebase.server.master.MasterNode - Received handshake for role MTT_NODE from id: mtt1[-553559272[127.0.0.1:8635]]; Halting
+2022-07-27 13:55:19,280 INFO  - T[] P[] M[] pool-2-thread-1 firebase.server.master.MasterNode - Promoting node; Id: mtt1; Role: MTT_NODE
+2022-07-27 13:55:19,280 INFO  - T[] P[] M[] pool-2-thread-1 SYSLOG - Master node processed handshake for role MTT_NODE from id: mtt1[-553559272[127.0.0.1:8635]]
+2022-07-27 13:55:19,280 INFO  - T[] P[] M[] pool-2-thread-1 firebase.server.master.MasterNode - Resuming after processing role MTT_NODE from: mtt1[-553559272[127.0.0.1:8635]]; Halt id: 1932867460
+2022-07-27 13:55:19,281 INFO  - T[] P[] M[] main firebase.server.mtt.MttNode - Configuration found for node: mtt1 (null)
+2022-07-27 13:55:19,343 INFO  - T[] P[] M[] main firebase.server.gateway.GatewayNode - Starting Client Gateway (cli1) ...
+2022-07-27 13:55:19,343 INFO  - T[] P[] M[] main service.clientreg.state.StateClientRegistry - Client Registry is now managing the following nodes (added): [cli1]
+2022-07-27 13:55:19,349 INFO  - T[] P[] M[] main SYSLOG - NIO Server started at: /0.0.0.0:4123
+2022-07-27 13:55:19,358 INFO  - T[] P[] M[] main SYSLOG - System [Java HotSpot(TM) Client VM 25.141-b15; Windows 10 Windows 10 (x86)]
+2022-07-27 13:55:19,359 INFO  - T[] P[] M[] main SYSLOG - Server started [Wed Jul 27 13:55:19 ICT 2022]
+2022-07-27 13:55:19,359 INFO  - T[] P[] M[] main SYSLOG - Firebase Server Platform [version: 1.8.0-CE]
+2022-07-27 13:55:19,783 INFO  - T[] P[] M[] pool-2-thread-1 firebase.server.instance.ServerInstance - Resuming; Id: 1932867460
+2022-07-27 13:55:29,023 INFO  - T[] P[] M[] qtp12334946-82 firebase.server.login.LoginManagerImpl - Created executor for TrivialLoginHandler with 30 threads.
+2022-07-27 14:03:22,909 INFO  - T[] P[] M[] main SYSLOG - Firebase Server Platform initializing; Server id: 1984643971
+2022-07-27 14:03:23,460 INFO  - T[] P[] M[] main firebase.server.statistics.StatisticsLevel - Statistics level for the system: PROFILING
+2022-07-27 14:03:23,581 WARN  - T[] P[] M[] main jboss.cache.transaction.GenericTransactionManagerLookup - Falling back to DummyTransactionManager from JBossCache
+2022-07-27 14:03:23,632 INFO  - T[] P[] M[] main service.systemstate.cache.SystemStateCacheHandler - SystemState repl Queue: false
+2022-07-27 14:03:23,642 INFO  - T[] P[] M[] main service.systemstate.cache.SystemStateCacheHandler - System State TreeCache service started.
+2022-07-27 14:03:23,713 WARN  - T[] P[] M[] main cubeia.service.crossdomain.FlashCrossDomainService - Unable to open config file, using defaults
+2022-07-27 14:03:23,737 INFO  - T[] P[] M[] main cubeia.service.crossdomain.FlashCrossDomainServer - Flash cross domain policy server listening on port 4122
+2022-07-27 14:03:23,844 INFO  - T[] P[] M[] main server.deployment.game.GameDeployment - New game revision created: v:1 resource:com.cubeia.firebase.server.deployment.resources.DeploymentFolderSet@1611043 def:tictactoe-game - id[888] class[com.cubeia.tutorial.tictactoe.game.GameImpl] activator[com.cubeia.tutorial.tictactoe.game.Activator] version[1.0-SNAPSHOT]
+2022-07-27 14:03:23,851 INFO  - T[] P[] M[] main SYSLOG - Deployed: tictactoe-game 1.0-SNAPSHOT; Internal ID: 888; Deployment Revision: 1
+2022-07-27 14:03:23,879 INFO  - T[] P[] M[] main SYSLOG - Master node 'mas1' initialized as [primary] master.
+2022-07-27 14:03:23,884 INFO  - T[] P[] M[] pool-2-thread-1 firebase.server.master.MasterNode - Received handshake for role GAME_NODE from id: gam1[1984643971[127.0.0.1:8635]]; Halting
+2022-07-27 14:03:23,885 INFO  - T[] P[] M[] pool-2-thread-2 firebase.server.instance.ServerInstance - Halting; Id: -480521818
+2022-07-27 14:03:23,886 INFO  - T[] P[] M[] pool-2-thread-1 firebase.server.master.MasterNode - Promoting node; Id: gam1; Role: GAME_NODE
+2022-07-27 14:03:23,890 INFO  - T[] P[] M[] pool-2-thread-2 server.lobby.systemstate.StateLobby - Lobby broadcast period set to: 2000
+2022-07-27 14:03:23,905 INFO  - T[] P[] M[] pool-2-thread-1 SYSLOG - Master node processed handshake for role GAME_NODE from id: gam1[1984643971[127.0.0.1:8635]]
+2022-07-27 14:03:23,906 INFO  - T[] P[] M[] pool-2-thread-1 firebase.server.master.MasterNode - Resuming after processing role GAME_NODE from: gam1[1984643971[127.0.0.1:8635]]; Halt id: -480521818
+2022-07-27 14:03:23,907 INFO  - T[] P[] M[] main firebase.server.game.GameNode - Configuration found for node: gam1 (null)
+2022-07-27 14:03:23,925 INFO  - T[] P[] M[] pool-2-thread-1 firebase.server.master.MasterNode - Received handshake for role CLIENT_NODE from id: cli1[1984643971[127.0.0.1:8635]]; Halting
+2022-07-27 14:03:23,925 INFO  - T[] P[] M[] pool-2-thread-1 firebase.server.master.MasterNode - Promoting node; Id: cli1; Role: CLIENT_NODE
+2022-07-27 14:03:23,926 INFO  - T[] P[] M[] pool-2-thread-2 firebase.server.gateway.GatewayNode - Configuration found for node: cli1 (null)
+2022-07-27 14:03:23,927 INFO  - T[] P[] M[] pool-2-thread-2 firebase.server.gateway.GatewayNode - This node has been promoted to coordinator. Starting ClientReaper.
+2022-07-27 14:03:23,929 INFO  - T[] P[] M[] pool-2-thread-1 SYSLOG - Master node processed handshake for role CLIENT_NODE from id: cli1[1984643971[127.0.0.1:8635]]
+2022-07-27 14:03:23,929 INFO  - T[] P[] M[] pool-2-thread-1 firebase.server.master.MasterNode - Resuming after processing role CLIENT_NODE from: cli1[1984643971[127.0.0.1:8635]]; Halt id: -482002679
+2022-07-27 14:03:23,929 INFO  - T[] P[] M[] main firebase.server.gateway.GatewayNode - Init Client Gateway
+2022-07-27 14:03:23,929 INFO  - T[] P[] M[] main firebase.server.gateway.GatewayNode - Gateway ingoring minimum frequency protection
+2022-07-27 14:03:23,929 INFO  - T[] P[] M[] main firebase.server.gateway.GatewayNode - Gateway ingoring interval frequency protection
+2022-07-27 14:03:23,929 WARN  - T[] P[] M[] main firebase.server.gateway.GatewayNode - Gateway unprotected; Consider setting access frequency protection in the configuration.
+2022-07-27 14:03:24,001 INFO  - T[] P[] M[] main gateway.comm.jetty.JettyServer - Static content is served from: C:\Users\admin\Desktop\firebase_server\game\web
+2022-07-27 14:03:24,167 INFO  - T[] P[] M[] main SYSLOG - HTTP Server starting at: 0.0.0.0:8080; SSL configuration: Not Configured
+2022-07-27 14:03:24,169 INFO  - T[] P[] M[] pool-2-thread-1 firebase.server.master.MasterNode - Received handshake for role MTT_NODE from id: mtt1[1984643971[127.0.0.1:8635]]; Halting
+2022-07-27 14:03:24,169 INFO  - T[] P[] M[] pool-2-thread-1 firebase.server.master.MasterNode - Promoting node; Id: mtt1; Role: MTT_NODE
+2022-07-27 14:03:24,169 INFO  - T[] P[] M[] pool-2-thread-1 SYSLOG - Master node processed handshake for role MTT_NODE from id: mtt1[1984643971[127.0.0.1:8635]]
+2022-07-27 14:03:24,169 INFO  - T[] P[] M[] pool-2-thread-1 firebase.server.master.MasterNode - Resuming after processing role MTT_NODE from: mtt1[1984643971[127.0.0.1:8635]]; Halt id: -480717764
+2022-07-27 14:03:24,170 INFO  - T[] P[] M[] main firebase.server.mtt.MttNode - Configuration found for node: mtt1 (null)
+2022-07-27 14:03:24,236 INFO  - T[] P[] M[] main firebase.server.gateway.GatewayNode - Starting Client Gateway (cli1) ...
+2022-07-27 14:03:24,236 INFO  - T[] P[] M[] main service.clientreg.state.StateClientRegistry - Client Registry is now managing the following nodes (added): [cli1]
+2022-07-27 14:03:24,240 INFO  - T[] P[] M[] main SYSLOG - NIO Server started at: /0.0.0.0:4123
+2022-07-27 14:03:24,249 INFO  - T[] P[] M[] main SYSLOG - System [Java HotSpot(TM) Client VM 25.141-b15; Windows 10 Windows 10 (x86)]
+2022-07-27 14:03:24,250 INFO  - T[] P[] M[] main SYSLOG - Server started [Wed Jul 27 14:03:24 ICT 2022]
+2022-07-27 14:03:24,251 INFO  - T[] P[] M[] main SYSLOG - Firebase Server Platform [version: 1.8.0-CE]
+2022-07-27 14:03:24,676 INFO  - T[] P[] M[] pool-2-thread-1 firebase.server.instance.ServerInstance - Resuming; Id: -480717764
+2022-07-27 14:03:35,205 INFO  - T[] P[] M[] qtp12334946-81 firebase.server.login.LoginManagerImpl - Created executor for TrivialLoginHandler with 30 threads.
+2022-07-27 14:17:00,068 INFO  - T[] P[] M[] main SYSLOG - Firebase Server Platform initializing; Server id: 2019223809
+2022-07-27 14:17:00,607 INFO  - T[] P[] M[] main firebase.server.statistics.StatisticsLevel - Statistics level for the system: PROFILING
+2022-07-27 14:17:00,729 WARN  - T[] P[] M[] main jboss.cache.transaction.GenericTransactionManagerLookup - Falling back to DummyTransactionManager from JBossCache
+2022-07-27 14:17:00,781 INFO  - T[] P[] M[] main service.systemstate.cache.SystemStateCacheHandler - SystemState repl Queue: false
+2022-07-27 14:17:00,791 INFO  - T[] P[] M[] main service.systemstate.cache.SystemStateCacheHandler - System State TreeCache service started.
+2022-07-27 14:17:00,862 WARN  - T[] P[] M[] main cubeia.service.crossdomain.FlashCrossDomainService - Unable to open config file, using defaults
+2022-07-27 14:17:00,886 INFO  - T[] P[] M[] main cubeia.service.crossdomain.FlashCrossDomainServer - Flash cross domain policy server listening on port 4122
+2022-07-27 14:17:00,990 INFO  - T[] P[] M[] main server.deployment.game.GameDeployment - New game revision created: v:1 resource:com.cubeia.firebase.server.deployment.resources.DeploymentFolderSet@1611043 def:tictactoe-game - id[888] class[com.cubeia.tutorial.tictactoe.game.GameImpl] activator[com.cubeia.tutorial.tictactoe.game.Activator] version[1.0-SNAPSHOT]
+2022-07-27 14:17:00,997 INFO  - T[] P[] M[] main SYSLOG - Deployed: tictactoe-game 1.0-SNAPSHOT; Internal ID: 888; Deployment Revision: 1
+2022-07-27 14:17:01,024 INFO  - T[] P[] M[] main SYSLOG - Master node 'mas1' initialized as [primary] master.
+2022-07-27 14:17:01,028 INFO  - T[] P[] M[] pool-2-thread-1 firebase.server.master.MasterNode - Received handshake for role GAME_NODE from id: gam1[2019223809[127.0.0.1:8635]]; Halting
+2022-07-27 14:17:01,030 INFO  - T[] P[] M[] pool-2-thread-2 firebase.server.instance.ServerInstance - Halting; Id: -75171888
+2022-07-27 14:17:01,031 INFO  - T[] P[] M[] pool-2-thread-1 firebase.server.master.MasterNode - Promoting node; Id: gam1; Role: GAME_NODE
+2022-07-27 14:17:01,034 INFO  - T[] P[] M[] pool-2-thread-2 server.lobby.systemstate.StateLobby - Lobby broadcast period set to: 2000
+2022-07-27 14:17:01,050 INFO  - T[] P[] M[] pool-2-thread-1 SYSLOG - Master node processed handshake for role GAME_NODE from id: gam1[2019223809[127.0.0.1:8635]]
+2022-07-27 14:17:01,050 INFO  - T[] P[] M[] pool-2-thread-1 firebase.server.master.MasterNode - Resuming after processing role GAME_NODE from: gam1[2019223809[127.0.0.1:8635]]; Halt id: -75171888
+2022-07-27 14:17:01,051 INFO  - T[] P[] M[] main firebase.server.game.GameNode - Configuration found for node: gam1 (null)
+2022-07-27 14:17:01,067 INFO  - T[] P[] M[] pool-2-thread-1 firebase.server.master.MasterNode - Received handshake for role CLIENT_NODE from id: cli1[2019223809[127.0.0.1:8635]]; Halting
+2022-07-27 14:17:01,067 INFO  - T[] P[] M[] pool-2-thread-1 firebase.server.master.MasterNode - Promoting node; Id: cli1; Role: CLIENT_NODE
+2022-07-27 14:17:01,068 INFO  - T[] P[] M[] pool-2-thread-2 firebase.server.gateway.GatewayNode - Configuration found for node: cli1 (null)
+2022-07-27 14:17:01,069 INFO  - T[] P[] M[] pool-2-thread-2 firebase.server.gateway.GatewayNode - This node has been promoted to coordinator. Starting ClientReaper.
+2022-07-27 14:17:01,071 INFO  - T[] P[] M[] pool-2-thread-1 SYSLOG - Master node processed handshake for role CLIENT_NODE from id: cli1[2019223809[127.0.0.1:8635]]
+2022-07-27 14:17:01,072 INFO  - T[] P[] M[] pool-2-thread-1 firebase.server.master.MasterNode - Resuming after processing role CLIENT_NODE from: cli1[2019223809[127.0.0.1:8635]]; Halt id: -73785473
+2022-07-27 14:17:01,072 INFO  - T[] P[] M[] main firebase.server.gateway.GatewayNode - Init Client Gateway
+2022-07-27 14:17:01,072 INFO  - T[] P[] M[] main firebase.server.gateway.GatewayNode - Gateway ingoring minimum frequency protection
+2022-07-27 14:17:01,072 INFO  - T[] P[] M[] main firebase.server.gateway.GatewayNode - Gateway ingoring interval frequency protection
+2022-07-27 14:17:01,072 WARN  - T[] P[] M[] main firebase.server.gateway.GatewayNode - Gateway unprotected; Consider setting access frequency protection in the configuration.
+2022-07-27 14:17:01,143 INFO  - T[] P[] M[] main gateway.comm.jetty.JettyServer - Static content is served from: C:\Users\admin\Desktop\firebase_server\game\web
+2022-07-27 14:17:01,310 INFO  - T[] P[] M[] main SYSLOG - HTTP Server starting at: 0.0.0.0:8080; SSL configuration: Not Configured
+2022-07-27 14:17:01,312 INFO  - T[] P[] M[] pool-2-thread-1 firebase.server.master.MasterNode - Received handshake for role MTT_NODE from id: mtt1[2019223809[127.0.0.1:8635]]; Halting
+2022-07-27 14:17:01,312 INFO  - T[] P[] M[] pool-2-thread-1 firebase.server.master.MasterNode - Promoting node; Id: mtt1; Role: MTT_NODE
+2022-07-27 14:17:01,313 INFO  - T[] P[] M[] pool-2-thread-1 SYSLOG - Master node processed handshake for role MTT_NODE from id: mtt1[2019223809[127.0.0.1:8635]]
+2022-07-27 14:17:01,313 INFO  - T[] P[] M[] pool-2-thread-1 firebase.server.master.MasterNode - Resuming after processing role MTT_NODE from: mtt1[2019223809[127.0.0.1:8635]]; Halt id: -74976694
+2022-07-27 14:17:01,314 INFO  - T[] P[] M[] main firebase.server.mtt.MttNode - Configuration found for node: mtt1 (null)
+2022-07-27 14:17:01,378 INFO  - T[] P[] M[] main firebase.server.gateway.GatewayNode - Starting Client Gateway (cli1) ...
+2022-07-27 14:17:01,378 INFO  - T[] P[] M[] main service.clientreg.state.StateClientRegistry - Client Registry is now managing the following nodes (added): [cli1]
+2022-07-27 14:17:01,382 INFO  - T[] P[] M[] main SYSLOG - NIO Server started at: /0.0.0.0:4123
+2022-07-27 14:17:01,392 INFO  - T[] P[] M[] main SYSLOG - System [Java HotSpot(TM) Client VM 25.141-b15; Windows 10 Windows 10 (x86)]
+2022-07-27 14:17:01,393 INFO  - T[] P[] M[] main SYSLOG - Server started [Wed Jul 27 14:17:01 ICT 2022]
+2022-07-27 14:17:01,393 INFO  - T[] P[] M[] main SYSLOG - Firebase Server Platform [version: 1.8.0-CE]
+2022-07-27 14:17:01,813 INFO  - T[] P[] M[] pool-2-thread-1 firebase.server.instance.ServerInstance - Resuming; Id: -74976694
+2022-07-27 14:18:01,285 INFO  - T[] P[] M[] qtp12334946-81 firebase.server.login.LoginManagerImpl - Created executor for TrivialLoginHandler with 30 threads.
+2022-07-27 14:32:00,142 INFO  - T[] P[] M[] pool-1-thread-1 server.deployment.game.GameDeploymentHandler - Redeploying Game Archive: tictactoe-game-1.0-SNAPSHOT
+2022-07-27 14:32:00,182 INFO  - T[] P[] M[] pool-1-thread-1 server.deployment.game.GameDeployment - New game revision created: v:2 resource:com.cubeia.firebase.server.deployment.resources.DeploymentFolderSet@884f75 def:tictactoe-game - id[888] class[com.cubeia.tutorial.tictactoe.game.GameImpl] activator[com.cubeia.tutorial.tictactoe.game.Activator] version[1.0-SNAPSHOT]
+2022-07-27 14:32:00,182 INFO  - T[] P[] M[] pool-1-thread-1 SYSLOG - Deployed: tictactoe-game 1.0-SNAPSHOT; Internal ID: 888; Deployment Revision: 2
+2022-07-27 14:32:06,507 INFO  - T[] P[] M[] main SYSLOG - Firebase Server Platform initializing; Server id: -1417169584
+2022-07-27 14:32:07,069 INFO  - T[] P[] M[] main firebase.server.statistics.StatisticsLevel - Statistics level for the system: PROFILING
+2022-07-27 14:32:07,193 WARN  - T[] P[] M[] main jboss.cache.transaction.GenericTransactionManagerLookup - Falling back to DummyTransactionManager from JBossCache
+2022-07-27 14:32:07,245 INFO  - T[] P[] M[] main service.systemstate.cache.SystemStateCacheHandler - SystemState repl Queue: false
+2022-07-27 14:32:07,254 INFO  - T[] P[] M[] main service.systemstate.cache.SystemStateCacheHandler - System State TreeCache service started.
+2022-07-27 14:32:07,329 WARN  - T[] P[] M[] main cubeia.service.crossdomain.FlashCrossDomainService - Unable to open config file, using defaults
+2022-07-27 14:32:07,353 INFO  - T[] P[] M[] main cubeia.service.crossdomain.FlashCrossDomainServer - Flash cross domain policy server listening on port 4122
+2022-07-27 14:32:07,459 INFO  - T[] P[] M[] main server.deployment.game.GameDeployment - New game revision created: v:1 resource:com.cubeia.firebase.server.deployment.resources.DeploymentFolderSet@1611043 def:tictactoe-game - id[888] class[com.cubeia.tutorial.tictactoe.game.GameImpl] activator[com.cubeia.tutorial.tictactoe.game.Activator] version[1.0-SNAPSHOT]
+2022-07-27 14:32:07,466 INFO  - T[] P[] M[] main SYSLOG - Deployed: tictactoe-game 1.0-SNAPSHOT; Internal ID: 888; Deployment Revision: 1
+2022-07-27 14:32:07,493 INFO  - T[] P[] M[] main SYSLOG - Master node 'mas1' initialized as [primary] master.
+2022-07-27 14:32:07,497 INFO  - T[] P[] M[] pool-2-thread-1 firebase.server.master.MasterNode - Received handshake for role GAME_NODE from id: gam1[-1417169584[127.0.0.1:8635]]; Halting
+2022-07-27 14:32:07,498 INFO  - T[] P[] M[] pool-2-thread-2 firebase.server.instance.ServerInstance - Halting; Id: -581273225
+2022-07-27 14:32:07,499 INFO  - T[] P[] M[] pool-2-thread-1 firebase.server.master.MasterNode - Promoting node; Id: gam1; Role: GAME_NODE
+2022-07-27 14:32:07,503 INFO  - T[] P[] M[] pool-2-thread-2 server.lobby.systemstate.StateLobby - Lobby broadcast period set to: 2000
+2022-07-27 14:32:07,519 INFO  - T[] P[] M[] pool-2-thread-1 SYSLOG - Master node processed handshake for role GAME_NODE from id: gam1[-1417169584[127.0.0.1:8635]]
+2022-07-27 14:32:07,519 INFO  - T[] P[] M[] pool-2-thread-1 firebase.server.master.MasterNode - Resuming after processing role GAME_NODE from: gam1[-1417169584[127.0.0.1:8635]]; Halt id: -581273225
+2022-07-27 14:32:07,520 INFO  - T[] P[] M[] main firebase.server.game.GameNode - Configuration found for node: gam1 (null)
+2022-07-27 14:32:07,534 INFO  - T[] P[] M[] pool-2-thread-1 firebase.server.master.MasterNode - Received handshake for role CLIENT_NODE from id: cli1[-1417169584[127.0.0.1:8635]]; Halting
+2022-07-27 14:32:07,535 INFO  - T[] P[] M[] pool-2-thread-1 firebase.server.master.MasterNode - Promoting node; Id: cli1; Role: CLIENT_NODE
+2022-07-27 14:32:07,536 INFO  - T[] P[] M[] pool-2-thread-2 firebase.server.gateway.GatewayNode - Configuration found for node: cli1 (null)
+2022-07-27 14:32:07,537 INFO  - T[] P[] M[] pool-2-thread-2 firebase.server.gateway.GatewayNode - This node has been promoted to coordinator. Starting ClientReaper.
+2022-07-27 14:32:07,538 INFO  - T[] P[] M[] pool-2-thread-1 SYSLOG - Master node processed handshake for role CLIENT_NODE from id: cli1[-1417169584[127.0.0.1:8635]]
+2022-07-27 14:32:07,538 INFO  - T[] P[] M[] pool-2-thread-1 firebase.server.master.MasterNode - Resuming after processing role CLIENT_NODE from: cli1[-1417169584[127.0.0.1:8635]]; Halt id: -582708776
+2022-07-27 14:32:07,538 INFO  - T[] P[] M[] main firebase.server.gateway.GatewayNode - Init Client Gateway
+2022-07-27 14:32:07,539 INFO  - T[] P[] M[] main firebase.server.gateway.GatewayNode - Gateway ingoring minimum frequency protection
+2022-07-27 14:32:07,539 INFO  - T[] P[] M[] main firebase.server.gateway.GatewayNode - Gateway ingoring interval frequency protection
+2022-07-27 14:32:07,539 WARN  - T[] P[] M[] main firebase.server.gateway.GatewayNode - Gateway unprotected; Consider setting access frequency protection in the configuration.
+2022-07-27 14:32:07,602 INFO  - T[] P[] M[] main gateway.comm.jetty.JettyServer - Static content is served from: C:\Users\admin\Desktop\firebase_server\game\web
+2022-07-27 14:32:07,763 INFO  - T[] P[] M[] main SYSLOG - HTTP Server starting at: 0.0.0.0:8080; SSL configuration: Not Configured
+2022-07-27 14:32:07,766 INFO  - T[] P[] M[] pool-2-thread-1 firebase.server.master.MasterNode - Received handshake for role MTT_NODE from id: mtt1[-1417169584[127.0.0.1:8635]]; Halting
+2022-07-27 14:32:07,766 INFO  - T[] P[] M[] pool-2-thread-1 firebase.server.master.MasterNode - Promoting node; Id: mtt1; Role: MTT_NODE
+2022-07-27 14:32:07,766 INFO  - T[] P[] M[] pool-2-thread-1 SYSLOG - Master node processed handshake for role MTT_NODE from id: mtt1[-1417169584[127.0.0.1:8635]]
+2022-07-27 14:32:07,766 INFO  - T[] P[] M[] pool-2-thread-1 firebase.server.master.MasterNode - Resuming after processing role MTT_NODE from: mtt1[-1417169584[127.0.0.1:8635]]; Halt id: -581337875
+2022-07-27 14:32:07,766 INFO  - T[] P[] M[] main firebase.server.mtt.MttNode - Configuration found for node: mtt1 (null)
+2022-07-27 14:32:07,833 INFO  - T[] P[] M[] main firebase.server.gateway.GatewayNode - Starting Client Gateway (cli1) ...
+2022-07-27 14:32:07,833 INFO  - T[] P[] M[] main service.clientreg.state.StateClientRegistry - Client Registry is now managing the following nodes (added): [cli1]
+2022-07-27 14:32:07,837 INFO  - T[] P[] M[] main SYSLOG - NIO Server started at: /0.0.0.0:4123
+2022-07-27 14:32:07,846 INFO  - T[] P[] M[] main SYSLOG - System [Java HotSpot(TM) Client VM 25.141-b15; Windows 10 Windows 10 (x86)]
+2022-07-27 14:32:07,848 INFO  - T[] P[] M[] main SYSLOG - Server started [Wed Jul 27 14:32:07 ICT 2022]
+2022-07-27 14:32:07,851 INFO  - T[] P[] M[] main SYSLOG - Firebase Server Platform [version: 1.8.0-CE]
+2022-07-27 14:32:08,280 INFO  - T[] P[] M[] pool-2-thread-1 firebase.server.instance.ServerInstance - Resuming; Id: -581337875
+2022-07-27 14:32:16,498 INFO  - T[] P[] M[] qtp12334946-82 firebase.server.login.LoginManagerImpl - Created executor for TrivialLoginHandler with 30 threads.
+2022-07-27 14:42:54,753 INFO  - T[] P[] M[] pool-1-thread-1 server.deployment.game.GameDeploymentHandler - Redeploying Game Archive: tictactoe-game-1.0-SNAPSHOT
+2022-07-27 14:42:54,801 INFO  - T[] P[] M[] pool-1-thread-1 server.deployment.game.GameDeployment - New game revision created: v:2 resource:com.cubeia.firebase.server.deployment.resources.DeploymentFolderSet@884f75 def:tictactoe-game - id[888] class[com.cubeia.tutorial.tictactoe.game.GameImpl] activator[com.cubeia.tutorial.tictactoe.game.Activator] version[1.0-SNAPSHOT]
+2022-07-27 14:42:54,802 INFO  - T[] P[] M[] pool-1-thread-1 SYSLOG - Deployed: tictactoe-game 1.0-SNAPSHOT; Internal ID: 888; Deployment Revision: 2
+2022-07-27 14:43:01,739 INFO  - T[] P[] M[] main SYSLOG - Firebase Server Platform initializing; Server id: 556069481
+2022-07-27 14:43:02,270 INFO  - T[] P[] M[] main firebase.server.statistics.StatisticsLevel - Statistics level for the system: PROFILING
+2022-07-27 14:43:02,393 WARN  - T[] P[] M[] main jboss.cache.transaction.GenericTransactionManagerLookup - Falling back to DummyTransactionManager from JBossCache
+2022-07-27 14:43:02,444 INFO  - T[] P[] M[] main service.systemstate.cache.SystemStateCacheHandler - SystemState repl Queue: false
+2022-07-27 14:43:02,455 INFO  - T[] P[] M[] main service.systemstate.cache.SystemStateCacheHandler - System State TreeCache service started.
+2022-07-27 14:43:02,528 WARN  - T[] P[] M[] main cubeia.service.crossdomain.FlashCrossDomainService - Unable to open config file, using defaults
+2022-07-27 14:43:02,552 INFO  - T[] P[] M[] main cubeia.service.crossdomain.FlashCrossDomainServer - Flash cross domain policy server listening on port 4122
+2022-07-27 14:43:02,646 INFO  - T[] P[] M[] main server.deployment.game.GameDeployment - New game revision created: v:1 resource:com.cubeia.firebase.server.deployment.resources.DeploymentFolderSet@1611043 def:tictactoe-game - id[888] class[com.cubeia.tutorial.tictactoe.game.GameImpl] activator[com.cubeia.tutorial.tictactoe.game.Activator] version[1.0-SNAPSHOT]
+2022-07-27 14:43:02,653 INFO  - T[] P[] M[] main SYSLOG - Deployed: tictactoe-game 1.0-SNAPSHOT; Internal ID: 888; Deployment Revision: 1
+2022-07-27 14:43:02,681 INFO  - T[] P[] M[] main SYSLOG - Master node 'mas1' initialized as [primary] master.
+2022-07-27 14:43:02,686 INFO  - T[] P[] M[] pool-2-thread-1 firebase.server.master.MasterNode - Received handshake for role GAME_NODE from id: gam1[556069481[127.0.0.1:8635]]; Halting
+2022-07-27 14:43:02,686 INFO  - T[] P[] M[] pool-2-thread-2 firebase.server.instance.ServerInstance - Halting; Id: -832151180
+2022-07-27 14:43:02,687 INFO  - T[] P[] M[] pool-2-thread-1 firebase.server.master.MasterNode - Promoting node; Id: gam1; Role: GAME_NODE
+2022-07-27 14:43:02,692 INFO  - T[] P[] M[] pool-2-thread-2 server.lobby.systemstate.StateLobby - Lobby broadcast period set to: 2000
+2022-07-27 14:43:02,708 INFO  - T[] P[] M[] pool-2-thread-1 SYSLOG - Master node processed handshake for role GAME_NODE from id: gam1[556069481[127.0.0.1:8635]]
+2022-07-27 14:43:02,708 INFO  - T[] P[] M[] pool-2-thread-1 firebase.server.master.MasterNode - Resuming after processing role GAME_NODE from: gam1[556069481[127.0.0.1:8635]]; Halt id: -832151180
+2022-07-27 14:43:02,710 INFO  - T[] P[] M[] main firebase.server.game.GameNode - Configuration found for node: gam1 (null)
+2022-07-27 14:43:02,724 INFO  - T[] P[] M[] pool-2-thread-1 firebase.server.master.MasterNode - Received handshake for role CLIENT_NODE from id: cli1[556069481[127.0.0.1:8635]]; Halting
+2022-07-27 14:43:02,724 INFO  - T[] P[] M[] pool-2-thread-1 firebase.server.master.MasterNode - Promoting node; Id: cli1; Role: CLIENT_NODE
+2022-07-27 14:43:02,725 INFO  - T[] P[] M[] pool-2-thread-2 firebase.server.gateway.GatewayNode - Configuration found for node: cli1 (null)
+2022-07-27 14:43:02,726 INFO  - T[] P[] M[] pool-2-thread-2 firebase.server.gateway.GatewayNode - This node has been promoted to coordinator. Starting ClientReaper.
+2022-07-27 14:43:02,728 INFO  - T[] P[] M[] pool-2-thread-1 SYSLOG - Master node processed handshake for role CLIENT_NODE from id: cli1[556069481[127.0.0.1:8635]]
+2022-07-27 14:43:02,728 INFO  - T[] P[] M[] pool-2-thread-1 firebase.server.master.MasterNode - Resuming after processing role CLIENT_NODE from: cli1[556069481[127.0.0.1:8635]]; Halt id: -830961189
+2022-07-27 14:43:02,728 INFO  - T[] P[] M[] main firebase.server.gateway.GatewayNode - Init Client Gateway
+2022-07-27 14:43:02,728 INFO  - T[] P[] M[] main firebase.server.gateway.GatewayNode - Gateway ingoring minimum frequency protection
+2022-07-27 14:43:02,728 INFO  - T[] P[] M[] main firebase.server.gateway.GatewayNode - Gateway ingoring interval frequency protection
+2022-07-27 14:43:02,728 WARN  - T[] P[] M[] main firebase.server.gateway.GatewayNode - Gateway unprotected; Consider setting access frequency protection in the configuration.
+2022-07-27 14:43:02,806 INFO  - T[] P[] M[] main gateway.comm.jetty.JettyServer - Static content is served from: C:\Users\admin\Desktop\firebase_server\game\web
+2022-07-27 14:43:02,971 INFO  - T[] P[] M[] main SYSLOG - HTTP Server starting at: 0.0.0.0:8080; SSL configuration: Not Configured
+2022-07-27 14:43:02,973 INFO  - T[] P[] M[] pool-2-thread-1 firebase.server.master.MasterNode - Received handshake for role MTT_NODE from id: mtt1[556069481[127.0.0.1:8635]]; Halting
+2022-07-27 14:43:02,973 INFO  - T[] P[] M[] pool-2-thread-1 firebase.server.master.MasterNode - Promoting node; Id: mtt1; Role: MTT_NODE
+2022-07-27 14:43:02,973 INFO  - T[] P[] M[] pool-2-thread-1 SYSLOG - Master node processed handshake for role MTT_NODE from id: mtt1[556069481[127.0.0.1:8635]]
+2022-07-27 14:43:02,973 INFO  - T[] P[] M[] pool-2-thread-1 firebase.server.master.MasterNode - Resuming after processing role MTT_NODE from: mtt1[556069481[127.0.0.1:8635]]; Halt id: -832215826
+2022-07-27 14:43:02,973 INFO  - T[] P[] M[] main firebase.server.mtt.MttNode - Configuration found for node: mtt1 (null)
+2022-07-27 14:43:03,040 INFO  - T[] P[] M[] main firebase.server.gateway.GatewayNode - Starting Client Gateway (cli1) ...
+2022-07-27 14:43:03,040 INFO  - T[] P[] M[] main service.clientreg.state.StateClientRegistry - Client Registry is now managing the following nodes (added): [cli1]
+2022-07-27 14:43:03,043 INFO  - T[] P[] M[] main SYSLOG - NIO Server started at: /0.0.0.0:4123
+2022-07-27 14:43:03,053 INFO  - T[] P[] M[] main SYSLOG - System [Java HotSpot(TM) Client VM 25.141-b15; Windows 10 Windows 10 (x86)]
+2022-07-27 14:43:03,054 INFO  - T[] P[] M[] main SYSLOG - Server started [Wed Jul 27 14:43:03 ICT 2022]
+2022-07-27 14:43:03,054 INFO  - T[] P[] M[] main SYSLOG - Firebase Server Platform [version: 1.8.0-CE]
+2022-07-27 14:43:03,474 INFO  - T[] P[] M[] pool-2-thread-1 firebase.server.instance.ServerInstance - Resuming; Id: -832215826
+2022-07-27 14:43:18,440 INFO  - T[] P[] M[] qtp12334946-82 firebase.server.login.LoginManagerImpl - Created executor for TrivialLoginHandler with 30 threads.
+2022-07-27 15:00:23,560 INFO  - T[] P[] M[] main SYSLOG - Firebase Server Platform initializing; Server id: -2138132547
+2022-07-27 15:00:24,087 INFO  - T[] P[] M[] main firebase.server.statistics.StatisticsLevel - Statistics level for the system: PROFILING
+2022-07-27 15:00:24,209 WARN  - T[] P[] M[] main jboss.cache.transaction.GenericTransactionManagerLookup - Falling back to DummyTransactionManager from JBossCache
+2022-07-27 15:00:24,260 INFO  - T[] P[] M[] main service.systemstate.cache.SystemStateCacheHandler - SystemState repl Queue: false
+2022-07-27 15:00:24,270 INFO  - T[] P[] M[] main service.systemstate.cache.SystemStateCacheHandler - System State TreeCache service started.
+2022-07-27 15:00:24,344 WARN  - T[] P[] M[] main cubeia.service.crossdomain.FlashCrossDomainService - Unable to open config file, using defaults
+2022-07-27 15:00:24,368 INFO  - T[] P[] M[] main cubeia.service.crossdomain.FlashCrossDomainServer - Flash cross domain policy server listening on port 4122
+2022-07-27 15:00:24,473 INFO  - T[] P[] M[] main server.deployment.game.GameDeployment - New game revision created: v:1 resource:com.cubeia.firebase.server.deployment.resources.DeploymentFolderSet@1611043 def:tictactoe-game - id[888] class[com.cubeia.tutorial.tictactoe.game.GameImpl] activator[com.cubeia.tutorial.tictactoe.game.Activator] version[1.0-SNAPSHOT]
+2022-07-27 15:00:24,481 INFO  - T[] P[] M[] main SYSLOG - Deployed: tictactoe-game 1.0-SNAPSHOT; Internal ID: 888; Deployment Revision: 1
+2022-07-27 15:00:24,508 INFO  - T[] P[] M[] main SYSLOG - Master node 'mas1' initialized as [primary] master.
+2022-07-27 15:00:24,512 INFO  - T[] P[] M[] pool-2-thread-1 firebase.server.master.MasterNode - Received handshake for role GAME_NODE from id: gam1[-2138132547[127.0.0.1:8635]]; Halting
+2022-07-27 15:00:24,513 INFO  - T[] P[] M[] pool-2-thread-2 firebase.server.instance.ServerInstance - Halting; Id: -1588511491
+2022-07-27 15:00:24,514 INFO  - T[] P[] M[] pool-2-thread-1 firebase.server.master.MasterNode - Promoting node; Id: gam1; Role: GAME_NODE
+2022-07-27 15:00:24,518 INFO  - T[] P[] M[] pool-2-thread-2 server.lobby.systemstate.StateLobby - Lobby broadcast period set to: 2000
+2022-07-27 15:00:24,533 INFO  - T[] P[] M[] pool-2-thread-1 SYSLOG - Master node processed handshake for role GAME_NODE from id: gam1[-2138132547[127.0.0.1:8635]]
+2022-07-27 15:00:24,533 INFO  - T[] P[] M[] pool-2-thread-1 firebase.server.master.MasterNode - Resuming after processing role GAME_NODE from: gam1[-2138132547[127.0.0.1:8635]]; Halt id: -1588511491
+2022-07-27 15:00:24,535 INFO  - T[] P[] M[] main firebase.server.game.GameNode - Configuration found for node: gam1 (null)
+2022-07-27 15:00:24,550 INFO  - T[] P[] M[] pool-2-thread-1 firebase.server.master.MasterNode - Received handshake for role CLIENT_NODE from id: cli1[-2138132547[127.0.0.1:8635]]; Halting
+2022-07-27 15:00:24,550 INFO  - T[] P[] M[] pool-2-thread-1 firebase.server.master.MasterNode - Promoting node; Id: cli1; Role: CLIENT_NODE
+2022-07-27 15:00:24,552 INFO  - T[] P[] M[] pool-2-thread-2 firebase.server.gateway.GatewayNode - Configuration found for node: cli1 (null)
+2022-07-27 15:00:24,553 INFO  - T[] P[] M[] pool-2-thread-2 firebase.server.gateway.GatewayNode - This node has been promoted to coordinator. Starting ClientReaper.
+2022-07-27 15:00:24,555 INFO  - T[] P[] M[] pool-2-thread-1 SYSLOG - Master node processed handshake for role CLIENT_NODE from id: cli1[-2138132547[127.0.0.1:8635]]
+2022-07-27 15:00:24,555 INFO  - T[] P[] M[] pool-2-thread-1 firebase.server.master.MasterNode - Resuming after processing role CLIENT_NODE from: cli1[-2138132547[127.0.0.1:8635]]; Halt id: -1588603822
+2022-07-27 15:00:24,555 INFO  - T[] P[] M[] main firebase.server.gateway.GatewayNode - Init Client Gateway
+2022-07-27 15:00:24,555 INFO  - T[] P[] M[] main firebase.server.gateway.GatewayNode - Gateway ingoring minimum frequency protection
+2022-07-27 15:00:24,555 INFO  - T[] P[] M[] main firebase.server.gateway.GatewayNode - Gateway ingoring interval frequency protection
+2022-07-27 15:00:24,555 WARN  - T[] P[] M[] main firebase.server.gateway.GatewayNode - Gateway unprotected; Consider setting access frequency protection in the configuration.
+2022-07-27 15:00:24,627 INFO  - T[] P[] M[] main gateway.comm.jetty.JettyServer - Static content is served from: C:\Users\admin\Desktop\firebase_server\game\web
+2022-07-27 15:00:24,788 INFO  - T[] P[] M[] main SYSLOG - HTTP Server starting at: 0.0.0.0:8080; SSL configuration: Not Configured
+2022-07-27 15:00:24,791 INFO  - T[] P[] M[] pool-2-thread-1 firebase.server.master.MasterNode - Received handshake for role MTT_NODE from id: mtt1[-2138132547[127.0.0.1:8635]]; Halting
+2022-07-27 15:00:24,791 INFO  - T[] P[] M[] pool-2-thread-1 firebase.server.master.MasterNode - Promoting node; Id: mtt1; Role: MTT_NODE
+2022-07-27 15:00:24,791 INFO  - T[] P[] M[] pool-2-thread-1 SYSLOG - Master node processed handshake for role MTT_NODE from id: mtt1[-2138132547[127.0.0.1:8635]]
+2022-07-27 15:00:24,791 INFO  - T[] P[] M[] pool-2-thread-1 firebase.server.master.MasterNode - Resuming after processing role MTT_NODE from: mtt1[-2138132547[127.0.0.1:8635]]; Halt id: -1588446873
+2022-07-27 15:00:24,791 INFO  - T[] P[] M[] main firebase.server.mtt.MttNode - Configuration found for node: mtt1 (null)
+2022-07-27 15:00:24,853 INFO  - T[] P[] M[] main firebase.server.gateway.GatewayNode - Starting Client Gateway (cli1) ...
+2022-07-27 15:00:24,853 INFO  - T[] P[] M[] main service.clientreg.state.StateClientRegistry - Client Registry is now managing the following nodes (added): [cli1]
+2022-07-27 15:00:24,857 INFO  - T[] P[] M[] main SYSLOG - NIO Server started at: /0.0.0.0:4123
+2022-07-27 15:00:24,867 INFO  - T[] P[] M[] main SYSLOG - System [Java HotSpot(TM) Client VM 25.141-b15; Windows 10 Windows 10 (x86)]
+2022-07-27 15:00:24,868 INFO  - T[] P[] M[] main SYSLOG - Server started [Wed Jul 27 15:00:24 ICT 2022]
+2022-07-27 15:00:24,868 INFO  - T[] P[] M[] main SYSLOG - Firebase Server Platform [version: 1.8.0-CE]
+2022-07-27 15:00:25,295 INFO  - T[] P[] M[] pool-2-thread-1 firebase.server.instance.ServerInstance - Resuming; Id: -1588446873
+2022-07-27 15:00:34,399 INFO  - T[] P[] M[] qtp12334946-81 firebase.server.login.LoginManagerImpl - Created executor for TrivialLoginHandler with 30 threads.
+2022-07-27 15:19:01,499 INFO  - T[] P[] M[] main SYSLOG - Firebase Server Platform initializing; Server id: 2093310010
+2022-07-27 15:19:02,030 INFO  - T[] P[] M[] main firebase.server.statistics.StatisticsLevel - Statistics level for the system: PROFILING
+2022-07-27 15:19:02,148 WARN  - T[] P[] M[] main jboss.cache.transaction.GenericTransactionManagerLookup - Falling back to DummyTransactionManager from JBossCache
+2022-07-27 15:19:02,200 INFO  - T[] P[] M[] main service.systemstate.cache.SystemStateCacheHandler - SystemState repl Queue: false
+2022-07-27 15:19:02,210 INFO  - T[] P[] M[] main service.systemstate.cache.SystemStateCacheHandler - System State TreeCache service started.
+2022-07-27 15:19:02,286 WARN  - T[] P[] M[] main cubeia.service.crossdomain.FlashCrossDomainService - Unable to open config file, using defaults
+2022-07-27 15:19:02,311 INFO  - T[] P[] M[] main cubeia.service.crossdomain.FlashCrossDomainServer - Flash cross domain policy server listening on port 4122
+2022-07-27 15:19:02,406 INFO  - T[] P[] M[] main server.deployment.game.GameDeployment - New game revision created: v:1 resource:com.cubeia.firebase.server.deployment.resources.DeploymentFolderSet@1611043 def:tictactoe-game - id[888] class[com.cubeia.tutorial.tictactoe.game.GameImpl] activator[com.cubeia.tutorial.tictactoe.game.Activator] version[1.0-SNAPSHOT]
+2022-07-27 15:19:02,414 INFO  - T[] P[] M[] main SYSLOG - Deployed: tictactoe-game 1.0-SNAPSHOT; Internal ID: 888; Deployment Revision: 1
+2022-07-27 15:19:02,443 INFO  - T[] P[] M[] main SYSLOG - Master node 'mas1' initialized as [primary] master.
+2022-07-27 15:19:02,448 INFO  - T[] P[] M[] pool-2-thread-1 firebase.server.master.MasterNode - Received handshake for role GAME_NODE from id: gam1[2093310010[127.0.0.1:8635]]; Halting
+2022-07-27 15:19:02,448 INFO  - T[] P[] M[] pool-2-thread-2 firebase.server.instance.ServerInstance - Halting; Id: -120746671
+2022-07-27 15:19:02,450 INFO  - T[] P[] M[] pool-2-thread-1 firebase.server.master.MasterNode - Promoting node; Id: gam1; Role: GAME_NODE
+2022-07-27 15:19:02,454 INFO  - T[] P[] M[] pool-2-thread-2 server.lobby.systemstate.StateLobby - Lobby broadcast period set to: 2000
+2022-07-27 15:19:02,470 INFO  - T[] P[] M[] pool-2-thread-1 SYSLOG - Master node processed handshake for role GAME_NODE from id: gam1[2093310010[127.0.0.1:8635]]
+2022-07-27 15:19:02,471 INFO  - T[] P[] M[] pool-2-thread-1 firebase.server.master.MasterNode - Resuming after processing role GAME_NODE from: gam1[2093310010[127.0.0.1:8635]]; Halt id: -120746671
+2022-07-27 15:19:02,472 INFO  - T[] P[] M[] main firebase.server.game.GameNode - Configuration found for node: gam1 (null)
+2022-07-27 15:19:02,488 INFO  - T[] P[] M[] pool-2-thread-1 firebase.server.master.MasterNode - Received handshake for role CLIENT_NODE from id: cli1[2093310010[127.0.0.1:8635]]; Halting
+2022-07-27 15:19:02,488 INFO  - T[] P[] M[] pool-2-thread-1 firebase.server.master.MasterNode - Promoting node; Id: cli1; Role: CLIENT_NODE
+2022-07-27 15:19:02,490 INFO  - T[] P[] M[] pool-2-thread-2 firebase.server.gateway.GatewayNode - Configuration found for node: cli1 (null)
+2022-07-27 15:19:02,490 INFO  - T[] P[] M[] pool-2-thread-2 firebase.server.gateway.GatewayNode - This node has been promoted to coordinator. Starting ClientReaper.
+2022-07-27 15:19:02,492 INFO  - T[] P[] M[] pool-2-thread-1 SYSLOG - Master node processed handshake for role CLIENT_NODE from id: cli1[2093310010[127.0.0.1:8635]]
+2022-07-27 15:19:02,492 INFO  - T[] P[] M[] pool-2-thread-1 firebase.server.master.MasterNode - Resuming after processing role CLIENT_NODE from: cli1[2093310010[127.0.0.1:8635]]; Halt id: -120363522
+2022-07-27 15:19:02,492 INFO  - T[] P[] M[] main firebase.server.gateway.GatewayNode - Init Client Gateway
+2022-07-27 15:19:02,492 INFO  - T[] P[] M[] main firebase.server.gateway.GatewayNode - Gateway ingoring minimum frequency protection
+2022-07-27 15:19:02,492 INFO  - T[] P[] M[] main firebase.server.gateway.GatewayNode - Gateway ingoring interval frequency protection
+2022-07-27 15:19:02,492 WARN  - T[] P[] M[] main firebase.server.gateway.GatewayNode - Gateway unprotected; Consider setting access frequency protection in the configuration.
+2022-07-27 15:19:02,568 INFO  - T[] P[] M[] main gateway.comm.jetty.JettyServer - Static content is served from: C:\Users\admin\Desktop\firebase_server\game\web
+2022-07-27 15:19:02,743 INFO  - T[] P[] M[] main SYSLOG - HTTP Server starting at: 0.0.0.0:8080; SSL configuration: Not Configured
+2022-07-27 15:19:02,745 INFO  - T[] P[] M[] pool-2-thread-1 firebase.server.master.MasterNode - Received handshake for role MTT_NODE from id: mtt1[2093310010[127.0.0.1:8635]]; Halting
+2022-07-27 15:19:02,746 INFO  - T[] P[] M[] pool-2-thread-1 firebase.server.master.MasterNode - Promoting node; Id: mtt1; Role: MTT_NODE
+2022-07-27 15:19:02,746 INFO  - T[] P[] M[] pool-2-thread-1 SYSLOG - Master node processed handshake for role MTT_NODE from id: mtt1[2093310010[127.0.0.1:8635]]
+2022-07-27 15:19:02,746 INFO  - T[] P[] M[] pool-2-thread-1 firebase.server.master.MasterNode - Resuming after processing role MTT_NODE from: mtt1[2093310010[127.0.0.1:8635]]; Halt id: -120682293
+2022-07-27 15:19:02,746 INFO  - T[] P[] M[] main firebase.server.mtt.MttNode - Configuration found for node: mtt1 (null)
+2022-07-27 15:19:02,815 INFO  - T[] P[] M[] main firebase.server.gateway.GatewayNode - Starting Client Gateway (cli1) ...
+2022-07-27 15:19:02,815 INFO  - T[] P[] M[] main service.clientreg.state.StateClientRegistry - Client Registry is now managing the following nodes (added): [cli1]
+2022-07-27 15:19:02,819 INFO  - T[] P[] M[] main SYSLOG - NIO Server started at: /0.0.0.0:4123
+2022-07-27 15:19:02,830 INFO  - T[] P[] M[] main SYSLOG - System [Java HotSpot(TM) Client VM 25.141-b15; Windows 10 Windows 10 (x86)]
+2022-07-27 15:19:02,831 INFO  - T[] P[] M[] main SYSLOG - Server started [Wed Jul 27 15:19:02 ICT 2022]
+2022-07-27 15:19:02,831 INFO  - T[] P[] M[] main SYSLOG - Firebase Server Platform [version: 1.8.0-CE]
+2022-07-27 15:19:03,259 INFO  - T[] P[] M[] pool-2-thread-1 firebase.server.instance.ServerInstance - Resuming; Id: -120682293
+2022-07-27 15:19:09,565 INFO  - T[] P[] M[] qtp12334946-78 firebase.server.login.LoginManagerImpl - Created executor for TrivialLoginHandler with 30 threads.
+2022-07-27 15:26:29,176 INFO  - T[] P[] M[] pool-1-thread-1 server.deployment.game.GameDeploymentHandler - Redeploying Game Archive: tictactoe-game-1.0-SNAPSHOT
+2022-07-27 15:26:29,226 INFO  - T[] P[] M[] pool-1-thread-1 server.deployment.game.GameDeployment - New game revision created: v:2 resource:com.cubeia.firebase.server.deployment.resources.DeploymentFolderSet@16ae345 def:tictactoe-game - id[888] class[com.cubeia.tutorial.tictactoe.game.GameImpl] activator[com.cubeia.tutorial.tictactoe.game.Activator] version[1.0-SNAPSHOT]
+2022-07-27 15:26:29,226 INFO  - T[] P[] M[] pool-1-thread-1 SYSLOG - Deployed: tictactoe-game 1.0-SNAPSHOT; Internal ID: 888; Deployment Revision: 2
+2022-07-27 15:26:41,000 INFO  - T[] P[] M[] main SYSLOG - Firebase Server Platform initializing; Server id: -1779185701
+2022-07-27 15:26:41,541 INFO  - T[] P[] M[] main firebase.server.statistics.StatisticsLevel - Statistics level for the system: PROFILING
+2022-07-27 15:26:41,662 WARN  - T[] P[] M[] main jboss.cache.transaction.GenericTransactionManagerLookup - Falling back to DummyTransactionManager from JBossCache
+2022-07-27 15:26:41,714 INFO  - T[] P[] M[] main service.systemstate.cache.SystemStateCacheHandler - SystemState repl Queue: false
+2022-07-27 15:26:41,725 INFO  - T[] P[] M[] main service.systemstate.cache.SystemStateCacheHandler - System State TreeCache service started.
+2022-07-27 15:26:41,802 WARN  - T[] P[] M[] main cubeia.service.crossdomain.FlashCrossDomainService - Unable to open config file, using defaults
+2022-07-27 15:26:41,827 INFO  - T[] P[] M[] main cubeia.service.crossdomain.FlashCrossDomainServer - Flash cross domain policy server listening on port 4122
+2022-07-27 15:26:41,934 INFO  - T[] P[] M[] main server.deployment.game.GameDeployment - New game revision created: v:1 resource:com.cubeia.firebase.server.deployment.resources.DeploymentFolderSet@1611043 def:tictactoe-game - id[888] class[com.cubeia.tutorial.tictactoe.game.GameImpl] activator[com.cubeia.tutorial.tictactoe.game.Activator] version[1.0-SNAPSHOT]
+2022-07-27 15:26:41,941 INFO  - T[] P[] M[] main SYSLOG - Deployed: tictactoe-game 1.0-SNAPSHOT; Internal ID: 888; Deployment Revision: 1
+2022-07-27 15:26:41,969 INFO  - T[] P[] M[] main SYSLOG - Master node 'mas1' initialized as [primary] master.
+2022-07-27 15:26:41,973 INFO  - T[] P[] M[] pool-2-thread-1 firebase.server.master.MasterNode - Received handshake for role GAME_NODE from id: gam1[-1779185701[127.0.0.1:8635]]; Halting
+2022-07-27 15:26:41,973 INFO  - T[] P[] M[] pool-2-thread-2 firebase.server.instance.ServerInstance - Halting; Id: 1196761659
+2022-07-27 15:26:41,975 INFO  - T[] P[] M[] pool-2-thread-1 firebase.server.master.MasterNode - Promoting node; Id: gam1; Role: GAME_NODE
+2022-07-27 15:26:41,979 INFO  - T[] P[] M[] pool-2-thread-2 server.lobby.systemstate.StateLobby - Lobby broadcast period set to: 2000
+2022-07-27 15:26:41,994 INFO  - T[] P[] M[] pool-2-thread-1 SYSLOG - Master node processed handshake for role GAME_NODE from id: gam1[-1779185701[127.0.0.1:8635]]
+2022-07-27 15:26:41,995 INFO  - T[] P[] M[] pool-2-thread-1 firebase.server.master.MasterNode - Resuming after processing role GAME_NODE from: gam1[-1779185701[127.0.0.1:8635]]; Halt id: 1196761659
+2022-07-27 15:26:41,996 INFO  - T[] P[] M[] main firebase.server.game.GameNode - Configuration found for node: gam1 (null)
+2022-07-27 15:26:42,014 INFO  - T[] P[] M[] pool-2-thread-1 firebase.server.master.MasterNode - Received handshake for role CLIENT_NODE from id: cli1[-1779185701[127.0.0.1:8635]]; Halting
+2022-07-27 15:26:42,014 INFO  - T[] P[] M[] pool-2-thread-1 firebase.server.master.MasterNode - Promoting node; Id: cli1; Role: CLIENT_NODE
+2022-07-27 15:26:42,015 INFO  - T[] P[] M[] pool-2-thread-2 firebase.server.gateway.GatewayNode - Configuration found for node: cli1 (null)
+2022-07-27 15:26:42,016 INFO  - T[] P[] M[] pool-2-thread-2 firebase.server.gateway.GatewayNode - This node has been promoted to coordinator. Starting ClientReaper.
+2022-07-27 15:26:42,018 INFO  - T[] P[] M[] pool-2-thread-1 SYSLOG - Master node processed handshake for role CLIENT_NODE from id: cli1[-1779185701[127.0.0.1:8635]]
+2022-07-27 15:26:42,018 INFO  - T[] P[] M[] pool-2-thread-1 firebase.server.master.MasterNode - Resuming after processing role CLIENT_NODE from: cli1[-1779185701[127.0.0.1:8635]]; Halt id: 1196149396
+2022-07-27 15:26:42,019 INFO  - T[] P[] M[] main firebase.server.gateway.GatewayNode - Init Client Gateway
+2022-07-27 15:26:42,019 INFO  - T[] P[] M[] main firebase.server.gateway.GatewayNode - Gateway ingoring minimum frequency protection
+2022-07-27 15:26:42,019 INFO  - T[] P[] M[] main firebase.server.gateway.GatewayNode - Gateway ingoring interval frequency protection
+2022-07-27 15:26:42,019 WARN  - T[] P[] M[] main firebase.server.gateway.GatewayNode - Gateway unprotected; Consider setting access frequency protection in the configuration.
+2022-07-27 15:26:42,089 INFO  - T[] P[] M[] main gateway.comm.jetty.JettyServer - Static content is served from: C:\Users\admin\Desktop\firebase_server\game\web
+2022-07-27 15:26:42,259 INFO  - T[] P[] M[] main SYSLOG - HTTP Server starting at: 0.0.0.0:8080; SSL configuration: Not Configured
+2022-07-27 15:26:42,264 INFO  - T[] P[] M[] pool-2-thread-1 firebase.server.master.MasterNode - Received handshake for role MTT_NODE from id: mtt1[-1779185701[127.0.0.1:8635]]; Halting
+2022-07-27 15:26:42,264 INFO  - T[] P[] M[] pool-2-thread-1 firebase.server.master.MasterNode - Promoting node; Id: mtt1; Role: MTT_NODE
+2022-07-27 15:26:42,264 INFO  - T[] P[] M[] pool-2-thread-1 SYSLOG - Master node processed handshake for role MTT_NODE from id: mtt1[-1779185701[127.0.0.1:8635]]
+2022-07-27 15:26:42,264 INFO  - T[] P[] M[] pool-2-thread-1 firebase.server.master.MasterNode - Resuming after processing role MTT_NODE from: mtt1[-1779185701[127.0.0.1:8635]]; Halt id: 1196828577
+2022-07-27 15:26:42,265 INFO  - T[] P[] M[] main firebase.server.mtt.MttNode - Configuration found for node: mtt1 (null)
+2022-07-27 15:26:42,332 INFO  - T[] P[] M[] main firebase.server.gateway.GatewayNode - Starting Client Gateway (cli1) ...
+2022-07-27 15:26:42,332 INFO  - T[] P[] M[] main service.clientreg.state.StateClientRegistry - Client Registry is now managing the following nodes (added): [cli1]
+2022-07-27 15:26:42,335 INFO  - T[] P[] M[] main SYSLOG - NIO Server started at: /0.0.0.0:4123
+2022-07-27 15:26:42,345 INFO  - T[] P[] M[] main SYSLOG - System [Java HotSpot(TM) Client VM 25.141-b15; Windows 10 Windows 10 (x86)]
+2022-07-27 15:26:42,346 INFO  - T[] P[] M[] main SYSLOG - Server started [Wed Jul 27 15:26:42 ICT 2022]
+2022-07-27 15:26:42,346 INFO  - T[] P[] M[] main SYSLOG - Firebase Server Platform [version: 1.8.0-CE]
+2022-07-27 15:26:42,769 INFO  - T[] P[] M[] pool-2-thread-1 firebase.server.instance.ServerInstance - Resuming; Id: 1196828577
+2022-07-27 15:26:48,476 INFO  - T[] P[] M[] qtp12334946-81 firebase.server.login.LoginManagerImpl - Created executor for TrivialLoginHandler with 30 threads.
+2022-07-27 15:52:24,036 INFO  - T[] P[] M[] pool-1-thread-1 server.deployment.game.GameDeploymentHandler - Redeploying Game Archive: tictactoe-game-1.0-SNAPSHOT
+2022-07-27 15:52:24,086 INFO  - T[] P[] M[] pool-1-thread-1 server.deployment.game.GameDeployment - New game revision created: v:2 resource:com.cubeia.firebase.server.deployment.resources.DeploymentFolderSet@884f75 def:tictactoe-game - id[888] class[com.cubeia.tutorial.tictactoe.game.GameImpl] activator[com.cubeia.tutorial.tictactoe.game.Activator] version[1.0-SNAPSHOT]
+2022-07-27 15:52:24,086 INFO  - T[] P[] M[] pool-1-thread-1 SYSLOG - Deployed: tictactoe-game 1.0-SNAPSHOT; Internal ID: 888; Deployment Revision: 2
+2022-07-27 15:52:36,496 INFO  - T[] P[] M[] main SYSLOG - Firebase Server Platform initializing; Server id: -903336495
+2022-07-27 15:52:37,050 INFO  - T[] P[] M[] main firebase.server.statistics.StatisticsLevel - Statistics level for the system: PROFILING
+2022-07-27 15:52:37,168 WARN  - T[] P[] M[] main jboss.cache.transaction.GenericTransactionManagerLookup - Falling back to DummyTransactionManager from JBossCache
+2022-07-27 15:52:37,220 INFO  - T[] P[] M[] main service.systemstate.cache.SystemStateCacheHandler - SystemState repl Queue: false
+2022-07-27 15:52:37,229 INFO  - T[] P[] M[] main service.systemstate.cache.SystemStateCacheHandler - System State TreeCache service started.
+2022-07-27 15:52:37,306 WARN  - T[] P[] M[] main cubeia.service.crossdomain.FlashCrossDomainService - Unable to open config file, using defaults
+2022-07-27 15:52:37,331 INFO  - T[] P[] M[] main cubeia.service.crossdomain.FlashCrossDomainServer - Flash cross domain policy server listening on port 4122
+2022-07-27 15:52:37,442 INFO  - T[] P[] M[] main server.deployment.game.GameDeployment - New game revision created: v:1 resource:com.cubeia.firebase.server.deployment.resources.DeploymentFolderSet@1611043 def:tictactoe-game - id[888] class[com.cubeia.tutorial.tictactoe.game.GameImpl] activator[com.cubeia.tutorial.tictactoe.game.Activator] version[1.0-SNAPSHOT]
+2022-07-27 15:52:37,449 INFO  - T[] P[] M[] main SYSLOG - Deployed: tictactoe-game 1.0-SNAPSHOT; Internal ID: 888; Deployment Revision: 1
+2022-07-27 15:52:37,478 INFO  - T[] P[] M[] main SYSLOG - Master node 'mas1' initialized as [primary] master.
+2022-07-27 15:52:37,482 INFO  - T[] P[] M[] pool-2-thread-1 firebase.server.master.MasterNode - Received handshake for role GAME_NODE from id: gam1[-903336495[127.0.0.1:8635]]; Halting
+2022-07-27 15:52:37,483 INFO  - T[] P[] M[] pool-2-thread-2 firebase.server.instance.ServerInstance - Halting; Id: 756716589
+2022-07-27 15:52:37,484 INFO  - T[] P[] M[] pool-2-thread-1 firebase.server.master.MasterNode - Promoting node; Id: gam1; Role: GAME_NODE
+2022-07-27 15:52:37,488 INFO  - T[] P[] M[] pool-2-thread-2 server.lobby.systemstate.StateLobby - Lobby broadcast period set to: 2000
+2022-07-27 15:52:37,505 INFO  - T[] P[] M[] pool-2-thread-1 SYSLOG - Master node processed handshake for role GAME_NODE from id: gam1[-903336495[127.0.0.1:8635]]
+2022-07-27 15:52:37,506 INFO  - T[] P[] M[] pool-2-thread-1 firebase.server.master.MasterNode - Resuming after processing role GAME_NODE from: gam1[-903336495[127.0.0.1:8635]]; Halt id: 756716589
+2022-07-27 15:52:37,507 INFO  - T[] P[] M[] main firebase.server.game.GameNode - Configuration found for node: gam1 (null)
+2022-07-27 15:52:37,527 INFO  - T[] P[] M[] pool-2-thread-1 firebase.server.master.MasterNode - Received handshake for role CLIENT_NODE from id: cli1[-903336495[127.0.0.1:8635]]; Halting
+2022-07-27 15:52:37,527 INFO  - T[] P[] M[] pool-2-thread-1 firebase.server.master.MasterNode - Promoting node; Id: cli1; Role: CLIENT_NODE
+2022-07-27 15:52:37,528 INFO  - T[] P[] M[] pool-2-thread-2 firebase.server.gateway.GatewayNode - Configuration found for node: cli1 (null)
+2022-07-27 15:52:37,529 INFO  - T[] P[] M[] pool-2-thread-2 firebase.server.gateway.GatewayNode - This node has been promoted to coordinator. Starting ClientReaper.
+2022-07-27 15:52:37,531 INFO  - T[] P[] M[] pool-2-thread-1 SYSLOG - Master node processed handshake for role CLIENT_NODE from id: cli1[-903336495[127.0.0.1:8635]]
+2022-07-27 15:52:37,531 INFO  - T[] P[] M[] pool-2-thread-1 firebase.server.master.MasterNode - Resuming after processing role CLIENT_NODE from: cli1[-903336495[127.0.0.1:8635]]; Halt id: 755268738
+2022-07-27 15:52:37,531 INFO  - T[] P[] M[] main firebase.server.gateway.GatewayNode - Init Client Gateway
+2022-07-27 15:52:37,531 INFO  - T[] P[] M[] main firebase.server.gateway.GatewayNode - Gateway ingoring minimum frequency protection
+2022-07-27 15:52:37,531 INFO  - T[] P[] M[] main firebase.server.gateway.GatewayNode - Gateway ingoring interval frequency protection
+2022-07-27 15:52:37,531 WARN  - T[] P[] M[] main firebase.server.gateway.GatewayNode - Gateway unprotected; Consider setting access frequency protection in the configuration.
+2022-07-27 15:52:37,612 INFO  - T[] P[] M[] main gateway.comm.jetty.JettyServer - Static content is served from: C:\Users\admin\Desktop\firebase_server\game\web
+2022-07-27 15:52:37,785 INFO  - T[] P[] M[] main SYSLOG - HTTP Server starting at: 0.0.0.0:8080; SSL configuration: Not Configured
+2022-07-27 15:52:37,788 INFO  - T[] P[] M[] pool-2-thread-1 firebase.server.master.MasterNode - Received handshake for role MTT_NODE from id: mtt1[-903336495[127.0.0.1:8635]]; Halting
+2022-07-27 15:52:37,789 INFO  - T[] P[] M[] pool-2-thread-1 firebase.server.master.MasterNode - Promoting node; Id: mtt1; Role: MTT_NODE
+2022-07-27 15:52:37,789 INFO  - T[] P[] M[] pool-2-thread-1 SYSLOG - Master node processed handshake for role MTT_NODE from id: mtt1[-903336495[127.0.0.1:8635]]
+2022-07-27 15:52:37,789 INFO  - T[] P[] M[] pool-2-thread-1 firebase.server.master.MasterNode - Resuming after processing role MTT_NODE from: mtt1[-903336495[127.0.0.1:8635]]; Halt id: 756650423
+2022-07-27 15:52:37,790 INFO  - T[] P[] M[] main firebase.server.mtt.MttNode - Configuration found for node: mtt1 (null)
+2022-07-27 15:52:37,865 INFO  - T[] P[] M[] main firebase.server.gateway.GatewayNode - Starting Client Gateway (cli1) ...
+2022-07-27 15:52:37,866 INFO  - T[] P[] M[] main service.clientreg.state.StateClientRegistry - Client Registry is now managing the following nodes (added): [cli1]
+2022-07-27 15:52:37,869 INFO  - T[] P[] M[] main SYSLOG - NIO Server started at: /0.0.0.0:4123
+2022-07-27 15:52:37,880 INFO  - T[] P[] M[] main SYSLOG - System [Java HotSpot(TM) Client VM 25.141-b15; Windows 10 Windows 10 (x86)]
+2022-07-27 15:52:37,882 INFO  - T[] P[] M[] main SYSLOG - Server started [Wed Jul 27 15:52:37 ICT 2022]
+2022-07-27 15:52:37,882 INFO  - T[] P[] M[] main SYSLOG - Firebase Server Platform [version: 1.8.0-CE]
+2022-07-27 15:52:38,303 INFO  - T[] P[] M[] pool-2-thread-1 firebase.server.instance.ServerInstance - Resuming; Id: 756650423
+2022-07-27 15:52:47,713 INFO  - T[] P[] M[] qtp12334946-82 firebase.server.login.LoginManagerImpl - Created executor for TrivialLoginHandler with 30 threads.
+2022-07-27 17:00:49,643 INFO  - T[] P[] M[] main SYSLOG - Firebase Server Platform initializing; Server id: 2108084177
+2022-07-27 17:00:50,186 INFO  - T[] P[] M[] main firebase.server.statistics.StatisticsLevel - Statistics level for the system: PROFILING
+2022-07-27 17:00:50,307 WARN  - T[] P[] M[] main jboss.cache.transaction.GenericTransactionManagerLookup - Falling back to DummyTransactionManager from JBossCache
+2022-07-27 17:00:50,358 INFO  - T[] P[] M[] main service.systemstate.cache.SystemStateCacheHandler - SystemState repl Queue: false
+2022-07-27 17:00:50,368 INFO  - T[] P[] M[] main service.systemstate.cache.SystemStateCacheHandler - System State TreeCache service started.
+2022-07-27 17:00:50,442 WARN  - T[] P[] M[] main cubeia.service.crossdomain.FlashCrossDomainService - Unable to open config file, using defaults
+2022-07-27 17:00:50,468 INFO  - T[] P[] M[] main cubeia.service.crossdomain.FlashCrossDomainServer - Flash cross domain policy server listening on port 4122
+2022-07-27 17:00:50,576 INFO  - T[] P[] M[] main server.deployment.game.GameDeployment - New game revision created: v:1 resource:com.cubeia.firebase.server.deployment.resources.DeploymentFolderSet@1611043 def:tictactoe-game - id[888] class[com.cubeia.tutorial.tictactoe.game.GameImpl] activator[com.cubeia.tutorial.tictactoe.game.Activator] version[1.0-SNAPSHOT]
+2022-07-27 17:00:50,584 INFO  - T[] P[] M[] main SYSLOG - Deployed: tictactoe-game 1.0-SNAPSHOT; Internal ID: 888; Deployment Revision: 1
+2022-07-27 17:00:50,611 INFO  - T[] P[] M[] main SYSLOG - Master node 'mas1' initialized as [primary] master.
+2022-07-27 17:00:50,615 INFO  - T[] P[] M[] pool-2-thread-1 firebase.server.master.MasterNode - Received handshake for role GAME_NODE from id: gam1[2108084177[127.0.0.1:8635]]; Halting
+2022-07-27 17:00:50,615 INFO  - T[] P[] M[] pool-2-thread-2 firebase.server.instance.ServerInstance - Halting; Id: 103592296
+2022-07-27 17:00:50,617 INFO  - T[] P[] M[] pool-2-thread-1 firebase.server.master.MasterNode - Promoting node; Id: gam1; Role: GAME_NODE
+2022-07-27 17:00:50,621 INFO  - T[] P[] M[] pool-2-thread-2 server.lobby.systemstate.StateLobby - Lobby broadcast period set to: 2000
+2022-07-27 17:00:50,637 INFO  - T[] P[] M[] pool-2-thread-1 SYSLOG - Master node processed handshake for role GAME_NODE from id: gam1[2108084177[127.0.0.1:8635]]
+2022-07-27 17:00:50,637 INFO  - T[] P[] M[] pool-2-thread-1 firebase.server.master.MasterNode - Resuming after processing role GAME_NODE from: gam1[2108084177[127.0.0.1:8635]]; Halt id: 103592296
+2022-07-27 17:00:50,638 INFO  - T[] P[] M[] main firebase.server.game.GameNode - Configuration found for node: gam1 (null)
+2022-07-27 17:00:50,657 INFO  - T[] P[] M[] pool-2-thread-1 firebase.server.master.MasterNode - Received handshake for role CLIENT_NODE from id: cli1[2108084177[127.0.0.1:8635]]; Halting
+2022-07-27 17:00:50,658 INFO  - T[] P[] M[] pool-2-thread-1 firebase.server.master.MasterNode - Promoting node; Id: cli1; Role: CLIENT_NODE
+2022-07-27 17:00:50,660 INFO  - T[] P[] M[] pool-2-thread-2 firebase.server.gateway.GatewayNode - Configuration found for node: cli1 (null)
+2022-07-27 17:00:50,660 INFO  - T[] P[] M[] pool-2-thread-2 firebase.server.gateway.GatewayNode - This node has been promoted to coordinator. Starting ClientReaper.
+2022-07-27 17:00:50,662 INFO  - T[] P[] M[] pool-2-thread-1 SYSLOG - Master node processed handshake for role CLIENT_NODE from id: cli1[2108084177[127.0.0.1:8635]]
+2022-07-27 17:00:50,662 INFO  - T[] P[] M[] pool-2-thread-1 firebase.server.master.MasterNode - Resuming after processing role CLIENT_NODE from: cli1[2108084177[127.0.0.1:8635]]; Halt id: 103963079
+2022-07-27 17:00:50,662 INFO  - T[] P[] M[] main firebase.server.gateway.GatewayNode - Init Client Gateway
+2022-07-27 17:00:50,662 INFO  - T[] P[] M[] main firebase.server.gateway.GatewayNode - Gateway ingoring minimum frequency protection
+2022-07-27 17:00:50,662 INFO  - T[] P[] M[] main firebase.server.gateway.GatewayNode - Gateway ingoring interval frequency protection
+2022-07-27 17:00:50,663 WARN  - T[] P[] M[] main firebase.server.gateway.GatewayNode - Gateway unprotected; Consider setting access frequency protection in the configuration.
+2022-07-27 17:00:50,736 INFO  - T[] P[] M[] main gateway.comm.jetty.JettyServer - Static content is served from: C:\Users\admin\Desktop\firebase_server\game\web
+2022-07-27 17:00:50,905 INFO  - T[] P[] M[] main SYSLOG - HTTP Server starting at: 0.0.0.0:8080; SSL configuration: Not Configured
+2022-07-27 17:00:50,907 INFO  - T[] P[] M[] pool-2-thread-1 firebase.server.master.MasterNode - Received handshake for role MTT_NODE from id: mtt1[2108084177[127.0.0.1:8635]]; Halting
+2022-07-27 17:00:50,908 INFO  - T[] P[] M[] pool-2-thread-1 firebase.server.master.MasterNode - Promoting node; Id: mtt1; Role: MTT_NODE
+2022-07-27 17:00:50,908 INFO  - T[] P[] M[] pool-2-thread-1 SYSLOG - Master node processed handshake for role MTT_NODE from id: mtt1[2108084177[127.0.0.1:8635]]
+2022-07-27 17:00:50,909 INFO  - T[] P[] M[] pool-2-thread-1 firebase.server.master.MasterNode - Resuming after processing role MTT_NODE from: mtt1[2108084177[127.0.0.1:8635]]; Halt id: 103789810
+2022-07-27 17:00:50,909 INFO  - T[] P[] M[] main firebase.server.mtt.MttNode - Configuration found for node: mtt1 (null)
+2022-07-27 17:00:50,977 INFO  - T[] P[] M[] main firebase.server.gateway.GatewayNode - Starting Client Gateway (cli1) ...
+2022-07-27 17:00:50,977 INFO  - T[] P[] M[] main service.clientreg.state.StateClientRegistry - Client Registry is now managing the following nodes (added): [cli1]
+2022-07-27 17:00:50,981 INFO  - T[] P[] M[] main SYSLOG - NIO Server started at: /0.0.0.0:4123
+2022-07-27 17:00:50,990 INFO  - T[] P[] M[] main SYSLOG - System [Java HotSpot(TM) Client VM 25.141-b15; Windows 10 Windows 10 (x86)]
+2022-07-27 17:00:50,992 INFO  - T[] P[] M[] main SYSLOG - Server started [Wed Jul 27 17:00:50 ICT 2022]
+2022-07-27 17:00:50,993 INFO  - T[] P[] M[] main SYSLOG - Firebase Server Platform [version: 1.8.0-CE]
+2022-07-27 17:00:51,418 INFO  - T[] P[] M[] pool-2-thread-1 firebase.server.instance.ServerInstance - Resuming; Id: 103789810
+2022-07-27 17:01:03,267 INFO  - T[] P[] M[] qtp12334946-82 firebase.server.login.LoginManagerImpl - Created executor for TrivialLoginHandler with 30 threads.
+2022-07-27 17:10:51,964 INFO  - T[] P[] M[] main SYSLOG - Firebase Server Platform initializing; Server id: -1550448553
+2022-07-27 17:10:52,515 INFO  - T[] P[] M[] main firebase.server.statistics.StatisticsLevel - Statistics level for the system: PROFILING
+2022-07-27 17:10:52,637 WARN  - T[] P[] M[] main jboss.cache.transaction.GenericTransactionManagerLookup - Falling back to DummyTransactionManager from JBossCache
+2022-07-27 17:10:52,690 INFO  - T[] P[] M[] main service.systemstate.cache.SystemStateCacheHandler - SystemState repl Queue: false
+2022-07-27 17:10:52,700 INFO  - T[] P[] M[] main service.systemstate.cache.SystemStateCacheHandler - System State TreeCache service started.
+2022-07-27 17:10:52,775 WARN  - T[] P[] M[] main cubeia.service.crossdomain.FlashCrossDomainService - Unable to open config file, using defaults
+2022-07-27 17:10:52,799 INFO  - T[] P[] M[] main cubeia.service.crossdomain.FlashCrossDomainServer - Flash cross domain policy server listening on port 4122
+2022-07-27 17:10:52,905 INFO  - T[] P[] M[] main server.deployment.game.GameDeployment - New game revision created: v:1 resource:com.cubeia.firebase.server.deployment.resources.DeploymentFolderSet@1611043 def:tictactoe-game - id[888] class[com.cubeia.tutorial.tictactoe.game.GameImpl] activator[com.cubeia.tutorial.tictactoe.game.Activator] version[1.0-SNAPSHOT]
+2022-07-27 17:10:52,912 INFO  - T[] P[] M[] main SYSLOG - Deployed: tictactoe-game 1.0-SNAPSHOT; Internal ID: 888; Deployment Revision: 1
+2022-07-27 17:10:52,939 INFO  - T[] P[] M[] main SYSLOG - Master node 'mas1' initialized as [primary] master.
+2022-07-27 17:10:52,943 INFO  - T[] P[] M[] pool-2-thread-1 firebase.server.master.MasterNode - Received handshake for role GAME_NODE from id: gam1[-1550448553[127.0.0.1:8635]]; Halting
+2022-07-27 17:10:52,944 INFO  - T[] P[] M[] pool-2-thread-2 firebase.server.instance.ServerInstance - Halting; Id: 400103235
+2022-07-27 17:10:52,945 INFO  - T[] P[] M[] pool-2-thread-1 firebase.server.master.MasterNode - Promoting node; Id: gam1; Role: GAME_NODE
+2022-07-27 17:10:52,949 INFO  - T[] P[] M[] pool-2-thread-2 server.lobby.systemstate.StateLobby - Lobby broadcast period set to: 2000
+2022-07-27 17:10:52,966 INFO  - T[] P[] M[] pool-2-thread-1 SYSLOG - Master node processed handshake for role GAME_NODE from id: gam1[-1550448553[127.0.0.1:8635]]
+2022-07-27 17:10:52,967 INFO  - T[] P[] M[] pool-2-thread-1 firebase.server.master.MasterNode - Resuming after processing role GAME_NODE from: gam1[-1550448553[127.0.0.1:8635]]; Halt id: 400103235
+2022-07-27 17:10:52,968 INFO  - T[] P[] M[] main firebase.server.game.GameNode - Configuration found for node: gam1 (null)
+2022-07-27 17:10:52,989 INFO  - T[] P[] M[] pool-2-thread-1 firebase.server.master.MasterNode - Received handshake for role CLIENT_NODE from id: cli1[-1550448553[127.0.0.1:8635]]; Halting
+2022-07-27 17:10:52,989 INFO  - T[] P[] M[] pool-2-thread-1 firebase.server.master.MasterNode - Promoting node; Id: cli1; Role: CLIENT_NODE
+2022-07-27 17:10:52,990 INFO  - T[] P[] M[] pool-2-thread-2 firebase.server.gateway.GatewayNode - Configuration found for node: cli1 (null)
+2022-07-27 17:10:52,991 INFO  - T[] P[] M[] pool-2-thread-2 firebase.server.gateway.GatewayNode - This node has been promoted to coordinator. Starting ClientReaper.
+2022-07-27 17:10:52,993 INFO  - T[] P[] M[] pool-2-thread-1 SYSLOG - Master node processed handshake for role CLIENT_NODE from id: cli1[-1550448553[127.0.0.1:8635]]
+2022-07-27 17:10:52,994 INFO  - T[] P[] M[] pool-2-thread-1 firebase.server.master.MasterNode - Resuming after processing role CLIENT_NODE from: cli1[-1550448553[127.0.0.1:8635]]; Halt id: 398983148
+2022-07-27 17:10:52,994 INFO  - T[] P[] M[] main firebase.server.gateway.GatewayNode - Init Client Gateway
+2022-07-27 17:10:52,994 INFO  - T[] P[] M[] main firebase.server.gateway.GatewayNode - Gateway ingoring minimum frequency protection
+2022-07-27 17:10:52,994 INFO  - T[] P[] M[] main firebase.server.gateway.GatewayNode - Gateway ingoring interval frequency protection
+2022-07-27 17:10:52,994 WARN  - T[] P[] M[] main firebase.server.gateway.GatewayNode - Gateway unprotected; Consider setting access frequency protection in the configuration.
+2022-07-27 17:10:53,062 INFO  - T[] P[] M[] main gateway.comm.jetty.JettyServer - Static content is served from: C:\Users\admin\Desktop\firebase_server\game\web
+2022-07-27 17:10:53,231 INFO  - T[] P[] M[] main SYSLOG - HTTP Server starting at: 0.0.0.0:8080; SSL configuration: Not Configured
+2022-07-27 17:10:53,233 INFO  - T[] P[] M[] pool-2-thread-1 firebase.server.master.MasterNode - Received handshake for role MTT_NODE from id: mtt1[-1550448553[127.0.0.1:8635]]; Halting
+2022-07-27 17:10:53,234 INFO  - T[] P[] M[] pool-2-thread-1 firebase.server.master.MasterNode - Promoting node; Id: mtt1; Role: MTT_NODE
+2022-07-27 17:10:53,234 INFO  - T[] P[] M[] pool-2-thread-1 SYSLOG - Master node processed handshake for role MTT_NODE from id: mtt1[-1550448553[127.0.0.1:8635]]
+2022-07-27 17:10:53,235 INFO  - T[] P[] M[] pool-2-thread-1 firebase.server.master.MasterNode - Resuming after processing role MTT_NODE from: mtt1[-1550448553[127.0.0.1:8635]]; Halt id: 400167641
+2022-07-27 17:10:53,236 INFO  - T[] P[] M[] main firebase.server.mtt.MttNode - Configuration found for node: mtt1 (null)
+2022-07-27 17:10:53,306 INFO  - T[] P[] M[] main firebase.server.gateway.GatewayNode - Starting Client Gateway (cli1) ...
+2022-07-27 17:10:53,306 INFO  - T[] P[] M[] main service.clientreg.state.StateClientRegistry - Client Registry is now managing the following nodes (added): [cli1]
+2022-07-27 17:10:53,309 INFO  - T[] P[] M[] main SYSLOG - NIO Server started at: /0.0.0.0:4123
+2022-07-27 17:10:53,319 INFO  - T[] P[] M[] main SYSLOG - System [Java HotSpot(TM) Client VM 25.141-b15; Windows 10 Windows 10 (x86)]
+2022-07-27 17:10:53,321 INFO  - T[] P[] M[] main SYSLOG - Server started [Wed Jul 27 17:10:53 ICT 2022]
+2022-07-27 17:10:53,321 INFO  - T[] P[] M[] main SYSLOG - Firebase Server Platform [version: 1.8.0-CE]
+2022-07-27 17:10:53,748 INFO  - T[] P[] M[] pool-2-thread-1 firebase.server.instance.ServerInstance - Resuming; Id: 400167641
+2022-07-27 17:11:04,114 INFO  - T[] P[] M[] qtp12334946-82 firebase.server.login.LoginManagerImpl - Created executor for TrivialLoginHandler with 30 threads.
+2022-07-27 17:19:59,301 INFO  - T[] P[] M[] main SYSLOG - Firebase Server Platform initializing; Server id: -1156250165
+2022-07-27 17:19:59,848 INFO  - T[] P[] M[] main firebase.server.statistics.StatisticsLevel - Statistics level for the system: PROFILING
+2022-07-27 17:19:59,974 WARN  - T[] P[] M[] main jboss.cache.transaction.GenericTransactionManagerLookup - Falling back to DummyTransactionManager from JBossCache
+2022-07-27 17:20:00,031 INFO  - T[] P[] M[] main service.systemstate.cache.SystemStateCacheHandler - SystemState repl Queue: false
+2022-07-27 17:20:00,040 INFO  - T[] P[] M[] main service.systemstate.cache.SystemStateCacheHandler - System State TreeCache service started.
+2022-07-27 17:20:00,117 WARN  - T[] P[] M[] main cubeia.service.crossdomain.FlashCrossDomainService - Unable to open config file, using defaults
+2022-07-27 17:20:00,143 INFO  - T[] P[] M[] main cubeia.service.crossdomain.FlashCrossDomainServer - Flash cross domain policy server listening on port 4122
+2022-07-27 17:20:00,255 INFO  - T[] P[] M[] main server.deployment.game.GameDeployment - New game revision created: v:1 resource:com.cubeia.firebase.server.deployment.resources.DeploymentFolderSet@1611043 def:tictactoe-game - id[888] class[com.cubeia.tutorial.tictactoe.game.GameImpl] activator[com.cubeia.tutorial.tictactoe.game.Activator] version[1.0-SNAPSHOT]
+2022-07-27 17:20:00,263 INFO  - T[] P[] M[] main SYSLOG - Deployed: tictactoe-game 1.0-SNAPSHOT; Internal ID: 888; Deployment Revision: 1
+2022-07-27 17:20:00,292 INFO  - T[] P[] M[] main SYSLOG - Master node 'mas1' initialized as [primary] master.
+2022-07-27 17:20:00,297 INFO  - T[] P[] M[] pool-2-thread-1 firebase.server.master.MasterNode - Received handshake for role GAME_NODE from id: gam1[-1156250165[127.0.0.1:8635]]; Halting
+2022-07-27 17:20:00,297 INFO  - T[] P[] M[] pool-2-thread-2 firebase.server.instance.ServerInstance - Halting; Id: 787329845
+2022-07-27 17:20:00,299 INFO  - T[] P[] M[] pool-2-thread-1 firebase.server.master.MasterNode - Promoting node; Id: gam1; Role: GAME_NODE
+2022-07-27 17:20:00,303 INFO  - T[] P[] M[] pool-2-thread-2 server.lobby.systemstate.StateLobby - Lobby broadcast period set to: 2000
+2022-07-27 17:20:00,322 INFO  - T[] P[] M[] pool-2-thread-1 SYSLOG - Master node processed handshake for role GAME_NODE from id: gam1[-1156250165[127.0.0.1:8635]]
+2022-07-27 17:20:00,323 INFO  - T[] P[] M[] pool-2-thread-1 firebase.server.master.MasterNode - Resuming after processing role GAME_NODE from: gam1[-1156250165[127.0.0.1:8635]]; Halt id: 787329845
+2022-07-27 17:20:00,324 INFO  - T[] P[] M[] main firebase.server.game.GameNode - Configuration found for node: gam1 (null)
+2022-07-27 17:20:00,343 INFO  - T[] P[] M[] pool-2-thread-1 firebase.server.master.MasterNode - Received handshake for role CLIENT_NODE from id: cli1[-1156250165[127.0.0.1:8635]]; Halting
+2022-07-27 17:20:00,343 INFO  - T[] P[] M[] pool-2-thread-1 firebase.server.master.MasterNode - Promoting node; Id: cli1; Role: CLIENT_NODE
+2022-07-27 17:20:00,344 INFO  - T[] P[] M[] pool-2-thread-2 firebase.server.gateway.GatewayNode - Configuration found for node: cli1 (null)
+2022-07-27 17:20:00,345 INFO  - T[] P[] M[] pool-2-thread-2 firebase.server.gateway.GatewayNode - This node has been promoted to coordinator. Starting ClientReaper.
+2022-07-27 17:20:00,347 INFO  - T[] P[] M[] pool-2-thread-1 SYSLOG - Master node processed handshake for role CLIENT_NODE from id: cli1[-1156250165[127.0.0.1:8635]]
+2022-07-27 17:20:00,347 INFO  - T[] P[] M[] pool-2-thread-1 firebase.server.master.MasterNode - Resuming after processing role CLIENT_NODE from: cli1[-1156250165[127.0.0.1:8635]]; Halt id: 787700634
+2022-07-27 17:20:00,347 INFO  - T[] P[] M[] main firebase.server.gateway.GatewayNode - Init Client Gateway
+2022-07-27 17:20:00,347 INFO  - T[] P[] M[] main firebase.server.gateway.GatewayNode - Gateway ingoring minimum frequency protection
+2022-07-27 17:20:00,347 INFO  - T[] P[] M[] main firebase.server.gateway.GatewayNode - Gateway ingoring interval frequency protection
+2022-07-27 17:20:00,347 WARN  - T[] P[] M[] main firebase.server.gateway.GatewayNode - Gateway unprotected; Consider setting access frequency protection in the configuration.
+2022-07-27 17:20:00,422 INFO  - T[] P[] M[] main gateway.comm.jetty.JettyServer - Static content is served from: C:\Users\admin\Desktop\firebase_server\game\web
+2022-07-27 17:20:00,601 INFO  - T[] P[] M[] main SYSLOG - HTTP Server starting at: 0.0.0.0:8080; SSL configuration: Not Configured
+2022-07-27 17:20:00,604 INFO  - T[] P[] M[] pool-2-thread-1 firebase.server.master.MasterNode - Received handshake for role MTT_NODE from id: mtt1[-1156250165[127.0.0.1:8635]]; Halting
+2022-07-27 17:20:00,604 INFO  - T[] P[] M[] pool-2-thread-1 firebase.server.master.MasterNode - Promoting node; Id: mtt1; Role: MTT_NODE
+2022-07-27 17:20:00,604 INFO  - T[] P[] M[] pool-2-thread-1 SYSLOG - Master node processed handshake for role MTT_NODE from id: mtt1[-1156250165[127.0.0.1:8635]]
+2022-07-27 17:20:00,605 INFO  - T[] P[] M[] pool-2-thread-1 firebase.server.master.MasterNode - Resuming after processing role MTT_NODE from: mtt1[-1156250165[127.0.0.1:8635]]; Halt id: 787396271
+2022-07-27 17:20:00,606 INFO  - T[] P[] M[] main firebase.server.mtt.MttNode - Configuration found for node: mtt1 (null)
+2022-07-27 17:20:00,677 INFO  - T[] P[] M[] main firebase.server.gateway.GatewayNode - Starting Client Gateway (cli1) ...
+2022-07-27 17:20:00,677 INFO  - T[] P[] M[] main service.clientreg.state.StateClientRegistry - Client Registry is now managing the following nodes (added): [cli1]
+2022-07-27 17:20:00,681 INFO  - T[] P[] M[] main SYSLOG - NIO Server started at: /0.0.0.0:4123
+2022-07-27 17:20:00,692 INFO  - T[] P[] M[] main SYSLOG - System [Java HotSpot(TM) Client VM 25.141-b15; Windows 10 Windows 10 (x86)]
+2022-07-27 17:20:00,694 INFO  - T[] P[] M[] main SYSLOG - Server started [Wed Jul 27 17:20:00 ICT 2022]
+2022-07-27 17:20:00,694 INFO  - T[] P[] M[] main SYSLOG - Firebase Server Platform [version: 1.8.0-CE]
+2022-07-27 17:20:01,108 INFO  - T[] P[] M[] pool-2-thread-1 firebase.server.instance.ServerInstance - Resuming; Id: 787396271
+2022-07-27 17:20:08,337 INFO  - T[] P[] M[] qtp12334946-80 firebase.server.login.LoginManagerImpl - Created executor for TrivialLoginHandler with 30 threads.
+2022-07-27 17:28:38,991 INFO  - T[] P[] M[] pool-1-thread-1 server.deployment.game.GameDeploymentHandler - Redeploying Game Archive: tictactoe-game-1.0-SNAPSHOT
+2022-07-27 17:28:39,043 INFO  - T[] P[] M[] pool-1-thread-1 server.deployment.game.GameDeployment - New game revision created: v:2 resource:com.cubeia.firebase.server.deployment.resources.DeploymentFolderSet@884f75 def:tictactoe-game - id[888] class[com.cubeia.tutorial.tictactoe.game.GameImpl] activator[com.cubeia.tutorial.tictactoe.game.Activator] version[1.0-SNAPSHOT]
+2022-07-27 17:28:39,043 INFO  - T[] P[] M[] pool-1-thread-1 SYSLOG - Deployed: tictactoe-game 1.0-SNAPSHOT; Internal ID: 888; Deployment Revision: 2
+2022-07-27 17:28:46,221 INFO  - T[] P[] M[] main SYSLOG - Firebase Server Platform initializing; Server id: -1094427186
+2022-07-27 17:28:46,762 INFO  - T[] P[] M[] main firebase.server.statistics.StatisticsLevel - Statistics level for the system: PROFILING
+2022-07-27 17:28:46,891 WARN  - T[] P[] M[] main jboss.cache.transaction.GenericTransactionManagerLookup - Falling back to DummyTransactionManager from JBossCache
+2022-07-27 17:28:46,945 INFO  - T[] P[] M[] main service.systemstate.cache.SystemStateCacheHandler - SystemState repl Queue: false
+2022-07-27 17:28:46,956 INFO  - T[] P[] M[] main service.systemstate.cache.SystemStateCacheHandler - System State TreeCache service started.
+2022-07-27 17:28:47,033 WARN  - T[] P[] M[] main cubeia.service.crossdomain.FlashCrossDomainService - Unable to open config file, using defaults
+2022-07-27 17:28:47,059 INFO  - T[] P[] M[] main cubeia.service.crossdomain.FlashCrossDomainServer - Flash cross domain policy server listening on port 4122
+2022-07-27 17:28:47,169 INFO  - T[] P[] M[] main server.deployment.game.GameDeployment - New game revision created: v:1 resource:com.cubeia.firebase.server.deployment.resources.DeploymentFolderSet@1611043 def:tictactoe-game - id[888] class[com.cubeia.tutorial.tictactoe.game.GameImpl] activator[com.cubeia.tutorial.tictactoe.game.Activator] version[1.0-SNAPSHOT]
+2022-07-27 17:28:47,176 INFO  - T[] P[] M[] main SYSLOG - Deployed: tictactoe-game 1.0-SNAPSHOT; Internal ID: 888; Deployment Revision: 1
+2022-07-27 17:28:47,203 INFO  - T[] P[] M[] main SYSLOG - Master node 'mas1' initialized as [primary] master.
+2022-07-27 17:28:47,207 INFO  - T[] P[] M[] pool-2-thread-1 firebase.server.master.MasterNode - Received handshake for role GAME_NODE from id: gam1[-1094427186[127.0.0.1:8635]]; Halting
+2022-07-27 17:28:47,207 INFO  - T[] P[] M[] pool-2-thread-2 firebase.server.instance.ServerInstance - Halting; Id: -1985729863
+2022-07-27 17:28:47,209 INFO  - T[] P[] M[] pool-2-thread-1 firebase.server.master.MasterNode - Promoting node; Id: gam1; Role: GAME_NODE
+2022-07-27 17:28:47,213 INFO  - T[] P[] M[] pool-2-thread-2 server.lobby.systemstate.StateLobby - Lobby broadcast period set to: 2000
+2022-07-27 17:28:47,232 INFO  - T[] P[] M[] pool-2-thread-1 SYSLOG - Master node processed handshake for role GAME_NODE from id: gam1[-1094427186[127.0.0.1:8635]]
+2022-07-27 17:28:47,232 INFO  - T[] P[] M[] pool-2-thread-1 firebase.server.master.MasterNode - Resuming after processing role GAME_NODE from: gam1[-1094427186[127.0.0.1:8635]]; Halt id: -1985729863
+2022-07-27 17:28:47,234 INFO  - T[] P[] M[] main firebase.server.game.GameNode - Configuration found for node: gam1 (null)
+2022-07-27 17:28:47,252 INFO  - T[] P[] M[] pool-2-thread-1 firebase.server.master.MasterNode - Received handshake for role CLIENT_NODE from id: cli1[-1094427186[127.0.0.1:8635]]; Halting
+2022-07-27 17:28:47,252 INFO  - T[] P[] M[] pool-2-thread-1 firebase.server.master.MasterNode - Promoting node; Id: cli1; Role: CLIENT_NODE
+2022-07-27 17:28:47,254 INFO  - T[] P[] M[] pool-2-thread-2 firebase.server.gateway.GatewayNode - Configuration found for node: cli1 (null)
+2022-07-27 17:28:47,255 INFO  - T[] P[] M[] pool-2-thread-2 firebase.server.gateway.GatewayNode - This node has been promoted to coordinator. Starting ClientReaper.
+2022-07-27 17:28:47,257 INFO  - T[] P[] M[] pool-2-thread-1 SYSLOG - Master node processed handshake for role CLIENT_NODE from id: cli1[-1094427186[127.0.0.1:8635]]
+2022-07-27 17:28:47,258 INFO  - T[] P[] M[] pool-2-thread-1 firebase.server.master.MasterNode - Resuming after processing role CLIENT_NODE from: cli1[-1094427186[127.0.0.1:8635]]; Halt id: -1984249322
+2022-07-27 17:28:47,258 INFO  - T[] P[] M[] main firebase.server.gateway.GatewayNode - Init Client Gateway
+2022-07-27 17:28:47,258 INFO  - T[] P[] M[] main firebase.server.gateway.GatewayNode - Gateway ingoring minimum frequency protection
+2022-07-27 17:28:47,258 INFO  - T[] P[] M[] main firebase.server.gateway.GatewayNode - Gateway ingoring interval frequency protection
+2022-07-27 17:28:47,258 WARN  - T[] P[] M[] main firebase.server.gateway.GatewayNode - Gateway unprotected; Consider setting access frequency protection in the configuration.
+2022-07-27 17:28:47,328 INFO  - T[] P[] M[] main gateway.comm.jetty.JettyServer - Static content is served from: C:\Users\admin\Desktop\firebase_server\game\web
+2022-07-27 17:28:47,501 INFO  - T[] P[] M[] main SYSLOG - HTTP Server starting at: 0.0.0.0:8080; SSL configuration: Not Configured
+2022-07-27 17:28:47,504 INFO  - T[] P[] M[] pool-2-thread-1 firebase.server.master.MasterNode - Received handshake for role MTT_NODE from id: mtt1[-1094427186[127.0.0.1:8635]]; Halting
+2022-07-27 17:28:47,504 INFO  - T[] P[] M[] pool-2-thread-1 firebase.server.master.MasterNode - Promoting node; Id: mtt1; Role: MTT_NODE
+2022-07-27 17:28:47,504 INFO  - T[] P[] M[] pool-2-thread-1 SYSLOG - Master node processed handshake for role MTT_NODE from id: mtt1[-1094427186[127.0.0.1:8635]]
+2022-07-27 17:28:47,504 INFO  - T[] P[] M[] pool-2-thread-1 firebase.server.master.MasterNode - Resuming after processing role MTT_NODE from: mtt1[-1094427186[127.0.0.1:8635]]; Halt id: -1985532125
+2022-07-27 17:28:47,505 INFO  - T[] P[] M[] main firebase.server.mtt.MttNode - Configuration found for node: mtt1 (null)
+2022-07-27 17:28:47,576 INFO  - T[] P[] M[] main firebase.server.gateway.GatewayNode - Starting Client Gateway (cli1) ...
+2022-07-27 17:28:47,576 INFO  - T[] P[] M[] main service.clientreg.state.StateClientRegistry - Client Registry is now managing the following nodes (added): [cli1]
+2022-07-27 17:28:47,580 INFO  - T[] P[] M[] main SYSLOG - NIO Server started at: /0.0.0.0:4123
+2022-07-27 17:28:47,591 INFO  - T[] P[] M[] main SYSLOG - System [Java HotSpot(TM) Client VM 25.141-b15; Windows 10 Windows 10 (x86)]
+2022-07-27 17:28:47,592 INFO  - T[] P[] M[] main SYSLOG - Server started [Wed Jul 27 17:28:47 ICT 2022]
+2022-07-27 17:28:47,592 INFO  - T[] P[] M[] main SYSLOG - Firebase Server Platform [version: 1.8.0-CE]
+2022-07-27 17:28:48,009 INFO  - T[] P[] M[] pool-2-thread-1 firebase.server.instance.ServerInstance - Resuming; Id: -1985532125
+2022-07-27 17:28:53,623 INFO  - T[] P[] M[] qtp12334946-82 firebase.server.login.LoginManagerImpl - Created executor for TrivialLoginHandler with 30 threads.
+2022-07-27 17:38:36,870 INFO  - T[] P[] M[] main SYSLOG - Firebase Server Platform initializing; Server id: 1172753302
+2022-07-27 17:38:37,404 INFO  - T[] P[] M[] main firebase.server.statistics.StatisticsLevel - Statistics level for the system: PROFILING
+2022-07-27 17:38:37,529 WARN  - T[] P[] M[] main jboss.cache.transaction.GenericTransactionManagerLookup - Falling back to DummyTransactionManager from JBossCache
+2022-07-27 17:38:37,581 INFO  - T[] P[] M[] main service.systemstate.cache.SystemStateCacheHandler - SystemState repl Queue: false
+2022-07-27 17:38:37,592 INFO  - T[] P[] M[] main service.systemstate.cache.SystemStateCacheHandler - System State TreeCache service started.
+2022-07-27 17:38:37,669 WARN  - T[] P[] M[] main cubeia.service.crossdomain.FlashCrossDomainService - Unable to open config file, using defaults
+2022-07-27 17:38:37,695 INFO  - T[] P[] M[] main cubeia.service.crossdomain.FlashCrossDomainServer - Flash cross domain policy server listening on port 4122
+2022-07-27 17:38:37,805 INFO  - T[] P[] M[] main server.deployment.game.GameDeployment - New game revision created: v:1 resource:com.cubeia.firebase.server.deployment.resources.DeploymentFolderSet@1611043 def:tictactoe-game - id[888] class[com.cubeia.tutorial.tictactoe.game.GameImpl] activator[com.cubeia.tutorial.tictactoe.game.Activator] version[1.0-SNAPSHOT]
+2022-07-27 17:38:37,812 INFO  - T[] P[] M[] main SYSLOG - Deployed: tictactoe-game 1.0-SNAPSHOT; Internal ID: 888; Deployment Revision: 1
+2022-07-27 17:38:37,843 INFO  - T[] P[] M[] main SYSLOG - Master node 'mas1' initialized as [primary] master.
+2022-07-27 17:38:37,847 INFO  - T[] P[] M[] pool-2-thread-1 firebase.server.master.MasterNode - Received handshake for role GAME_NODE from id: gam1[1172753302[127.0.0.1:8635]]; Halting
+2022-07-27 17:38:37,848 INFO  - T[] P[] M[] pool-2-thread-2 firebase.server.instance.ServerInstance - Halting; Id: 1433211647
+2022-07-27 17:38:37,850 INFO  - T[] P[] M[] pool-2-thread-1 firebase.server.master.MasterNode - Promoting node; Id: gam1; Role: GAME_NODE
+2022-07-27 17:38:37,854 INFO  - T[] P[] M[] pool-2-thread-2 server.lobby.systemstate.StateLobby - Lobby broadcast period set to: 2000
+2022-07-27 17:38:37,871 INFO  - T[] P[] M[] pool-2-thread-1 SYSLOG - Master node processed handshake for role GAME_NODE from id: gam1[1172753302[127.0.0.1:8635]]
+2022-07-27 17:38:37,872 INFO  - T[] P[] M[] pool-2-thread-1 firebase.server.master.MasterNode - Resuming after processing role GAME_NODE from: gam1[1172753302[127.0.0.1:8635]]; Halt id: 1433211647
+2022-07-27 17:38:37,873 INFO  - T[] P[] M[] main firebase.server.game.GameNode - Configuration found for node: gam1 (null)
+2022-07-27 17:38:37,893 INFO  - T[] P[] M[] pool-2-thread-1 firebase.server.master.MasterNode - Received handshake for role CLIENT_NODE from id: cli1[1172753302[127.0.0.1:8635]]; Halting
+2022-07-27 17:38:37,893 INFO  - T[] P[] M[] pool-2-thread-1 firebase.server.master.MasterNode - Promoting node; Id: cli1; Role: CLIENT_NODE
+2022-07-27 17:38:37,894 INFO  - T[] P[] M[] pool-2-thread-2 firebase.server.gateway.GatewayNode - Configuration found for node: cli1 (null)
+2022-07-27 17:38:37,895 INFO  - T[] P[] M[] pool-2-thread-2 firebase.server.gateway.GatewayNode - This node has been promoted to coordinator. Starting ClientReaper.
+2022-07-27 17:38:37,897 INFO  - T[] P[] M[] pool-2-thread-1 SYSLOG - Master node processed handshake for role CLIENT_NODE from id: cli1[1172753302[127.0.0.1:8635]]
+2022-07-27 17:38:37,899 INFO  - T[] P[] M[] pool-2-thread-1 firebase.server.master.MasterNode - Resuming after processing role CLIENT_NODE from: cli1[1172753302[127.0.0.1:8635]]; Halt id: 1433664080
+2022-07-27 17:38:37,899 INFO  - T[] P[] M[] main firebase.server.gateway.GatewayNode - Init Client Gateway
+2022-07-27 17:38:37,899 INFO  - T[] P[] M[] main firebase.server.gateway.GatewayNode - Gateway ingoring minimum frequency protection
+2022-07-27 17:38:37,899 INFO  - T[] P[] M[] main firebase.server.gateway.GatewayNode - Gateway ingoring interval frequency protection
+2022-07-27 17:38:37,899 WARN  - T[] P[] M[] main firebase.server.gateway.GatewayNode - Gateway unprotected; Consider setting access frequency protection in the configuration.
+2022-07-27 17:38:37,968 INFO  - T[] P[] M[] main gateway.comm.jetty.JettyServer - Static content is served from: C:\Users\admin\Desktop\firebase_server\game\web
+2022-07-27 17:38:38,137 INFO  - T[] P[] M[] main SYSLOG - HTTP Server starting at: 0.0.0.0:8080; SSL configuration: Not Configured
+2022-07-27 17:38:38,140 INFO  - T[] P[] M[] pool-2-thread-1 firebase.server.master.MasterNode - Received handshake for role MTT_NODE from id: mtt1[1172753302[127.0.0.1:8635]]; Halting
+2022-07-27 17:38:38,141 INFO  - T[] P[] M[] pool-2-thread-1 firebase.server.master.MasterNode - Promoting node; Id: mtt1; Role: MTT_NODE
+2022-07-27 17:38:38,141 INFO  - T[] P[] M[] pool-2-thread-1 SYSLOG - Master node processed handshake for role MTT_NODE from id: mtt1[1172753302[127.0.0.1:8635]]
+2022-07-27 17:38:38,141 INFO  - T[] P[] M[] pool-2-thread-1 firebase.server.master.MasterNode - Resuming after processing role MTT_NODE from: mtt1[1172753302[127.0.0.1:8635]]; Halt id: 1433278309
+2022-07-27 17:38:38,142 INFO  - T[] P[] M[] main firebase.server.mtt.MttNode - Configuration found for node: mtt1 (null)
+2022-07-27 17:38:38,215 INFO  - T[] P[] M[] main firebase.server.gateway.GatewayNode - Starting Client Gateway (cli1) ...
+2022-07-27 17:38:38,215 INFO  - T[] P[] M[] main service.clientreg.state.StateClientRegistry - Client Registry is now managing the following nodes (added): [cli1]
+2022-07-27 17:38:38,219 INFO  - T[] P[] M[] main SYSLOG - NIO Server started at: /0.0.0.0:4123
+2022-07-27 17:38:38,228 INFO  - T[] P[] M[] main SYSLOG - System [Java HotSpot(TM) Client VM 25.141-b15; Windows 10 Windows 10 (x86)]
+2022-07-27 17:38:38,230 INFO  - T[] P[] M[] main SYSLOG - Server started [Wed Jul 27 17:38:38 ICT 2022]
+2022-07-27 17:38:38,230 INFO  - T[] P[] M[] main SYSLOG - Firebase Server Platform [version: 1.8.0-CE]
+2022-07-27 17:38:38,651 INFO  - T[] P[] M[] pool-2-thread-1 firebase.server.instance.ServerInstance - Resuming; Id: 1433278309
+2022-07-27 17:38:44,351 INFO  - T[] P[] M[] qtp12334946-81 firebase.server.login.LoginManagerImpl - Created executor for TrivialLoginHandler with 30 threads.

@@ -1,0 +1,262 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<!DOCTYPE log4j:configuration SYSTEM "log4j.dtd">
+<log4j:configuration xmlns:log4j="http://jakarta.apache.org/log4j/">
+	<!-- add config  ludo-->
+	<category name="LudoBot_LogFinish" additivity="false">
+		<priority value="info"/>
+		<appender-ref ref="ASYNC_Ludo_LogFinish"/>
+	</category>
+	<appender name="ASYNC_Ludo_LogFinish" class="org.apache.log4j.AsyncAppender"> 
+		<appender-ref ref="LudoBot_LogFinish"/> 
+	</appender>
+	<appender name="LudoBot_LogFinish" class="org.apache.log4j.rolling.RollingFileAppender">
+		<rollingPolicy class="org.apache.log4j.rolling.TimeBasedRollingPolicy">
+			<param name="FileNamePattern" value="/home/firebase_server/bot/logs/LuDo/LuDo_%d{yyyy-MM-dd}.log"/>
+  		</rollingPolicy>
+  		<layout class="org.apache.log4j.PatternLayout">
+			<param name="ConversionPattern" value="%d  %m %n"/>
+  		</layout>
+	</appender>
+
+  <appender name="TienLenBot" class="org.apache.log4j.rolling.RollingFileAppender">
+            <rollingPolicy class="org.apache.log4j.rolling.TimeBasedRollingPolicy">
+                    <param name="FileNamePattern" value="/home/firebase_server/bot/logs/tienlen/info-%d{yyyy-MM-dd}.log"/>
+            </rollingPolicy>
+            <layout class="org.apache.log4j.PatternLayout">
+                    <param name="ConversionPattern" value="%d{yyyy-MM-dd HH:mm:ss} %-5p T[%X{tableid}] %c{1}:%L - %m%n"/>
+            </layout>
+            <param name="Threshold" value="INFO"/>
+
+    </appender>
+  
+  <category name="com.dst.tienLen" additivity="false">
+    <priority value="info"/>
+    <appender-ref ref="TienLenBot"/>
+  </category>
+
+	<appender name="LudoBot" class="org.apache.log4j.RollingFileAppender">
+		<param name="File"   value="/home/firebase_server/bot/logs/ludoBot.log" />
+		<param name="Append" value="true" />
+		<param name="MaxFileSize" value="20MB" />
+	    <param name="MaxBackupIndex" value="5" />
+		<layout class="org.apache.log4j.PatternLayout">
+                <param name="ConversionPattern"
+                        value="%d{yyyy-MM-dd HH:mm:ss} %-5p %c{1}:%L - %m%n" />
+           </layout>		
+	</appender>
+	
+	<category name="com.dst.ludo" additivity="false">
+		<priority value="info"/>
+		<appender-ref ref="LudoBot"/>
+	</category>
+	
+   <appender name="ASYNC_ERROR_LOG" class="org.apache.log4j.AsyncAppender"> 
+		<appender-ref ref="ERROR_LOG"/> 
+	</appender> 
+   
+   <appender name="ERROR_LOG" class="org.apache.log4j.DailyRollingFileAppender">
+		<param name="File"   value="/home/firebase_server/logs/stderr.log" />
+		<param name="Append" value="true" />
+		<param name="Threshold" value="warn"/>
+		<layout class="org.apache.log4j.PatternLayout">
+         <param name="ConversionPattern" value="[%-5p] %d{yyyy-MM-dd HH:mm:ss} %-20C{1} [%t][%F:%L] -%m%n" />
+		</layout>
+   </appender> 
+  
+   <!-- STDOUT, minimize the use of this -->
+   <appender name="ASYNC_STDOUT" class="org.apache.log4j.AsyncAppender"> 
+		<appender-ref ref="STDOUT"/> 
+	</appender> 
+   
+	<appender name="STDOUT" class="org.apache.log4j.DailyRollingFileAppender">
+		<param name="File"   value="/home/firebase_server/logs/stdout-bot.log" />
+		<param name="Append" value="true" />
+		<layout class="org.apache.log4j.PatternLayout">
+			<param name="ConversionPattern" value="[%-5p] %d{yyyy-MM-dd HH:mm:ss} %-20C{1} -%m%n"/>
+		</layout>		
+	</appender>
+	
+	<!-- tomcua -->
+    <appender name="APP_INFO_LOG_TOM_CUA" class="org.apache.log4j.rolling.RollingFileAppender">
+            <rollingPolicy class="org.apache.log4j.rolling.TimeBasedRollingPolicy">
+                    <param name="FileNamePattern" value="/home/firebase_server/bot/logs/tomcua/info-%d{yyyy-MM-dd}.log"/>
+            </rollingPolicy>
+            <layout class="org.apache.log4j.PatternLayout">
+                    <param name="ConversionPattern" value="%d{yyyy-MM-dd HH:mm:ss} %-5p %c{1}:%L - %m%n"/>
+            </layout>
+            <param name="Threshold" value="INFO"/>
+    </appender>
+   
+    <appender name="APP_ERROR_LOG_TOM_CUA" class="org.apache.log4j.rolling.RollingFileAppender">
+            <rollingPolicy class="org.apache.log4j.rolling.TimeBasedRollingPolicy">
+                    <param name="FileNamePattern" value="/home/firebase_server/bot/logs/tomcua/error-%d{yyyy-MM-dd}.log"/>
+            </rollingPolicy>
+            <layout class="org.apache.log4j.PatternLayout">
+                    <param name="ConversionPattern" value="%d{yyyy-MM-dd HH:mm:ss} %-5p %c{1}:%L - %m%n"/>
+            </layout>
+            <param name="Threshold" value="ERROR"/>
+    </appender>
+
+    <category name="TOMCUA" additivity="false">
+            <priority value="all"/>
+            <appender-ref ref="APP_INFO_LOG_TOM_CUA" />
+            <appender-ref ref="APP_ERROR_LOG_TOM_CUA" />
+    </category>
+   
+   <!--SHAN +-->
+	<appender name="SHAN" class="org.apache.log4j.RollingFileAppender">
+		<param name="File"   value="/home/firebase_server/bot/logs/pokdeng/shan+.log" />
+		<param name="Append" value="true" />
+		<param name="MaxFileSize" value="20MB" />
+	    <param name="MaxBackupIndex" value="5" />
+		<layout class="org.apache.log4j.PatternLayout">
+                <param name="ConversionPattern"
+                        value="%d{yyyy-MM-dd HH:mm:ss} %-5p %c{1}:%L - %m%n" />
+           </layout>		
+	</appender>
+	
+	<category name="com.dst.pokdeng" additivity="false">
+		<priority value="info"/>
+		<appender-ref ref="SHAN"/>
+	</category>
+   
+  <!-- -->
+  
+  <!--SHAN-->
+	<appender name="SHANV2" class="org.apache.log4j.RollingFileAppender">
+		<param name="File"   value="/home/firebase_server/bot/logs/pokdengv2/shan.log" />
+		<param name="Append" value="true" />
+		<param name="MaxFileSize" value="20MB" />
+	    <param name="MaxBackupIndex" value="5" />
+		<layout class="org.apache.log4j.PatternLayout">
+                <param name="ConversionPattern"
+                        value="%d{yyyy-MM-dd HH:mm:ss} %-5p %c{1}:%L - %m%n" />
+           </layout>		
+	</appender>
+	
+	<category name="com.dst.pokdengv2" additivity="false">
+		<priority value="info"/>
+		<appender-ref ref="SHANV2"/>
+	</category>
+
+  <!--SHOW-->
+        <appender name="SHOWS" class="org.apache.log4j.RollingFileAppender">
+                <param name="File"   value="/home/firebase_server/bot/logs/shows/shows.log" />
+                <param name="Append" value="true" />
+                <param name="MaxFileSize" value="20MB" />
+            <param name="MaxBackupIndex" value="5" />
+                <layout class="org.apache.log4j.PatternLayout">
+                <param name="ConversionPattern"
+                        value="%d{yyyy-MM-dd HH:mm:ss} %-5p %c{1}:%L - %m%n" />
+           </layout>
+        </appender>
+
+        <category name="shows" additivity="false">
+                <priority value="info"/>
+                <appender-ref ref="SHOWS"/>
+        </category>
+   
+  <!--BINH -->
+  <appender name="BINHBOT" class="org.apache.log4j.DailyRollingFileAppender">
+      <param name="File" value="/home/firebase_server/bot/logs/binh/binh-bot.log" />
+      <param name="Append" value="true" />
+      <layout class="org.apache.log4j.PatternLayout">
+         <param name="ConversionPattern" value="[%-5p] %d{yyyy-MM-dd HH:mm:ss} %-20C{1}[%L] -%m%n" />
+      </layout>
+   </appender>
+   
+   <category name="com.dst.binhbot" additivity="false">
+      <appender-ref ref="BINHBOT" />
+   </category>
+   
+   <!--BINH -->
+   
+   <appender name="ASYNC_TOMCUACA" class="org.apache.log4j.DailyRollingFileAppender">
+      <param name="File" value="/home/firebase_server/logs/tomcuaca/tomcuaca-bot.log" />
+      <param name="Append" value="true" />
+      <layout class="org.apache.log4j.PatternLayout">
+         <param name="ConversionPattern" value="[%-5p] %d{yyyy-MM-dd HH:mm:ss} %-20C{1}[%L] -%m%n" />
+      </layout>
+   </appender>
+
+   <!-- Protocol verification Log -->
+   <appender name="VERIFICATION_LOG" class="org.apache.log4j.DailyRollingFileAppender">
+      <param name="File" value="/home/firebase_server/logs/verification.log" />
+      <param name="Append" value="false" />
+      <layout class="org.apache.log4j.PatternLayout">
+         <param name="ConversionPattern" value="%d %t %-5p %c{4} - %m%n" />
+      </layout>
+   </appender>
+   <!-- JBoss TreeCache Log -->
+   <appender name="CACHE" class="org.apache.log4j.DailyRollingFileAppender">
+      <param name="File" value="/logs/cache.log" />
+      <param name="Append" value="false" />
+      <layout class="org.apache.log4j.PatternLayout">
+         <param name="ConversionPattern" value="%d %t %-5p %c{4} - %m%n" />
+      </layout>
+   </appender>
+	
+   <!-- 
+		The main botlog for the server.
+	-->
+	<appender name="ASYNC_BOT_LOG" class="org.apache.log4j.AsyncAppender"> 
+		<appender-ref ref="BOT_LOG"/> 
+	</appender> 
+	
+   <appender name="BOT_LOG" class="org.apache.log4j.DailyRollingFileAppender">
+      <param name="File" value="/home/firebase_server/bot/logs/bot-log.log" />
+      <param name="Append" value="true" />
+      <layout class="org.apache.log4j.PatternLayout">
+         <param name="ConversionPattern" value="%d %-5p -%t %c{4} - %m%n" />
+      </layout>
+   </appender>
+   <!--param name="ConversionPattern" value="%d %-5p [%t] %C{1} (%F:%L) - %m%n"/-->
+   
+   <category name="com.dst.tomcuaca" additivity="false">
+      <appender-ref ref="ASYNC_TOMCUACA" />
+   </category>
+
+   <category name="org.mortbay">
+      <priority value="info" />
+      <appender-ref ref="ASYNC_BOT_LOG" />
+   </category>
+   <category name="com.game" additivity="false">
+      <priority value="debug" />
+      <appender-ref ref="ASYNC_BOT_LOG" />
+      <appender-ref ref="ASYNC_STDOUT" />
+   </category>
+   <category name="com.cubeia" additivity="false">
+      <priority value="info" />
+      <appender-ref ref="ASYNC_BOT_LOG" />
+      <appender-ref ref="ASYNC_STDOUT" />
+   </category>
+   <category name="com.cubeia.firebase" additivity="false">
+      <priority value="debug" />
+      <appender-ref ref="ASYNC_BOT_LOG" />
+      <appender-ref ref="ASYNC_STDOUT" />
+   </category>
+   <category name="com.cubeia.bots.mahjong" additivity="false">
+      <priority value="debug" />
+      <appender-ref ref="ASYNC_BOT_LOG" />
+      <appender-ref ref="ASYNC_STDOUT" />
+   </category>
+   <category name="org.jboss" additivity="false">
+      <priority value="warn" />
+      <appender-ref ref="CACHE" />
+   </category>
+   <category name="org.jgroups">
+      <priority value="warn" />
+      <appender-ref ref="CACHE" />
+   </category>
+   <category name="org.apache" additivity="false">
+      <priority value="warn" />
+      <appender-ref ref="ASYNC_BOT_LOG" />
+      <appender-ref ref="ASYNC_STDOUT" />
+   </category>
+   <root>
+      <priority value="all" />
+      <appender-ref ref="ASYNC_BOT_LOG" />
+      <appender-ref ref="ASYNC_STDOUT" />
+	  <appender-ref ref="ASYNC_ERROR_LOG" />
+   </root>
+</log4j:configuration>

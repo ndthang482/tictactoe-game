@@ -1,0 +1,35 @@
+2022-08-03 08:24:14,462 INFO  T[] INFO  Activator:74 - Default activator for game id 888 is used the default configuration
+2022-08-03 08:24:20,418 INFO  T[1] INFO  Listener:30 - Player joined!
+2022-08-03 08:24:20,418 INFO  T[1] INFO  Listener:32 - I got players to bot, starting game!
+2022-08-03 08:24:23,430 INFO  T[1] INFO  Processor:181 - 0 - naught: 0 - cross: 0
+2022-08-03 08:24:23,431 INFO  T[1] INFO  Board:28 - Cross = 2 Naught = 0
+2022-08-03 08:24:23,501 INFO  T[1] INFO  Processor:94 - StartGameVsBot: start
+2022-08-03 08:24:52,390 INFO  T[1] INFO  Processor:181 - 0 - naught: 0 - cross: 2
+2022-08-03 08:24:52,390 INFO  T[1] INFO  Board:28 - Cross = 2 Naught = 0
+2022-08-03 08:24:52,390 INFO  T[1] INFO  Processor:94 - StartGameVsBot: start
+2022-08-03 08:25:16,549 INFO  T[1] INFO  Processor:181 - 0 - naught: 0 - cross: 2
+2022-08-03 08:25:16,549 INFO  T[1] INFO  Board:28 - Cross = 2 Naught = 0
+2022-08-03 08:25:16,549 INFO  T[1] INFO  Processor:94 - StartGameVsBot: start
+2022-08-03 08:25:49,581 INFO  T[1] INFO  Processor:181 - 2 - naught: 0 - cross: 2
+2022-08-03 08:25:49,581 INFO  T[1] INFO  Board:28 - Cross = 2 Naught = 0
+2022-08-03 08:25:49,581 INFO  T[1] INFO  Processor:94 - StartGameVsBot: start
+2022-08-03 08:26:35,497 INFO  T[1] INFO  Processor:94 - StartGameVsBot: start
+2022-08-03 08:26:42,627 INFO  T[1] INFO  Processor:94 - StartGameVsBot: start
+2022-08-03 08:29:17,941 INFO  T[] INFO  Activator:74 - Default activator for game id 888 is used the default configuration
+2022-08-03 08:54:54,525 INFO  T[] INFO  Activator:74 - Default activator for game id 888 is used the default configuration
+2022-08-03 08:58:22,817 INFO  T[] INFO  Activator:74 - Default activator for game id 888 is used the default configuration
+2022-08-03 08:58:54,739 INFO  T[2] INFO  Listener:30 - Player joined!
+2022-08-03 08:58:54,739 INFO  T[2] INFO  Listener:32 - I got players to bot, starting game!
+2022-08-03 08:58:57,752 INFO  T[2] INFO  Processor:181 - 0 - naught: 0 - cross: 0
+2022-08-03 08:58:57,752 INFO  T[2] INFO  Board:28 - Cross = 1 Naught = 0
+2022-08-03 08:58:57,799 INFO  T[2] INFO  Processor:94 - StartGameVsBot: start
+2022-08-03 08:59:21,887 INFO  T[2] INFO  Processor:181 - 0 - naught: 0 - cross: 1
+2022-08-03 08:59:21,887 INFO  T[2] INFO  Board:28 - Cross = 1 Naught = 0
+2022-08-03 08:59:21,887 INFO  T[2] INFO  Processor:94 - StartGameVsBot: start
+2022-08-03 08:59:44,916 INFO  T[2] INFO  Processor:181 - 1 - naught: 0 - cross: 1
+2022-08-03 08:59:44,916 INFO  T[2] INFO  Board:28 - Cross = 1 Naught = 0
+2022-08-03 08:59:44,916 INFO  T[2] INFO  Processor:94 - StartGameVsBot: start
+2022-08-03 08:59:48,935 INFO  T[2] INFO  Processor:38 - Ignoring action from 1, expected: 0
+2022-08-03 09:00:20,879 INFO  T[2] INFO  Processor:181 - 0 - naught: 0 - cross: 1
+2022-08-03 09:00:20,879 INFO  T[2] INFO  Board:28 - Cross = 1 Naught = 0
+2022-08-03 09:00:20,879 INFO  T[2] INFO  Processor:94 - StartGameVsBot: start

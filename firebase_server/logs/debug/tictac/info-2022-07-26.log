@@ -1,0 +1,225 @@
+2022-07-26 09:21:46,829 INFO  T[] INFO  Activator:74 - Default activator for game id 888 is used the default configuration
+2022-07-26 09:27:36,041 INFO  T[1] INFO  Listener:20 - Player joined!
+2022-07-26 09:27:37,443 INFO  T[1] INFO  Listener:20 - Player joined!
+2022-07-26 09:27:37,443 INFO  T[1] INFO  Listener:22 - We got two players, starting game at 3s!
+2022-07-26 09:27:40,462 INFO  T[1] INFO  Board:28 - Cross = 1 Naught = 2
+2022-07-26 09:27:45,708 INFO  T[1] INFO  TicTacToe:92 - Received action with data: next 3s
+2022-07-26 09:27:49,718 INFO  T[1] INFO  TicTacToe:92 - Received action with data: next 3s
+2022-07-26 09:30:22,994 INFO  T[1] INFO  TicTacToe:37 - Ignoring action from 1, expected: 2
+2022-07-26 09:30:25,175 INFO  T[1] INFO  TicTacToe:92 - Received action with data: next 3s
+2022-07-26 09:30:27,202 INFO  T[1] INFO  TicTacToe:92 - Received action with data: next 3s
+2022-07-26 09:30:28,718 INFO  T[1] INFO  TicTacToe:92 - Received action with data: start at 3s
+2022-07-26 09:30:28,718 INFO  T[1] INFO  TicTacToe:92 - Received action with data: next 3s
+2022-07-26 09:30:33,138 INFO  T[1] INFO  TicTacToe:37 - Ignoring action from 1, expected: 2
+2022-07-26 09:30:34,385 INFO  T[1] INFO  TicTacToe:37 - Ignoring action from 1, expected: 2
+2022-07-26 09:30:38,074 INFO  T[1] INFO  TicTacToe:92 - Received action with data: next 3s
+2022-07-26 09:30:38,800 INFO  T[1] INFO  TicTacToe:92 - Received action with data: next 3s
+2022-07-26 09:30:39,311 INFO  T[1] INFO  TicTacToe:92 - Received action with data: next 3s
+2022-07-26 09:30:39,686 INFO  T[1] INFO  TicTacToe:92 - Received action with data: next 3s
+2022-07-26 09:30:39,687 INFO  T[1] INFO  TicTacToe:92 - Received action with data: start at 3s
+2022-07-26 09:30:39,810 INFO  T[1] INFO  TicTacToe:37 - Ignoring action from 2, expected: 1
+2022-07-26 09:30:44,747 INFO  T[1] INFO  TicTacToe:92 - Received action with data: start at 3s
+2022-07-26 09:30:44,748 INFO  T[1] INFO  TicTacToe:92 - Received action with data: next 3s
+2022-07-26 09:30:47,420 INFO  T[1] INFO  TicTacToe:92 - Received action with data: start at 3s
+2022-07-26 09:30:47,421 INFO  T[1] INFO  TicTacToe:92 - Received action with data: next 3s
+2022-07-26 09:31:34,604 INFO  T[1] INFO  Listener:20 - Player joined!
+2022-07-26 09:31:36,219 INFO  T[1] INFO  Listener:20 - Player joined!
+2022-07-26 09:31:37,563 INFO  T[1] INFO  TicTacToe:37 - Ignoring action from 4, expected: 1
+2022-07-26 09:31:37,963 INFO  T[1] INFO  TicTacToe:37 - Ignoring action from 4, expected: 1
+2022-07-26 09:31:39,154 INFO  T[1] INFO  TicTacToe:37 - Ignoring action from 3, expected: 1
+2022-07-26 09:31:39,578 INFO  T[1] INFO  TicTacToe:37 - Ignoring action from 3, expected: 1
+2022-07-26 09:31:40,994 INFO  T[1] INFO  TicTacToe:37 - Ignoring action from 3, expected: 1
+2022-07-26 09:31:42,123 INFO  T[1] INFO  TicTacToe:37 - Ignoring action from 3, expected: 1
+2022-07-26 09:31:42,690 INFO  T[1] INFO  TicTacToe:37 - Ignoring action from 3, expected: 1
+2022-07-26 09:31:43,027 INFO  T[1] INFO  TicTacToe:37 - Ignoring action from 3, expected: 1
+2022-07-26 09:31:44,315 INFO  T[1] INFO  TicTacToe:37 - Ignoring action from 3, expected: 1
+2022-07-26 09:31:46,195 INFO  T[1] INFO  TicTacToe:37 - Ignoring action from 4, expected: 1
+2022-07-26 09:31:47,634 INFO  T[1] INFO  TicTacToe:37 - Ignoring action from 4, expected: 1
+2022-07-26 09:32:09,259 INFO  T[11] INFO  Listener:20 - Player joined!
+2022-07-26 09:32:10,002 INFO  T[11] INFO  Listener:20 - Player joined!
+2022-07-26 09:32:10,002 INFO  T[11] INFO  Listener:22 - We got two players, starting game at 3s!
+2022-07-26 09:32:11,859 INFO  T[11] INFO  TicTacToe:37 - Ignoring action from 6, expected: 0
+2022-07-26 09:32:13,018 INFO  T[11] INFO  Board:28 - Cross = 5 Naught = 6
+2022-07-26 09:32:18,824 INFO  T[11] INFO  TicTacToe:92 - Received action with data: next 3s
+2022-07-26 09:32:20,131 INFO  T[11] INFO  TicTacToe:92 - Received action with data: next 3s
+2022-07-26 09:32:21,571 INFO  T[11] INFO  TicTacToe:92 - Received action with data: next 3s
+2022-07-26 09:32:24,672 INFO  T[11] INFO  TicTacToe:92 - Received action with data: next 3s
+2022-07-26 09:32:25,923 INFO  T[11] INFO  TicTacToe:92 - Received action with data: start at 3s
+2022-07-26 09:32:25,925 INFO  T[11] INFO  TicTacToe:92 - Received action with data: next 3s
+2022-07-26 12:02:34,154 INFO  T[1] INFO  Listener:20 - Player joined!
+2022-07-26 12:02:35,250 INFO  T[1] INFO  Listener:20 - Player joined!
+2022-07-26 12:02:35,250 INFO  T[1] INFO  Listener:22 - We got two players, starting game at 3s!
+2022-07-26 12:02:38,252 INFO  T[1] INFO  Board:28 - Cross = 1 Naught = 2
+2022-07-26 12:02:39,420 INFO  T[1] INFO  TicTacToe:92 - Received action with data: start at 3s
+2022-07-26 12:02:39,421 INFO  T[1] INFO  TicTacToe:92 - Received action with data: next 3s
+2022-07-26 12:02:40,481 INFO  T[1] INFO  TicTacToe:37 - Ignoring action from 2, expected: 1
+2022-07-26 12:02:41,025 INFO  T[1] INFO  TicTacToe:37 - Ignoring action from 2, expected: 1
+2022-07-26 12:02:55,818 INFO  T[32] INFO  Listener:20 - Player joined!
+2022-07-26 12:02:57,226 INFO  T[32] INFO  Listener:20 - Player joined!
+2022-07-26 12:02:57,226 INFO  T[32] INFO  Listener:22 - We got two players, starting game at 3s!
+2022-07-26 12:02:57,953 INFO  T[32] INFO  TicTacToe:37 - Ignoring action from 4, expected: 0
+2022-07-26 12:02:58,953 INFO  T[32] INFO  TicTacToe:37 - Ignoring action from 3, expected: 0
+2022-07-26 12:03:00,228 INFO  T[32] INFO  Board:28 - Cross = 3 Naught = 4
+2022-07-26 12:03:03,318 INFO  T[32] INFO  TicTacToe:92 - Received action with data: next 3s
+2022-07-26 12:03:04,689 INFO  T[32] INFO  TicTacToe:92 - Received action with data: next 3s
+2022-07-26 12:03:06,196 INFO  T[32] INFO  TicTacToe:92 - Received action with data: next 3s
+2022-07-26 12:03:07,142 INFO  T[32] INFO  TicTacToe:92 - Received action with data: next 3s
+2022-07-26 12:03:08,294 INFO  T[32] INFO  TicTacToe:92 - Received action with data: next 3s
+2022-07-26 12:03:09,385 INFO  T[32] INFO  TicTacToe:92 - Received action with data: next 3s
+2022-07-26 12:03:11,012 INFO  T[32] INFO  TicTacToe:92 - Received action with data: next 3s
+2022-07-26 12:03:12,056 INFO  T[32] INFO  TicTacToe:92 - Received action with data: start at 3s
+2022-07-26 12:03:12,057 INFO  T[32] INFO  TicTacToe:92 - Received action with data: next 3s
+2022-07-26 13:54:20,149 INFO  T[] INFO  Activator:74 - Default activator for game id 888 is used the default configuration
+2022-07-26 13:56:53,450 INFO  T[1] INFO  Listener:20 - Player joined!
+2022-07-26 13:56:55,869 INFO  T[1] INFO  Listener:20 - Player joined!
+2022-07-26 13:56:55,869 INFO  T[1] INFO  Listener:22 - We got two players, starting game at 3s!
+2022-07-26 13:56:57,417 INFO  T[1] INFO  TicTacToe:37 - Ignoring action from 1, expected: 0
+2022-07-26 13:56:58,875 INFO  T[1] INFO  Board:28 - Cross = 1 Naught = 2
+2022-07-26 13:57:02,282 INFO  T[1] INFO  TicTacToe:92 - Received action with data: next 3s
+2022-07-26 13:57:04,556 INFO  T[1] INFO  TicTacToe:92 - Received action with data: next 3s
+2022-07-26 13:57:06,005 INFO  T[1] INFO  TicTacToe:92 - Received action with data: next 3s
+2022-07-26 13:57:06,833 INFO  T[1] INFO  TicTacToe:92 - Received action with data: next 3s
+2022-07-26 13:57:08,356 INFO  T[1] INFO  TicTacToe:92 - Received action with data: start at 3s
+2022-07-26 13:57:08,357 INFO  T[1] INFO  TicTacToe:92 - Received action with data: next 3s
+2022-07-26 13:57:11,322 INFO  T[1] INFO  TicTacToe:92 - Received action with data: start at 3s
+2022-07-26 13:57:11,322 INFO  T[1] INFO  TicTacToe:92 - Received action with data: next 3s
+2022-07-26 14:00:04,973 INFO  T[11] INFO  Listener:20 - Player joined!
+2022-07-26 14:00:06,565 INFO  T[11] INFO  Listener:20 - Player joined!
+2022-07-26 14:00:06,565 INFO  T[11] INFO  Listener:22 - We got two players, starting game at 3s!
+2022-07-26 14:00:07,812 INFO  T[11] INFO  TicTacToe:37 - Ignoring action from 3, expected: 0
+2022-07-26 14:00:09,581 INFO  T[11] INFO  Board:28 - Cross = 3 Naught = 4
+2022-07-26 14:00:10,533 INFO  T[11] INFO  TicTacToe:37 - Ignoring action from 4, expected: 3
+2022-07-26 14:00:17,023 INFO  T[11] INFO  TicTacToe:92 - Received action with data: next 3s
+2022-07-26 14:00:19,517 INFO  T[11] INFO  TicTacToe:92 - Received action with data: next 3s
+2022-07-26 14:00:23,987 INFO  T[11] INFO  TicTacToe:92 - Received action with data: next 3s
+2022-07-26 14:00:28,864 INFO  T[11] INFO  TicTacToe:92 - Received action with data: next 3s
+2022-07-26 14:03:05,909 INFO  T[1] INFO  Listener:20 - Player joined!
+2022-07-26 14:03:11,022 INFO  T[32] INFO  Listener:20 - Player joined!
+2022-07-26 14:03:16,964 INFO  T[32] INFO  TicTacToe:37 - Ignoring action from 2, expected: 0
+2022-07-26 14:03:34,549 INFO  T[32] INFO  Listener:20 - Player joined!
+2022-07-26 14:03:47,285 INFO  T[33] INFO  Listener:20 - Player joined!
+2022-07-26 14:03:51,684 INFO  T[33] INFO  Listener:20 - Player joined!
+2022-07-26 14:03:51,684 INFO  T[33] INFO  Listener:22 - We got two players, starting game at 3s!
+2022-07-26 14:03:54,332 INFO  T[33] INFO  TicTacToe:37 - Ignoring action from 2, expected: 0
+2022-07-26 14:03:54,685 INFO  T[33] INFO  Board:28 - Cross = 1 Naught = 2
+2022-07-26 14:04:01,933 INFO  T[33] INFO  TicTacToe:92 - Received action with data: next 3s
+2022-07-26 14:04:03,493 INFO  T[33] INFO  TicTacToe:92 - Received action with data: next 3s
+2022-07-26 14:04:04,891 INFO  T[33] INFO  TicTacToe:92 - Received action with data: next 3s
+2022-07-26 14:04:06,441 INFO  T[33] INFO  TicTacToe:92 - Received action with data: next 3s
+2022-07-26 14:04:08,219 INFO  T[33] INFO  TicTacToe:92 - Received action with data: next 3s
+2022-07-26 14:04:09,548 INFO  T[33] INFO  TicTacToe:92 - Received action with data: next 3s
+2022-07-26 14:04:10,846 INFO  T[33] INFO  TicTacToe:92 - Received action with data: start at 3s
+2022-07-26 14:04:10,846 INFO  T[33] INFO  TicTacToe:92 - Received action with data: next 3s
+2022-07-26 14:13:28,997 INFO  T[33] INFO  Listener:20 - Player joined!
+2022-07-26 14:13:30,782 INFO  T[33] INFO  Listener:20 - Player joined!
+2022-07-26 14:13:30,782 INFO  T[33] INFO  Listener:22 - We got two players, starting game at 3s!
+2022-07-26 14:13:33,786 INFO  T[33] INFO  Board:28 - Cross = 1 Naught = 3
+2022-07-26 14:13:38,473 INFO  T[33] INFO  TicTacToe:92 - Received action with data: next 3s
+2022-07-26 14:13:41,465 INFO  T[33] INFO  TicTacToe:92 - Received action with data: next 3s
+2022-07-26 14:13:45,388 INFO  T[33] INFO  TicTacToe:92 - Received action with data: next 3s
+2022-07-26 14:13:46,808 INFO  T[33] INFO  TicTacToe:92 - Received action with data: next 3s
+2022-07-26 14:13:48,349 INFO  T[33] INFO  TicTacToe:92 - Received action with data: start at 3s
+2022-07-26 14:13:48,350 INFO  T[33] INFO  TicTacToe:92 - Received action with data: next 3s
+2022-07-26 14:21:18,389 INFO  T[51] INFO  Listener:20 - Player joined!
+2022-07-26 14:21:20,077 INFO  T[51] INFO  Listener:20 - Player joined!
+2022-07-26 14:21:20,077 INFO  T[51] INFO  Listener:22 - We got two players, starting game at 3s!
+2022-07-26 14:21:23,088 INFO  T[51] INFO  Board:28 - Cross = 2 Naught = 3
+2022-07-26 14:21:27,718 INFO  T[51] INFO  TicTacToe:92 - Received action with data: next 3s
+2022-07-26 14:21:29,052 INFO  T[51] INFO  TicTacToe:92 - Received action with data: next 3s
+2022-07-26 14:21:32,215 INFO  T[51] INFO  TicTacToe:92 - Received action with data: next 3s
+2022-07-26 14:21:33,690 INFO  T[51] INFO  TicTacToe:92 - Received action with data: next 3s
+2022-07-26 14:21:35,012 INFO  T[51] INFO  TicTacToe:92 - Received action with data: start at 3s
+2022-07-26 14:21:35,013 INFO  T[51] INFO  TicTacToe:92 - Received action with data: next 3s
+2022-07-26 15:05:21,940 INFO  T[51] INFO  Listener:20 - Player joined!
+2022-07-26 15:05:24,804 INFO  T[51] INFO  Listener:20 - Player joined!
+2022-07-26 15:05:24,804 INFO  T[51] INFO  Listener:22 - We got two players, starting game at 3s!
+2022-07-26 15:05:27,821 INFO  T[51] INFO  Board:28 - Cross = 3 Naught = 6
+2022-07-26 15:05:36,870 INFO  T[51] INFO  TicTacToe:92 - Received action with data: next 3s
+2022-07-26 15:05:38,559 INFO  T[51] INFO  TicTacToe:92 - Received action with data: next 3s
+2022-07-26 15:05:39,594 INFO  T[51] INFO  TicTacToe:92 - Received action with data: next 3s
+2022-07-26 15:05:41,669 INFO  T[51] INFO  TicTacToe:92 - Received action with data: next 3s
+2022-07-26 15:05:42,978 INFO  T[51] INFO  TicTacToe:92 - Received action with data: start at 3s
+2022-07-26 15:05:42,979 INFO  T[51] INFO  TicTacToe:92 - Received action with data: next 3s
+2022-07-26 15:42:51,427 INFO  T[] INFO  Activator:74 - Default activator for game id 888 is used the default configuration
+2022-07-26 15:43:06,195 INFO  T[1] INFO  Listener:20 - Player joined!
+2022-07-26 15:43:07,675 INFO  T[1] INFO  Listener:20 - Player joined!
+2022-07-26 15:43:07,676 INFO  T[1] INFO  Listener:22 - We got two players, starting game at 3s!
+2022-07-26 15:43:09,384 INFO  T[1] INFO  TicTacToe:37 - Ignoring action from 1, expected: 0
+2022-07-26 15:43:10,685 INFO  T[1] INFO  Board:28 - Cross = 1 Naught = 2
+2022-07-26 15:45:35,821 INFO  T[11] INFO  Listener:20 - Player joined!
+2022-07-26 15:45:40,221 INFO  T[11] INFO  Listener:20 - Player joined!
+2022-07-26 15:45:40,221 INFO  T[11] INFO  Listener:22 - We got two players, starting game at 3s!
+2022-07-26 15:45:42,811 INFO  T[11] INFO  TicTacToe:37 - Ignoring action from 3, expected: 0
+2022-07-26 15:45:43,229 INFO  T[11] INFO  Board:28 - Cross = 3 Naught = 4
+2022-07-26 15:45:46,453 INFO  T[11] INFO  TicTacToe:92 - Received action with data: next 3s
+2022-07-26 15:45:49,542 INFO  T[11] INFO  TicTacToe:92 - Received action with data: next 3s
+2022-07-26 15:54:03,932 INFO  T[11] INFO  Listener:20 - Player joined!
+2022-07-26 15:54:05,700 INFO  T[11] INFO  Listener:20 - Player joined!
+2022-07-26 15:54:05,701 INFO  T[11] INFO  Listener:22 - We got two players, starting game at 3s!
+2022-07-26 15:54:08,709 INFO  T[11] INFO  Board:28 - Cross = 2 Naught = 3
+2022-07-26 15:54:16,091 INFO  T[11] INFO  TicTacToe:92 - Received action with data: next 3s
+2022-07-26 15:54:17,792 INFO  T[11] INFO  TicTacToe:92 - Received action with data: next 3s
+2022-07-26 15:54:19,645 INFO  T[11] INFO  TicTacToe:92 - Received action with data: next 3s
+2022-07-26 17:40:55,647 INFO  T[] INFO  Activator:74 - Default activator for game id 888 is used the default configuration
+2022-07-26 17:41:07,438 INFO  T[1] INFO  Listener:20 - Player joined!
+2022-07-26 17:41:09,851 INFO  T[1] INFO  Listener:20 - Player joined!
+2022-07-26 17:41:09,851 INFO  T[1] INFO  Listener:22 - We got two players, starting game at 3s!
+2022-07-26 17:41:12,870 INFO  T[1] INFO  Board:28 - Cross = 1 Naught = 2
+2022-07-26 17:41:18,695 INFO  T[1] INFO  TicTacToe:92 - Received action with data: next 3s
+2022-07-26 17:41:19,950 INFO  T[1] INFO  TicTacToe:92 - Received action with data: next 3s
+2022-07-26 17:41:21,034 INFO  T[1] INFO  TicTacToe:92 - Received action with data: next 3s
+2022-07-26 17:41:22,626 INFO  T[1] INFO  TicTacToe:92 - Received action with data: next 3s
+2022-07-26 17:41:23,749 INFO  T[1] INFO  TicTacToe:92 - Received action with data: start at 3s
+2022-07-26 17:41:23,749 INFO  T[1] INFO  TicTacToe:92 - Received action with data: next 3s
+2022-07-26 17:41:27,946 INFO  T[1] INFO  TicTacToe:37 - Ignoring action from 1, expected: 2
+2022-07-26 17:41:28,114 INFO  T[1] INFO  TicTacToe:37 - Ignoring action from 1, expected: 2
+2022-07-26 17:41:30,434 INFO  T[1] INFO  TicTacToe:37 - Ignoring action from 2, expected: 1
+2022-07-26 17:41:31,745 INFO  T[1] INFO  TicTacToe:37 - Ignoring action from 2, expected: 1
+2022-07-26 17:41:31,872 INFO  T[1] INFO  TicTacToe:92 - Received action with data: next 3s
+2022-07-26 17:41:31,921 INFO  T[1] INFO  TicTacToe:37 - Ignoring action from 2, expected: 1
+2022-07-26 17:41:32,074 INFO  T[1] INFO  TicTacToe:92 - Received action with data: next 3s
+2022-07-26 17:41:33,256 INFO  T[1] INFO  TicTacToe:92 - Received action with data: next 3s
+2022-07-26 17:41:34,850 INFO  T[1] INFO  TicTacToe:37 - Ignoring action from 1, expected: 2
+2022-07-26 17:41:35,042 INFO  T[1] INFO  TicTacToe:37 - Ignoring action from 1, expected: 2
+2022-07-26 17:41:36,074 INFO  T[1] INFO  TicTacToe:92 - Received action with data: start at 3s
+2022-07-26 17:41:36,074 INFO  T[1] INFO  TicTacToe:92 - Received action with data: next 3s
+2022-07-26 17:41:37,306 INFO  T[1] INFO  TicTacToe:37 - Ignoring action from 1, expected: 2
+2022-07-26 17:41:37,458 INFO  T[1] INFO  TicTacToe:37 - Ignoring action from 1, expected: 2
+2022-07-26 17:43:16,569 INFO  T[1] INFO  TicTacToe:37 - Ignoring action from 2, expected: 1
+2022-07-26 17:43:18,225 INFO  T[1] INFO  TicTacToe:92 - Received action with data: next 3s
+2022-07-26 17:43:41,268 INFO  T[11] INFO  Listener:20 - Player joined!
+2022-07-26 17:43:52,691 INFO  T[11] INFO  Listener:20 - Player joined!
+2022-07-26 17:43:52,691 INFO  T[11] INFO  Listener:22 - We got two players, starting game at 3s!
+2022-07-26 17:43:55,697 INFO  T[11] INFO  Board:28 - Cross = 2 Naught = 3
+2022-07-26 17:43:59,008 INFO  T[11] INFO  TicTacToe:92 - Received action with data: next 3s
+2022-07-26 17:44:00,023 INFO  T[11] INFO  TicTacToe:92 - Received action with data: next 3s
+2022-07-26 17:44:00,817 INFO  T[11] INFO  TicTacToe:92 - Received action with data: next 3s
+2022-07-26 17:44:01,484 INFO  T[11] INFO  TicTacToe:92 - Received action with data: next 3s
+2022-07-26 17:44:01,874 INFO  T[11] INFO  TicTacToe:92 - Received action with data: next 3s
+2022-07-26 17:44:02,543 INFO  T[11] INFO  TicTacToe:92 - Received action with data: start at 3s
+2022-07-26 17:44:02,543 INFO  T[11] INFO  TicTacToe:92 - Received action with data: next 3s
+2022-07-26 17:44:05,793 INFO  T[11] INFO  TicTacToe:37 - Ignoring action from 2, expected: 3
+2022-07-26 17:44:06,145 INFO  T[11] INFO  TicTacToe:37 - Ignoring action from 2, expected: 3
+2022-07-26 17:44:06,330 INFO  T[11] INFO  TicTacToe:37 - Ignoring action from 2, expected: 3
+2022-07-26 17:44:06,658 INFO  T[11] INFO  TicTacToe:37 - Ignoring action from 2, expected: 3
+2022-07-26 17:44:10,529 INFO  T[11] INFO  TicTacToe:92 - Received action with data: next 3s
+2022-07-26 17:44:10,685 INFO  T[11] INFO  TicTacToe:92 - Received action with data: next 3s
+2022-07-26 17:44:11,211 INFO  T[11] INFO  TicTacToe:92 - Received action with data: next 3s
+2022-07-26 17:44:11,211 INFO  T[11] INFO  TicTacToe:92 - Received action with data: start at 3s
+2022-07-26 17:45:14,115 INFO  T[] INFO  Activator:74 - Default activator for game id 888 is used the default configuration
+2022-07-26 17:46:40,240 INFO  T[] INFO  Activator:74 - Default activator for game id 888 is used the default configuration
+2022-07-26 17:46:59,025 INFO  T[1] INFO  Listener:20 - Player joined!
+2022-07-26 17:47:01,468 INFO  T[1] INFO  Listener:20 - Player joined!
+2022-07-26 17:47:01,468 INFO  T[1] INFO  Listener:22 - We got two players, starting game!
+2022-07-26 17:47:02,504 INFO  T[1] INFO  Processor:36 - Ignoring action from 2, expected: 0
+2022-07-26 17:47:03,546 INFO  T[1] INFO  Processor:36 - Ignoring action from 3, expected: 0
+2022-07-26 17:47:04,488 INFO  T[1] INFO  Board:28 - Cross = 2 Naught = 3
+2022-07-26 17:47:15,730 INFO  T[1] INFO  Board:28 - Cross = 2 Naught = 3
+2022-07-26 17:47:31,510 INFO  T[1] INFO  Board:28 - Cross = 2 Naught = 3
+2022-07-26 17:55:17,067 INFO  T[1] INFO  Listener:20 - Player joined!
+2022-07-26 17:55:18,107 INFO  T[1] INFO  Listener:20 - Player joined!
+2022-07-26 17:55:18,107 INFO  T[1] INFO  Listener:22 - We got two players, starting game!
+2022-07-26 17:55:19,059 INFO  T[1] INFO  Processor:36 - Ignoring action from 1, expected: 2
+2022-07-26 17:55:21,112 INFO  T[1] INFO  Board:28 - Cross = 1 Naught = 3
+2022-07-26 17:55:32,766 INFO  T[1] INFO  Board:28 - Cross = 1 Naught = 3
+2022-07-26 17:55:45,342 INFO  T[1] INFO  Board:28 - Cross = 1 Naught = 3

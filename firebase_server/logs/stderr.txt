@@ -1,0 +1,121 @@
+=====================================================
+2022-07-25 07:15:48 - Cubeia Firebase Starting
+=====================================================
+log4j:WARN Continuable parsing error 15 and column 17
+log4j:WARN The content of element type "appender" must match "(errorHandler?,param*,rollingPolicy?,triggeringPolicy?,connectionSource?,layout?,filter*,appender-ref*)".
+log4j:WARN Continuable parsing error 25 and column 21
+log4j:WARN The content of element type "appender" must match "(errorHandler?,param*,rollingPolicy?,triggeringPolicy?,connectionSource?,layout?,filter*,appender-ref*)".
+log4j:WARN Continuable parsing error 58 and column 16
+log4j:WARN The content of element type "appender" must match "(errorHandler?,param*,rollingPolicy?,triggeringPolicy?,connectionSource?,layout?,filter*,appender-ref*)".
+log4j:WARN Continuable parsing error 68 and column 16
+log4j:WARN The content of element type "appender" must match "(errorHandler?,param*,rollingPolicy?,triggeringPolicy?,connectionSource?,layout?,filter*,appender-ref*)".
+log4j:WARN Continuable parsing error 85 and column 16
+log4j:WARN The content of element type "appender" must match "(errorHandler?,param*,rollingPolicy?,triggeringPolicy?,connectionSource?,layout?,filter*,appender-ref*)".
+log4j:WARN Continuable parsing error 95 and column 16
+log4j:WARN The content of element type "appender" must match "(errorHandler?,param*,rollingPolicy?,triggeringPolicy?,connectionSource?,layout?,filter*,appender-ref*)".
+log4j:WARN Continuable parsing error 112 and column 17
+log4j:WARN The content of element type "appender" must match "(errorHandler?,param*,rollingPolicy?,triggeringPolicy?,connectionSource?,layout?,filter*,appender-ref*)".
+log4j:WARN Continuable parsing error 123 and column 17
+log4j:WARN The content of element type "appender" must match "(errorHandler?,param*,rollingPolicy?,triggeringPolicy?,connectionSource?,layout?,filter*,appender-ref*)".
+log4j:WARN Continuable parsing error 141 and column 16
+log4j:WARN The content of element type "appender" must match "(errorHandler?,param*,rollingPolicy?,triggeringPolicy?,connectionSource?,layout?,filter*,appender-ref*)".
+log4j:WARN Continuable parsing error 151 and column 16
+log4j:WARN The content of element type "appender" must match "(errorHandler?,param*,rollingPolicy?,triggeringPolicy?,connectionSource?,layout?,filter*,appender-ref*)".
+log4j:WARN Continuable parsing error 168 and column 16
+log4j:WARN The content of element type "appender" must match "(errorHandler?,param*,rollingPolicy?,triggeringPolicy?,connectionSource?,layout?,filter*,appender-ref*)".
+log4j:WARN Continuable parsing error 178 and column 16
+log4j:WARN The content of element type "appender" must match "(errorHandler?,param*,rollingPolicy?,triggeringPolicy?,connectionSource?,layout?,filter*,appender-ref*)".
+log4j:WARN Continuable parsing error 195 and column 16
+log4j:WARN The content of element type "appender" must match "(errorHandler?,param*,rollingPolicy?,triggeringPolicy?,connectionSource?,layout?,filter*,appender-ref*)".
+log4j:WARN Continuable parsing error 205 and column 16
+log4j:WARN The content of element type "appender" must match "(errorHandler?,param*,rollingPolicy?,triggeringPolicy?,connectionSource?,layout?,filter*,appender-ref*)".
+log4j:WARN Continuable parsing error 222 and column 16
+log4j:WARN The content of element type "appender" must match "(errorHandler?,param*,rollingPolicy?,triggeringPolicy?,connectionSource?,layout?,filter*,appender-ref*)".
+log4j:WARN Continuable parsing error 232 and column 16
+log4j:WARN The content of element type "appender" must match "(errorHandler?,param*,rollingPolicy?,triggeringPolicy?,connectionSource?,layout?,filter*,appender-ref*)".
+log4j:WARN Continuable parsing error 281 and column 16
+log4j:WARN The content of element type "appender" must match "(errorHandler?,param*,rollingPolicy?,triggeringPolicy?,connectionSource?,layout?,filter*,appender-ref*)".
+log4j:WARN Continuable parsing error 290 and column 16
+log4j:WARN The content of element type "appender" must match "(errorHandler?,param*,rollingPolicy?,triggeringPolicy?,connectionSource?,layout?,filter*,appender-ref*)".
+log4j:WARN Continuable parsing error 375 and column 16
+log4j:WARN The content of element type "appender" must match "(errorHandler?,param*,rollingPolicy?,triggeringPolicy?,connectionSource?,layout?,filter*,appender-ref*)".
+log4j:WARN Continuable parsing error 385 and column 16
+log4j:WARN The content of element type "appender" must match "(errorHandler?,param*,rollingPolicy?,triggeringPolicy?,connectionSource?,layout?,filter*,appender-ref*)".
+log4j:WARN Continuable parsing error 943 and column 16
+log4j:WARN The content of element type "appender" must match "(errorHandler?,param*,rollingPolicy?,triggeringPolicy?,connectionSource?,layout?,filter*,appender-ref*)".
+log4j:WARN Continuable parsing error 1086 and column 23
+log4j:WARN The content of element type "log4j:configuration" must match "(renderer*,throwableRenderer?,appender*,plugin*,(category|logger)*,root?,(categoryFactory|loggerFactory)?)".
+log4j:WARN Continuable parsing error 15 and column 17
+log4j:WARN The content of element type "appender" must match "(errorHandler?,param*,rollingPolicy?,triggeringPolicy?,connectionSource?,layout?,filter*,appender-ref*)".
+log4j:WARN Continuable parsing error 25 and column 21
+log4j:WARN The content of element type "appender" must match "(errorHandler?,param*,rollingPolicy?,triggeringPolicy?,connectionSource?,layout?,filter*,appender-ref*)".
+log4j:WARN Continuable parsing error 58 and column 16
+log4j:WARN The content of element type "appender" must match "(errorHandler?,param*,rollingPolicy?,triggeringPolicy?,connectionSource?,layout?,filter*,appender-ref*)".
+log4j:WARN Continuable parsing error 68 and column 16
+log4j:WARN The content of element type "appender" must match "(errorHandler?,param*,rollingPolicy?,triggeringPolicy?,connectionSource?,layout?,filter*,appender-ref*)".
+log4j:WARN Continuable parsing error 85 and column 16
+log4j:WARN The content of element type "appender" must match "(errorHandler?,param*,rollingPolicy?,triggeringPolicy?,connectionSource?,layout?,filter*,appender-ref*)".
+log4j:WARN Continuable parsing error 95 and column 16
+log4j:WARN The content of element type "appender" must match "(errorHandler?,param*,rollingPolicy?,triggeringPolicy?,connectionSource?,layout?,filter*,appender-ref*)".
+log4j:WARN Continuable parsing error 112 and column 17
+log4j:WARN The content of element type "appender" must match "(errorHandler?,param*,rollingPolicy?,triggeringPolicy?,connectionSource?,layout?,filter*,appender-ref*)".
+log4j:WARN Continuable parsing error 123 and column 17
+log4j:WARN The content of element type "appender" must match "(errorHandler?,param*,rollingPolicy?,triggeringPolicy?,connectionSource?,layout?,filter*,appender-ref*)".
+log4j:WARN Continuable parsing error 141 and column 16
+log4j:WARN The content of element type "appender" must match "(errorHandler?,param*,rollingPolicy?,triggeringPolicy?,connectionSource?,layout?,filter*,appender-ref*)".
+log4j:WARN Continuable parsing error 151 and column 16
+log4j:WARN The content of element type "appender" must match "(errorHandler?,param*,rollingPolicy?,triggeringPolicy?,connectionSource?,layout?,filter*,appender-ref*)".
+log4j:WARN Continuable parsing error 168 and column 16
+log4j:WARN The content of element type "appender" must match "(errorHandler?,param*,rollingPolicy?,triggeringPolicy?,connectionSource?,layout?,filter*,appender-ref*)".
+log4j:WARN Continuable parsing error 178 and column 16
+log4j:WARN The content of element type "appender" must match "(errorHandler?,param*,rollingPolicy?,triggeringPolicy?,connectionSource?,layout?,filter*,appender-ref*)".
+log4j:WARN Continuable parsing error 195 and column 16
+log4j:WARN The content of element type "appender" must match "(errorHandler?,param*,rollingPolicy?,triggeringPolicy?,connectionSource?,layout?,filter*,appender-ref*)".
+log4j:WARN Continuable parsing error 205 and column 16
+log4j:WARN The content of element type "appender" must match "(errorHandler?,param*,rollingPolicy?,triggeringPolicy?,connectionSource?,layout?,filter*,appender-ref*)".
+log4j:WARN Continuable parsing error 222 and column 16
+log4j:WARN The content of element type "appender" must match "(errorHandler?,param*,rollingPolicy?,triggeringPolicy?,connectionSource?,layout?,filter*,appender-ref*)".
+log4j:WARN Continuable parsing error 232 and column 16
+log4j:WARN The content of element type "appender" must match "(errorHandler?,param*,rollingPolicy?,triggeringPolicy?,connectionSource?,layout?,filter*,appender-ref*)".
+log4j:WARN Continuable parsing error 281 and column 16
+log4j:WARN The content of element type "appender" must match "(errorHandler?,param*,rollingPolicy?,triggeringPolicy?,connectionSource?,layout?,filter*,appender-ref*)".
+log4j:WARN Continuable parsing error 290 and column 16
+log4j:WARN The content of element type "appender" must match "(errorHandler?,param*,rollingPolicy?,triggeringPolicy?,connectionSource?,layout?,filter*,appender-ref*)".
+log4j:WARN Continuable parsing error 375 and column 16
+log4j:WARN The content of element type "appender" must match "(errorHandler?,param*,rollingPolicy?,triggeringPolicy?,connectionSource?,layout?,filter*,appender-ref*)".
+log4j:WARN Continuable parsing error 385 and column 16
+log4j:WARN The content of element type "appender" must match "(errorHandler?,param*,rollingPolicy?,triggeringPolicy?,connectionSource?,layout?,filter*,appender-ref*)".
+log4j:WARN Continuable parsing error 943 and column 16
+log4j:WARN The content of element type "appender" must match "(errorHandler?,param*,rollingPolicy?,triggeringPolicy?,connectionSource?,layout?,filter*,appender-ref*)".
+log4j:WARN Continuable parsing error 1086 and column 23
+log4j:WARN The content of element type "log4j:configuration" must match "(renderer*,throwableRenderer?,appender*,plugin*,(category|logger)*,root?,(categoryFactory|loggerFactory)?)".
+2519 [main] INFO bitronix.tm.BitronixTransactionManager - Bitronix Transaction Manager version 1.3
+2522 [main] INFO bitronix.tm.Configuration - JVM unique ID: <6ec92998650a>
+2573 [main] INFO bitronix.tm.recovery.Recoverer - recovery committed 0 dangling transaction(s) and rolled back 0 aborted transaction(s) on 0 resource(s) []
+6899 [main] INFO org.eclipse.jetty.server.Server - jetty-8.1.7.v20120910
+7209 [main] INFO org.cometd.server.BayeuxServerImpl.788905599 - jsonContext=com.cubeia.firebase.server.gateway.comm.jetty.CometdJsonContext
+7210 [main] INFO org.cometd.server.BayeuxServerImpl.788905599 - logLevel=3
+7211 [main] INFO org.cometd.server.BayeuxServerImpl.788905599 - maxInterval=5000
+7213 [main] INFO org.cometd.server.BayeuxServerImpl.788905599 - timeout=30000
+7228 [main] INFO org.cometd.server.BayeuxServerImpl.788905599 - Added channel /meta
+7229 [main] INFO org.cometd.server.BayeuxServerImpl.788905599 - Added channel /meta/handshake
+7237 [main] INFO org.cometd.server.BayeuxServerImpl.788905599 - Added channel /meta/connect
+7243 [main] INFO org.cometd.server.BayeuxServerImpl.788905599 - Added channel /meta/subscribe
+7247 [main] INFO org.cometd.server.BayeuxServerImpl.788905599 - Added channel /meta/unsubscribe
+7251 [main] INFO org.cometd.server.BayeuxServerImpl.788905599 - Added channel /meta/disconnect
+8228 [main] INFO org.cometd.server.BayeuxServerImpl.788905599 - Allowed Transports: [callback-polling, long-polling]
+8311 [main] INFO org.cometd.server.BayeuxServerImpl.788905599 - >  {channel=/meta/handshake, id=1} clientService_1193t620d6jx4v1oyuscge1a6ns - last connect 0 ms ago
+8313 [main] INFO org.cometd.server.BayeuxServerImpl.788905599 - >> {channel=/meta/handshake, id=1}
+8488 [main] INFO org.cometd.server.BayeuxServerImpl.788905599 - << {minimumVersion=1.0, clientId=clientService_1193t620d6jx4v1oyuscge1a6ns, supportedConnectionTypes=[callback-polling, long-polling], channel=/meta/handshake, id=1, version=1.0, successful=true}
+8489 [main] INFO org.cometd.server.BayeuxServerImpl.788905599 - <  {minimumVersion=1.0, clientId=clientService_1193t620d6jx4v1oyuscge1a6ns, supportedConnectionTypes=[callback-polling, long-polling], channel=/meta/handshake, id=1, version=1.0, successful=true}
+8494 [main] INFO org.cometd.server.BayeuxServerImpl.788905599 - >  {clientId=clientService_1193t620d6jx4v1oyuscge1a6ns, advice={interval=-1}, channel=/meta/connect, id=2} clientService_1193t620d6jx4v1oyuscge1a6ns - last connect 0 ms ago
+8496 [main] INFO org.cometd.server.BayeuxServerImpl.788905599 - >> {clientId=clientService_1193t620d6jx4v1oyuscge1a6ns, advice={interval=-1}, channel=/meta/connect, id=2}
+8524 [main] INFO org.cometd.server.BayeuxServerImpl.788905599 - << {channel=/meta/connect, id=2, successful=true}
+8525 [main] INFO org.cometd.server.BayeuxServerImpl.788905599 - <  {channel=/meta/connect, id=2, successful=true}
+8527 [main] INFO org.cometd.server.BayeuxServerImpl.788905599 - Added channel /service
+8528 [main] INFO org.cometd.server.BayeuxServerImpl.788905599 - Added channel /service/client
+8731 [main] INFO org.eclipse.jetty.server.AbstractConnector - Started SelectChannelConnector@0.0.0.0:8080
+1199008 [qtp280615803-78] WARN org.eclipse.jetty.websocket.WebSocketConnectionRFC6455 - java.lang.IllegalArgumentException: Failed to handle JSON in object mapper for SCEP@b5b02a7{l(/172.18.0.1:59310)<->r(/172.18.0.2:8080),d=true,open=true,ishut=false,oshut=false,rb=false,wb=false,w=true,i=1r}-{WS/D13 p=WebSocketParserD13@1545ca33 state=DATA buffer= g=WebSocketGeneratorRFC6455@426141cb closed=false buffer=-1}
+8900606 [qtp280615803-79] WARN org.eclipse.jetty.websocket.WebSocketConnectionRFC6455 - java.lang.IllegalArgumentException: Failed to handle JSON in object mapper for SCEP@73edc5a6{l(/172.18.0.1:59326)<->r(/172.18.0.2:8080),d=true,open=true,ishut=false,oshut=false,rb=false,wb=false,w=true,i=1r}-{WS/D13 p=WebSocketParserD13@49b3ee28 state=DATA buffer= g=WebSocketGeneratorRFC6455@5fcde6d4 closed=false buffer=-1}
+10785056 [qtp280615803-82] WARN org.eclipse.jetty.websocket.WebSocketConnectionRFC6455 - java.lang.IllegalArgumentException: Failed to handle JSON in object mapper for SCEP@20d80844{l(/172.18.0.1:59334)<->r(/172.18.0.2:8080),d=true,open=true,ishut=false,oshut=false,rb=false,wb=false,w=true,i=1r}-{WS/D13 p=WebSocketParserD13@6b67e5b9 state=DATA buffer= g=WebSocketGeneratorRFC6455@24fb5780 closed=false buffer=-1}
+11495745 [qtp280615803-80] WARN org.eclipse.jetty.websocket.WebSocketConnectionRFC6455 - java.lang.IllegalArgumentException: Failed to handle JSON in object mapper for SCEP@205c0fe4{l(/172.18.0.1:59338)<->r(/172.18.0.2:8080),d=true,open=true,ishut=false,oshut=false,rb=false,wb=false,w=true,i=1r}-{WS/D13 p=WebSocketParserD13@1d83258 state=DATA buffer= g=WebSocketGeneratorRFC6455@b7a1dc7 closed=false buffer=-1}

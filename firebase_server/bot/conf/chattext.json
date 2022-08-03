@@ -1,0 +1,308 @@
+{
+"SourceUser":"thai",
+"Text_indo":
+    {
+		"game_8032":{   
+			"play_nhanhlen" : "Ayo Cepat",
+			"play_choiluon" : "Ikut Donk!",
+			"play_allin" : "All-in dong!",
+			"win_1" : "Yes!!!",
+			"win_2" : "Sip deh!",
+			"win_3" : "Asik menang lagi",
+			"win_4" : "Trims Chipnya",
+			"win_5" : "Lagi hoki nih",
+			"lose_1" : "Yah rugi",			
+			"lose_2" : "Aduh suram",
+			"lose_3" : "Kartu jelek nih",
+			"lose_4" : "Kalah melulu",
+			"lose_5" : "Bosan deh!",
+			"emowin_1":"*e2",
+			"emowin_2":"*e3",
+			"emowin_3":"*e4",
+			"emolose_1":"*e8",
+			"emolose_2":"*e12",
+			"emolose_3":"*e1"
+		},
+		"game_8004":{
+			"play_nhanhlen" : "Ayo Cepat",
+			"play_choiluon" : "Ikut Donk!",
+			"play_allin" : "All-in dong!",
+			"win_1" : "Yes!!!",
+			"win_2" : "Sip deh!",
+			"win_3" : "Asik menang lagi",
+			"win_4" : "Trims Chipnya",
+			"win_5" : "Lagi hoki nih",
+			"lose_1" : "Yah rugi",			
+			"lose_2" : "Aduh suram",
+			"lose_3" : "Kartu jelek nih",
+			"lose_4" : "Kalah melulu",
+			"lose_5" : "Bosan deh!",
+			"emowin_1":"*e2",
+			"emowin_2":"*e3",
+			"emowin_3":"*e4",
+			"emolose_1":"*e8",
+			"emolose_2":"*e12",
+			"emolose_3":"*e1"
+		}
+    },
+"Text_thai":
+	{
+		"game_8025":{
+			"play_nhanhlen" : "Ayo Cepat"
+		}
+	},
+"Text_vi":
+	{
+		"game_8004":{		
+			"act_win":{
+				"per_emo":55,
+				"arr_chat":[
+					{
+						"str":"Ahihi",
+						"timeMin":1,
+						"timeMax":4
+					},
+					{
+						"str":"Ha Ha!",
+						"timeMin":1,
+						"timeMax":4
+					},
+					{
+						"str":"Chà, hên quá đi!",
+						"timeMin":1,
+						"timeMax":4
+					}
+				],
+				"arr_emo":[
+				{
+					"str":"*e2",
+					"timeMin":1,
+					"timeMax":4
+				},
+				{
+					"str":"*e3",
+					"timeMin":1,
+					"timeMax":4
+				},
+				{
+					"str":"*e5",
+					"timeMin":1,
+					"timeMax":4
+				},
+				{
+					"str":"*e7",
+					"timeMin":1,
+					"timeMax":4
+				},
+				{
+					"str":"*e9",
+					"timeMin":1,
+					"timeMax":4
+				},
+				{
+					"str":"*e10",
+					"timeMin":1,
+					"timeMax":4
+				},
+				{
+					"str":"*e11",
+					"timeMin":1,
+					"timeMax":4
+				},
+				{
+					"str":"*e12",
+					"timeMin":1,
+					"timeMax":2
+				}
+				]		
+			},
+			"act_lose":{
+				"per_emo":30,
+				"arr_chat":[
+					{
+						"str":"Chán quá đi",
+						"timeMin":1,
+						"timeMax":4
+					},
+					{
+						"str":"Xui dễ sợ!",
+						"timeMin":1,
+						"timeMax":4
+					}
+				],
+				"arr_emo":[
+				{
+					"str":"*e2",
+					"timeMin":1,
+					"timeMax":4
+				},
+				{
+					"str":"*e7",
+					"timeMin":1,
+					"timeMax":4
+				}
+				]
+			},
+			"act_finish_sort":{
+				"per_maubinh":70,
+				"per_wait_other_user":70,
+				"per_tps_four_a_kind":50,
+				"per_throw":60,
+				"arr_maubinh":[
+					{
+						"str": "Chà, hên quá đi!",
+						"timeMin":1,
+						"timeMax":4
+					},
+					{
+						"str": "Bài đẹp quá!",
+						"timeMin":1,
+						"timeMax":4
+					},
+					{
+						"str": "Ha ha!",
+						"timeMin":1,
+						"timeMax":4
+					},
+					{
+						"str": "Ahihi",
+						"timeMin":1,
+						"timeMax":4
+					}	
+				],
+				"arr_wait_other_user":{
+					"per_emo": 50,					
+					"arr_emo":[
+						{
+							"str":"*f2",
+							"timeMin":1,
+							"timeMax":4
+						},
+						{
+							"str":"*f4",
+							"timeMin":1,
+							"timeMax":4
+						},
+						{
+							"str":"*f5",
+							"timeMin":1,
+							"timeMax":4
+						}
+					],
+					"arr_chat":[
+						{
+							"str": "Xếp lâu thế!",
+							"timeMin":1,
+							"timeMax":4
+						},
+						{
+							"str": "Lẹ lên nào",
+							"timeMin":1,
+							"timeMax":4
+						}
+					]
+				},
+				"arr_tps_four_a_kind":{
+					"per_emo": 40,
+					"arr_emo":[
+						{
+							"str":"*e9",
+							"timeMin":1,
+							"timeMax":4
+						},
+						{
+							"str":"*e10",
+							"timeMin":1,
+							"timeMax":4
+						},
+						{
+							"str":"*e11",
+							"timeMin":1,
+							"timeMax":4
+						}
+					],
+					"arr_chat":[
+						{
+							"str":"Ha ha!",
+							"timeMin":1,
+							"timeMax":4
+						},
+						{
+							"str":"Ahihi",
+							"timeMin":1,
+							"timeMax":4
+						}
+					]
+				}
+			},
+			"act_on_wait":{	
+				"per_item": 50,
+				"arr_item":[
+					{
+						"str":"*f2",
+						"timeMin":1,
+						"timeMax":4
+					},
+					{
+						"str":"*f4",
+						"timeMin":1,
+						"timeMax":4
+					},
+					{
+						"str":"*f5",
+						"timeMin":1,
+						"timeMax":4
+					}
+				],
+				"arr_chat":[
+					{
+						"str":"Sẵn sàng nhanh nào",
+						"timeMin":1,
+						"timeMax":4
+					},
+					{
+						"str":"Lẹ lên nào",
+						"timeMin":1,
+						"timeMax":4
+					}
+				]
+			},
+			"act_throw":{	
+				"per_item": 60,
+				"arr_item":[
+					{
+						"str":"*f0",
+						"timeMin":1,
+						"timeMax":4
+					},
+					{
+						"str":"*f1",
+						"timeMin":1,
+						"timeMax":4
+					},
+					{
+						"str":"*f2",
+						"timeMin":1,
+						"timeMax":4
+					},
+					{
+						"str":"*f3",
+						"timeMin":1,
+						"timeMax":4
+					},
+					{
+						"str":"*f4",
+						"timeMin":1,
+						"timeMax":4
+					},
+					{
+						"str":"*f5",
+						"timeMin":1,
+						"timeMax":4
+					}
+				]
+			}
+		}
+	}
+	
+}

@@ -1,0 +1,11 @@
+2022-08-03 08:58:21,511 - INFO  - Firebase Server Platform initializing; Server id: 1624149772
+2022-08-03 08:58:22,485 - INFO  - Deployed: tictactoe-game 1.0-SNAPSHOT; Internal ID: 888; Deployment Revision: 1
+2022-08-03 08:58:22,513 - INFO  - Master node 'mas1' initialized as [primary] master.
+2022-08-03 08:58:22,538 - INFO  - Master node processed handshake for role GAME_NODE from id: gam1[1624149772[127.0.0.1:8635]]
+2022-08-03 08:58:22,557 - INFO  - Master node processed handshake for role CLIENT_NODE from id: cli1[1624149772[127.0.0.1:8635]]
+2022-08-03 08:58:22,794 - INFO  - HTTP Server starting at: 0.0.0.0:8080; SSL configuration: Not Configured
+2022-08-03 08:58:22,797 - INFO  - Master node processed handshake for role MTT_NODE from id: mtt1[1624149772[127.0.0.1:8635]]
+2022-08-03 08:58:22,871 - INFO  - NIO Server started at: /0.0.0.0:4123
+2022-08-03 08:58:22,881 - INFO  - System [Java HotSpot(TM) Client VM 25.141-b15; Windows 10 Windows 10 (x86)]
+2022-08-03 08:58:22,882 - INFO  - Server started [Wed Aug 03 08:58:22 ICT 2022]
+2022-08-03 08:58:22,882 - INFO  - Firebase Server Platform [version: 1.8.0-CE]

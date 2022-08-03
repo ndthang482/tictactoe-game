@@ -1,0 +1,1115 @@
+<?xml version="1.0" encoding="UTF-8" ?>
+<!DOCTYPE log4j:configuration SYSTEM "log4j.dtd">
+<log4j:configuration
+	xmlns:log4j="http://jakarta.apache.org/log4j/">	
+  
+  
+  <!-- START titac -->
+	<appender name="APP_INFO_LOG_TICTAC" class="org.apache.log4j.rolling.RollingFileAppender">
+            <rollingPolicy class="org.apache.log4j.rolling.TimeBasedRollingPolicy">
+                    <param name="FileNamePattern" value="logs/debug/tictac/info-%d{yyyy-MM-dd}.log"/>
+            </rollingPolicy>
+            <layout class="org.apache.log4j.PatternLayout">
+                    <param name="ConversionPattern" value="%d %-5p T[%X{tableid}] %-5p %c{1}:%L - %m%n"/>
+            </layout>
+            <param name="Threshold" value="INFO"/>
+    </appender>
+
+    <appender name="APP_ERROR_LOG_TICTAC" class="org.apache.log4j.rolling.RollingFileAppender">
+            <rollingPolicy class="org.apache.log4j.rolling.TimeBasedRollingPolicy">
+                    <param name="FileNamePattern" value="logs/debug/tictac/error-%d{yyyy-MM-dd}.log"/>
+            </rollingPolicy>
+            <layout class="org.apache.log4j.PatternLayout">
+                    <param name="ConversionPattern" value="%d{yyyy-MM-dd HH:mm:ss} %-5p %c{1}:%L - %m%n"/>
+            </layout>
+            <param name="Threshold" value="ERROR"/>
+    </appender>
+
+        <category name="com.cubeia.tutorial.tictactoe.game" additivity="false">
+            <priority value="all"/>
+            <appender-ref ref="APP_INFO_LOG_TICTAC" />
+            <appender-ref ref="APP_ERROR_LOG_TICTAC" />
+    </category> 
+	<!-- END tictac -->
+	
+<!-- Start Login and disconnect-->
+	<appender name="APP_INFO_LOG_LOGIN" class="org.apache.log4j.rolling.RollingFileAppender">
+            <rollingPolicy class="org.apache.log4j.rolling.TimeBasedRollingPolicy">
+                    <param name="FileNamePattern" value="logs/login/%d{yyyy-MM-dd}.log"/>
+            </rollingPolicy>
+            <layout class="org.apache.log4j.PatternLayout">
+                    <param name="ConversionPattern" value="%d %-5p - %m%n"/>
+            </layout>
+            <param name="Threshold" value="INFO"/>
+   	 </appender>
+	
+	<appender name="APP_ERROR_LOG_LOGIN" class="org.apache.log4j.rolling.RollingFileAppender">
+            <rollingPolicy class="org.apache.log4j.rolling.TimeBasedRollingPolicy">
+                    <param name="FileNamePattern" value="logs/login/error-%d{yyyy-MM-dd}.log"/>
+            </rollingPolicy>
+            <layout class="org.apache.log4j.PatternLayout">
+                    <param name="ConversionPattern" value="%d %-5p - %m%n"/>
+            </layout>
+            <param name="Threshold" value="ERROR"/>
+         </appender>
+
+
+        <category name="LoginandDisconnect" additivity="false">
+            <priority value="all"/>
+            <appender-ref ref="APP_INFO_LOG_LOGIN" />
+		<appender-ref ref="APP_ERROR_LOG_LOGIN" />
+    	</category> 
+
+        <category name="CCU_DEBUG" additivity="false">
+                        <priority value="all"/>
+                        <appender-ref ref="ccu_debug"/>
+                </category>
+
+                <appender name="ccu_debug" class="org.apache.log4j.rolling.RollingFileAppender">
+                        <rollingPolicy class="org.apache.log4j.rolling.TimeBasedRollingPolicy">
+                                <param name="FileNamePattern" value="logs/debug/CCU/debug_%d{yyyy-MM-dd}.log"/>
+                        </rollingPolicy>
+                        <layout class="org.apache.log4j.PatternLayout">
+                                <param name="ConversionPattern" value="%d T[%X{tableid}] P[%X{playerid}] %-5p %m%n"/>
+                        </layout>
+                </appender>
+
+
+	<!--Start Lucky Spin-->
+	<appender name="APP_INFO_LOG_LUCKY_SPIN" class="org.apache.log4j.rolling.RollingFileAppender">
+            <rollingPolicy class="org.apache.log4j.rolling.TimeBasedRollingPolicy">
+                    <param name="FileNamePattern" value="logs/debug/luckySpin/info-%d{yyyy-MM-dd}.log"/>
+            </rollingPolicy>
+            <layout class="org.apache.log4j.PatternLayout">
+                    <param name="ConversionPattern" value="%d{yyyy-MM-dd HH:mm:ss} %-5p %c{1}:%L - %m%n"/>
+            </layout>
+            <param name="Threshold" value="INFO"/>
+    </appender>
+
+    <appender name="APP_ERROR_LOG_LUCKY_SPIN" class="org.apache.log4j.rolling.RollingFileAppender">
+            <rollingPolicy class="org.apache.log4j.rolling.TimeBasedRollingPolicy">
+                    <param name="FileNamePattern" value="logs/debug/luckySpin/error-%d{yyyy-MM-dd}.log"/>
+            </rollingPolicy>
+            <layout class="org.apache.log4j.PatternLayout">
+                    <param name="ConversionPattern" value="%d{yyyy-MM-dd HH:mm:ss} %-5p %c{1}:%L - %m%n"/>
+            </layout>
+            <param name="Threshold" value="ERROR"/>
+    </appender>
+
+        <category name="net.luckySpin" additivity="false">
+            <priority value="all"/>
+            <appender-ref ref="APP_INFO_LOG_LUCKY_SPIN" />
+            <appender-ref ref="APP_ERROR_LOG_LUCKY_SPIN" />
+    </category>
+	<!--End Lucky Spin-->
+	<!-- START boogyi -->
+	<appender name="APP_INFO_LOG_TOMCUA" class="org.apache.log4j.rolling.RollingFileAppender">
+            <rollingPolicy class="org.apache.log4j.rolling.TimeBasedRollingPolicy">
+                    <param name="FileNamePattern" value="logs/debug/tomcua/info-%d{yyyy-MM-dd}.log"/>
+            </rollingPolicy>
+            <layout class="org.apache.log4j.PatternLayout">
+                    <param name="ConversionPattern" value="%d %-5p T[%X{tableid}] - %m%n"/>
+            </layout>
+            <param name="Threshold" value="INFO"/>
+    </appender>
+
+    <appender name="APP_ERROR_LOG_TOMCUA" class="org.apache.log4j.rolling.RollingFileAppender">
+            <rollingPolicy class="org.apache.log4j.rolling.TimeBasedRollingPolicy">
+                    <param name="FileNamePattern" value="logs/debug/tomcua/error-%d{yyyy-MM-dd}.log"/>
+            </rollingPolicy>
+            <layout class="org.apache.log4j.PatternLayout">
+                    <param name="ConversionPattern" value="%d{yyyy-MM-dd HH:mm:ss} %-5p %c{1}:%L - %m%n"/>
+            </layout>
+            <param name="Threshold" value="ERROR"/>
+    </appender>
+
+        <category name="net.maychutomcuaca" additivity="false">
+            <priority value="all"/>
+            <appender-ref ref="APP_INFO_LOG_TOMCUA" />
+            <appender-ref ref="APP_ERROR_LOG_TOMCUA" />
+    </category>
+	<!-- start blackJack -->
+	<appender name="APP_INFO_LOG_BLACKJACK" class="org.apache.log4j.rolling.RollingFileAppender">
+            	<rollingPolicy class="org.apache.log4j.rolling.TimeBasedRollingPolicy">
+                	<param name="FileNamePattern" value="logs/debug/blackjack/info-%d{yyyy-MM-dd}.log"/>
+            	</rollingPolicy>
+
+            	<layout class="org.apache.log4j.PatternLayout">
+                	<param name="ConversionPattern" value="%d %-5p T[%X{tableid}] %-5p %c{1}:%L - %m%n"/>
+            	</layout>
+           	<param name="Threshold" value="INFO"/>
+    	</appender>
+
+    	<appender name="APP_ERROR_LOG_BLACKJACK" class="org.apache.log4j.rolling.RollingFileAppender">
+            	<rollingPolicy class="org.apache.log4j.rolling.TimeBasedRollingPolicy">
+                    <param name="FileNamePattern" value="logs/debug/blackjack/error-%d{yyyy-MM-dd}.log"/>
+            	</rollingPolicy>
+            
+		<layout class="org.apache.log4j.PatternLayout">
+                    <param name="ConversionPattern" value="%d{yyyy-MM-dd HH:mm:ss} %-5p %c{1}:%L - %m%n"/>
+            	</layout>
+            	<param name="Threshold" value="ERROR"/>
+    	</appender>
+
+        <category name="com.ndn.blackjack" additivity="false">
+            <priority value="all"/>
+            <appender-ref ref="APP_INFO_LOG_BLACKJACK" />
+            <appender-ref ref="APP_ERROR_LOG_BLACKJACK" />
+	 </category>
+
+	<!-- end blackJack -->
+	<!-- START Binh -->
+	<appender name="APP_INFO_LOG_BINH" class="org.apache.log4j.rolling.RollingFileAppender">
+            <rollingPolicy class="org.apache.log4j.rolling.TimeBasedRollingPolicy">
+                    <param name="FileNamePattern" value="logs/debug/thirteen_poker/info-%d{yyyy-MM-dd}.log"/>
+            </rollingPolicy>
+            <layout class="org.apache.log4j.PatternLayout">
+                    <param name="ConversionPattern" value="%d %-5p T[%X{tableid}] %-5p %c{1}:%L - %m%n"/>
+            </layout>
+            <param name="Threshold" value="INFO"/>
+    </appender>
+
+    <appender name="APP_ERROR_LOG_BINH" class="org.apache.log4j.rolling.RollingFileAppender">
+            <rollingPolicy class="org.apache.log4j.rolling.TimeBasedRollingPolicy">
+                    <param name="FileNamePattern" value="logs/debug/thirteen_poker/error-%d{yyyy-MM-dd}.log"/>
+            </rollingPolicy>
+            <layout class="org.apache.log4j.PatternLayout">
+                    <param name="ConversionPattern" value="%d{yyyy-MM-dd HH:mm:ss} %-5p %c{1}:%L - %m%n"/>
+            </layout>
+            <param name="Threshold" value="ERROR"/>
+    </appender>
+
+        <category name="net.maychucapsasusun" additivity="false">
+            <priority value="all"/>
+            <appender-ref ref="APP_INFO_LOG_BINH" />
+            <appender-ref ref="APP_ERROR_LOG_BINH" />
+    </category> 
+	<!-- END Binh -->
+	<!-- START shanplus -->
+	<appender name="APP_INFO_LOG_SHAN_PLUS" class="org.apache.log4j.rolling.RollingFileAppender">
+            <rollingPolicy class="org.apache.log4j.rolling.TimeBasedRollingPolicy">
+                    <param name="FileNamePattern" value="logs/debug/shan_plus/info-%d{yyyy-MM-dd}.log"/>
+            </rollingPolicy>
+            <layout class="org.apache.log4j.PatternLayout">
+                    <param name="ConversionPattern" value="%d %-5p T[%X{tableid}] %-5p %c{1}:%L - %m%n"/>
+            </layout>
+            <param name="Threshold" value="INFO"/>
+    </appender>
+
+    <appender name="APP_ERROR_LOG_SHAN_PLUS" class="org.apache.log4j.rolling.RollingFileAppender">
+            <rollingPolicy class="org.apache.log4j.rolling.TimeBasedRollingPolicy">
+                    <param name="FileNamePattern" value="logs/debug/shan_plus/error-%d{yyyy-MM-dd}.log"/>
+            </rollingPolicy>
+            <layout class="org.apache.log4j.PatternLayout">
+                    <param name="ConversionPattern" value="%d{yyyy-MM-dd HH:mm:ss} %-5p %c{1}:%L - %m%n"/>
+            </layout>
+            <param name="Threshold" value="ERROR"/>
+    </appender>
+
+        <category name="net.shanplus" additivity="false">
+            <priority value="all"/>
+            <appender-ref ref="APP_INFO_LOG_SHAN_PLUS" />
+            <appender-ref ref="APP_ERROR_LOG_SHAN_PLUS" />
+    </category> 
+	<!-- END shanplus -->
+	<!-- START Shake -->
+	<appender name="APP_INFO_LOG_SHAKE" class="org.apache.log4j.rolling.RollingFileAppender">
+            <rollingPolicy class="org.apache.log4j.rolling.TimeBasedRollingPolicy">
+                    <param name="FileNamePattern" value="logs/debug/shake/info-%d{yyyy-MM-dd}.log"/>
+            </rollingPolicy>
+            <layout class="org.apache.log4j.PatternLayout">
+                    <param name="ConversionPattern" value="%d %-5p T[%X{tableid}] - %m%n"/>
+            </layout>
+            <param name="Threshold" value="INFO"/>
+    </appender>
+
+    <appender name="APP_ERROR_LOG_SHAKE" class="org.apache.log4j.rolling.RollingFileAppender">
+            <rollingPolicy class="org.apache.log4j.rolling.TimeBasedRollingPolicy">
+                    <param name="FileNamePattern" value="logs/debug/shake/error-%d{yyyy-MM-dd}.log"/>
+            </rollingPolicy>
+            <layout class="org.apache.log4j.PatternLayout">
+                    <param name="ConversionPattern" value="%d{yyyy-MM-dd HH:mm:ss} %-5p %c{1}:%L - %m%n"/>
+            </layout>
+            <param name="Threshold" value="ERROR"/>
+    </appender>
+
+        <category name="net.maychuxocdia" additivity="false">
+            <priority value="all"/>
+            <appender-ref ref="APP_INFO_LOG_SHAKE" />
+            <appender-ref ref="APP_ERROR_LOG_SHAKE" />
+    </category> 
+	<!-- END Shake -->
+	<!-- START Show -->
+	<appender name="APP_INFO_LOG_SHOW" class="org.apache.log4j.rolling.RollingFileAppender">
+            <rollingPolicy class="org.apache.log4j.rolling.TimeBasedRollingPolicy">
+                    <param name="FileNamePattern" value="logs/debug/show/info-%d{yyyy-MM-dd}.log"/>
+            </rollingPolicy>
+            <layout class="org.apache.log4j.PatternLayout">
+                    <param name="ConversionPattern" value="%d %-5p T[%X{tableid}] - %m%n"/>
+            </layout>
+            <param name="Threshold" value="DEBUG"/>
+    </appender>
+
+    <appender name="APP_ERROR_LOG_SHOW" class="org.apache.log4j.rolling.RollingFileAppender">
+            <rollingPolicy class="org.apache.log4j.rolling.TimeBasedRollingPolicy">
+                    <param name="FileNamePattern" value="logs/debug/show/error-%d{yyyy-MM-dd}.log"/>
+            </rollingPolicy>
+            <layout class="org.apache.log4j.PatternLayout">
+                    <param name="ConversionPattern" value="%d{yyyy-MM-dd HH:mm:ss} %-5p %c{1}:%L - %m%n"/>
+            </layout>
+            <param name="Threshold" value="ERROR"/>
+    </appender>
+
+        <category name="net.shows" additivity="false">
+            <priority value="all"/>
+            <appender-ref ref="APP_INFO_LOG_SHOW" />
+            <appender-ref ref="APP_ERROR_LOG_SHOW" />
+    </category>
+	<!-- END Show -->
+	 <category name="Lottery" additivity="false">
+           <priority value="all"/>
+           <appender-ref ref="logLottery"/>
+    </category>
+
+     <appender name="logLottery" class="org.apache.log4j.rolling.RollingFileAppender">
+            <rollingPolicy class="org.apache.log4j.rolling.TimeBasedRollingPolicy">
+                    <param name="FileNamePattern" value="logs/debug/lottery/infoLottery-%d{yyyy-MM-d}.log"/>
+            </rollingPolicy>
+            <layout class="org.apache.log4j.PatternLayout">
+                    <param name="ConversionPattern" value="%d{yyyy-MM-dd HH:mm:ss} T[%X{tableid}] P[%X{playerid}]  %-5p - %m%n"/>
+            </layout>
+    </appender>
+
+
+
+
+	<category name="BaccaratLog" additivity="false">
+           <priority value="all"/>
+           <appender-ref ref="BaccaratLog"/>
+    </category>
+
+     <appender name="BaccaratLog" class="org.apache.log4j.rolling.RollingFileAppender">
+            <rollingPolicy class="org.apache.log4j.rolling.TimeBasedRollingPolicy">
+                    <param name="FileNamePattern" value="logs/debug/baccarat/baccarat-%d{yyyy-MM-d}.log"/>
+            </rollingPolicy>
+            <layout class="org.apache.log4j.PatternLayout">
+                    <param name="ConversionPattern" value="%d{yyyy-MM-dd HH:mm:ss} T[%X{tableid}] P[%X{playerid}]  %-5p - %m%n"/>
+            </layout>
+    </appender>
+
+	<!--Tien len-->
+	<appender name="APP_INFO_LOG_TIENLEN" class="org.apache.log4j.rolling.RollingFileAppender">
+            <rollingPolicy class="org.apache.log4j.rolling.TimeBasedRollingPolicy">
+                    <param name="FileNamePattern" value="logs/debug/tienlen/info-%d{yyyy-MM-dd}.log"/>
+            </rollingPolicy>
+            <layout class="org.apache.log4j.PatternLayout">
+                    <param name="ConversionPattern" value="%d{yyyy-MM-dd HH:mm:ss} %-5p T[%X{tableid}] %c{1}:%L - %m%n"/>
+            </layout>
+            <param name="Threshold" value="INFO"/>
+
+    </appender>
+    <appender name="APP_ERROR_LOG_TIENLEN" class="org.apache.log4j.rolling.RollingFileAppender">
+            <rollingPolicy class="org.apache.log4j.rolling.TimeBasedRollingPolicy">
+                    <param name="FileNamePattern" value="logs/debug/tienlen/error-%d{yyyy-MM-dd}.log"/>
+            </rollingPolicy>
+            <layout class="org.apache.log4j.PatternLayout">
+                    <param name="ConversionPattern" value="%d{yyyy-MM-dd HH:mm:ss} %-5p T[%X{tableid}] %c{1}:%L - %m%n"/>
+            </layout>
+            <param name="Threshold" value="ERROR"/>
+    </appender>
+
+    <category name="net.maychutienlen" additivity="false">
+            <priority value="all"/>
+            <appender-ref ref="APP_INFO_LOG_TIENLEN" />
+            <appender-ref ref="APP_ERROR_LOG_TIENLEN" />
+    </category>
+
+        <category name="slotBoard" additivity="false">
+                        <priority value="all"/>
+                        <appender-ref ref="slot_board"/>
+                </category>
+
+                <appender name="slot_board" class="org.apache.log4j.rolling.RollingFileAppender">
+                        <rollingPolicy class="org.apache.log4j.rolling.TimeBasedRollingPolicy">
+                                <param name="FileNamePattern" value="logs/debug/slot/board_%d{yyyy-MM-dd}.log"/>
+                        </rollingPolicy>
+                        <layout class="org.apache.log4j.PatternLayout">
+                                <param name="ConversionPattern" value="%d T[%X{tableid}] P[%X{playerid}] %-5p %m%n"/>
+                        </layout>
+                </appender>
+
+        <category name="slotDebug" additivity="false">
+                        <priority value="all"/>
+                        <appender-ref ref="slot_debug"/>
+                </category>
+
+                <appender name="slot_debug" class="org.apache.log4j.rolling.RollingFileAppender">
+                        <rollingPolicy class="org.apache.log4j.rolling.TimeBasedRollingPolicy">
+                                <param name="FileNamePattern" value="logs/debug/slot/debug_%d{yyyy-MM-dd}.log"/>
+                        </rollingPolicy>
+                        <layout class="org.apache.log4j.PatternLayout">
+                                <param name="ConversionPattern" value="%d %-5p %m%n"/>
+                        </layout>
+                </appender>
+        <category name="rouletteBoard" additivity="false">
+                        <priority value="all"/>
+                        <appender-ref ref="roulette_board"/>
+                </category>
+
+                <appender name="roulette_board" class="org.apache.log4j.rolling.RollingFileAppender">
+                        <rollingPolicy class="org.apache.log4j.rolling.TimeBasedRollingPolicy">
+                                <param name="FileNamePattern" value="logs/debug/roulette/board_%d{yyyy-MM-dd}.log"/>
+                        </rollingPolicy>
+                        <layout class="org.apache.log4j.PatternLayout">
+                                <param name="ConversionPattern" value="%d T[%X{tableid}] P[%X{playerid}] %-5p %m%n"/>
+                        </layout>
+                </appender>
+
+        <category name="rouletteDebug" additivity="false">
+                        <priority value="all"/>
+                        <appender-ref ref="roulette_debug"/>
+                </category>
+
+                <appender name="roulette_debug" class="org.apache.log4j.rolling.RollingFileAppender">
+                        <rollingPolicy class="org.apache.log4j.rolling.TimeBasedRollingPolicy">
+                                <param name="FileNamePattern" value="logs/debug/roulette/debug_%d{yyyy-MM-dd}.log"/>
+                        </rollingPolicy>
+                        <layout class="org.apache.log4j.PatternLayout">
+                                <param name="ConversionPattern" value="%d %-5p %m%n"/>
+                        </layout>
+                </appender>
+	<!-- ****** IFRS ****** -->
+    <category name="IFRS_LOG_ROULETTE" additivity="false">
+            <priority value="all"/>
+            <appender-ref ref="ifrs_roulette"/>
+    </category>
+        <!--lucky-->
+        <appender name="ifrs_roulette" class="org.apache.log4j.rolling.RollingFileAppender">
+            <rollingPolicy class="org.apache.log4j.rolling.TimeBasedRollingPolicy">
+                    <param name="FileNamePattern" value="logs/ifrs/roulette-%d{yyyy-MM-dd}.log"/>
+            </rollingPolicy>
+            <layout class="org.apache.log4j.PatternLayout">
+                    <param name="ConversionPattern" value="%m%n"/>
+            </layout>
+    </appender>
+	<!--Dragontiger -->
+   <appender name="APP_INFO_LOG_DRAGONTIGER" class="org.apache.log4j.rolling.RollingFileAppender">
+            <rollingPolicy class="org.apache.log4j.rolling.TimeBasedRollingPolicy">
+                    <param name="FileNamePattern" value="logs/debug/dragontiger/info-%d{yyyy-MM-dd}.log"/>
+            </rollingPolicy>
+            <layout class="org.apache.log4j.PatternLayout">
+                    <param name="ConversionPattern" value="%d %-5p T[%X{tableid}] - %m%n"/>
+            </layout>
+            <param name="Threshold" value="INFO"/>
+    </appender>
+
+    <appender name="APP_ERROR_LOG_DRAGONTIGER" class="org.apache.log4j.rolling.RollingFileAppender">
+            <rollingPolicy class="org.apache.log4j.rolling.TimeBasedRollingPolicy">
+                    <param name="FileNamePattern" value="logs/debug/dragontiger/error-%d{yyyy-MM-dd}.log"/>
+            </rollingPolicy>
+            <layout class="org.apache.log4j.PatternLayout">
+                    <param name="ConversionPattern" value="%d{yyyy-MM-dd HH:mm:ss} %-5p %c{1}:%L - %m%n"/>
+            </layout>
+            <param name="Threshold" value="ERROR"/>
+    </appender>
+
+        <category name="net.maychudragontiger" additivity="false">
+            <priority value="all"/>
+            <appender-ref ref="APP_INFO_LOG_DRAGONTIGER" />
+            <appender-ref ref="APP_ERROR_LOG_DRAGONTIGER" />
+    </category>
+	<!--DragonTiger-->
+	<appender name="IFRS_DRAGONTIGER" class="org.apache.log4j.rolling.RollingFileAppender">
+            <rollingPolicy class="org.apache.log4j.rolling.TimeBasedRollingPolicy">
+                    <param name="FileNamePattern" value="logs/ifrs/dragontiger-%d{yyyy-MM-dd}.log"/>
+            </rollingPolicy>
+            <layout class="org.apache.log4j.PatternLayout">
+                    <param name="ConversionPattern" value="%m%n"/>
+            </layout>
+    </appender>
+
+    <category name="IFRS_DRAGONTIGER" additivity="false">
+            <priority value="all"/>
+            <appender-ref ref="IFRS_DRAGONTIGER" />
+    </category>
+	<!--shake-->
+	<appender name="IFRS_SHAKE" class="org.apache.log4j.rolling.RollingFileAppender">
+            <rollingPolicy class="org.apache.log4j.rolling.TimeBasedRollingPolicy">
+                    <param name="FileNamePattern" value="logs/ifrs/shake-%d{yyyy-MM-dd}.log"/>
+            </rollingPolicy>
+            <layout class="org.apache.log4j.PatternLayout">
+                    <param name="ConversionPattern" value="%m%n"/>
+            </layout>
+    </appender>
+
+    <category name="IFRS_LOG_SHAKE" additivity="false">
+            <priority value="all"/>
+            <appender-ref ref="IFRS_SHAKE" />
+    </category>
+	<!--lucky-->
+	<appender name="IFRS_LOG_LUCKY_SPIN" class="org.apache.log4j.rolling.RollingFileAppender">
+            <rollingPolicy class="org.apache.log4j.rolling.TimeBasedRollingPolicy">
+                    <param name="FileNamePattern" value="logs/ifrs/luckySpin-%d{yyyy-MM-dd}.log"/>
+            </rollingPolicy>
+            <layout class="org.apache.log4j.PatternLayout">
+                    <param name="ConversionPattern" value="%m%n"/>
+            </layout>
+    </appender>
+
+    <category name="IFRS_LUCKY_SPIN" additivity="false">
+            <priority value="all"/>
+            <appender-ref ref="IFRS_LOG_LUCKY_SPIN" />
+    </category>
+	<!--tienlen-->
+	<appender name="IFRS_LOG_TIEN_LEN" class="org.apache.log4j.rolling.RollingFileAppender">
+            <rollingPolicy class="org.apache.log4j.rolling.TimeBasedRollingPolicy">
+                    <param name="FileNamePattern" value="logs/ifrs/tien_len-%d{yyyy-MM-dd}.log"/>
+            </rollingPolicy>
+            <layout class="org.apache.log4j.PatternLayout">
+                    <param name="ConversionPattern" value="%m%n"/>
+            </layout>
+    </appender>
+
+    <category name="IFRS_TIEN_LEN" additivity="false">
+            <priority value="all"/>
+            <appender-ref ref="IFRS_LOG_TIEN_LEN" />
+    </category>
+	<!--slot-->
+    <category name="IFRS_LOG_SLOT" additivity="false">
+            <priority value="all"/>
+            <appender-ref ref="ifrs_slot"/>
+    </category>
+
+    <appender name="ifrs_slot" class="org.apache.log4j.rolling.RollingFileAppender">
+            <rollingPolicy class="org.apache.log4j.rolling.TimeBasedRollingPolicy">
+                   <param name="FileNamePattern" value="logs/ifrs/slot-%d{yyyy-MM-dd}.log"/>
+            </rollingPolicy>
+            <layout class="org.apache.log4j.PatternLayout">
+                   <param name="ConversionPattern" value="%m%n"/>
+            </layout>
+    </appender>
+
+<category name="IFRS_BLACK_JACK" additivity="false">
+	<priority value="all"/>
+	<appender-ref ref="ifrs_blackjack"/>
+</category>
+<appender name="ifrs_blackjack" class="org.apache.log4j.rolling.RollingFileAppender">
+	<rollingPolicy class="org.apache.log4j.rolling.TimeBasedRollingPolicy">
+		   <param name="FileNamePattern" value="logs/ifrs/blackjack-%d{yyyy-MM-dd}.log"/>
+	</rollingPolicy>
+	<layout class="org.apache.log4j.PatternLayout">
+		   <param name="ConversionPattern" value="%m%n"/>
+	</layout>
+</appender>
+
+<category name="IFRS_BACCARAT" additivity="false">
+	<priority value="all"/>
+	<appender-ref ref="ifrs_baccarat"/>
+</category>
+<appender name="ifrs_baccarat" class="org.apache.log4j.rolling.RollingFileAppender">
+	<rollingPolicy class="org.apache.log4j.rolling.TimeBasedRollingPolicy">
+		   <param name="FileNamePattern" value="logs/ifrs/baccarat-%d{yyyy-MM-dd}.log"/>
+	</rollingPolicy>
+	<layout class="org.apache.log4j.PatternLayout">
+		   <param name="ConversionPattern" value="%m%n"/>
+	</layout>
+</appender>
+
+    <category name="IFRS_LOG_GOLDENSHAN" additivity="false">
+            <priority value="all"/>
+            <appender-ref ref="ifrs_goldenshan"/>
+    </category>
+
+    <appender name="ifrs_goldenshan" class="org.apache.log4j.rolling.RollingFileAppender">
+            <rollingPolicy class="org.apache.log4j.rolling.TimeBasedRollingPolicy">
+                   <param name="FileNamePattern" value="logs/ifrs/goldenshan-%d{yyyy-MM-dd}.log"/>
+            </rollingPolicy>
+            <layout class="org.apache.log4j.PatternLayout">
+                   <param name="ConversionPattern" value="%m%n"/>
+            </layout>
+    </appender>
+    <!-- SHOWS -->
+    <category name="REDIS_SUBSCRIBER" additivity="false">
+            <priority value="all"/>
+            <appender-ref ref="redis_subscriber"/>
+    </category>
+
+    <appender name="redis_subscriber" class="org.apache.log4j.rolling.RollingFileAppender">
+            <rollingPolicy class="org.apache.log4j.rolling.TimeBasedRollingPolicy">
+                   <param name="FileNamePattern" value="logs/redis/subscriber-%d{yyyy-MM-dd}.log"/>
+            </rollingPolicy>
+            <layout class="org.apache.log4j.PatternLayout">
+                   <param name="ConversionPattern" value="%d %m%n"/>
+            </layout>
+    </appender>
+	<!-- 13POKER -->
+    <appender name="IFRS_LOG_13POKER" class="org.apache.log4j.rolling.RollingFileAppender">
+            <rollingPolicy class="org.apache.log4j.rolling.TimeBasedRollingPolicy">
+                    <param name="FileNamePattern" value="logs/ifrs/thirteen_poker-%d{yyyy-MM-dd}.log"/>
+            </rollingPolicy>
+            <layout class="org.apache.log4j.PatternLayout">
+                    <param name="ConversionPattern" value="%m%n"/>
+            </layout>
+    </appender>
+
+    <category name="IFRS_13POKER" additivity="false">
+            <priority value="all"/>
+            <appender-ref ref="IFRS_LOG_13POKER" />
+    </category>
+	<!--sicbo-->
+	<appender name="IFRS_SICBO" class="org.apache.log4j.rolling.RollingFileAppender">
+            <rollingPolicy class="org.apache.log4j.rolling.TimeBasedRollingPolicy">
+                    <param name="FileNamePattern" value="logs/ifrs/sicbo-%d{yyyy-MM-dd}.log"/>
+            </rollingPolicy>
+            <layout class="org.apache.log4j.PatternLayout">
+                    <param name="ConversionPattern" value="%m%n"/>
+            </layout>
+    </appender>
+
+    <category name="IFRS_SICBO" additivity="false">
+            <priority value="all"/>
+            <appender-ref ref="IFRS_SICBO" />
+    </category>
+    
+    <!-- SHAN PLUS -->
+    <appender name="IFRS_LOG_SHAN_PLUS" class="org.apache.log4j.rolling.RollingFileAppender">
+            <rollingPolicy class="org.apache.log4j.rolling.TimeBasedRollingPolicy">
+                    <param name="FileNamePattern" value="logs/ifrs/shan_plus-%d{yyyy-MM-dd}.log"/>
+            </rollingPolicy>
+            <layout class="org.apache.log4j.PatternLayout">
+                    <param name="ConversionPattern" value="%m%n"/>
+            </layout>
+    </appender>
+
+    <category name="IFRS_SHAN_PLUS" additivity="false">
+            <priority value="all"/>
+            <appender-ref ref="IFRS_LOG_SHAN_PLUS" />
+    </category>
+
+    <!-- CUA TOM CA -->
+    <appender name="IFRS_LOG_TOM_CUA_CA" class="org.apache.log4j.rolling.RollingFileAppender">
+            <rollingPolicy class="org.apache.log4j.rolling.TimeBasedRollingPolicy">
+                    <param name="FileNamePattern" value="logs/ifrs/tom_cua_ca-%d{yyyy-MM-dd}.log"/>
+            </rollingPolicy>
+            <layout class="org.apache.log4j.PatternLayout">
+                    <param name="ConversionPattern" value="%m%n"/>
+            </layout>
+    </appender>
+
+    <category name="IFRS_TOM_CUA_CA" additivity="false">
+            <priority value="all"/>
+            <appender-ref ref="IFRS_LOG_TOM_CUA_CA" />
+    </category>
+
+    <!-- SHOWS -->
+    <category name="IFRS_LOG_SHOWS" additivity="false">
+	    <priority value="all"/>
+	    <appender-ref ref="ifrs_shows"/>		
+    </category>
+	
+    <appender name="ifrs_shows" class="org.apache.log4j.rolling.RollingFileAppender">
+	    <rollingPolicy class="org.apache.log4j.rolling.TimeBasedRollingPolicy">
+		   <param name="FileNamePattern" value="logs/ifrs/shows-%d{yyyy-MM-dd}.log"/>
+	    </rollingPolicy>
+	    <layout class="org.apache.log4j.PatternLayout">
+		   <param name="ConversionPattern" value="%m%n"/>
+            </layout>
+    </appender>
+
+    <category name="MATCH_SHOWS" additivity="false">
+	    <priority value="all"/>
+	    <appender-ref ref="match_shows"/>		
+    </category>
+	
+    <appender name="match_shows" class="org.apache.log4j.rolling.RollingFileAppender">
+	    <rollingPolicy class="org.apache.log4j.rolling.TimeBasedRollingPolicy">
+		   <param name="FileNamePattern" value="logs/debug/show/match_%d{yyyy-MM-dd}.log"/>
+	    </rollingPolicy>
+	    <layout class="org.apache.log4j.PatternLayout">
+		   <param name="ConversionPattern" value="%d %-5p T[%X{tableid}] %m%n"/>
+            </layout>
+    </appender>
+
+    <category name="BOARD_SHOWS" additivity="false">
+            <priority value="all"/>
+            <appender-ref ref="board_shows"/>
+    </category>
+
+    <appender name="board_shows" class="org.apache.log4j.rolling.RollingFileAppender">
+            <rollingPolicy class="org.apache.log4j.rolling.TimeBasedRollingPolicy">
+                   <param name="FileNamePattern" value="logs/debug/show/board_%d{yyyy-MM-dd}.log"/>
+            </rollingPolicy>
+            <layout class="org.apache.log4j.PatternLayout">
+                   <param name="ConversionPattern" value="%d %-5p T[%X{tableid}] %m%n"/>
+            </layout>
+    </appender>
+
+
+	<!-- end config game-->
+
+
+	<category name="BANKHANDLER" additivity="false">
+		<priority value="info"/>
+		<appender-ref ref="ASYNC_BANKHANDLER"/>
+	</category>
+	<appender name="ASYNC_BANKHANDLER" class="org.apache.log4j.AsyncAppender">
+		<appender-ref ref="BANKHANDLER"/>
+	</appender>
+	<appender name="BANKHANDLER" class="org.apache.log4j.rolling.RollingFileAppender">
+		<rollingPolicy class="org.apache.log4j.rolling.TimeBasedRollingPolicy">
+			<param name="FileNamePattern" value="logs/bankhandler/BankLog_%d{yyyy-MM-dd}.log"/>
+		</rollingPolicy>
+		<layout class="org.apache.log4j.PatternLayout">
+			<param name="ConversionPattern" value="%d%m%n"/>
+		</layout>
+	</appender>
+	
+	<category name="ROULETTELUCKY" additivity="false">
+		<priority value="info"/>
+		<appender-ref ref="ASYNC_ROULETTELUCKY"/>
+	</category>
+	<appender name="ASYNC_ROULETTELUCKY" class="org.apache.log4j.AsyncAppender">
+		<appender-ref ref="ROULETTELUCKY"/>
+	</appender>
+	<appender name="ROULETTELUCKY" class="org.apache.log4j.rolling.RollingFileAppender">
+		<rollingPolicy class="org.apache.log4j.rolling.TimeBasedRollingPolicy">
+			<param name="FileNamePattern" value="logs/debug/roullet/lucky_%d{yyyy-MM-dd}.log"/>
+		</rollingPolicy>
+		<layout class="org.apache.log4j.PatternLayout">
+			<param name="ConversionPattern" value="%d%m%n"/>
+		</layout>
+	</appender>
+	
+	<category name="bottypesizeBinh" additivity="false">
+		<priority value="info"/>
+		<appender-ref ref="ASYNC_bottypesizeBinh"/>
+	</category>
+	<appender name="ASYNC_bottypesizeBinh" class="org.apache.log4j.AsyncAppender">
+		<appender-ref ref="bottypesizeBinh"/>
+	</appender>
+	<appender name="bottypesizeBinh" class="org.apache.log4j.rolling.RollingFileAppender">
+		<rollingPolicy class="org.apache.log4j.rolling.TimeBasedRollingPolicy">
+			<param name="FileNamePattern" value="logs/debug/GetbotBinh_%d{yyyy-MM-dd}.log"/>
+		</rollingPolicy>
+		<layout class="org.apache.log4j.PatternLayout">
+			<param name="ConversionPattern" value="%d%m%n"/>
+		</layout>
+	</appender>
+	
+	<category name="DragontigerBot" additivity="false">
+		<priority value="info"/>
+		<appender-ref ref="ASYNC_DragontigerBot"/>
+	</category>
+	<appender name="ASYNC_DragontigerBot" class="org.apache.log4j.AsyncAppender">
+		<appender-ref ref="DragontigerBot"/>
+	</appender>
+	<appender name="DragontigerBot" class="org.apache.log4j.rolling.RollingFileAppender">
+		<rollingPolicy class="org.apache.log4j.rolling.TimeBasedRollingPolicy">
+			<param name="FileNamePattern" value="logs/debug/dragontiger/Getbotsv_%d{yyyy-MM-dd}.log"/>
+		</rollingPolicy>
+		<layout class="org.apache.log4j.PatternLayout">
+			<param name="ConversionPattern" value="%d%m%n"/>
+		</layout>
+	</appender>
+	
+	<category name="BLACKJACK" additivity="false">
+		<priority value="info"/>
+		<appender-ref ref="ASYNC_BLACKJACK"/>
+	</category>
+	<appender name="ASYNC_BLACKJACK" class="org.apache.log4j.AsyncAppender">
+		<appender-ref ref="BLACKJACK"/>
+	</appender>
+	<appender name="BLACKJACK" class="org.apache.log4j.rolling.RollingFileAppender">
+		<rollingPolicy class="org.apache.log4j.rolling.TimeBasedRollingPolicy">
+			<param name="FileNamePattern" value="logs/debug/RemovebotBLackJ_%d{yyyy-MM-dd}.log"/>
+		</rollingPolicy>
+		<layout class="org.apache.log4j.PatternLayout">
+			<param name="ConversionPattern" value="%d%m%n"/>
+		</layout>
+	</appender>
+	
+	<category name="MessageHandler" additivity="false">
+		<priority value="info"/>
+		<appender-ref ref="ASYNC_MessageHandler"/>
+	</category>
+	<appender name="ASYNC_MessageHandler" class="org.apache.log4j.AsyncAppender">
+		<appender-ref ref="MessageHandler"/>
+	</appender>
+	<appender name="MessageHandler" class="org.apache.log4j.rolling.RollingFileAppender">
+		<rollingPolicy class="org.apache.log4j.rolling.TimeBasedRollingPolicy">
+			<param name="FileNamePattern" value="logs/messagehandler/MessageHandler_%d{yyyy-MM-dd}.log"/>
+		</rollingPolicy>
+		<layout class="org.apache.log4j.PatternLayout">
+			<param name="ConversionPattern" value="%d%m%n"/>
+		</layout>
+	</appender>
+	
+	<category name="AddAGBotXocdia" additivity="false">
+		<priority value="info"/>
+		<appender-ref ref="ASYNC_AddAGBotXocdia"/>
+	</category>
+	<appender name="ASYNC_AddAGBotXocdia" class="org.apache.log4j.AsyncAppender">
+		<appender-ref ref="AddAGBotXocdia"/>
+	</appender>
+	<appender name="AddAGBotXocdia" class="org.apache.log4j.rolling.RollingFileAppender">
+		<rollingPolicy class="org.apache.log4j.rolling.TimeBasedRollingPolicy">
+			<param name="FileNamePattern" value="logs/debug/shake/getbotsv_%d{yyyy-MM-dd}.log"/>
+		</rollingPolicy>
+		<layout class="org.apache.log4j.PatternLayout">
+			<param name="ConversionPattern" value="%d%m%n"/>
+		</layout>
+	</appender>
+	
+	<category name="UPDATEONLFAIL" additivity="false">
+		<priority value="info"/>
+		<appender-ref ref="ASYNC_UPDATEONLFAIL"/>
+	</category>
+	<appender name="ASYNC_UPDATEONLFAIL" class="org.apache.log4j.AsyncAppender">
+		<appender-ref ref="UPDATEONLFAIL"/>
+	</appender>
+	<appender name="UPDATEONLFAIL" class="org.apache.log4j.rolling.RollingFileAppender">
+		<rollingPolicy class="org.apache.log4j.rolling.TimeBasedRollingPolicy">
+			<param name="FileNamePattern" value="logs/login/UpdateDBfail_%d{yyyy-MM-dd}.log"/>
+		</rollingPolicy>
+		<layout class="org.apache.log4j.PatternLayout">
+			<param name="ConversionPattern" value="%d%m%n"/>
+		</layout>
+	</appender>
+	
+	<category name="SHANBOARD" additivity="false">
+		<priority value="info"/>
+		<appender-ref ref="ASYNC_SHANBOARD"/>
+	</category>
+	<appender name="ASYNC_SHANBOARD" class="org.apache.log4j.AsyncAppender">
+		<appender-ref ref="SHANBOARD"/>
+	</appender>
+	<appender name="SHANBOARD" class="org.apache.log4j.rolling.RollingFileAppender">
+		<rollingPolicy class="org.apache.log4j.rolling.TimeBasedRollingPolicy">
+			<param name="FileNamePattern" value="logs/debug/shan_plus/getbotingame_%d{yyyy-MM-dd}.log"/>
+		</rollingPolicy>
+		<layout class="org.apache.log4j.PatternLayout">
+			<param name="ConversionPattern" value="%d%m%n"/>
+		</layout>
+	</appender>
+	
+	<category name="GETBOT" additivity="false">
+		<priority value="info"/>
+		<appender-ref ref="ASYNC_GETBOT"/>
+	</category>
+	<appender name="ASYNC_GETBOT" class="org.apache.log4j.AsyncAppender">
+		<appender-ref ref="GETBOT"/>
+	</appender>
+	<appender name="GETBOT" class="org.apache.log4j.rolling.RollingFileAppender">
+		<rollingPolicy class="org.apache.log4j.rolling.TimeBasedRollingPolicy">
+			<param name="FileNamePattern" value="logs/debug/shake/getbotingame_%d{yyyy-MM-dd}.log"/>
+		</rollingPolicy>
+		<layout class="org.apache.log4j.PatternLayout">
+			<param name="ConversionPattern" value="%d%m%n"/>
+		</layout>
+	</appender>
+	
+	<category name="BOTSHOW" additivity="false">
+		<priority value="info"/>
+		<appender-ref ref="ASYNC_BOTSHOW"/>
+	</category>
+	<appender name="ASYNC_BOTSHOW" class="org.apache.log4j.AsyncAppender">
+		<appender-ref ref="BOTSHOW"/>
+	</appender>
+	<appender name="BOTSHOW" class="org.apache.log4j.rolling.RollingFileAppender">
+		<rollingPolicy class="org.apache.log4j.rolling.TimeBasedRollingPolicy">
+			<param name="FileNamePattern" value="logs/debug/show/getbot_%d{yyyy-MM-dd}.log"/>
+		</rollingPolicy>
+		<layout class="org.apache.log4j.PatternLayout">
+			<param name="ConversionPattern" value="%d%m%n"/>
+		</layout>
+	</appender>
+	
+	<category name="bottypesizeBork" additivity="false">
+		<priority value="info"/>
+		<appender-ref ref="ASYNC_bottypesizeBork"/>
+	</category>
+	<appender name="ASYNC_bottypesizeBork" class="org.apache.log4j.AsyncAppender">
+		<appender-ref ref="bottypesizeBork"/>
+	</appender>
+	<appender name="bottypesizeBork" class="org.apache.log4j.rolling.RollingFileAppender">
+		<rollingPolicy class="org.apache.log4j.rolling.TimeBasedRollingPolicy">
+			<param name="FileNamePattern" value="logs/debug/shan_plus/getbotinservices_%d{yyyy-MM-dd}.log"/>
+		</rollingPolicy>
+		<layout class="org.apache.log4j.PatternLayout">
+			<param name="ConversionPattern" value="%d%m%n"/>
+		</layout>
+	</appender>
+	
+	<category name="BankHandler" additivity="false">
+		<priority value="info"/>
+		<appender-ref ref="ASYNC_BankHandler"/>
+	</category>
+	<appender name="ASYNC_BankHandler" class="org.apache.log4j.AsyncAppender">
+		<appender-ref ref="BankHandler"/>
+	</appender>
+	<appender name="BankHandler" class="org.apache.log4j.rolling.RollingFileAppender">
+		<rollingPolicy class="org.apache.log4j.rolling.TimeBasedRollingPolicy">
+			<param name="FileNamePattern" value="logs/bankhandler/BankHandler_%d{yyyy-MM-dd}.log"/>
+		</rollingPolicy>
+		<layout class="org.apache.log4j.PatternLayout">
+			<param name="ConversionPattern" value="%d%m%n"/>
+		</layout>
+	</appender>
+	<category name="FriendsHandler" additivity="false">
+		<priority value="info"/>
+		<appender-ref ref="ASYNC_FriendsHandler"/>
+	</category>
+	<appender name="ASYNC_FriendsHandler" class="org.apache.log4j.AsyncAppender">
+		<appender-ref ref="FriendsHandler"/>
+	</appender>
+	<appender name="FriendsHandler" class="org.apache.log4j.rolling.RollingFileAppender">
+		<rollingPolicy class="org.apache.log4j.rolling.TimeBasedRollingPolicy">
+			<param name="FileNamePattern" value="logs/friends/friends_%d{yyyy-MM-dd}.log"/>
+		</rollingPolicy>
+		<layout class="org.apache.log4j.PatternLayout">
+			<param name="ConversionPattern" value="%d%m%n"/>
+		</layout>
+	</appender>
+	
+	<category name="FootBallHandler" additivity="false">
+		<priority value="all"/>
+		<appender-ref ref="ASYNC_FootBallHandler"/>
+	</category>
+	<appender name="ASYNC_FootBallHandler" class="org.apache.log4j.AsyncAppender">
+		<appender-ref ref="FootBallHandler"/>
+	</appender>
+	<appender name="FootBallHandler" class="org.apache.log4j.rolling.RollingFileAppender">
+		<rollingPolicy class="org.apache.log4j.rolling.TimeBasedRollingPolicy">
+			<param name="FileNamePattern" value="logs/football/football_%d{yyyy-MM-dd}.log"/>
+		</rollingPolicy>
+		<layout class="org.apache.log4j.PatternLayout">
+			<param name="ConversionPattern" value="%d %m%n"/>
+		</layout>
+	</appender>
+	
+	<category name="ServiceAction" additivity="false">
+		<priority value="info"/>
+		<appender-ref ref="ASYNC_ServiceAction"/>
+	</category>
+	<appender name="ASYNC_ServiceAction" class="org.apache.log4j.AsyncAppender">
+		<appender-ref ref="ServiceAction"/>
+	</appender>
+	<appender name="ServiceAction" class="org.apache.log4j.rolling.RollingFileAppender">
+		<rollingPolicy class="org.apache.log4j.rolling.TimeBasedRollingPolicy">
+			<param name="FileNamePattern" value="logs/serviceevt/evt_service%d{yyyy-MM-dd}.log"/>
+		</rollingPolicy>
+		<layout class="org.apache.log4j.PatternLayout">
+			<param name="ConversionPattern" value="%d %m%n"/>
+		</layout>
+	</appender>
+	<category name="BankLog" additivity="false">
+		<priority value="info"/>
+		<appender-ref ref="ASYNC_BankLog"/>
+	</category>
+	<appender name="ASYNC_BankLog" class="org.apache.log4j.AsyncAppender">
+		<appender-ref ref="BankLog"/>
+	</appender>
+	<appender name="BankLog" class="org.apache.log4j.rolling.RollingFileAppender">
+		<rollingPolicy class="org.apache.log4j.rolling.TimeBasedRollingPolicy">
+			<param name="FileNamePattern" value="logs/bank/bank.log_%d{yyyy-MM-dd}.log"/>
+		</rollingPolicy>
+		<layout class="org.apache.log4j.PatternLayout">
+			<param name="ConversionPattern" value="%d %m%n "/>
+		</layout>
+	</appender>	
+
+	<category name="GAME_CHAT_LOG" additivity="false">
+		<priority value="info"/>
+		<appender-ref ref="ASYNC_GAME_CHAT_LOG"/>
+	</category>
+	<appender name="ASYNC_GAME_CHAT_LOG" class="org.apache.log4j.AsyncAppender">
+		<appender-ref ref="GAME_CHAT_LOG"/>
+	</appender>
+	<appender name="GAME_CHAT_LOG" class="org.apache.log4j.rolling.RollingFileAppender">
+		<rollingPolicy class="org.apache.log4j.rolling.TimeBasedRollingPolicy">
+			<param name="FileNamePattern" value="logs/chat/log-%d{yyyy-MM-dd}.log"/>
+		</rollingPolicy>
+		<layout class="org.apache.log4j.PatternLayout">
+			<param name="ConversionPattern" value="%d%m%n"/>
+		</layout>
+	</appender>
+	
+	<category name="SHANPLUSGETBOT" additivity="false">
+		<priority value="info"/>
+		<appender-ref ref="ASYNC_SHANPLUSGETBOT"/>
+	</category>
+	<appender name="ASYNC_SHANPLUSGETBOT" class="org.apache.log4j.AsyncAppender">
+		<appender-ref ref="SHANPLUSGETBOT"/>
+	</appender>
+	<appender name="SHANPLUSGETBOT" class="org.apache.log4j.rolling.RollingFileAppender">
+		<rollingPolicy class="org.apache.log4j.rolling.TimeBasedRollingPolicy">
+			<param name="FileNamePattern" value="logs/debug/shan_plus/getBOT-%d{yyyy-MM-dd}.log"/>
+		</rollingPolicy>
+		<layout class="org.apache.log4j.PatternLayout">
+			<param name="ConversionPattern" value="%d%m%n"/>
+		</layout>
+	</appender>
+	<!--log user cashout-->
+    <appender name="ASYNC_CashoutLog" class="org.apache.log4j.rolling.RollingFileAppender">
+
+        <rollingPolicy class="org.apache.log4j.rolling.TimeBasedRollingPolicy">
+          <param name="FileNamePattern" value="logs/cashout/CashoutLog_%d{yyyy-MM-dd}.log"/>
+        </rollingPolicy>
+
+        <layout class="org.apache.log4j.PatternLayout">
+          <param name="ConversionPattern" value="%d{yyyy-MM-dd HH:mm:ss} %-5p %c{1}:%L - %m%n"/>
+        </layout>
+    </appender>
+
+    <appender name="ASYNC_CashoutErr" class="org.apache.log4j.rolling.RollingFileAppender">
+        <rollingPolicy class="org.apache.log4j.rolling.TimeBasedRollingPolicy">
+                <param name="FileNamePattern" value="logs/cashout/error-%d{yyyy-MM-dd}.log"/>
+        </rollingPolicy>
+        <layout class="org.apache.log4j.PatternLayout">
+                <param name="ConversionPattern" value="%d{yyyy-MM-dd HH:mm:ss} %-5p %c{1}:%L - %m%n"/>
+        </layout>
+        <param name="Threshold" value="ERROR"/>
+    </appender>
+
+    <category name="CashoutLog" additivity="false">
+        <priority value="all"/>
+        <appender-ref ref="ASYNC_CashoutLog"/>
+        <appender-ref ref="ASYNC_CashoutErr"/>
+    </category>
+	<!--log payment-->
+	<category name="PaymentHandler" additivity="false">
+		<priority value="info"/>
+		<appender-ref ref="ASYNC_PaymentHandler_LOG"/>
+	</category>
+	<appender name="ASYNC_PaymentHandler_LOG" class="org.apache.log4j.AsyncAppender">
+		<appender-ref ref="PaymentHandler_LOG"/>
+	</appender>
+	<appender name="PaymentHandler_LOG" class="org.apache.log4j.rolling.RollingFileAppender">
+		<rollingPolicy class="org.apache.log4j.rolling.TimeBasedRollingPolicy">
+			<param name="FileNamePattern" value="logs/payment/PaymentHandler_%d{yyyy-MM-dd}.log"/>
+		</rollingPolicy>
+		<layout class="org.apache.log4j.PatternLayout">
+			<param name="ConversionPattern" value="%d %m%n"/>
+		</layout>
+	</appender>
+
+	<category name="PromotionHandler" additivity="false">
+		<priority value="info"/>
+		<appender-ref ref="ASYNC_PromotionHandler_LOG"/>
+	</category>
+	<appender name="ASYNC_PromotionHandler_LOG" class="org.apache.log4j.AsyncAppender">
+		<appender-ref ref="PromotionHandler_LOG"/>
+	</appender>
+	<appender name="PromotionHandler_LOG" class="org.apache.log4j.RollingFileAppender">
+		<param name="File" value="logs/promotion/PromotionHandler.log" />
+		<param name="Append" value="true" />
+		<param name="MaxFileSize" value="100MB" />
+		<param name="MaxBackupIndex" value="1000" />
+		<layout class="org.apache.log4j.PatternLayout">
+			<!-- The %X{foo}'s below are Mapped Diagnostic Context provided by Firebase. T=TableId, P=PlayerId, M=TournamentId -->
+			<param name="ConversionPattern" value="%d %-5p - %m%n"/>
+		</layout>
+	</appender>
+
+	<!-- 
+		The system log for the server. This log file is used only for 
+		messages and fatal errors.
+	-->
+	<appender name="SYSTEM_LOG" class="org.apache.log4j.RollingFileAppender">
+		<param name="File"   value="logs/system.log" />
+		<param name="Append" value="false" />
+		<param name="MaxBackupIndex" value="5" />
+		<param name="MaxFileSize" value="10MB" />
+		<layout class="org.apache.log4j.PatternLayout">
+			<param name="ConversionPattern" value="%d{ISO8601} - %-5p - %m%n"/>
+		</layout>
+	</appender>
+	<!-- 
+		The main log for the server.
+	-->
+	<appender name="SERVER_LOG" class="org.apache.log4j.DailyRollingFileAppender">
+		<param name="File"   value="logs/server.log" />
+		<param name="Append" value="true" />
+		<layout class="org.apache.log4j.PatternLayout">
+			<!-- The %X{foo}'s below are Mapped Diagnostic Context provided by Firebase. T=TableId, P=PlayerId, M=TournamentId -->
+			<param name="ConversionPattern" value="%d %-5p - T[%X{tableid}] P[%X{playerid}] M[%X{tournid}] %t %c{4} - %m%n"/>
+		</layout>
+	</appender>
+	<!--
+		  Asynchronous appender for the server log. This is important in
+		  order not to lock execution threads to the file system.
+	-->
+	<appender name="ASYNC_SERVER_LOG" class="org.apache.log4j.AsyncAppender">
+		<appender-ref ref="SERVER_LOG"/>
+	</appender>
+	<!-- 
+		The error log. Should be used by all categories. The cluster manager 
+		will scan 'error.log' so the naming is important.
+	-->
+	<appender name="ERROR_LOG" class="org.apache.log4j.DailyRollingFileAppender">
+		<param name="File"   value="logs/error.log" />
+		<param name="Append" value="false" />
+		<param name="Threshold" value="error" />
+		<layout class="org.apache.log4j.PatternLayout">
+			<!-- The %X{foo}'s below are Mapped Diagnostic Context provided by Firebase. T=TableId, P=PlayerId, M=TournamentId -->
+			<param name="ConversionPattern" value="%d %-5p - T[%X{tableid}] P[%X{playerid}] M[%X{tournid}] %t %c{4} - %m%n"/>
+		</layout>
+	</appender>
+	<!--
+		  Asynchronous appender for the error log. This is important in
+		  order not to lock execution threads to the file system.
+	-->
+	<appender name="ASYNC_ERROR_LOG" class="org.apache.log4j.AsyncAppender">
+		<appender-ref ref="ERROR_LOG"/>
+	</appender>
+	<!-- 
+		  System out, minimize the use of this.
+	-->
+	<appender name="STDOUT" class="org.apache.log4j.ConsoleAppender">
+		<layout class="org.apache.log4j.PatternLayout">
+			<param name="ConversionPattern" value="%d %-5p %C{1} - %m%n"/>
+			<!--param name="ConversionPattern" value="%d %-5p [%t] %C{1} (%F:%L) - %m%n"/-->
+		</layout>
+	</appender>
+	<!-- ****** SERVER LOG CATEGORIES ****** -->
+	<!--
+		System log, this is a named log used for
+		messages and fatal errors.
+	-->
+	<category name="SYSLOG" additivity="false">
+		<priority value="info"/>
+		<appender-ref ref="SYSTEM_LOG"/>
+		<appender-ref ref="ASYNC_SERVER_LOG"/>
+		<appender-ref ref="STDOUT"/>
+	</category>
+	<!--
+		Base package for all cubeia sub-packages
+	-->
+	<category name="com.cubeia" additivity="false">
+		<priority value="info"/>
+		<appender-ref ref="ASYNC_SERVER_LOG"/>
+		<appender-ref ref="ASYNC_ERROR_LOG" />
+	</category>
+	<!-- ****** LIBRARY CATEGORIES ****** -->
+	<category name="org.jboss" additivity="false">
+		<priority value="warn"/>
+		<appender-ref ref="ASYNC_ERROR_LOG" />
+		<appender-ref ref="ASYNC_SERVER_LOG" />
+		<!-- appender-ref ref="STDOUT" -->
+	</category>
+	<category name="org.hibernate" additivity="false">
+		<priority value="warn"/>
+		<appender-ref ref="ASYNC_ERROR_LOG" />
+		<appender-ref ref="ASYNC_SERVER_LOG" />
+		<!-- appender-ref ref="STDOUT" -->
+	</category>
+
+	<!-- STDOUT, minimize the use of this -->
+	<!-- <appender name="TRACE" class="org.apache.log4j.DailyRollingFileAppender"><param name="File"   value="/logs/trace/trace.log" /><param name="Append" value="true" /><layout class="org.apache.log4j.PatternLayout"><param name="ConversionPattern" value="%d %-5p %C{1} - %m%n"/></layout></appender><category name="com.cubeia.firebase.server" additivity="false"><priority value="trace"/><appender-ref ref="TRACE"/></category> -->
+	<!-- ****** ROOT ****** -->
+	<root>
+		<priority value="error"/>
+		<appender-ref ref="ASYNC_SERVER_LOG"/>
+		<appender-ref ref="ASYNC_ERROR_LOG" />
+	</root>
+</log4j:configuration>

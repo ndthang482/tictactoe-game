@@ -1,0 +1,238 @@
+2022-07-27 09:05:18,194 INFO  T[] INFO  Activator:74 - Default activator for game id 888 is used the default configuration
+2022-07-27 09:06:15,078 INFO  T[1] INFO  Listener:20 - Player joined!
+2022-07-27 09:06:16,930 INFO  T[1] INFO  Listener:20 - Player joined!
+2022-07-27 09:06:16,930 INFO  T[1] INFO  Listener:22 - We got two players, starting game!
+2022-07-27 09:06:18,230 INFO  T[1] INFO  Processor:36 - Ignoring action from 2, expected: 0
+2022-07-27 09:06:19,935 INFO  T[1] INFO  Board:28 - Cross = 2 Naught = 3
+2022-07-27 09:06:31,806 INFO  T[1] INFO  Board:28 - Cross = 2 Naught = 3
+2022-07-27 09:12:47,747 INFO  T[] INFO  Activator:74 - Default activator for game id 888 is used the default configuration
+2022-07-27 09:13:02,664 INFO  T[1] INFO  Listener:20 - Player joined!
+2022-07-27 09:13:04,505 INFO  T[1] INFO  Listener:20 - Player joined!
+2022-07-27 09:13:04,506 INFO  T[1] INFO  Listener:22 - We got two players, starting game!
+2022-07-27 09:13:07,515 INFO  T[1] INFO  Board:28 - Cross = 3 Naught = 4
+2022-07-27 09:13:19,954 INFO  T[1] INFO  Board:28 - Cross = 3 Naught = 4
+2022-07-27 09:13:21,071 INFO  T[1] INFO  Processor:36 - Ignoring action from 4, expected: 3
+2022-07-27 09:13:23,884 INFO  T[1] INFO  Board:28 - Cross = 3 Naught = 4
+2022-07-27 09:13:39,652 INFO  T[1] INFO  Board:28 - Cross = 3 Naught = 4
+2022-07-27 09:13:42,704 INFO  T[1] INFO  Processor:36 - Ignoring action from 4, expected: 3
+2022-07-27 09:23:09,448 INFO  T[1] INFO  Listener:20 - Player joined!
+2022-07-27 09:23:10,776 INFO  T[1] INFO  Listener:20 - Player joined!
+2022-07-27 09:23:10,776 INFO  T[1] INFO  Listener:22 - We got two players, starting game!
+2022-07-27 09:23:11,920 INFO  T[1] INFO  Processor:36 - Ignoring action from 1, expected: 4
+2022-07-27 09:23:13,780 INFO  T[1] INFO  Board:28 - Cross = 1 Naught = 2
+2022-07-27 09:30:05,671 INFO  T[] INFO  Activator:74 - Default activator for game id 888 is used the default configuration
+2022-07-27 09:30:20,631 INFO  T[2] INFO  Listener:20 - Player joined!
+2022-07-27 09:30:22,238 INFO  T[2] INFO  Listener:20 - Player joined!
+2022-07-27 09:30:22,239 INFO  T[2] INFO  Listener:22 - We got two players, starting game!
+2022-07-27 09:30:25,252 INFO  T[2] INFO  Board:28 - Cross = 2 Naught = 3
+2022-07-27 09:30:40,636 INFO  T[2] INFO  Board:28 - Cross = 2 Naught = 3
+2022-07-27 09:37:32,957 INFO  T[] INFO  Activator:74 - Default activator for game id 888 is used the default configuration
+2022-07-27 09:37:46,484 INFO  T[1] INFO  Listener:20 - Player joined!
+2022-07-27 09:37:48,230 INFO  T[1] INFO  Listener:20 - Player joined!
+2022-07-27 09:37:48,231 INFO  T[1] INFO  Listener:22 - We got two players, starting game!
+2022-07-27 09:37:49,788 INFO  T[1] INFO  Processor:36 - Ignoring action from 1, expected: 0
+2022-07-27 09:37:51,245 INFO  T[1] INFO  Board:28 - Cross = 1 Naught = 3
+2022-07-27 09:38:12,500 INFO  T[1] INFO  Board:28 - Cross = 1 Naught = 3
+2022-07-27 09:38:54,662 INFO  T[2] INFO  Listener:20 - Player joined!
+2022-07-27 09:38:56,573 INFO  T[2] INFO  Listener:20 - Player joined!
+2022-07-27 09:38:56,573 INFO  T[2] INFO  Listener:22 - We got two players, starting game!
+2022-07-27 09:38:58,141 INFO  T[2] INFO  Processor:36 - Ignoring action from 2, expected: 0
+2022-07-27 09:38:59,590 INFO  T[2] INFO  Board:28 - Cross = 2 Naught = 3
+2022-07-27 09:39:19,121 INFO  T[2] INFO  Board:28 - Cross = 2 Naught = 3
+2022-07-27 09:47:43,552 INFO  T[] INFO  Activator:74 - Default activator for game id 888 is used the default configuration
+2022-07-27 09:47:57,476 INFO  T[1] INFO  Listener:20 - Player joined!
+2022-07-27 09:47:58,885 INFO  T[1] INFO  Listener:20 - Player joined!
+2022-07-27 09:47:58,885 INFO  T[1] INFO  Listener:22 - We got two players, starting game!
+2022-07-27 09:48:01,895 INFO  T[1] INFO  Board:28 - Cross = 1 Naught = 3
+2022-07-27 09:48:19,095 INFO  T[1] INFO  Board:28 - Cross = 1 Naught = 3
+2022-07-27 10:48:18,387 INFO  T[] INFO  Activator:74 - Default activator for game id 888 is used the default configuration
+2022-07-27 10:48:29,126 INFO  T[1] INFO  Listener:20 - Player joined!
+2022-07-27 10:48:30,671 INFO  T[1] INFO  Listener:20 - Player joined!
+2022-07-27 10:48:30,671 INFO  T[1] INFO  Listener:22 - We got two players, starting game!
+2022-07-27 10:48:33,687 INFO  T[1] INFO  Board:28 - Cross = 2 Naught = 3
+2022-07-27 10:48:55,608 INFO  T[1] INFO  Board:28 - Cross = 2 Naught = 3
+2022-07-27 10:55:03,512 INFO  T[1] INFO  Board:28 - Cross = 2 Naught = 3
+2022-07-27 11:47:25,529 INFO  T[1] INFO  Listener:20 - Player joined!
+2022-07-27 11:47:27,337 INFO  T[1] INFO  Listener:20 - Player joined!
+2022-07-27 11:47:27,337 INFO  T[1] INFO  Listener:22 - We got two players, starting game!
+2022-07-27 11:47:29,304 INFO  T[1] INFO  Processor:36 - Ignoring action from 1, expected: 2
+2022-07-27 11:47:29,695 INFO  T[1] INFO  Processor:36 - Ignoring action from 1, expected: 2
+2022-07-27 11:47:30,352 INFO  T[1] INFO  Board:28 - Cross = 1 Naught = 2
+2022-07-27 11:47:44,795 INFO  T[1] INFO  Board:28 - Cross = 1 Naught = 2
+2022-07-27 11:48:21,722 INFO  T[] INFO  Activator:74 - Default activator for game id 888 is used the default configuration
+2022-07-27 11:48:36,353 INFO  T[1] INFO  Listener:20 - Player joined!
+2022-07-27 11:48:37,887 INFO  T[1] INFO  Listener:20 - Player joined!
+2022-07-27 11:48:37,888 INFO  T[1] INFO  Listener:22 - We got two players, starting game!
+2022-07-27 11:48:39,267 INFO  T[1] INFO  Processor:36 - Ignoring action from 1, expected: 0
+2022-07-27 11:48:39,711 INFO  T[1] INFO  Processor:36 - Ignoring action from 1, expected: 0
+2022-07-27 11:48:40,119 INFO  T[1] INFO  Processor:36 - Ignoring action from 1, expected: 0
+2022-07-27 11:48:40,901 INFO  T[1] INFO  Board:28 - Cross = 1 Naught = 2
+2022-07-27 11:48:54,056 INFO  T[1] INFO  Board:28 - Cross = 1 Naught = 2
+2022-07-27 12:00:20,147 INFO  T[] INFO  Activator:74 - Default activator for game id 888 is used the default configuration
+2022-07-27 12:00:33,103 INFO  T[1] INFO  Listener:20 - Player joined!
+2022-07-27 12:00:34,654 INFO  T[1] INFO  Listener:20 - Player joined!
+2022-07-27 12:00:34,655 INFO  T[1] INFO  Listener:22 - We got two players, starting game!
+2022-07-27 12:00:37,026 INFO  T[1] INFO  Processor:36 - Ignoring action from 1, expected: 0
+2022-07-27 12:00:37,675 INFO  T[1] INFO  Board:28 - Cross = 1 Naught = 2
+2022-07-27 12:00:58,847 INFO  T[1] INFO  Board:28 - Cross = 1 Naught = 2
+2022-07-27 12:05:17,345 INFO  T[] INFO  Activator:74 - Default activator for game id 888 is used the default configuration
+2022-07-27 12:05:31,156 INFO  T[1] INFO  Listener:20 - Player joined!
+2022-07-27 12:05:32,477 INFO  T[1] INFO  Listener:20 - Player joined!
+2022-07-27 12:05:32,477 INFO  T[1] INFO  Listener:22 - We got two players, starting game!
+2022-07-27 12:05:35,486 INFO  T[1] INFO  Board:28 - Cross = 1 Naught = 2
+2022-07-27 12:05:49,941 INFO  T[1] INFO  Board:28 - Cross = 1 Naught = 2
+2022-07-27 13:37:50,319 INFO  T[] INFO  Activator:74 - Default activator for game id 888 is used the default configuration
+2022-07-27 13:38:07,684 INFO  T[1] INFO  Listener:20 - Player joined!
+2022-07-27 13:38:09,322 INFO  T[1] INFO  Listener:20 - Player joined!
+2022-07-27 13:38:09,322 INFO  T[1] INFO  Listener:22 - We got two players, starting game!
+2022-07-27 13:38:10,655 INFO  T[1] INFO  Processor:36 - Ignoring action from 1, expected: 0
+2022-07-27 13:38:12,340 INFO  T[1] INFO  Board:28 - Cross = 1 Naught = 2
+2022-07-27 13:45:36,344 INFO  T[] INFO  Activator:74 - Default activator for game id 888 is used the default configuration
+2022-07-27 13:45:49,136 INFO  T[1] INFO  Listener:20 - Player joined!
+2022-07-27 13:45:50,554 INFO  T[1] INFO  Listener:20 - Player joined!
+2022-07-27 13:45:50,554 INFO  T[1] INFO  Listener:22 - We got two players, starting game!
+2022-07-27 13:45:53,570 INFO  T[1] INFO  Board:28 - Cross = 1 Naught = 2
+2022-07-27 13:55:19,298 INFO  T[] INFO  Activator:74 - Default activator for game id 888 is used the default configuration
+2022-07-27 13:55:43,480 INFO  T[1] INFO  Listener:20 - Player joined!
+2022-07-27 13:55:47,089 INFO  T[1] INFO  Listener:20 - Player joined!
+2022-07-27 13:55:47,089 INFO  T[1] INFO  Listener:22 - We got two players, starting game!
+2022-07-27 13:55:50,100 INFO  T[1] INFO  Board:28 - Cross = 1 Naught = 2
+2022-07-27 14:03:24,190 INFO  T[] INFO  Activator:74 - Default activator for game id 888 is used the default configuration
+2022-07-27 14:03:40,270 INFO  T[1] INFO  Listener:20 - Player joined!
+2022-07-27 14:03:41,806 INFO  T[1] INFO  Listener:20 - Player joined!
+2022-07-27 14:03:41,807 INFO  T[1] INFO  Listener:22 - We got two players, starting game!
+2022-07-27 14:03:43,267 INFO  T[1] INFO  Processor:36 - Ignoring action from 1, expected: 0
+2022-07-27 14:03:43,918 INFO  T[1] INFO  Processor:36 - Ignoring action from 1, expected: 0
+2022-07-27 14:03:44,824 INFO  T[1] INFO  Board:28 - Cross = 1 Naught = 2
+2022-07-27 14:09:29,397 INFO  T[1] INFO  Processor:36 - Ignoring action from 1, expected: 2
+2022-07-27 14:09:29,757 INFO  T[1] INFO  Processor:36 - Ignoring action from 1, expected: 2
+2022-07-27 14:09:41,185 INFO  T[1] INFO  Board:28 - Cross = 1 Naught = 2
+2022-07-27 14:09:42,006 INFO  T[1] INFO  Processor:36 - Ignoring action from 2, expected: 1
+2022-07-27 14:09:42,598 INFO  T[1] INFO  Processor:36 - Ignoring action from 2, expected: 1
+2022-07-27 14:09:44,438 INFO  T[1] INFO  Processor:36 - Ignoring action from 2, expected: 1
+2022-07-27 14:09:47,887 INFO  T[1] INFO  Processor:36 - Ignoring action from 1, expected: 2
+2022-07-27 14:09:50,006 INFO  T[1] INFO  Processor:36 - Ignoring action from 2, expected: 1
+2022-07-27 14:09:50,374 INFO  T[1] INFO  Processor:36 - Ignoring action from 2, expected: 1
+2022-07-27 14:09:50,806 INFO  T[1] INFO  Processor:36 - Ignoring action from 2, expected: 1
+2022-07-27 14:09:55,694 INFO  T[1] INFO  Processor:36 - Ignoring action from 1, expected: 2
+2022-07-27 14:09:56,542 INFO  T[1] INFO  Processor:36 - Ignoring action from 1, expected: 2
+2022-07-27 14:09:56,869 INFO  T[1] INFO  Processor:36 - Ignoring action from 1, expected: 2
+2022-07-27 14:09:59,221 INFO  T[1] INFO  Processor:36 - Ignoring action from 2, expected: 1
+2022-07-27 14:09:59,853 INFO  T[1] INFO  Processor:36 - Ignoring action from 2, expected: 1
+2022-07-27 14:10:00,462 INFO  T[1] INFO  Processor:36 - Ignoring action from 2, expected: 1
+2022-07-27 14:10:46,999 INFO  T[1] INFO  Processor:36 - Ignoring action from 1, expected: 2
+2022-07-27 14:10:47,622 INFO  T[1] INFO  Processor:36 - Ignoring action from 1, expected: 2
+2022-07-27 14:10:48,654 INFO  T[1] INFO  Processor:36 - Ignoring action from 1, expected: 2
+2022-07-27 14:10:48,829 INFO  T[1] INFO  Processor:36 - Ignoring action from 1, expected: 2
+2022-07-27 14:10:49,150 INFO  T[1] INFO  Processor:36 - Ignoring action from 1, expected: 2
+2022-07-27 14:10:50,069 INFO  T[1] INFO  Processor:36 - Ignoring action from 1, expected: 2
+2022-07-27 14:10:50,222 INFO  T[1] INFO  Processor:36 - Ignoring action from 1, expected: 2
+2022-07-27 14:10:50,590 INFO  T[1] INFO  Processor:36 - Ignoring action from 1, expected: 2
+2022-07-27 14:10:50,877 INFO  T[1] INFO  Processor:36 - Ignoring action from 1, expected: 2
+2022-07-27 14:10:51,237 INFO  T[1] INFO  Processor:36 - Ignoring action from 1, expected: 2
+2022-07-27 14:10:51,590 INFO  T[1] INFO  Processor:36 - Ignoring action from 1, expected: 2
+2022-07-27 14:10:51,789 INFO  T[1] INFO  Processor:36 - Ignoring action from 1, expected: 2
+2022-07-27 14:10:56,013 INFO  T[1] INFO  Processor:36 - Ignoring action from 2, expected: 1
+2022-07-27 14:10:56,733 INFO  T[1] INFO  Processor:36 - Ignoring action from 2, expected: 1
+2022-07-27 14:11:06,485 INFO  T[1] INFO  Processor:36 - Ignoring action from 1, expected: 2
+2022-07-27 14:11:07,061 INFO  T[1] INFO  Processor:36 - Ignoring action from 1, expected: 2
+2022-07-27 14:11:21,675 INFO  T[1] INFO  Board:28 - Cross = 1 Naught = 2
+2022-07-27 14:11:49,037 INFO  T[1] INFO  Processor:36 - Ignoring action from 2, expected: 1
+2022-07-27 14:17:01,333 INFO  T[] INFO  Activator:74 - Default activator for game id 888 is used the default configuration
+2022-07-27 14:18:15,259 INFO  T[1] INFO  Listener:20 - Player joined!
+2022-07-27 14:18:16,726 INFO  T[1] INFO  Listener:20 - Player joined!
+2022-07-27 14:18:16,726 INFO  T[1] INFO  Listener:22 - We got two players, starting game!
+2022-07-27 14:18:19,734 INFO  T[1] INFO  Board:28 - Cross = 1 Naught = 2
+2022-07-27 14:18:48,874 INFO  T[1] INFO  Board:28 - Cross = 1 Naught = 2
+2022-07-27 14:32:07,785 INFO  T[] INFO  Activator:74 - Default activator for game id 888 is used the default configuration
+2022-07-27 14:32:20,316 INFO  T[1] INFO  Listener:20 - Player joined!
+2022-07-27 14:32:21,980 INFO  T[1] INFO  Listener:20 - Player joined!
+2022-07-27 14:32:21,980 INFO  T[1] INFO  Listener:22 - We got two players, starting game!
+2022-07-27 14:32:24,986 INFO  T[1] INFO  Board:28 - Cross = 1 Naught = 2
+2022-07-27 14:32:40,925 INFO  T[1] INFO  Board:28 - Cross = 1 Naught = 2
+2022-07-27 14:43:02,993 INFO  T[] INFO  Activator:74 - Default activator for game id 888 is used the default configuration
+2022-07-27 14:43:50,066 INFO  T[1] INFO  Listener:20 - Player joined!
+2022-07-27 14:43:51,964 INFO  T[1] INFO  Listener:20 - Player joined!
+2022-07-27 14:43:51,964 INFO  T[1] INFO  Listener:22 - We got two players, starting game!
+2022-07-27 14:43:54,978 INFO  T[1] INFO  Board:28 - Cross = 1 Naught = 2
+2022-07-27 14:43:55,045 INFO  T[1] INFO  Processor:90 - start start
+2022-07-27 14:44:48,210 INFO  T[1] INFO  Board:28 - Cross = 1 Naught = 2
+2022-07-27 14:44:48,210 INFO  T[1] INFO  Processor:90 - start start
+2022-07-27 14:51:50,721 INFO  T[1] INFO  Listener:20 - Player joined!
+2022-07-27 14:51:52,746 INFO  T[1] INFO  Listener:20 - Player joined!
+2022-07-27 14:51:52,746 INFO  T[1] INFO  Listener:22 - We got two players, starting game!
+2022-07-27 14:51:55,753 INFO  T[1] INFO  Board:28 - Cross = 1 Naught = 2
+2022-07-27 14:51:55,754 INFO  T[1] INFO  Processor:90 - start start
+2022-07-27 15:00:24,809 INFO  T[] INFO  Activator:74 - Default activator for game id 888 is used the default configuration
+2022-07-27 15:00:39,232 INFO  T[1] INFO  Listener:20 - Player joined!
+2022-07-27 15:00:40,865 INFO  T[1] INFO  Listener:20 - Player joined!
+2022-07-27 15:00:40,865 INFO  T[1] INFO  Listener:22 - We got two players, starting game!
+2022-07-27 15:00:42,206 INFO  T[1] INFO  Processor:36 - Ignoring action from 1, expected: 0
+2022-07-27 15:00:43,878 INFO  T[1] INFO  Board:28 - Cross = 1 Naught = 2
+2022-07-27 15:00:46,495 INFO  T[1] INFO  Processor:36 - Ignoring action from 2, expected: 1
+2022-07-27 15:00:46,696 INFO  T[1] INFO  Processor:36 - Ignoring action from 2, expected: 1
+2022-07-27 15:02:09,375 INFO  T[1] INFO  Board:28 - Cross = 1 Naught = 2
+2022-07-27 15:19:02,765 INFO  T[] INFO  Activator:74 - Default activator for game id 888 is used the default configuration
+2022-07-27 15:19:14,013 INFO  T[1] INFO  Listener:20 - Player joined!
+2022-07-27 15:19:15,623 INFO  T[1] INFO  Listener:20 - Player joined!
+2022-07-27 15:19:15,623 INFO  T[1] INFO  Listener:22 - We got two players, starting game!
+2022-07-27 15:19:17,324 INFO  T[1] INFO  Processor:36 - Ignoring action from 1, expected: 0
+2022-07-27 15:19:17,597 INFO  T[1] INFO  Processor:36 - Ignoring action from 1, expected: 0
+2022-07-27 15:19:17,814 INFO  T[1] INFO  Processor:36 - Ignoring action from 1, expected: 0
+2022-07-27 15:19:18,627 INFO  T[1] INFO  Board:28 - Cross = 1 Naught = 2
+2022-07-27 15:19:22,838 INFO  T[1] INFO  Processor:36 - Ignoring action from 2, expected: 1
+2022-07-27 15:20:15,945 INFO  T[1] INFO  Board:28 - Cross = 1 Naught = 2
+2022-07-27 15:26:42,285 INFO  T[] INFO  Activator:74 - Default activator for game id 888 is used the default configuration
+2022-07-27 15:26:52,549 INFO  T[1] INFO  Listener:20 - Player joined!
+2022-07-27 15:26:53,950 INFO  T[1] INFO  Listener:20 - Player joined!
+2022-07-27 15:26:53,950 INFO  T[1] INFO  Listener:22 - We got two players, starting game!
+2022-07-27 15:26:56,971 INFO  T[1] INFO  Board:28 - Cross = 1 Naught = 2
+2022-07-27 15:52:37,813 INFO  T[] INFO  Activator:74 - Default activator for game id 888 is used the default configuration
+2022-07-27 15:52:51,633 INFO  T[1] INFO  Listener:20 - Player joined!
+2022-07-27 15:52:53,147 INFO  T[1] INFO  Listener:20 - Player joined!
+2022-07-27 15:52:53,147 INFO  T[1] INFO  Listener:22 - We got two players, starting game!
+2022-07-27 15:52:56,166 INFO  T[1] INFO  Board:28 - Cross = 1 Naught = 2
+2022-07-27 15:53:13,992 INFO  T[1] INFO  Board:28 - Cross = 1 Naught = 2
+2022-07-27 15:56:36,937 INFO  T[1] INFO  Board:28 - Cross = 1 Naught = 2
+2022-07-27 17:00:50,930 INFO  T[] INFO  Activator:74 - Default activator for game id 888 is used the default configuration
+2022-07-27 17:01:06,707 INFO  T[1] INFO  Listener:20 - Player joined!
+2022-07-27 17:01:08,476 INFO  T[1] INFO  Listener:20 - Player joined!
+2022-07-27 17:01:08,476 INFO  T[1] INFO  Listener:22 - We got two players, starting game!
+2022-07-27 17:01:09,599 INFO  T[1] INFO  Processor:36 - Ignoring action from 1, expected: 0
+2022-07-27 17:01:11,496 INFO  T[1] INFO  Board:28 - Cross = 1 Naught = 2
+2022-07-27 17:10:53,255 INFO  T[] INFO  Activator:74 - Default activator for game id 888 is used the default configuration
+2022-07-27 17:11:07,874 INFO  T[1] INFO  Listener:20 - Player joined!
+2022-07-27 17:11:09,387 INFO  T[1] INFO  Listener:20 - Player joined!
+2022-07-27 17:11:09,387 INFO  T[1] INFO  Listener:22 - We got two players, starting game!
+2022-07-27 17:11:12,398 INFO  T[1] INFO  Board:28 - Cross = 1 Naught = 2
+2022-07-27 17:11:28,584 INFO  T[1] INFO  Board:28 - Cross = 1 Naught = 2
+2022-07-27 17:12:46,082 INFO  T[2] INFO  Listener:20 - Player joined!
+2022-07-27 17:12:46,769 INFO  T[2] INFO  Processor:36 - Ignoring action from 1, expected: 0
+2022-07-27 17:12:47,729 INFO  T[2] INFO  Processor:36 - Ignoring action from 1, expected: 0
+2022-07-27 17:12:47,922 INFO  T[2] INFO  Processor:36 - Ignoring action from 1, expected: 0
+2022-07-27 17:12:48,249 INFO  T[2] INFO  Processor:36 - Ignoring action from 1, expected: 0
+2022-07-27 17:12:48,562 INFO  T[2] INFO  Processor:36 - Ignoring action from 1, expected: 0
+2022-07-27 17:12:49,002 INFO  T[2] INFO  Processor:36 - Ignoring action from 1, expected: 0
+2022-07-27 17:12:49,433 INFO  T[2] INFO  Processor:36 - Ignoring action from 1, expected: 0
+2022-07-27 17:12:49,906 INFO  T[2] INFO  Processor:36 - Ignoring action from 1, expected: 0
+2022-07-27 17:12:51,097 INFO  T[2] INFO  Processor:36 - Ignoring action from 1, expected: 0
+2022-07-27 17:12:51,441 INFO  T[2] INFO  Processor:36 - Ignoring action from 1, expected: 0
+2022-07-27 17:12:52,105 INFO  T[2] INFO  Processor:36 - Ignoring action from 1, expected: 0
+2022-07-27 17:12:52,473 INFO  T[2] INFO  Processor:36 - Ignoring action from 1, expected: 0
+2022-07-27 17:20:00,625 INFO  T[] INFO  Activator:74 - Default activator for game id 888 is used the default configuration
+2022-07-27 17:20:12,481 INFO  T[1] INFO  Listener:20 - Player joined!
+2022-07-27 17:20:13,778 INFO  T[1] INFO  Listener:20 - Player joined!
+2022-07-27 17:20:13,778 INFO  T[1] INFO  Listener:22 - We got two players, starting game!
+2022-07-27 17:20:16,786 INFO  T[1] INFO  Board:28 - Cross = 1 Naught = 2
+2022-07-27 17:20:35,834 INFO  T[1] INFO  Board:28 - Cross = 1 Naught = 2
+2022-07-27 17:28:47,525 INFO  T[] INFO  Activator:74 - Default activator for game id 888 is used the default configuration
+2022-07-27 17:29:03,198 INFO  T[1] INFO  Listener:20 - Player joined!
+2022-07-27 17:29:04,713 INFO  T[1] INFO  Listener:20 - Player joined!
+2022-07-27 17:29:04,713 INFO  T[1] INFO  Listener:22 - We got two players, starting game!
+2022-07-27 17:29:07,730 INFO  T[1] INFO  Board:28 - Cross = 1 Naught = 2
+2022-07-27 17:29:21,347 INFO  T[1] INFO  Board:28 - Cross = 1 Naught = 2
+2022-07-27 17:38:38,161 INFO  T[] INFO  Activator:74 - Default activator for game id 888 is used the default configuration
+2022-07-27 17:38:47,735 INFO  T[1] INFO  Listener:20 - Player joined!
+2022-07-27 17:38:49,175 INFO  T[1] INFO  Listener:20 - Player joined!
+2022-07-27 17:38:49,176 INFO  T[1] INFO  Listener:22 - We got two players, starting game!
+2022-07-27 17:38:52,191 INFO  T[1] INFO  Board:28 - Cross = 1 Naught = 2

@@ -1,0 +1,105 @@
+=====================================================
+2022-07-25 07:15:48 - Cubeia Firebase Starting
+=====================================================
+2022-07-25 07:15:53,465 INFO  SystemLogImpl - Firebase Server Platform initializing; Server id: 6ec92998650a
+ServerConfigFirectory:/app/conf
+2022-07-25 07:16:07,189 INFO  SystemLogImpl - Deployed: tictactoe-game 1.0-SNAPSHOT; Internal ID: 888; Deployment Revision: 1
+2022-07-25 07:16:07,518 INFO  SystemLogImpl - Master node 'mas1' initialized as [primary] master.
+2022-07-25 07:16:07,872 INFO  SystemLogImpl - Master node processed handshake for role GAME_NODE from id: gam1[6ec92998650a[127.0.0.1:8635]]
+2022-07-25 07:16:08,108 INFO  SystemLogImpl - Master node processed handshake for role CLIENT_NODE from id: cli1[6ec92998650a[127.0.0.1:8635]]
+2022-07-25 07:16:11,035 INFO  SystemLogImpl - HTTP Server starting at: 0.0.0.0:8080; SSL configuration: Not Configured
+2022-07-25 07:16:11,085 INFO  SystemLogImpl - Master node processed handshake for role MTT_NODE from id: mtt1[6ec92998650a[127.0.0.1:8635]]
+create game1
+create game2
+create game3
+create game4
+create game5
+create game6
+create game7
+create game8
+create game9
+create game10
+2022-07-25 07:16:12,001 INFO  SystemLogImpl - NIO Server started at: /0.0.0.0:4123
+2022-07-25 07:16:12,134 INFO  SystemLogImpl - System [Java HotSpot(TM) 64-Bit Server VM 25.212-b10; Linux Linux (amd64)]
+2022-07-25 07:16:12,146 INFO  SystemLogImpl - Server started [Mon Jul 25 07:16:12 UTC 2022]
+2022-07-25 07:16:12,150 INFO  SystemLogImpl - Firebase Server Platform [version: 1.8.0-CE]
+create game11
+create game12
+create game13
+create game14
+create game15
+create game16
+create game17
+create game18
+create game19
+create game20
+create game21
+create game22
+create game23
+create game24
+create game25
+create game26
+create game27
+create game28
+create game29
+create game30
+create game31
+create game32
+create game33
+create game34
+create game35
+create game36
+create game37
+create game38
+create game39
+create game40
+create game41
+create game42
+create game43
+create game44
+create game45
+create game46
+create game47
+create game48
+create game49
+create game50
+create game51
+create game52
+create game53
+create game54
+create game55
+create game56
+create game57
+create game58
+create game59
+create game60
+create game61
+create game62
+create game63
+create game64
+create game65
+create game66
+create game67
+create game68
+create game69
+create game70
+create game71
+create game72
+create game73
+create game74
+create game75
+create game76
+create game77
+create game78
+create game79
+create game80
+create game81
+create game82
+create game83
+create game84
+create game85
+create game86
+create game87
+create game88
+create game89
+create game90

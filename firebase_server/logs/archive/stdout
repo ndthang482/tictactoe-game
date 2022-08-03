@@ -1,0 +1,35 @@
+=====================================================
+2022-06-30 08:50:05 - Cubeia Firebase Starting
+=====================================================
+2022-06-30 08:50:10,560 INFO  SystemLogImpl - Firebase Server Platform initializing; Server id: 6ec92998650a
+ServerConfigFirectory:/app/conf
+2022-06-30 08:50:24,999 INFO  SystemLogImpl - Deployed: tictactoe-game 1.0-SNAPSHOT; Internal ID: 888; Deployment Revision: 1
+2022-06-30 08:50:25,296 INFO  SystemLogImpl - Master node 'mas1' initialized as [primary] master.
+2022-06-30 08:50:25,568 INFO  SystemLogImpl - Master node processed handshake for role GAME_NODE from id: gam1[6ec92998650a[127.0.0.1:8635]]
+2022-06-30 08:50:25,874 INFO  SystemLogImpl - Master node processed handshake for role CLIENT_NODE from id: cli1[6ec92998650a[127.0.0.1:8635]]
+2022-06-30 08:50:29,136 INFO  SystemLogImpl - HTTP Server starting at: 0.0.0.0:8080; SSL configuration: Not Configured
+2022-06-30 08:50:29,189 INFO  SystemLogImpl - Master node processed handshake for role MTT_NODE from id: mtt1[6ec92998650a[127.0.0.1:8635]]
+create game1
+create game2
+create game3
+create game4
+create game5
+create game6
+create game7
+create game8
+create game9
+create game10
+2022-06-30 08:50:30,200 INFO  SystemLogImpl - NIO Server started at: /0.0.0.0:4123
+2022-06-30 08:50:30,367 INFO  SystemLogImpl - System [Java HotSpot(TM) 64-Bit Server VM 25.212-b10; Linux Linux (amd64)]
+2022-06-30 08:50:30,380 INFO  SystemLogImpl - Server started [Thu Jun 30 08:50:30 UTC 2022]
+2022-06-30 08:50:30,382 INFO  SystemLogImpl - Firebase Server Platform [version: 1.8.0-CE]
+create game11
+create game12
+create game13
+create game14
+create game15
+create game16
+create game17
+create game18
+create game19
+create game20

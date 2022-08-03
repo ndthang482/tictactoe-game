@@ -1,0 +1,27 @@
+2022-06-28 04:03:41,792 INFO  - T[] P[] M[] pool-1-thread-1 server.deployment.game.GameDeploymentHandler - Redeploying Game Archive: tictactoe-game-1.0-SNAPSHOT
+2022-06-28 04:03:43,162 INFO  - T[] P[] M[] pool-1-thread-1 server.deployment.game.GameDeployment - New game revision created: v:2 resource:com.cubeia.firebase.server.deployment.resources.DeploymentFolderSet@68ce702a def:tictactoe-game - id[888] class[com.cubeia.tutorial.tictactoe.game.GameImpl] activator[com.cubeia.tutorial.tictactoe.game.Activator] version[1.0-SNAPSHOT]
+2022-06-28 04:03:43,177 INFO  - T[] P[] M[] pool-1-thread-1 SYSLOG - Deployed: tictactoe-game 1.0-SNAPSHOT; Internal ID: 888; Deployment Revision: 2
+2022-06-28 04:07:43,143 INFO  - T[1] P[11] M[] ReceivingGameEventDaemon-28 tutorial.tictactoe.game.Listener - Player joined!
+2022-06-28 04:07:44,241 INFO  - T[1] P[11] M[] ReceivingGameEventDaemon-46 tutorial.tictactoe.game.TicTacToe - Ignoring action from 11, expected: 2
+2022-06-28 04:07:44,537 INFO  - T[1] P[11] M[] ReceivingGameEventDaemon-79 tutorial.tictactoe.game.TicTacToe - Ignoring action from 11, expected: 2
+2022-06-28 04:07:44,845 INFO  - T[1] P[11] M[] ReceivingGameEventDaemon-10 tutorial.tictactoe.game.TicTacToe - Ignoring action from 11, expected: 2
+2022-06-28 08:58:58,011 INFO  - T[41] P[12] M[] ReceivingGameEventDaemon-9 tutorial.tictactoe.game.Listener - Player joined!
+2022-06-28 08:59:17,077 INFO  - T[64] P[44] M[] ReceivingGameEventDaemon-1 tutorial.tictactoe.game.Listener - Player joined!
+2022-06-28 08:59:28,559 INFO  - T[64] P[6546] M[] ReceivingGameEventDaemon-84 tutorial.tictactoe.game.Listener - Player joined!
+2022-06-28 08:59:28,559 INFO  - T[64] P[6546] M[] ReceivingGameEventDaemon-84 tutorial.tictactoe.game.Listener - We got two players, starting game!
+2022-06-28 08:59:29,658 INFO  - T[64] P[6546] M[] ReceivingGameEventDaemon-5 tutorial.tictactoe.game.TicTacToe - Ignoring action from 6546, expected: 0
+2022-06-28 08:59:30,780 INFO  - T[64] P[44] M[] ReceivingGameEventDaemon-53 tutorial.tictactoe.game.TicTacToe - Ignoring action from 44, expected: 0
+2022-06-28 08:59:31,475 INFO  - T[64] P[44] M[] ReceivingGameEventDaemon-20 tutorial.tictactoe.game.TicTacToe - Ignoring action from 44, expected: 0
+2022-06-28 08:59:31,537 INFO  - T[64] P[0] M[] ReceivingGameEventDaemon-91 tutorial.tictactoe.game.Board - Cross = 44 Naught = 6546
+2022-06-28 08:59:37,354 INFO  - T[64] P[6546] M[] ReceivingGameEventDaemon-11 tutorial.tictactoe.game.TicTacToe - Ignoring action from 6546, expected: 44
+2022-06-28 08:59:46,764 INFO  - T[64] P[0] M[] ReceivingGameEventDaemon-58 tutorial.tictactoe.game.Board - Cross = 44 Naught = 6546
+2022-06-28 08:59:55,896 INFO  - T[64] P[6546] M[] ReceivingGameEventDaemon-88 tutorial.tictactoe.game.TicTacToe - Ignoring action from 6546, expected: 44
+2022-06-28 08:59:56,588 INFO  - T[64] P[6546] M[] ReceivingGameEventDaemon-26 tutorial.tictactoe.game.TicTacToe - Ignoring action from 6546, expected: 44
+2022-06-28 08:59:57,127 INFO  - T[64] P[6546] M[] ReceivingGameEventDaemon-95 tutorial.tictactoe.game.TicTacToe - Ignoring action from 6546, expected: 44
+2022-06-28 08:59:57,845 INFO  - T[64] P[6546] M[] ReceivingGameEventDaemon-69 tutorial.tictactoe.game.TicTacToe - Ignoring action from 6546, expected: 44
+2022-06-28 08:59:58,248 INFO  - T[64] P[6546] M[] ReceivingGameEventDaemon-50 tutorial.tictactoe.game.TicTacToe - Ignoring action from 6546, expected: 44
+2022-06-28 08:59:58,770 INFO  - T[64] P[6546] M[] ReceivingGameEventDaemon-16 tutorial.tictactoe.game.TicTacToe - Ignoring action from 6546, expected: 44
+2022-06-28 09:00:00,164 INFO  - T[64] P[44] M[] ReceivingGameEventDaemon-57 tutorial.tictactoe.game.TicTacToe - Ignoring action from 44, expected: 6546
+2022-06-28 09:00:00,879 INFO  - T[64] P[44] M[] ReceivingGameEventDaemon-97 tutorial.tictactoe.game.TicTacToe - Ignoring action from 44, expected: 6546
+2022-06-28 09:00:08,285 INFO  - T[64] P[0] M[] ReceivingGameEventDaemon-71 tutorial.tictactoe.game.Board - Cross = 44 Naught = 6546
+2022-06-28 09:07:50,532 INFO  - T[75] P[2312] M[] ReceivingGameEventDaemon-94 tutorial.tictactoe.game.Listener - Player joined!

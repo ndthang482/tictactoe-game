@@ -1,0 +1,12 @@
+[
+	{"vipmin" : 0, "vipmax" : 10,"casecard" : 1,"bonus" : "200,000,000","point" : 100},
+	{"vipmin" : 0, "vipmax" : 10,"casecard" : 2,"bonus" : "50,000,000","point" : 50},
+	{"vipmin" : 0, "vipmax" : 10,"casecard" : 3,"bonus" : "5,000,000","point" : 40},
+	{"vipmin" : 0, "vipmax" : 10,"casecard" : 4,"bonus" : "1,000,000","point" : 30},
+	{"vipmin" : 0, "vipmax" : 10,"casecard" : 5,"bonus" : "600,000","point" : 20},
+	{"vipmin" : 0, "vipmax" : 10,"casecard" : 6,"bonus" : "300,000","point" : 10},
+	{"vipmin" : 0, "vipmax" : 10,"casecard" : 7,"bonus" : "100,000","point" : 5},
+	{"vipmin" : 0, "vipmax" : 10,"casecard" : 8,"bonus" : "40,000","point" : 2},
+	{"vipmin" : 0, "vipmax" : 10,"casecard" : 9,"bonus" : "10,000","point" : 1},
+	{"vipmin" : 0, "vipmax" : 10,"casecard" : 10,"bonus" : "0","point" : 0}
+]

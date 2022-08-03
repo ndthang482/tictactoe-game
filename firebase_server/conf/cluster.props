@@ -1,0 +1,178 @@
+###
+# Config file for the cluster. This configuration file is distributed to the entire
+# cluster from the primary master. 
+#
+# For more information about the properties, please see:
+#
+#    https://secure.cubeia.com/trac/cubeia/wiki/adminman_props
+# 
+# Identifying different nodes are done via ID in conjuction with the
+# node type: "node.<type>.<id>.<property>". The "type" is one of "client",
+# "game, "master" or "mtt". Eg, setting a name to client node "cli1":
+#
+#    node.client.cli1.name=MyName
+###
+
+# ---- GENERAL SERVER PINGS ----
+service.ping.ping-enabled=true
+service.ping.initial-ping-delay=2000
+service.ping.ping-interval=7000
+service.ping.ping-timeout=7000
+service.ping.failure-threshold=10
+service.ping.number-of-threads=30
+service.loginmanager.number-of-threads=30
+
+# ---- GENERAL SERVER SETTINGS ----
+
+# Level of statistics collection
+# Valid modes: MINIMAL | DEPLOYMENT | PROFILING (default)
+# 
+# server.statistics.level=DEPLOYMENT
+
+
+
+# ---- CLIENT GATEWAY NODE ----
+
+# Name of node type
+# 
+# node.client.name=Client Node
+
+# Timeout for disconnected clients to reconnect. Default: 60000 (ms)
+#
+# node.client.client-reconnect-timeout=2000
+
+# The number of threads for the executing scheduler
+#
+node.client.event-daemon-threads=100
+
+# Enable the cometd/websocket support. Default: true
+#
+# node.client.enable-http-server=false
+
+# Disable serving of static content. Default: false
+#
+# node.client.disable-static-http-content=true
+
+# Interval between lobby updates. Default: 2000 (ms)
+# 
+# node.client.lobby.lobby-broadcast-period=2000
+
+
+
+# ---- CLIENT GATEWAY ---
+
+# Enable / Disable gateway transport logging, default is false
+# 
+# client.gateway.mina-logging-enabled=false;
+
+# Enable / Disable signature handshake, default is false
+#
+# client.gateway.handshake-enabled=false
+
+# Signature to use in handshake
+#
+# client.gateway.handshake-signature=1128351298
+
+# Max allowed packet size in bytes
+#
+# client.gateway.max-packet-size=32768
+
+# Max allowed number of concurrent sessions
+#
+# client.gateway.max-number-of-sessions=16384
+
+# Custom filter list of java class names (comma separated)
+#
+# client.gateway.custom-filter-chain=
+
+# Enable / Disable packet size verification, default is true
+#
+# client.gateway.validate-packet-size=true
+
+
+# ---- CLIENT NODE ENCRYPTION ----
+
+# Enable / Disable encryption
+#
+# service.crypto.encryption-enabled=false
+
+# Encryption filter java class
+#
+# service.crypto.encryption-filter=com.cubeia.firebase.server.gateway.comm.crypto.AESCryptoFilter
+
+# Encryption optional / mandatory
+#
+# service.crypto.encryption-mandatory=false
+
+
+
+
+# ---- TOURNAMENT NODE ----
+
+# The number of threads for the executing scheduler
+#
+# node.mtt.event-daemon-threads=32
+
+
+# ---- GAME NODE ----
+
+# The number of threads for the executing scheduler
+#
+node.game.event-daemon-threads=100
+
+
+
+# ---- LOGIN HANDLER ----
+
+# Specify the login locator implementation by its fully qualified name
+# 
+# service.login.locator=com.cubeia.firebase.server.login.trivial.TrivialLoginLocator
+
+
+
+# ---- TABLE SPACE CACHE ----
+
+# Cache mode, how to replicate data. 
+# Valid modes: REPL_ASYNC | REPL_SYNC (default)
+#
+# service.space.tablespace.cache-mode=REPL_ASYNC
+
+# Enable / Disable external JTA. Default is false.
+#
+# service.space.tablespace.jta-enabled=false
+
+
+# ---- MTT SPACE CACHE ----
+
+# Cache mode, how to replicate data. 
+# Valid modes: REPL_ASYNC | REPL_SYNC (default)
+#
+# service.space.mttspace.cache-mode=REPL_ASYNC
+
+# Enable / Disable external JTA. Default is false.
+#
+# service.space.mttspace.jta-enabled=false
+
+
+
+# ---- SYSTEM STATE ----
+
+# Cache mode, how to replicate data. 
+# Valid modes: LOCAL (disables clustering) | REPL_ASYNC | REPL_SYNC
+#
+# systemstate.cache-mode=REPL_ASYNC
+
+# Isolation level : SERIALIZABLE
+#                   REPEATABLE_READ (default)
+#                   READ_COMMITTED
+#                   READ_UNCOMMITTED
+#                   NONE
+# systemstate.isolation-level=READ_UNCOMMITTED
+
+
+
+# ---- PERSISTENCE ---
+
+# Collect statistics from the persistence factories, available through JMX
+# 
+# service.persistence.statistics-enabled=true

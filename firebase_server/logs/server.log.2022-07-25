@@ -1,0 +1,258 @@
+2022-07-25 07:15:53,465 INFO  - T[] P[] M[] main SYSLOG - Firebase Server Platform initializing; Server id: 6ec92998650a
+2022-07-25 07:16:02,105 INFO  - T[] P[] M[] main firebase.server.statistics.StatisticsLevel - Statistics level for the system: PROFILING
+2022-07-25 07:16:03,503 WARN  - T[] P[] M[] main jboss.cache.transaction.GenericTransactionManagerLookup - Falling back to DummyTransactionManager from JBossCache
+2022-07-25 07:16:04,109 INFO  - T[] P[] M[] main service.systemstate.cache.SystemStateCacheHandler - SystemState repl Queue: false
+2022-07-25 07:16:04,175 INFO  - T[] P[] M[] main service.systemstate.cache.SystemStateCacheHandler - System State TreeCache service started.
+2022-07-25 07:16:05,091 WARN  - T[] P[] M[] main cubeia.service.crossdomain.FlashCrossDomainService - Unable to open config file, using defaults
+2022-07-25 07:16:05,362 INFO  - T[] P[] M[] main cubeia.service.crossdomain.FlashCrossDomainServer - Flash cross domain policy server listening on port 4122
+2022-07-25 07:16:07,103 INFO  - T[] P[] M[] main server.deployment.game.GameDeployment - New game revision created: v:1 resource:com.cubeia.firebase.server.deployment.resources.DeploymentFolderSet@6676f6a0 def:tictactoe-game - id[888] class[com.cubeia.tutorial.tictactoe.game.GameImpl] activator[com.cubeia.tutorial.tictactoe.game.Activator] version[1.0-SNAPSHOT]
+2022-07-25 07:16:07,189 INFO  - T[] P[] M[] main SYSLOG - Deployed: tictactoe-game 1.0-SNAPSHOT; Internal ID: 888; Deployment Revision: 1
+2022-07-25 07:16:07,518 INFO  - T[] P[] M[] main SYSLOG - Master node 'mas1' initialized as [primary] master.
+2022-07-25 07:16:07,577 INFO  - T[] P[] M[] pool-2-thread-1 firebase.server.master.MasterNode - Received handshake for role GAME_NODE from id: gam1[6ec92998650a[127.0.0.1:8635]]; Halting
+2022-07-25 07:16:07,584 INFO  - T[] P[] M[] pool-2-thread-2 firebase.server.instance.ServerInstance - Halting; Id: 808969791
+2022-07-25 07:16:07,621 INFO  - T[] P[] M[] pool-2-thread-1 firebase.server.master.MasterNode - Promoting node; Id: gam1; Role: GAME_NODE
+2022-07-25 07:16:07,669 INFO  - T[] P[] M[] pool-2-thread-2 server.lobby.systemstate.StateLobby - Lobby broadcast period set to: 2000
+2022-07-25 07:16:07,872 INFO  - T[] P[] M[] pool-2-thread-1 SYSLOG - Master node processed handshake for role GAME_NODE from id: gam1[6ec92998650a[127.0.0.1:8635]]
+2022-07-25 07:16:07,874 INFO  - T[] P[] M[] pool-2-thread-1 firebase.server.master.MasterNode - Resuming after processing role GAME_NODE from: gam1[6ec92998650a[127.0.0.1:8635]]; Halt id: 808969791
+2022-07-25 07:16:07,886 INFO  - T[] P[] M[] main firebase.server.game.GameNode - Configuration found for node: gam1 (null)
+2022-07-25 07:16:08,065 INFO  - T[] P[] M[] pool-2-thread-1 firebase.server.master.MasterNode - Received handshake for role CLIENT_NODE from id: cli1[6ec92998650a[127.0.0.1:8635]]; Halting
+2022-07-25 07:16:08,065 INFO  - T[] P[] M[] pool-2-thread-1 firebase.server.master.MasterNode - Promoting node; Id: cli1; Role: CLIENT_NODE
+2022-07-25 07:16:08,072 INFO  - T[] P[] M[] pool-2-thread-2 firebase.server.gateway.GatewayNode - Configuration found for node: cli1 (null)
+2022-07-25 07:16:08,079 INFO  - T[] P[] M[] pool-2-thread-2 firebase.server.gateway.GatewayNode - This node has been promoted to coordinator. Starting ClientReaper.
+2022-07-25 07:16:08,108 INFO  - T[] P[] M[] pool-2-thread-1 SYSLOG - Master node processed handshake for role CLIENT_NODE from id: cli1[6ec92998650a[127.0.0.1:8635]]
+2022-07-25 07:16:08,113 INFO  - T[] P[] M[] pool-2-thread-1 firebase.server.master.MasterNode - Resuming after processing role CLIENT_NODE from: cli1[6ec92998650a[127.0.0.1:8635]]; Halt id: 807997072
+2022-07-25 07:16:08,114 INFO  - T[] P[] M[] main firebase.server.gateway.GatewayNode - Init Client Gateway
+2022-07-25 07:16:08,116 INFO  - T[] P[] M[] main firebase.server.gateway.GatewayNode - Gateway ingoring minimum frequency protection
+2022-07-25 07:16:08,116 INFO  - T[] P[] M[] main firebase.server.gateway.GatewayNode - Gateway ingoring interval frequency protection
+2022-07-25 07:16:08,117 WARN  - T[] P[] M[] main firebase.server.gateway.GatewayNode - Gateway unprotected; Consider setting access frequency protection in the configuration.
+2022-07-25 07:16:08,721 INFO  - T[] P[] M[] pool-2-thread-1 firebase.server.instance.ServerInstance - Resuming; Id: 807997072
+2022-07-25 07:16:09,156 INFO  - T[] P[] M[] main gateway.comm.jetty.JettyServer - Static content is served from: /app/game/web
+2022-07-25 07:16:11,035 INFO  - T[] P[] M[] main SYSLOG - HTTP Server starting at: 0.0.0.0:8080; SSL configuration: Not Configured
+2022-07-25 07:16:11,066 INFO  - T[] P[] M[] pool-2-thread-1 firebase.server.master.MasterNode - Received handshake for role MTT_NODE from id: mtt1[6ec92998650a[127.0.0.1:8635]]; Halting
+2022-07-25 07:16:11,067 INFO  - T[] P[] M[] pool-2-thread-2 firebase.server.instance.ServerInstance - Halting; Id: 808772517
+2022-07-25 07:16:11,084 INFO  - T[] P[] M[] pool-2-thread-1 firebase.server.master.MasterNode - Promoting node; Id: mtt1; Role: MTT_NODE
+2022-07-25 07:16:11,085 INFO  - T[] P[] M[] pool-2-thread-1 SYSLOG - Master node processed handshake for role MTT_NODE from id: mtt1[6ec92998650a[127.0.0.1:8635]]
+2022-07-25 07:16:11,091 INFO  - T[] P[] M[] pool-2-thread-1 firebase.server.master.MasterNode - Resuming after processing role MTT_NODE from: mtt1[6ec92998650a[127.0.0.1:8635]]; Halt id: 808772517
+2022-07-25 07:16:11,097 INFO  - T[] P[] M[] main firebase.server.mtt.MttNode - Configuration found for node: mtt1 (null)
+2022-07-25 07:16:11,310 INFO  - T[] P[] M[] main tutorial.tictactoe.game.Activator - Default activator for game id 888 is used the default configuration
+2022-07-25 07:16:11,595 INFO  - T[] P[] M[] pool-2-thread-1 firebase.server.instance.ServerInstance - Resuming; Id: 808772517
+2022-07-25 07:16:11,941 INFO  - T[] P[] M[] main firebase.server.gateway.GatewayNode - Starting Client Gateway (cli1) ...
+2022-07-25 07:16:11,943 INFO  - T[] P[] M[] main service.clientreg.state.StateClientRegistry - Client Registry is now managing the following nodes (added): [cli1]
+2022-07-25 07:16:12,001 INFO  - T[] P[] M[] main SYSLOG - NIO Server started at: /0.0.0.0:4123
+2022-07-25 07:16:12,134 INFO  - T[] P[] M[] main SYSLOG - System [Java HotSpot(TM) 64-Bit Server VM 25.212-b10; Linux Linux (amd64)]
+2022-07-25 07:16:12,146 INFO  - T[] P[] M[] main SYSLOG - Server started [Mon Jul 25 07:16:12 UTC 2022]
+2022-07-25 07:16:12,150 INFO  - T[] P[] M[] main SYSLOG - Firebase Server Platform [version: 1.8.0-CE]
+2022-07-25 07:19:02,427 INFO  - T[] P[] M[] qtp280615803-82 firebase.server.login.LoginManagerImpl - Created executor for TrivialLoginHandler with 30 threads.
+2022-07-25 07:19:21,882 INFO  - T[1] P[1] M[] ReceivingGameEventDaemon-1 tutorial.tictactoe.game.Listener - Player joined!
+2022-07-25 07:19:35,915 INFO  - T[1] P[3] M[] ReceivingGameEventDaemon-1 tutorial.tictactoe.game.Listener - Player joined!
+2022-07-25 07:19:35,915 INFO  - T[1] P[3] M[] ReceivingGameEventDaemon-1 tutorial.tictactoe.game.Listener - We got two players, starting game at 3s!
+2022-07-25 07:19:38,952 INFO  - T[1] P[0] M[] ReceivingGameEventDaemon-2 tutorial.tictactoe.game.Board - Cross = 1 Naught = 3
+2022-07-25 07:19:45,633 INFO  - T[1] P[0] M[] ReceivingGameEventDaemon-4 tutorial.tictactoe.game.TicTacToe - Received action with data: next 3s
+2022-07-25 07:19:46,626 INFO  - T[1] P[0] M[] ReceivingGameEventDaemon-3 tutorial.tictactoe.game.TicTacToe - Received action with data: next 3s
+2022-07-25 07:19:47,059 INFO  - T[1] P[1] M[] ReceivingGameEventDaemon-2 tutorial.tictactoe.game.TicTacToe - Ignoring action from 1, expected: 3
+2022-07-25 07:19:48,725 INFO  - T[1] P[0] M[] ReceivingGameEventDaemon-5 tutorial.tictactoe.game.TicTacToe - Received action with data: next 3s
+2022-07-25 07:19:51,092 INFO  - T[1] P[0] M[] ReceivingGameEventDaemon-6 tutorial.tictactoe.game.TicTacToe - Received action with data: next 3s
+2022-07-25 07:19:53,915 INFO  - T[1] P[0] M[] ReceivingGameEventDaemon-4 tutorial.tictactoe.game.TicTacToe - Received action with data: next 3s
+2022-07-25 07:19:55,393 INFO  - T[1] P[0] M[] ReceivingGameEventDaemon-12 tutorial.tictactoe.game.TicTacToe - Received action with data: next 3s
+2022-07-25 07:19:56,824 INFO  - T[1] P[0] M[] ReceivingGameEventDaemon-8 tutorial.tictactoe.game.TicTacToe - Received action with data: start at 3s
+2022-07-25 07:19:56,827 INFO  - T[1] P[0] M[] ReceivingGameEventDaemon-10 tutorial.tictactoe.game.TicTacToe - Received action with data: next 3s
+2022-07-25 07:27:35,882 INFO  - T[1] P[1] M[] ReceivingGameEventDaemon-2 tutorial.tictactoe.game.Listener - Player joined!
+2022-07-25 07:29:49,571 INFO  - T[1] P[1] M[] ReceivingGameEventDaemon-17 tutorial.tictactoe.game.TicTacToe - Ignoring action from 1, expected: 3
+2022-07-25 07:33:40,341 INFO  - T[1] P[1] M[] ReceivingGameEventDaemon-15 tutorial.tictactoe.game.Listener - Player joined!
+2022-07-25 07:33:41,156 INFO  - T[1] P[1] M[] ReceivingGameEventDaemon-32 tutorial.tictactoe.game.TicTacToe - Ignoring action from 1, expected: 3
+2022-07-25 07:33:41,645 INFO  - T[1] P[1] M[] ReceivingGameEventDaemon-10 tutorial.tictactoe.game.TicTacToe - Ignoring action from 1, expected: 3
+2022-07-25 07:33:41,978 INFO  - T[1] P[1] M[] ReceivingGameEventDaemon-21 tutorial.tictactoe.game.TicTacToe - Ignoring action from 1, expected: 3
+2022-07-25 07:33:42,655 INFO  - T[1] P[1] M[] ReceivingGameEventDaemon-14 tutorial.tictactoe.game.TicTacToe - Ignoring action from 1, expected: 3
+2022-07-25 07:33:43,076 INFO  - T[1] P[1] M[] ReceivingGameEventDaemon-23 tutorial.tictactoe.game.TicTacToe - Ignoring action from 1, expected: 3
+2022-07-25 07:33:46,859 INFO  - T[1] P[1] M[] ReceivingGameEventDaemon-1 tutorial.tictactoe.game.TicTacToe - Ignoring action from 1, expected: 3
+2022-07-25 07:33:48,295 INFO  - T[1] P[1] M[] ReceivingGameEventDaemon-25 tutorial.tictactoe.game.TicTacToe - Ignoring action from 1, expected: 3
+2022-07-25 07:34:15,330 INFO  - T[1] P[1] M[] ReceivingGameEventDaemon-22 tutorial.tictactoe.game.TicTacToe - Ignoring action from 1, expected: 3
+2022-07-25 07:35:54,668 INFO  - T[1] P[1] M[] ReceivingGameEventDaemon-2 tutorial.tictactoe.game.Listener - Player joined!
+2022-07-25 07:35:55,700 INFO  - T[1] P[1] M[] ReceivingGameEventDaemon-17 tutorial.tictactoe.game.TicTacToe - Ignoring action from 1, expected: 3
+2022-07-25 07:35:56,111 INFO  - T[1] P[1] M[] ReceivingGameEventDaemon-18 tutorial.tictactoe.game.TicTacToe - Ignoring action from 1, expected: 3
+2022-07-25 09:10:40,113 INFO  - T[1] P[2] M[] ReceivingGameEventDaemon-15 tutorial.tictactoe.game.Listener - Player joined!
+2022-07-25 09:10:40,113 INFO  - T[1] P[2] M[] ReceivingGameEventDaemon-15 tutorial.tictactoe.game.Listener - We got two players, starting game at 3s!
+2022-07-25 09:10:41,244 INFO  - T[1] P[2] M[] ReceivingGameEventDaemon-32 tutorial.tictactoe.game.TicTacToe - Ignoring action from 2, expected: 3
+2022-07-25 09:10:43,147 INFO  - T[1] P[0] M[] ReceivingGameEventDaemon-8 tutorial.tictactoe.game.Board - Cross = 1 Naught = 2
+2022-07-25 09:10:45,962 INFO  - T[1] P[2] M[] ReceivingGameEventDaemon-33 tutorial.tictactoe.game.TicTacToe - Ignoring action from 2, expected: 1
+2022-07-25 09:10:46,216 INFO  - T[1] P[2] M[] ReceivingGameEventDaemon-34 tutorial.tictactoe.game.TicTacToe - Ignoring action from 2, expected: 1
+2022-07-25 09:10:46,782 INFO  - T[1] P[2] M[] ReceivingGameEventDaemon-21 tutorial.tictactoe.game.TicTacToe - Ignoring action from 2, expected: 1
+2022-07-25 09:10:50,145 INFO  - T[1] P[2] M[] ReceivingGameEventDaemon-14 tutorial.tictactoe.game.TicTacToe - Ignoring action from 2, expected: 1
+2022-07-25 09:25:47,664 INFO  - T[1] P[1] M[] ReceivingGameEventDaemon-1 tutorial.tictactoe.game.Listener - Player joined!
+2022-07-25 09:25:52,286 INFO  - T[1] P[0] M[] ReceivingGameEventDaemon-38 tutorial.tictactoe.game.TicTacToe - Received action with data: next 3s
+2022-07-25 09:25:55,333 INFO  - T[1] P[1] M[] ReceivingGameEventDaemon-39 tutorial.tictactoe.game.TicTacToe - Ignoring action from 1, expected: 2
+2022-07-25 09:25:55,856 INFO  - T[1] P[1] M[] ReceivingGameEventDaemon-61 tutorial.tictactoe.game.TicTacToe - Ignoring action from 1, expected: 2
+2022-07-25 09:26:03,531 INFO  - T[1] P[2] M[] ReceivingGameEventDaemon-40 tutorial.tictactoe.game.Listener - Player joined!
+2022-07-25 09:26:03,535 INFO  - T[1] P[2] M[] ReceivingGameEventDaemon-40 tutorial.tictactoe.game.Listener - We got two players, starting game at 3s!
+2022-07-25 09:26:05,831 INFO  - T[1] P[1] M[] ReceivingGameEventDaemon-66 tutorial.tictactoe.game.TicTacToe - Ignoring action from 1, expected: 2
+2022-07-25 09:26:06,328 INFO  - T[1] P[1] M[] ReceivingGameEventDaemon-4 tutorial.tictactoe.game.TicTacToe - Ignoring action from 1, expected: 2
+2022-07-25 09:26:06,546 INFO  - T[1] P[0] M[] ReceivingGameEventDaemon-24 tutorial.tictactoe.game.Board - Cross = 1 Naught = 2
+2022-07-25 09:26:07,486 INFO  - T[1] P[0] M[] ReceivingGameEventDaemon-7 tutorial.tictactoe.game.TicTacToe - Received action with data: next 3s
+2022-07-25 09:26:10,911 INFO  - T[1] P[0] M[] ReceivingGameEventDaemon-37 tutorial.tictactoe.game.TicTacToe - Received action with data: next 3s
+2022-07-25 09:26:12,524 INFO  - T[1] P[2] M[] ReceivingGameEventDaemon-27 tutorial.tictactoe.game.TicTacToe - Ignoring action from 2, expected: 1
+2022-07-25 09:26:13,035 INFO  - T[1] P[2] M[] ReceivingGameEventDaemon-73 tutorial.tictactoe.game.TicTacToe - Ignoring action from 2, expected: 1
+2022-07-25 09:26:13,131 INFO  - T[1] P[0] M[] ReceivingGameEventDaemon-9 tutorial.tictactoe.game.TicTacToe - Received action with data: next 3s
+2022-07-25 09:26:13,239 INFO  - T[1] P[2] M[] ReceivingGameEventDaemon-29 tutorial.tictactoe.game.TicTacToe - Ignoring action from 2, expected: 1
+2022-07-25 09:26:13,861 INFO  - T[1] P[2] M[] ReceivingGameEventDaemon-18 tutorial.tictactoe.game.TicTacToe - Ignoring action from 2, expected: 1
+2022-07-25 09:26:13,950 INFO  - T[1] P[2] M[] ReceivingGameEventDaemon-45 tutorial.tictactoe.game.TicTacToe - Ignoring action from 2, expected: 1
+2022-07-25 09:26:16,012 INFO  - T[1] P[2] M[] ReceivingGameEventDaemon-46 tutorial.tictactoe.game.TicTacToe - Ignoring action from 2, expected: 1
+2022-07-25 09:26:35,458 INFO  - T[1] P[2] M[] ReceivingGameEventDaemon-48 tutorial.tictactoe.game.Listener - Player joined!
+2022-07-25 09:26:35,459 INFO  - T[1] P[2] M[] ReceivingGameEventDaemon-48 tutorial.tictactoe.game.Listener - We got two players, starting game at 3s!
+2022-07-25 09:26:37,180 INFO  - T[1] P[1] M[] ReceivingGameEventDaemon-32 tutorial.tictactoe.game.Listener - Player joined!
+2022-07-25 09:26:37,180 INFO  - T[1] P[1] M[] ReceivingGameEventDaemon-32 tutorial.tictactoe.game.Listener - We got two players, starting game at 3s!
+2022-07-25 09:26:38,467 INFO  - T[1] P[0] M[] ReceivingGameEventDaemon-49 tutorial.tictactoe.game.Board - Cross = 1 Naught = 2
+2022-07-25 09:26:40,187 INFO  - T[1] P[0] M[] ReceivingGameEventDaemon-86 tutorial.tictactoe.game.Board - Cross = 1 Naught = 2
+2022-07-25 09:26:46,353 INFO  - T[1] P[0] M[] ReceivingGameEventDaemon-34 tutorial.tictactoe.game.TicTacToe - Received action with data: next 3s
+2022-07-25 09:26:47,677 INFO  - T[1] P[0] M[] ReceivingGameEventDaemon-53 tutorial.tictactoe.game.TicTacToe - Received action with data: next 3s
+2022-07-25 09:26:49,095 INFO  - T[1] P[0] M[] ReceivingGameEventDaemon-94 tutorial.tictactoe.game.TicTacToe - Received action with data: next 3s
+2022-07-25 09:26:50,665 INFO  - T[1] P[0] M[] ReceivingGameEventDaemon-23 tutorial.tictactoe.game.TicTacToe - Received action with data: next 3s
+2022-07-25 09:26:52,501 INFO  - T[1] P[0] M[] ReceivingGameEventDaemon-56 tutorial.tictactoe.game.TicTacToe - Received action with data: start at 3s
+2022-07-25 09:26:52,504 INFO  - T[1] P[0] M[] ReceivingGameEventDaemon-36 tutorial.tictactoe.game.TicTacToe - Received action with data: next 3s
+2022-07-25 09:27:38,436 INFO  - T[21] P[4] M[] ReceivingGameEventDaemon-59 tutorial.tictactoe.game.Listener - Player joined!
+2022-07-25 09:27:40,485 INFO  - T[21] P[3] M[] ReceivingGameEventDaemon-60 tutorial.tictactoe.game.Listener - Player joined!
+2022-07-25 09:27:40,485 INFO  - T[21] P[3] M[] ReceivingGameEventDaemon-60 tutorial.tictactoe.game.Listener - We got two players, starting game at 3s!
+2022-07-25 09:27:43,499 INFO  - T[21] P[0] M[] ReceivingGameEventDaemon-22 tutorial.tictactoe.game.Board - Cross = 3 Naught = 4
+2022-07-25 09:27:45,406 INFO  - T[21] P[4] M[] ReceivingGameEventDaemon-62 tutorial.tictactoe.game.TicTacToe - Ignoring action from 4, expected: 3
+2022-07-25 09:27:50,152 INFO  - T[21] P[0] M[] ReceivingGameEventDaemon-5 tutorial.tictactoe.game.TicTacToe - Received action with data: next 3s
+2022-07-25 09:27:53,018 INFO  - T[21] P[0] M[] ReceivingGameEventDaemon-4 tutorial.tictactoe.game.TicTacToe - Received action with data: next 3s
+2022-07-25 09:27:54,869 INFO  - T[21] P[0] M[] ReceivingGameEventDaemon-64 tutorial.tictactoe.game.TicTacToe - Received action with data: next 3s
+2022-07-25 09:27:57,221 INFO  - T[21] P[0] M[] ReceivingGameEventDaemon-12 tutorial.tictactoe.game.TicTacToe - Received action with data: next 3s
+2022-07-25 09:27:58,834 INFO  - T[21] P[0] M[] ReceivingGameEventDaemon-6 tutorial.tictactoe.game.TicTacToe - Received action with data: next 3s
+2022-07-25 09:28:00,691 INFO  - T[21] P[0] M[] ReceivingGameEventDaemon-70 tutorial.tictactoe.game.TicTacToe - Received action with data: next 3s
+2022-07-25 09:28:01,187 INFO  - T[21] P[0] M[] ReceivingGameEventDaemon-13 tutorial.tictactoe.game.TicTacToe - Received action with data: next 3s
+2022-07-25 09:28:03,859 INFO  - T[21] P[0] M[] ReceivingGameEventDaemon-20 tutorial.tictactoe.game.TicTacToe - Received action with data: next 3s
+2022-07-25 09:28:06,084 INFO  - T[21] P[0] M[] ReceivingGameEventDaemon-2 tutorial.tictactoe.game.TicTacToe - Received action with data: start at 3s
+2022-07-25 09:28:06,089 INFO  - T[21] P[0] M[] ReceivingGameEventDaemon-27 tutorial.tictactoe.game.TicTacToe - Received action with data: next 3s
+2022-07-25 09:39:00,090 INFO  - T[32] P[1] M[] ReceivingGameEventDaemon-46 tutorial.tictactoe.game.Listener - Player joined!
+2022-07-25 09:39:01,938 INFO  - T[32] P[2] M[] ReceivingGameEventDaemon-77 tutorial.tictactoe.game.Listener - Player joined!
+2022-07-25 09:39:01,938 INFO  - T[32] P[2] M[] ReceivingGameEventDaemon-77 tutorial.tictactoe.game.Listener - We got two players, starting game at 3s!
+2022-07-25 09:39:04,941 INFO  - T[32] P[0] M[] ReceivingGameEventDaemon-42 tutorial.tictactoe.game.Board - Cross = 1 Naught = 2
+2022-07-25 09:39:09,015 INFO  - T[32] P[2] M[] ReceivingGameEventDaemon-30 tutorial.tictactoe.game.TicTacToe - Ignoring action from 2, expected: 1
+2022-07-25 09:39:17,768 INFO  - T[32] P[0] M[] ReceivingGameEventDaemon-80 tutorial.tictactoe.game.TicTacToe - Received action with data: next 3s
+2022-07-25 09:39:21,782 INFO  - T[32] P[0] M[] ReceivingGameEventDaemon-81 tutorial.tictactoe.game.TicTacToe - Received action with data: next 3s
+2022-07-25 09:39:25,999 INFO  - T[32] P[0] M[] ReceivingGameEventDaemon-82 tutorial.tictactoe.game.TicTacToe - Received action with data: next 3s
+2022-07-25 09:39:28,004 INFO  - T[32] P[0] M[] ReceivingGameEventDaemon-26 tutorial.tictactoe.game.TicTacToe - Received action with data: next 3s
+2022-07-25 09:39:29,586 INFO  - T[32] P[2] M[] ReceivingGameEventDaemon-84 tutorial.tictactoe.game.TicTacToe - Ignoring action from 2, expected: 1
+2022-07-25 09:39:30,096 INFO  - T[32] P[2] M[] ReceivingGameEventDaemon-48 tutorial.tictactoe.game.TicTacToe - Ignoring action from 2, expected: 1
+2022-07-25 09:39:34,499 INFO  - T[32] P[0] M[] ReceivingGameEventDaemon-85 tutorial.tictactoe.game.TicTacToe - Received action with data: next 3s
+2022-07-25 09:39:36,480 INFO  - T[32] P[0] M[] ReceivingGameEventDaemon-87 tutorial.tictactoe.game.TicTacToe - Received action with data: next 3s
+2022-07-25 09:39:46,427 INFO  - T[32] P[0] M[] ReceivingGameEventDaemon-50 tutorial.tictactoe.game.TicTacToe - Received action with data: next 3s
+2022-07-25 09:39:48,686 INFO  - T[32] P[0] M[] ReceivingGameEventDaemon-49 tutorial.tictactoe.game.TicTacToe - Received action with data: next 3s
+2022-07-25 09:39:51,144 INFO  - T[32] P[0] M[] ReceivingGameEventDaemon-51 tutorial.tictactoe.game.TicTacToe - Received action with data: start at 3s
+2022-07-25 09:39:51,148 INFO  - T[32] P[0] M[] ReceivingGameEventDaemon-91 tutorial.tictactoe.game.TicTacToe - Received action with data: next 3s
+2022-07-25 09:44:49,922 INFO  - T[32] P[1] M[] ReceivingGameEventDaemon-53 tutorial.tictactoe.game.Listener - Player joined!
+2022-07-25 09:44:49,922 INFO  - T[32] P[1] M[] ReceivingGameEventDaemon-53 tutorial.tictactoe.game.Listener - We got two players, starting game at 3s!
+2022-07-25 09:44:51,458 INFO  - T[32] P[2] M[] ReceivingGameEventDaemon-97 tutorial.tictactoe.game.Listener - Player joined!
+2022-07-25 09:44:51,458 INFO  - T[32] P[2] M[] ReceivingGameEventDaemon-97 tutorial.tictactoe.game.Listener - We got two players, starting game at 3s!
+2022-07-25 09:44:52,924 INFO  - T[32] P[0] M[] ReceivingGameEventDaemon-53 tutorial.tictactoe.game.Board - Cross = 1 Naught = 2
+2022-07-25 09:44:54,462 INFO  - T[32] P[0] M[] ReceivingGameEventDaemon-55 tutorial.tictactoe.game.Board - Cross = 1 Naught = 2
+2022-07-25 09:45:05,194 INFO  - T[32] P[0] M[] ReceivingGameEventDaemon-35 tutorial.tictactoe.game.TicTacToe - Received action with data: next 3s
+2022-07-25 09:45:11,006 INFO  - T[32] P[1] M[] ReceivingGameEventDaemon-99 tutorial.tictactoe.game.TicTacToe - Ignoring action from 1, expected: 2
+2022-07-25 09:45:23,643 INFO  - T[32] P[0] M[] ReceivingGameEventDaemon-63 tutorial.tictactoe.game.TicTacToe - Received action with data: next 3s
+2022-07-25 09:45:24,778 INFO  - T[32] P[0] M[] ReceivingGameEventDaemon-22 tutorial.tictactoe.game.TicTacToe - Received action with data: next 3s
+2022-07-25 09:45:25,802 INFO  - T[32] P[0] M[] ReceivingGameEventDaemon-5 tutorial.tictactoe.game.TicTacToe - Received action with data: next 3s
+2022-07-25 09:45:26,931 INFO  - T[32] P[0] M[] ReceivingGameEventDaemon-67 tutorial.tictactoe.game.TicTacToe - Received action with data: start at 3s
+2022-07-25 09:45:26,932 INFO  - T[32] P[0] M[] ReceivingGameEventDaemon-67 tutorial.tictactoe.game.TicTacToe - Received action with data: next 3s
+2022-07-25 09:45:30,551 INFO  - T[32] P[1] M[] ReceivingGameEventDaemon-12 tutorial.tictactoe.game.TicTacToe - Ignoring action from 1, expected: 2
+2022-07-25 09:45:30,785 INFO  - T[32] P[0] M[] ReceivingGameEventDaemon-11 tutorial.tictactoe.game.TicTacToe - Received action with data: next 3s
+2022-07-25 09:45:30,857 INFO  - T[32] P[1] M[] ReceivingGameEventDaemon-69 tutorial.tictactoe.game.TicTacToe - Ignoring action from 1, expected: 2
+2022-07-25 09:45:52,489 INFO  - T[32] P[1] M[] ReceivingGameEventDaemon-6 tutorial.tictactoe.game.TicTacToe - Ignoring action from 1, expected: 2
+2022-07-25 09:45:52,899 INFO  - T[32] P[1] M[] ReceivingGameEventDaemon-71 tutorial.tictactoe.game.TicTacToe - Ignoring action from 1, expected: 2
+2022-07-25 09:45:58,142 INFO  - T[32] P[2] M[] ReceivingGameEventDaemon-27 tutorial.tictactoe.game.TicTacToe - Ignoring action from 2, expected: 1
+2022-07-25 09:45:59,969 INFO  - T[32] P[0] M[] ReceivingGameEventDaemon-37 tutorial.tictactoe.game.TicTacToe - Received action with data: next 3s
+2022-07-25 09:46:03,123 INFO  - T[32] P[0] M[] ReceivingGameEventDaemon-47 tutorial.tictactoe.game.TicTacToe - Received action with data: start at 3s
+2022-07-25 09:46:03,124 INFO  - T[32] P[0] M[] ReceivingGameEventDaemon-61 tutorial.tictactoe.game.TicTacToe - Received action with data: next 3s
+2022-07-25 09:46:13,986 INFO  - T[32] P[1] M[] ReceivingGameEventDaemon-15 tutorial.tictactoe.game.TicTacToe - Ignoring action from 1, expected: 2
+2022-07-25 09:46:25,054 INFO  - T[32] P[1] M[] ReceivingGameEventDaemon-25 tutorial.tictactoe.game.TicTacToe - Ignoring action from 1, expected: 2
+2022-07-25 09:46:25,665 INFO  - T[32] P[1] M[] ReceivingGameEventDaemon-78 tutorial.tictactoe.game.TicTacToe - Ignoring action from 1, expected: 2
+2022-07-25 09:46:26,284 INFO  - T[32] P[1] M[] ReceivingGameEventDaemon-16 tutorial.tictactoe.game.TicTacToe - Ignoring action from 1, expected: 2
+2022-07-25 09:46:26,593 INFO  - T[32] P[1] M[] ReceivingGameEventDaemon-31 tutorial.tictactoe.game.TicTacToe - Ignoring action from 1, expected: 2
+2022-07-25 09:46:27,004 INFO  - T[32] P[1] M[] ReceivingGameEventDaemon-43 tutorial.tictactoe.game.TicTacToe - Ignoring action from 1, expected: 2
+2022-07-25 09:46:27,418 INFO  - T[32] P[1] M[] ReceivingGameEventDaemon-72 tutorial.tictactoe.game.TicTacToe - Ignoring action from 1, expected: 2
+2022-07-25 09:46:27,721 INFO  - T[32] P[1] M[] ReceivingGameEventDaemon-18 tutorial.tictactoe.game.TicTacToe - Ignoring action from 1, expected: 2
+2022-07-25 09:46:28,029 INFO  - T[32] P[1] M[] ReceivingGameEventDaemon-75 tutorial.tictactoe.game.TicTacToe - Ignoring action from 1, expected: 2
+2022-07-25 09:46:28,814 INFO  - T[32] P[1] M[] ReceivingGameEventDaemon-74 tutorial.tictactoe.game.TicTacToe - Ignoring action from 1, expected: 2
+2022-07-25 09:46:29,139 INFO  - T[32] P[1] M[] ReceivingGameEventDaemon-46 tutorial.tictactoe.game.TicTacToe - Ignoring action from 1, expected: 2
+2022-07-25 09:46:29,532 INFO  - T[32] P[1] M[] ReceivingGameEventDaemon-42 tutorial.tictactoe.game.TicTacToe - Ignoring action from 1, expected: 2
+2022-07-25 09:46:29,669 INFO  - T[32] P[1] M[] ReceivingGameEventDaemon-79 tutorial.tictactoe.game.TicTacToe - Ignoring action from 1, expected: 2
+2022-07-25 09:46:29,943 INFO  - T[32] P[1] M[] ReceivingGameEventDaemon-44 tutorial.tictactoe.game.TicTacToe - Ignoring action from 1, expected: 2
+2022-07-25 09:46:30,076 INFO  - T[32] P[1] M[] ReceivingGameEventDaemon-28 tutorial.tictactoe.game.TicTacToe - Ignoring action from 1, expected: 2
+2022-07-25 09:46:34,759 INFO  - T[32] P[1] M[] ReceivingGameEventDaemon-82 tutorial.tictactoe.game.TicTacToe - Ignoring action from 1, expected: 2
+2022-07-25 09:46:35,074 INFO  - T[32] P[1] M[] ReceivingGameEventDaemon-84 tutorial.tictactoe.game.TicTacToe - Ignoring action from 1, expected: 2
+2022-07-25 09:46:35,274 INFO  - T[32] P[1] M[] ReceivingGameEventDaemon-10 tutorial.tictactoe.game.TicTacToe - Ignoring action from 1, expected: 2
+2022-07-25 09:46:35,583 INFO  - T[32] P[1] M[] ReceivingGameEventDaemon-85 tutorial.tictactoe.game.TicTacToe - Ignoring action from 1, expected: 2
+2022-07-25 09:46:36,094 INFO  - T[32] P[1] M[] ReceivingGameEventDaemon-86 tutorial.tictactoe.game.TicTacToe - Ignoring action from 1, expected: 2
+2022-07-25 09:46:36,378 INFO  - T[32] P[1] M[] ReceivingGameEventDaemon-89 tutorial.tictactoe.game.TicTacToe - Ignoring action from 1, expected: 2
+2022-07-25 09:46:36,611 INFO  - T[32] P[1] M[] ReceivingGameEventDaemon-90 tutorial.tictactoe.game.TicTacToe - Ignoring action from 1, expected: 2
+2022-07-25 09:46:37,329 INFO  - T[32] P[1] M[] ReceivingGameEventDaemon-91 tutorial.tictactoe.game.TicTacToe - Ignoring action from 1, expected: 2
+2022-07-25 09:46:37,734 INFO  - T[32] P[1] M[] ReceivingGameEventDaemon-92 tutorial.tictactoe.game.TicTacToe - Ignoring action from 1, expected: 2
+2022-07-25 09:46:38,070 INFO  - T[32] P[1] M[] ReceivingGameEventDaemon-34 tutorial.tictactoe.game.TicTacToe - Ignoring action from 1, expected: 2
+2022-07-25 09:46:38,964 INFO  - T[32] P[1] M[] ReceivingGameEventDaemon-96 tutorial.tictactoe.game.TicTacToe - Ignoring action from 1, expected: 2
+2022-07-25 10:14:22,790 INFO  - T[50] P[3] M[] ReceivingGameEventDaemon-62 tutorial.tictactoe.game.Listener - Player joined!
+2022-07-25 10:14:25,261 INFO  - T[50] P[2] M[] ReceivingGameEventDaemon-65 tutorial.tictactoe.game.Listener - Player joined!
+2022-07-25 10:14:25,262 INFO  - T[50] P[2] M[] ReceivingGameEventDaemon-65 tutorial.tictactoe.game.Listener - We got two players, starting game at 3s!
+2022-07-25 10:14:28,234 INFO  - T[50] P[0] M[] ReceivingGameEventDaemon-57 tutorial.tictactoe.game.Board - Cross = 2 Naught = 3
+2022-07-25 10:14:43,593 INFO  - T[50] P[0] M[] ReceivingGameEventDaemon-63 tutorial.tictactoe.game.TicTacToe - Received action with data: next 3s
+2022-07-25 10:14:54,654 INFO  - T[50] P[0] M[] ReceivingGameEventDaemon-5 tutorial.tictactoe.game.TicTacToe - Received action with data: next 3s
+2022-07-25 10:14:59,073 INFO  - T[50] P[0] M[] ReceivingGameEventDaemon-4 tutorial.tictactoe.game.TicTacToe - Received action with data: next 3s
+2022-07-25 10:15:02,754 INFO  - T[50] P[0] M[] ReceivingGameEventDaemon-12 tutorial.tictactoe.game.TicTacToe - Received action with data: next 3s
+2022-07-25 10:15:16,263 INFO  - T[50] P[0] M[] ReceivingGameEventDaemon-11 tutorial.tictactoe.game.TicTacToe - Received action with data: next 3s
+2022-07-25 10:15:21,740 INFO  - T[50] P[0] M[] ReceivingGameEventDaemon-6 tutorial.tictactoe.game.TicTacToe - Received action with data: start at 3s
+2022-07-25 10:15:21,741 INFO  - T[50] P[0] M[] ReceivingGameEventDaemon-20 tutorial.tictactoe.game.TicTacToe - Received action with data: next 3s
+2022-07-25 10:15:44,628 INFO  - T[50] P[3] M[] ReceivingGameEventDaemon-2 tutorial.tictactoe.game.TicTacToe - Ignoring action from 3, expected: 2
+2022-07-25 10:27:26,057 INFO  - T[50] P[1] M[] ReceivingGameEventDaemon-94 tutorial.tictactoe.game.Listener - Player joined!
+2022-07-25 10:27:29,849 INFO  - T[50] P[2] M[] ReceivingGameEventDaemon-21 tutorial.tictactoe.game.Listener - Player joined!
+2022-07-25 10:27:29,849 INFO  - T[50] P[2] M[] ReceivingGameEventDaemon-21 tutorial.tictactoe.game.Listener - We got two players, starting game at 3s!
+2022-07-25 10:27:32,861 INFO  - T[50] P[0] M[] ReceivingGameEventDaemon-58 tutorial.tictactoe.game.Board - Cross = 1 Naught = 2
+2022-07-25 10:27:34,384 INFO  - T[50] P[0] M[] ReceivingGameEventDaemon-69 tutorial.tictactoe.game.TicTacToe - Received action with data: next 3s
+2022-07-25 10:27:40,175 INFO  - T[50] P[1] M[] ReceivingGameEventDaemon-13 tutorial.tictactoe.game.TicTacToe - Ignoring action from 1, expected: 2
+2022-07-25 10:27:42,076 INFO  - T[50] P[0] M[] ReceivingGameEventDaemon-13 tutorial.tictactoe.game.TicTacToe - Received action with data: next 3s
+2022-07-25 10:27:47,143 INFO  - T[50] P[1] M[] ReceivingGameEventDaemon-68 tutorial.tictactoe.game.TicTacToe - Ignoring action from 1, expected: 2
+2022-07-25 10:27:54,860 INFO  - T[50] P[1] M[] ReceivingGameEventDaemon-25 tutorial.tictactoe.game.TicTacToe - Ignoring action from 1, expected: 2
+2022-07-25 10:28:13,593 INFO  - T[64] P[1] M[] ReceivingGameEventDaemon-74 tutorial.tictactoe.game.Listener - Player joined!
+2022-07-25 10:28:15,437 INFO  - T[64] P[2] M[] ReceivingGameEventDaemon-42 tutorial.tictactoe.game.Listener - Player joined!
+2022-07-25 10:28:15,437 INFO  - T[64] P[2] M[] ReceivingGameEventDaemon-42 tutorial.tictactoe.game.Listener - We got two players, starting game at 3s!
+2022-07-25 10:28:17,540 INFO  - T[64] P[1] M[] ReceivingGameEventDaemon-28 tutorial.tictactoe.game.TicTacToe - Ignoring action from 1, expected: 0
+2022-07-25 10:28:18,413 INFO  - T[64] P[1] M[] ReceivingGameEventDaemon-84 tutorial.tictactoe.game.TicTacToe - Ignoring action from 1, expected: 0
+2022-07-25 10:28:18,442 INFO  - T[64] P[0] M[] ReceivingGameEventDaemon-28 tutorial.tictactoe.game.Board - Cross = 1 Naught = 2
+2022-07-25 10:28:23,666 INFO  - T[64] P[0] M[] ReceivingGameEventDaemon-91 tutorial.tictactoe.game.TicTacToe - Received action with data: next 3s
+2022-07-25 10:28:25,313 INFO  - T[64] P[0] M[] ReceivingGameEventDaemon-93 tutorial.tictactoe.game.TicTacToe - Received action with data: next 3s
+2022-07-25 10:28:28,563 INFO  - T[64] P[0] M[] ReceivingGameEventDaemon-88 tutorial.tictactoe.game.TicTacToe - Received action with data: next 3s
+2022-07-25 10:28:31,317 INFO  - T[64] P[0] M[] ReceivingGameEventDaemon-45 tutorial.tictactoe.game.TicTacToe - Received action with data: next 3s
+2022-07-25 10:28:33,086 INFO  - T[64] P[0] M[] ReceivingGameEventDaemon-32 tutorial.tictactoe.game.TicTacToe - Received action with data: next 3s
+2022-07-25 10:28:34,808 INFO  - T[64] P[0] M[] ReceivingGameEventDaemon-16 tutorial.tictactoe.game.TicTacToe - Received action with data: next 3s
+2022-07-25 10:28:36,244 INFO  - T[64] P[0] M[] ReceivingGameEventDaemon-50 tutorial.tictactoe.game.TicTacToe - Received action with data: next 3s
+2022-07-25 10:28:38,393 INFO  - T[64] P[0] M[] ReceivingGameEventDaemon-83 tutorial.tictactoe.game.TicTacToe - Received action with data: next 3s
+2022-07-25 10:28:40,039 INFO  - T[64] P[0] M[] ReceivingGameEventDaemon-51 tutorial.tictactoe.game.TicTacToe - Received action with data: start at 3s
+2022-07-25 10:28:40,039 INFO  - T[64] P[0] M[] ReceivingGameEventDaemon-17 tutorial.tictactoe.game.TicTacToe - Received action with data: next 3s
+2022-07-25 10:28:43,695 INFO  - T[64] P[1] M[] ReceivingGameEventDaemon-73 tutorial.tictactoe.game.TicTacToe - Ignoring action from 1, expected: 2
+2022-07-25 10:32:22,102 INFO  - T[64] P[1] M[] ReceivingGameEventDaemon-49 tutorial.tictactoe.game.TicTacToe - Ignoring action from 1, expected: 2
+2022-07-25 10:32:26,940 INFO  - T[64] P[0] M[] ReceivingGameEventDaemon-76 tutorial.tictactoe.game.TicTacToe - Received action with data: start at 3s
+2022-07-25 10:32:26,940 INFO  - T[64] P[0] M[] ReceivingGameEventDaemon-55 tutorial.tictactoe.game.TicTacToe - Received action with data: next 3s
+2022-07-25 10:32:29,452 INFO  - T[64] P[0] M[] ReceivingGameEventDaemon-99 tutorial.tictactoe.game.TicTacToe - Received action with data: start at 3s
+2022-07-25 10:32:29,456 INFO  - T[64] P[0] M[] ReceivingGameEventDaemon-53 tutorial.tictactoe.game.TicTacToe - Received action with data: next 3s
+2022-07-25 10:32:31,354 INFO  - T[64] P[0] M[] ReceivingGameEventDaemon-99 tutorial.tictactoe.game.TicTacToe - Received action with data: start at 3s
+2022-07-25 10:32:31,356 INFO  - T[64] P[0] M[] ReceivingGameEventDaemon-59 tutorial.tictactoe.game.TicTacToe - Received action with data: next 3s
+2022-07-25 10:32:36,378 INFO  - T[64] P[0] M[] ReceivingGameEventDaemon-23 tutorial.tictactoe.game.TicTacToe - Received action with data: start at 3s
+2022-07-25 10:32:36,379 INFO  - T[64] P[0] M[] ReceivingGameEventDaemon-65 tutorial.tictactoe.game.TicTacToe - Received action with data: next 3s
+2022-07-25 10:32:37,460 INFO  - T[64] P[1] M[] ReceivingGameEventDaemon-57 tutorial.tictactoe.game.TicTacToe - Ignoring action from 1, expected: 2
+2022-07-25 10:32:42,115 INFO  - T[64] P[0] M[] ReceivingGameEventDaemon-66 tutorial.tictactoe.game.TicTacToe - Received action with data: start at 3s
+2022-07-25 10:32:42,116 INFO  - T[64] P[0] M[] ReceivingGameEventDaemon-22 tutorial.tictactoe.game.TicTacToe - Received action with data: next 3s
+2022-07-25 10:32:45,686 INFO  - T[64] P[0] M[] ReceivingGameEventDaemon-5 tutorial.tictactoe.game.TicTacToe - Received action with data: start at 3s
+2022-07-25 10:32:45,687 INFO  - T[64] P[0] M[] ReceivingGameEventDaemon-5 tutorial.tictactoe.game.TicTacToe - Received action with data: next 3s
+2022-07-25 11:00:35,440 INFO  - T[64] P[3] M[] ReceivingGameEventDaemon-37 tutorial.tictactoe.game.Listener - Player joined!
+2022-07-25 11:00:38,408 INFO  - T[64] P[4] M[] ReceivingGameEventDaemon-33 tutorial.tictactoe.game.Listener - Player joined!
+2022-07-25 11:00:38,409 INFO  - T[64] P[4] M[] ReceivingGameEventDaemon-33 tutorial.tictactoe.game.Listener - We got two players, starting game at 3s!
+2022-07-25 11:00:41,413 INFO  - T[64] P[0] M[] ReceivingGameEventDaemon-33 tutorial.tictactoe.game.Board - Cross = 3 Naught = 4
+2022-07-25 11:00:53,848 INFO  - T[64] P[4] M[] ReceivingGameEventDaemon-1 tutorial.tictactoe.game.TicTacToe - Ignoring action from 4, expected: 3
+2022-07-25 11:01:06,455 INFO  - T[64] P[4] M[] ReceivingGameEventDaemon-47 tutorial.tictactoe.game.TicTacToe - Ignoring action from 4, expected: 3
+2022-07-25 11:01:10,661 INFO  - T[64] P[0] M[] ReceivingGameEventDaemon-54 tutorial.tictactoe.game.TicTacToe - Received action with data: next 3s
+2022-07-25 11:01:13,135 INFO  - T[64] P[0] M[] ReceivingGameEventDaemon-95 tutorial.tictactoe.game.TicTacToe - Received action with data: next 3s
+2022-07-25 11:01:15,119 INFO  - T[64] P[0] M[] ReceivingGameEventDaemon-94 tutorial.tictactoe.game.TicTacToe - Received action with data: next 3s
+2022-07-25 11:01:17,290 INFO  - T[64] P[0] M[] ReceivingGameEventDaemon-100 tutorial.tictactoe.game.TicTacToe - Received action with data: next 3s
+2022-07-25 11:01:19,103 INFO  - T[64] P[0] M[] ReceivingGameEventDaemon-100 tutorial.tictactoe.game.TicTacToe - Received action with data: next 3s
+2022-07-25 11:01:20,911 INFO  - T[64] P[0] M[] ReceivingGameEventDaemon-13 tutorial.tictactoe.game.TicTacToe - Received action with data: next 3s
+2022-07-25 11:01:22,319 INFO  - T[64] P[0] M[] ReceivingGameEventDaemon-25 tutorial.tictactoe.game.TicTacToe - Received action with data: next 3s
+2022-07-25 11:01:24,301 INFO  - T[64] P[0] M[] ReceivingGameEventDaemon-74 tutorial.tictactoe.game.TicTacToe - Received action with data: next 3s
+2022-07-25 11:01:26,170 INFO  - T[64] P[0] M[] ReceivingGameEventDaemon-44 tutorial.tictactoe.game.TicTacToe - Received action with data: start at 3s
+2022-07-25 11:01:26,170 INFO  - T[64] P[0] M[] ReceivingGameEventDaemon-82 tutorial.tictactoe.game.TicTacToe - Received action with data: next 3s

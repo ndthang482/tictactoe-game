@@ -1,0 +1,513 @@
+2022-06-27 02:53:02,097 INFO  - T[] P[] M[] main SYSLOG - Firebase Server Platform initializing; Server id: 6ec92998650a
+2022-06-27 02:53:11,466 INFO  - T[] P[] M[] main firebase.server.statistics.StatisticsLevel - Statistics level for the system: PROFILING
+2022-06-27 02:53:12,946 WARN  - T[] P[] M[] main jboss.cache.transaction.GenericTransactionManagerLookup - Falling back to DummyTransactionManager from JBossCache
+2022-06-27 02:53:13,502 INFO  - T[] P[] M[] main service.systemstate.cache.SystemStateCacheHandler - SystemState repl Queue: false
+2022-06-27 02:53:13,559 INFO  - T[] P[] M[] main service.systemstate.cache.SystemStateCacheHandler - System State TreeCache service started.
+2022-06-27 02:53:14,870 WARN  - T[] P[] M[] main cubeia.service.crossdomain.FlashCrossDomainService - Unable to open config file, using defaults
+2022-06-27 02:53:15,247 INFO  - T[] P[] M[] main cubeia.service.crossdomain.FlashCrossDomainServer - Flash cross domain policy server listening on port 4122
+2022-06-27 02:53:16,988 INFO  - T[] P[] M[] main server.deployment.game.GameDeployment - New game revision created: v:1 resource:com.cubeia.firebase.server.deployment.resources.DeploymentFolderSet@6676f6a0 def:tictactoe-game - id[888] class[com.cubeia.tutorial.tictactoe.game.GameImpl] activator[com.cubeia.tutorial.tictactoe.game.Activator] version[1.0-SNAPSHOT]
+2022-06-27 02:53:17,055 INFO  - T[] P[] M[] main SYSLOG - Deployed: tictactoe-game 1.0-SNAPSHOT; Internal ID: 888; Deployment Revision: 1
+2022-06-27 02:53:17,329 INFO  - T[] P[] M[] main SYSLOG - Master node 'mas1' initialized as [primary] master.
+2022-06-27 02:53:17,377 INFO  - T[] P[] M[] pool-2-thread-1 firebase.server.master.MasterNode - Received handshake for role GAME_NODE from id: gam1[6ec92998650a[127.0.0.1:8635]]; Halting
+2022-06-27 02:53:17,382 INFO  - T[] P[] M[] pool-2-thread-2 firebase.server.instance.ServerInstance - Halting; Id: 808969791
+2022-06-27 02:53:17,410 INFO  - T[] P[] M[] pool-2-thread-1 firebase.server.master.MasterNode - Promoting node; Id: gam1; Role: GAME_NODE
+2022-06-27 02:53:17,449 INFO  - T[] P[] M[] pool-2-thread-2 server.lobby.systemstate.StateLobby - Lobby broadcast period set to: 2000
+2022-06-27 02:53:17,692 INFO  - T[] P[] M[] pool-2-thread-1 SYSLOG - Master node processed handshake for role GAME_NODE from id: gam1[6ec92998650a[127.0.0.1:8635]]
+2022-06-27 02:53:17,695 INFO  - T[] P[] M[] pool-2-thread-1 firebase.server.master.MasterNode - Resuming after processing role GAME_NODE from: gam1[6ec92998650a[127.0.0.1:8635]]; Halt id: 808969791
+2022-06-27 02:53:17,714 INFO  - T[] P[] M[] main firebase.server.game.GameNode - Configuration found for node: gam1 (null)
+2022-06-27 02:53:17,898 INFO  - T[] P[] M[] pool-2-thread-1 firebase.server.master.MasterNode - Received handshake for role CLIENT_NODE from id: cli1[6ec92998650a[127.0.0.1:8635]]; Halting
+2022-06-27 02:53:17,899 INFO  - T[] P[] M[] pool-2-thread-1 firebase.server.master.MasterNode - Promoting node; Id: cli1; Role: CLIENT_NODE
+2022-06-27 02:53:17,907 INFO  - T[] P[] M[] pool-2-thread-2 firebase.server.gateway.GatewayNode - Configuration found for node: cli1 (null)
+2022-06-27 02:53:17,912 INFO  - T[] P[] M[] pool-2-thread-2 firebase.server.gateway.GatewayNode - This node has been promoted to coordinator. Starting ClientReaper.
+2022-06-27 02:53:17,941 INFO  - T[] P[] M[] pool-2-thread-1 SYSLOG - Master node processed handshake for role CLIENT_NODE from id: cli1[6ec92998650a[127.0.0.1:8635]]
+2022-06-27 02:53:17,943 INFO  - T[] P[] M[] pool-2-thread-1 firebase.server.master.MasterNode - Resuming after processing role CLIENT_NODE from: cli1[6ec92998650a[127.0.0.1:8635]]; Halt id: 807997072
+2022-06-27 02:53:17,943 INFO  - T[] P[] M[] main firebase.server.gateway.GatewayNode - Init Client Gateway
+2022-06-27 02:53:17,945 INFO  - T[] P[] M[] main firebase.server.gateway.GatewayNode - Gateway ingoring minimum frequency protection
+2022-06-27 02:53:17,945 INFO  - T[] P[] M[] main firebase.server.gateway.GatewayNode - Gateway ingoring interval frequency protection
+2022-06-27 02:53:17,945 WARN  - T[] P[] M[] main firebase.server.gateway.GatewayNode - Gateway unprotected; Consider setting access frequency protection in the configuration.
+2022-06-27 02:53:18,516 INFO  - T[] P[] M[] pool-2-thread-1 firebase.server.instance.ServerInstance - Resuming; Id: 807997072
+2022-06-27 02:53:18,943 INFO  - T[] P[] M[] main gateway.comm.jetty.JettyServer - Static content is served from: /app/game/web
+2022-06-27 02:53:20,817 INFO  - T[] P[] M[] main SYSLOG - HTTP Server starting at: 0.0.0.0:8080; SSL configuration: Not Configured
+2022-06-27 02:53:20,853 INFO  - T[] P[] M[] pool-2-thread-1 firebase.server.master.MasterNode - Received handshake for role MTT_NODE from id: mtt1[6ec92998650a[127.0.0.1:8635]]; Halting
+2022-06-27 02:53:20,853 INFO  - T[] P[] M[] pool-2-thread-2 firebase.server.instance.ServerInstance - Halting; Id: 808772517
+2022-06-27 02:53:20,905 INFO  - T[] P[] M[] pool-2-thread-1 firebase.server.master.MasterNode - Promoting node; Id: mtt1; Role: MTT_NODE
+2022-06-27 02:53:20,907 INFO  - T[] P[] M[] pool-2-thread-1 SYSLOG - Master node processed handshake for role MTT_NODE from id: mtt1[6ec92998650a[127.0.0.1:8635]]
+2022-06-27 02:53:20,910 INFO  - T[] P[] M[] pool-2-thread-1 firebase.server.master.MasterNode - Resuming after processing role MTT_NODE from: mtt1[6ec92998650a[127.0.0.1:8635]]; Halt id: 808772517
+2022-06-27 02:53:20,925 INFO  - T[] P[] M[] main firebase.server.mtt.MttNode - Configuration found for node: mtt1 (null)
+2022-06-27 02:53:21,355 INFO  - T[] P[] M[] main tutorial.tictactoe.game.Activator - Default activator for game id 888 is used the default configuration
+2022-06-27 02:53:21,411 INFO  - T[] P[] M[] pool-2-thread-1 firebase.server.instance.ServerInstance - Resuming; Id: 808772517
+2022-06-27 02:53:22,030 INFO  - T[] P[] M[] main firebase.server.gateway.GatewayNode - Starting Client Gateway (cli1) ...
+2022-06-27 02:53:22,031 INFO  - T[] P[] M[] main service.clientreg.state.StateClientRegistry - Client Registry is now managing the following nodes (added): [cli1]
+2022-06-27 02:53:22,080 INFO  - T[] P[] M[] main SYSLOG - NIO Server started at: /0.0.0.0:4123
+2022-06-27 02:53:22,215 INFO  - T[] P[] M[] main SYSLOG - System [Java HotSpot(TM) 64-Bit Server VM 25.212-b10; Linux Linux (amd64)]
+2022-06-27 02:53:22,227 INFO  - T[] P[] M[] main SYSLOG - Server started [Mon Jun 27 02:53:22 UTC 2022]
+2022-06-27 02:53:22,229 INFO  - T[] P[] M[] main SYSLOG - Firebase Server Platform [version: 1.8.0-CE]
+2022-06-27 02:54:44,875 INFO  - T[] P[] M[] qtp280615803-82 firebase.server.login.LoginManagerImpl - Created executor for TrivialLoginHandler with 30 threads.
+2022-06-27 03:29:32,599 INFO  - T[1] P[121313] M[] ReceivingGameEventDaemon-1 tutorial.tictactoe.game.Listener - Player joined!
+2022-06-27 03:29:51,576 INFO  - T[1] P[1] M[] ReceivingGameEventDaemon-2 tutorial.tictactoe.game.Listener - Player joined!
+2022-06-27 03:29:51,578 INFO  - T[1] P[1] M[] ReceivingGameEventDaemon-2 tutorial.tictactoe.game.Listener - We got two players, starting game!
+2022-06-27 03:29:54,639 INFO  - T[1] P[0] M[] ReceivingGameEventDaemon-1 tutorial.tictactoe.game.Board - Cross = 1 Naught = 121313
+2022-06-27 03:31:15,096 INFO  - T[1] P[121313] M[] ReceivingGameEventDaemon-3 tutorial.tictactoe.game.TicTacToe - Ignoring action from 121313, expected: 1
+2022-06-27 03:31:17,129 INFO  - T[1] P[121313] M[] ReceivingGameEventDaemon-5 tutorial.tictactoe.game.TicTacToe - Ignoring action from 121313, expected: 1
+2022-06-27 03:31:21,260 ERROR - T[1] P[1] M[] ReceivingGameEventDaemon-1 firebase.server.game.ReceivingGameEventDaemon - Error when handling action, rolling back transaction
+java.lang.NumberFormatException: For input string: "sdf"
+	at java.lang.NumberFormatException.forInputString(NumberFormatException.java:65)
+	at java.lang.Integer.parseInt(Integer.java:580)
+	at java.lang.Integer.parseInt(Integer.java:615)
+	at com.cubeia.tutorial.tictactoe.game.TicTacToe.handle(TicTacToe.java:27)
+	at com.cubeia.firebase.api.game.handler.DefaultGameActionHandler.visit(DefaultGameActionHandler.java:58)
+	at com.cubeia.firebase.api.action.GameDataAction.visit(GameDataAction.java:46)
+	at com.cubeia.firebase.server.processor.TableActionProcessor.handleAction(TableActionProcessor.java:321)
+	at com.cubeia.firebase.server.processor.TableActionProcessor.handleAction(TableActionProcessor.java:165)
+	at com.cubeia.space.handler.table.TableHandler.wrapAndDispatch(TableHandler.java:282)
+	at com.cubeia.space.handler.table.TableHandler.handle(TableHandler.java:191)
+	at com.cubeia.firebase.server.game.ReceivingGameEventDaemon.dispatch(ReceivingGameEventDaemon.java:133)
+	at com.cubeia.firebase.server.game.ReceivingGameEventDaemon.unwrapAndDispatch(ReceivingGameEventDaemon.java:239)
+	at com.cubeia.firebase.server.game.ReceivingGameEventDaemon.dispatch(ReceivingGameEventDaemon.java:111)
+	at com.cubeia.firebase.server.event.processing.ReceiverEventDaemonBase$Handler.innerRun(ReceiverEventDaemonBase.java:198)
+	at com.cubeia.util.threads.SafeRunnable.run(SafeRunnable.java:31)
+	at java.util.concurrent.Executors$RunnableAdapter.call(Executors.java:511)
+	at java.util.concurrent.FutureTask.run(FutureTask.java:266)
+	at java.util.concurrent.ScheduledThreadPoolExecutor$ScheduledFutureTask.access$201(ScheduledThreadPoolExecutor.java:180)
+	at java.util.concurrent.ScheduledThreadPoolExecutor$ScheduledFutureTask.run(ScheduledThreadPoolExecutor.java:293)
+	at java.util.concurrent.ThreadPoolExecutor.runWorker(ThreadPoolExecutor.java:1149)
+	at java.util.concurrent.ThreadPoolExecutor$Worker.run(ThreadPoolExecutor.java:624)
+	at java.lang.Thread.run(Thread.java:748)
+2022-06-27 03:32:38,045 INFO  - T[1] P[123] M[] ReceivingGameEventDaemon-4 tutorial.tictactoe.game.Listener - Player joined!
+2022-06-27 03:34:46,121 INFO  - T[1] P[1] M[] ReceivingGameEventDaemon-17 tutorial.tictactoe.game.Listener - Player joined!
+2022-06-27 03:34:59,930 INFO  - T[1] P[1] M[] ReceivingGameEventDaemon-13 tutorial.tictactoe.game.Listener - Player joined!
+2022-06-27 03:35:16,789 ERROR - T[1] P[1] M[] ReceivingGameEventDaemon-3 firebase.server.game.ReceivingGameEventDaemon - Error when handling action, rolling back transaction
+java.lang.NumberFormatException: For input string: "f"
+	at java.lang.NumberFormatException.forInputString(NumberFormatException.java:65)
+	at java.lang.Integer.parseInt(Integer.java:580)
+	at java.lang.Integer.parseInt(Integer.java:615)
+	at com.cubeia.tutorial.tictactoe.game.TicTacToe.handle(TicTacToe.java:27)
+	at com.cubeia.firebase.api.game.handler.DefaultGameActionHandler.visit(DefaultGameActionHandler.java:58)
+	at com.cubeia.firebase.api.action.GameDataAction.visit(GameDataAction.java:46)
+	at com.cubeia.firebase.server.processor.TableActionProcessor.handleAction(TableActionProcessor.java:321)
+	at com.cubeia.firebase.server.processor.TableActionProcessor.handleAction(TableActionProcessor.java:165)
+	at com.cubeia.space.handler.table.TableHandler.wrapAndDispatch(TableHandler.java:282)
+	at com.cubeia.space.handler.table.TableHandler.handle(TableHandler.java:191)
+	at com.cubeia.firebase.server.game.ReceivingGameEventDaemon.dispatch(ReceivingGameEventDaemon.java:133)
+	at com.cubeia.firebase.server.game.ReceivingGameEventDaemon.unwrapAndDispatch(ReceivingGameEventDaemon.java:239)
+	at com.cubeia.firebase.server.game.ReceivingGameEventDaemon.dispatch(ReceivingGameEventDaemon.java:111)
+	at com.cubeia.firebase.server.event.processing.ReceiverEventDaemonBase$Handler.innerRun(ReceiverEventDaemonBase.java:198)
+	at com.cubeia.util.threads.SafeRunnable.run(SafeRunnable.java:31)
+	at java.util.concurrent.Executors$RunnableAdapter.call(Executors.java:511)
+	at java.util.concurrent.FutureTask.run(FutureTask.java:266)
+	at java.util.concurrent.ScheduledThreadPoolExecutor$ScheduledFutureTask.access$201(ScheduledThreadPoolExecutor.java:180)
+	at java.util.concurrent.ScheduledThreadPoolExecutor$ScheduledFutureTask.run(ScheduledThreadPoolExecutor.java:293)
+	at java.util.concurrent.ThreadPoolExecutor.runWorker(ThreadPoolExecutor.java:1149)
+	at java.util.concurrent.ThreadPoolExecutor$Worker.run(ThreadPoolExecutor.java:624)
+	at java.lang.Thread.run(Thread.java:748)
+2022-06-27 03:40:03,788 INFO  - T[21] P[1] M[] ReceivingGameEventDaemon-17 tutorial.tictactoe.game.Listener - Player joined!
+2022-06-27 03:40:37,899 INFO  - T[21] P[1] M[] ReceivingGameEventDaemon-11 tutorial.tictactoe.game.TicTacToe - Ignoring action from 1, expected: 0
+2022-06-27 03:43:56,947 INFO  - T[32] P[2] M[] ReceivingGameEventDaemon-7 tutorial.tictactoe.game.Listener - Player joined!
+2022-06-27 03:44:00,014 INFO  - T[32] P[1] M[] ReceivingGameEventDaemon-20 tutorial.tictactoe.game.Listener - Player joined!
+2022-06-27 03:44:00,014 INFO  - T[32] P[1] M[] ReceivingGameEventDaemon-20 tutorial.tictactoe.game.Listener - We got two players, starting game!
+2022-06-27 03:44:03,017 INFO  - T[32] P[0] M[] ReceivingGameEventDaemon-1 tutorial.tictactoe.game.Board - Cross = 1 Naught = 2
+2022-06-27 03:44:09,870 ERROR - T[32] P[1] M[] ReceivingGameEventDaemon-3 firebase.server.game.ReceivingGameEventDaemon - Error when handling action, rolling back transaction
+java.lang.ArrayIndexOutOfBoundsException: 123
+	at com.cubeia.tutorial.tictactoe.game.Board.play(Board.java:35)
+	at com.cubeia.tutorial.tictactoe.game.TicTacToe.handle(TicTacToe.java:28)
+	at com.cubeia.firebase.api.game.handler.DefaultGameActionHandler.visit(DefaultGameActionHandler.java:58)
+	at com.cubeia.firebase.api.action.GameDataAction.visit(GameDataAction.java:46)
+	at com.cubeia.firebase.server.processor.TableActionProcessor.handleAction(TableActionProcessor.java:321)
+	at com.cubeia.firebase.server.processor.TableActionProcessor.handleAction(TableActionProcessor.java:165)
+	at com.cubeia.space.handler.table.TableHandler.wrapAndDispatch(TableHandler.java:282)
+	at com.cubeia.space.handler.table.TableHandler.handle(TableHandler.java:191)
+	at com.cubeia.firebase.server.game.ReceivingGameEventDaemon.dispatch(ReceivingGameEventDaemon.java:133)
+	at com.cubeia.firebase.server.game.ReceivingGameEventDaemon.unwrapAndDispatch(ReceivingGameEventDaemon.java:239)
+	at com.cubeia.firebase.server.game.ReceivingGameEventDaemon.dispatch(ReceivingGameEventDaemon.java:111)
+	at com.cubeia.firebase.server.event.processing.ReceiverEventDaemonBase$Handler.innerRun(ReceiverEventDaemonBase.java:198)
+	at com.cubeia.util.threads.SafeRunnable.run(SafeRunnable.java:31)
+	at java.util.concurrent.Executors$RunnableAdapter.call(Executors.java:511)
+	at java.util.concurrent.FutureTask.run(FutureTask.java:266)
+	at java.util.concurrent.ScheduledThreadPoolExecutor$ScheduledFutureTask.access$201(ScheduledThreadPoolExecutor.java:180)
+	at java.util.concurrent.ScheduledThreadPoolExecutor$ScheduledFutureTask.run(ScheduledThreadPoolExecutor.java:293)
+	at java.util.concurrent.ThreadPoolExecutor.runWorker(ThreadPoolExecutor.java:1149)
+	at java.util.concurrent.ThreadPoolExecutor$Worker.run(ThreadPoolExecutor.java:624)
+	at java.lang.Thread.run(Thread.java:748)
+2022-06-27 03:53:42,724 INFO  - T[32] P[1] M[] ReceivingGameEventDaemon-11 tutorial.tictactoe.game.Listener - Player joined!
+2022-06-27 03:53:57,217 INFO  - T[32] P[1] M[] ReceivingGameEventDaemon-42 tutorial.tictactoe.game.TicTacToe - Ignoring action from 1, expected: 2
+2022-06-27 04:49:02,651 INFO  - T[32] P[1] M[] ReceivingGameEventDaemon-4 tutorial.tictactoe.game.Listener - Player joined!
+2022-06-27 04:49:11,644 INFO  - T[32] P[2] M[] ReceivingGameEventDaemon-28 tutorial.tictactoe.game.Listener - Player joined!
+2022-06-27 04:49:11,644 INFO  - T[32] P[2] M[] ReceivingGameEventDaemon-28 tutorial.tictactoe.game.Listener - We got two players, starting game!
+2022-06-27 04:49:14,654 INFO  - T[32] P[0] M[] ReceivingGameEventDaemon-2 tutorial.tictactoe.game.Board - Cross = 1 Naught = 2
+2022-06-27 04:53:08,286 INFO  - T[64] P[1] M[] ReceivingGameEventDaemon-1 tutorial.tictactoe.game.Listener - Player joined!
+2022-06-27 04:53:59,584 INFO  - T[71] P[1] M[] ReceivingGameEventDaemon-8 tutorial.tictactoe.game.Listener - Player joined!
+2022-06-27 04:54:21,313 INFO  - T[71] P[2] M[] ReceivingGameEventDaemon-36 tutorial.tictactoe.game.Listener - Player joined!
+2022-06-27 04:54:21,313 INFO  - T[71] P[2] M[] ReceivingGameEventDaemon-36 tutorial.tictactoe.game.Listener - We got two players, starting game!
+2022-06-27 04:54:24,317 INFO  - T[71] P[0] M[] ReceivingGameEventDaemon-24 tutorial.tictactoe.game.Board - Cross = 1 Naught = 2
+2022-06-27 04:56:24,005 INFO  - T[90] P[1] M[] ReceivingGameEventDaemon-41 tutorial.tictactoe.game.Listener - Player joined!
+2022-06-27 04:56:32,304 INFO  - T[90] P[2] M[] ReceivingGameEventDaemon-71 tutorial.tictactoe.game.Listener - Player joined!
+2022-06-27 04:56:32,304 INFO  - T[90] P[2] M[] ReceivingGameEventDaemon-71 tutorial.tictactoe.game.Listener - We got two players, starting game!
+2022-06-27 04:56:35,315 INFO  - T[90] P[0] M[] ReceivingGameEventDaemon-44 tutorial.tictactoe.game.Board - Cross = 1 Naught = 2
+2022-06-27 04:57:16,343 INFO  - T[90] P[2] M[] ReceivingGameEventDaemon-73 tutorial.tictactoe.game.TicTacToe - Ignoring action from 2, expected: 1
+2022-06-27 04:57:17,231 INFO  - T[90] P[2] M[] ReceivingGameEventDaemon-27 tutorial.tictactoe.game.TicTacToe - Ignoring action from 2, expected: 1
+2022-06-27 04:57:21,212 ERROR - T[90] P[1] M[] ReceivingGameEventDaemon-4 firebase.server.game.ReceivingGameEventDaemon - Error when handling action, rolling back transaction
+java.lang.NumberFormatException: For input string: "sadasd"
+	at java.lang.NumberFormatException.forInputString(NumberFormatException.java:65)
+	at java.lang.Integer.parseInt(Integer.java:580)
+	at java.lang.Integer.parseInt(Integer.java:615)
+	at com.cubeia.tutorial.tictactoe.game.TicTacToe.handle(TicTacToe.java:27)
+	at com.cubeia.firebase.api.game.handler.DefaultGameActionHandler.visit(DefaultGameActionHandler.java:58)
+	at com.cubeia.firebase.api.action.GameDataAction.visit(GameDataAction.java:46)
+	at com.cubeia.firebase.server.processor.TableActionProcessor.handleAction(TableActionProcessor.java:321)
+	at com.cubeia.firebase.server.processor.TableActionProcessor.handleAction(TableActionProcessor.java:165)
+	at com.cubeia.space.handler.table.TableHandler.wrapAndDispatch(TableHandler.java:282)
+	at com.cubeia.space.handler.table.TableHandler.handle(TableHandler.java:191)
+	at com.cubeia.firebase.server.game.ReceivingGameEventDaemon.dispatch(ReceivingGameEventDaemon.java:133)
+	at com.cubeia.firebase.server.game.ReceivingGameEventDaemon.unwrapAndDispatch(ReceivingGameEventDaemon.java:239)
+	at com.cubeia.firebase.server.game.ReceivingGameEventDaemon.dispatch(ReceivingGameEventDaemon.java:111)
+	at com.cubeia.firebase.server.event.processing.ReceiverEventDaemonBase$Handler.innerRun(ReceiverEventDaemonBase.java:198)
+	at com.cubeia.util.threads.SafeRunnable.run(SafeRunnable.java:31)
+	at java.util.concurrent.Executors$RunnableAdapter.call(Executors.java:511)
+	at java.util.concurrent.FutureTask.run(FutureTask.java:266)
+	at java.util.concurrent.ScheduledThreadPoolExecutor$ScheduledFutureTask.access$201(ScheduledThreadPoolExecutor.java:180)
+	at java.util.concurrent.ScheduledThreadPoolExecutor$ScheduledFutureTask.run(ScheduledThreadPoolExecutor.java:293)
+	at java.util.concurrent.ThreadPoolExecutor.runWorker(ThreadPoolExecutor.java:1149)
+	at java.util.concurrent.ThreadPoolExecutor$Worker.run(ThreadPoolExecutor.java:624)
+	at java.lang.Thread.run(Thread.java:748)
+2022-06-27 04:58:57,393 INFO  - T[91] P[2] M[] ReceivingGameEventDaemon-32 tutorial.tictactoe.game.Listener - Player joined!
+2022-06-27 04:59:03,647 INFO  - T[91] P[1] M[] ReceivingGameEventDaemon-52 tutorial.tictactoe.game.Listener - Player joined!
+2022-06-27 04:59:03,647 INFO  - T[91] P[1] M[] ReceivingGameEventDaemon-52 tutorial.tictactoe.game.Listener - We got two players, starting game!
+2022-06-27 04:59:06,617 INFO  - T[91] P[0] M[] ReceivingGameEventDaemon-1 tutorial.tictactoe.game.Board - Cross = 1 Naught = 2
+2022-06-27 05:03:33,417 INFO  - T[64] P[1] M[] ReceivingGameEventDaemon-12 tutorial.tictactoe.game.Listener - Player joined!
+2022-06-27 05:04:26,612 INFO  - T[64] P[1] M[] ReceivingGameEventDaemon-36 tutorial.tictactoe.game.Listener - Player joined!
+2022-06-27 05:08:42,223 INFO  - T[107] P[1] M[] ReceivingGameEventDaemon-54 tutorial.tictactoe.game.Listener - Player joined!
+2022-06-27 05:08:44,170 INFO  - T[107] P[1] M[] ReceivingGameEventDaemon-5 tutorial.tictactoe.game.TicTacToe - Ignoring action from 1, expected: 0
+2022-06-27 05:08:45,277 INFO  - T[107] P[1] M[] ReceivingGameEventDaemon-18 tutorial.tictactoe.game.TicTacToe - Ignoring action from 1, expected: 0
+2022-06-27 05:08:46,942 INFO  - T[107] P[1] M[] ReceivingGameEventDaemon-64 tutorial.tictactoe.game.TicTacToe - Ignoring action from 1, expected: 0
+2022-06-27 05:08:47,250 INFO  - T[107] P[1] M[] ReceivingGameEventDaemon-65 tutorial.tictactoe.game.TicTacToe - Ignoring action from 1, expected: 0
+2022-06-27 05:08:48,579 INFO  - T[107] P[1] M[] ReceivingGameEventDaemon-38 tutorial.tictactoe.game.TicTacToe - Ignoring action from 1, expected: 0
+2022-06-27 05:08:48,659 INFO  - T[107] P[1] M[] ReceivingGameEventDaemon-40 tutorial.tictactoe.game.TicTacToe - Ignoring action from 1, expected: 0
+2022-06-27 05:25:44,885 INFO  - T[64] P[1] M[] ReceivingGameEventDaemon-44 tutorial.tictactoe.game.Listener - Player joined!
+2022-06-27 05:25:50,658 INFO  - T[64] P[2] M[] ReceivingGameEventDaemon-73 tutorial.tictactoe.game.Listener - Player joined!
+2022-06-27 05:25:50,658 INFO  - T[64] P[2] M[] ReceivingGameEventDaemon-73 tutorial.tictactoe.game.Listener - We got two players, starting game!
+2022-06-27 05:25:53,663 INFO  - T[64] P[0] M[] ReceivingGameEventDaemon-74 tutorial.tictactoe.game.Board - Cross = 1 Naught = 2
+2022-06-27 06:33:32,369 INFO  - T[64] P[1] M[] ReceivingGameEventDaemon-43 tutorial.tictactoe.game.Listener - Player joined!
+2022-06-27 06:33:41,442 INFO  - T[64] P[2] M[] ReceivingGameEventDaemon-17 tutorial.tictactoe.game.Listener - Player joined!
+2022-06-27 06:33:41,442 INFO  - T[64] P[2] M[] ReceivingGameEventDaemon-17 tutorial.tictactoe.game.Listener - We got two players, starting game!
+2022-06-27 06:33:44,446 INFO  - T[64] P[0] M[] ReceivingGameEventDaemon-17 tutorial.tictactoe.game.Board - Cross = 1 Naught = 2
+2022-06-27 06:39:14,133 INFO  - T[131] P[2] M[] ReceivingGameEventDaemon-32 tutorial.tictactoe.game.Listener - Player joined!
+2022-06-27 06:39:17,233 INFO  - T[131] P[1] M[] ReceivingGameEventDaemon-52 tutorial.tictactoe.game.Listener - Player joined!
+2022-06-27 06:39:17,233 INFO  - T[131] P[1] M[] ReceivingGameEventDaemon-52 tutorial.tictactoe.game.Listener - We got two players, starting game!
+2022-06-27 06:39:20,236 INFO  - T[131] P[0] M[] ReceivingGameEventDaemon-52 tutorial.tictactoe.game.Board - Cross = 1 Naught = 2
+2022-06-27 06:39:30,899 INFO  - T[131] P[2] M[] ReceivingGameEventDaemon-76 tutorial.tictactoe.game.TicTacToe - Ignoring action from 2, expected: 1
+2022-06-27 06:39:31,999 INFO  - T[131] P[2] M[] ReceivingGameEventDaemon-49 tutorial.tictactoe.game.TicTacToe - Ignoring action from 2, expected: 1
+2022-06-27 06:39:32,169 INFO  - T[131] P[2] M[] ReceivingGameEventDaemon-53 tutorial.tictactoe.game.TicTacToe - Ignoring action from 2, expected: 1
+2022-06-27 06:39:33,022 INFO  - T[131] P[2] M[] ReceivingGameEventDaemon-85 tutorial.tictactoe.game.TicTacToe - Ignoring action from 2, expected: 1
+2022-06-27 06:39:34,587 INFO  - T[131] P[2] M[] ReceivingGameEventDaemon-86 tutorial.tictactoe.game.TicTacToe - Ignoring action from 2, expected: 1
+2022-06-27 06:40:09,987 INFO  - T[131] P[1] M[] ReceivingGameEventDaemon-94 tutorial.tictactoe.game.TicTacToe - Ignoring action from 1, expected: 2
+2022-06-27 06:40:41,539 INFO  - T[141] P[1] M[] ReceivingGameEventDaemon-33 tutorial.tictactoe.game.Listener - Player joined!
+2022-06-27 06:40:48,259 INFO  - T[141] P[2] M[] ReceivingGameEventDaemon-98 tutorial.tictactoe.game.Listener - Player joined!
+2022-06-27 06:40:48,259 INFO  - T[141] P[2] M[] ReceivingGameEventDaemon-98 tutorial.tictactoe.game.Listener - We got two players, starting game!
+2022-06-27 06:40:51,268 INFO  - T[141] P[0] M[] ReceivingGameEventDaemon-99 tutorial.tictactoe.game.Board - Cross = 1 Naught = 2
+2022-06-27 06:45:05,878 INFO  - T[160] P[2] M[] ReceivingGameEventDaemon-20 tutorial.tictactoe.game.Listener - Player joined!
+2022-06-27 06:45:09,905 INFO  - T[160] P[1] M[] ReceivingGameEventDaemon-61 tutorial.tictactoe.game.Listener - Player joined!
+2022-06-27 06:45:09,905 INFO  - T[160] P[1] M[] ReceivingGameEventDaemon-61 tutorial.tictactoe.game.Listener - We got two players, starting game!
+2022-06-27 06:45:12,909 INFO  - T[160] P[0] M[] ReceivingGameEventDaemon-64 tutorial.tictactoe.game.Board - Cross = 1 Naught = 2
+2022-06-27 06:45:45,240 INFO  - T[160] P[2] M[] ReceivingGameEventDaemon-71 tutorial.tictactoe.game.TicTacToe - Ignoring action from 2, expected: 1
+2022-06-27 06:45:45,954 INFO  - T[160] P[2] M[] ReceivingGameEventDaemon-44 tutorial.tictactoe.game.TicTacToe - Ignoring action from 2, expected: 1
+2022-06-27 06:45:46,466 INFO  - T[160] P[2] M[] ReceivingGameEventDaemon-73 tutorial.tictactoe.game.TicTacToe - Ignoring action from 2, expected: 1
+2022-06-27 06:52:48,575 INFO  - T[165] P[1] M[] ReceivingGameEventDaemon-47 tutorial.tictactoe.game.Listener - Player joined!
+2022-06-27 06:53:01,594 INFO  - T[165] P[2] M[] ReceivingGameEventDaemon-77 tutorial.tictactoe.game.Listener - Player joined!
+2022-06-27 06:53:01,594 INFO  - T[165] P[2] M[] ReceivingGameEventDaemon-77 tutorial.tictactoe.game.Listener - We got two players, starting game!
+2022-06-27 06:53:04,607 INFO  - T[165] P[0] M[] ReceivingGameEventDaemon-77 tutorial.tictactoe.game.Board - Cross = 1 Naught = 2
+2022-06-27 06:55:15,828 INFO  - T[180] P[1] M[] ReceivingGameEventDaemon-76 tutorial.tictactoe.game.Listener - Player joined!
+2022-06-27 06:55:27,680 INFO  - T[180] P[2] M[] ReceivingGameEventDaemon-89 tutorial.tictactoe.game.Listener - Player joined!
+2022-06-27 06:55:27,680 INFO  - T[180] P[2] M[] ReceivingGameEventDaemon-89 tutorial.tictactoe.game.Listener - We got two players, starting game!
+2022-06-27 06:55:30,681 INFO  - T[180] P[0] M[] ReceivingGameEventDaemon-91 tutorial.tictactoe.game.Board - Cross = 1 Naught = 2
+2022-06-27 06:56:25,980 INFO  - T[190] P[2] M[] ReceivingGameEventDaemon-99 tutorial.tictactoe.game.Listener - Player joined!
+2022-06-27 06:56:29,673 INFO  - T[190] P[1] M[] ReceivingGameEventDaemon-85 tutorial.tictactoe.game.Listener - Player joined!
+2022-06-27 06:56:29,673 INFO  - T[190] P[1] M[] ReceivingGameEventDaemon-85 tutorial.tictactoe.game.Listener - We got two players, starting game!
+2022-06-27 06:56:32,676 INFO  - T[190] P[0] M[] ReceivingGameEventDaemon-14 tutorial.tictactoe.game.Board - Cross = 1 Naught = 2
+2022-06-27 06:57:39,350 INFO  - T[190] P[1] M[] ReceivingGameEventDaemon-55 tutorial.tictactoe.game.TicTacToe - Ignoring action from 1, expected: 2
+2022-06-27 06:57:58,506 INFO  - T[190] P[1] M[] ReceivingGameEventDaemon-49 tutorial.tictactoe.game.TicTacToe - Ignoring action from 1, expected: 2
+2022-06-27 06:57:59,156 INFO  - T[190] P[1] M[] ReceivingGameEventDaemon-15 tutorial.tictactoe.game.TicTacToe - Ignoring action from 1, expected: 2
+2022-06-27 06:58:03,682 INFO  - T[190] P[2] M[] ReceivingGameEventDaemon-58 tutorial.tictactoe.game.TicTacToe - Ignoring action from 2, expected: 1
+2022-06-27 07:00:39,941 INFO  - T[193] P[1] M[] ReceivingGameEventDaemon-65 tutorial.tictactoe.game.Listener - Player joined!
+2022-06-27 07:00:45,248 INFO  - T[193] P[2] M[] ReceivingGameEventDaemon-30 tutorial.tictactoe.game.Listener - Player joined!
+2022-06-27 07:00:45,248 INFO  - T[193] P[2] M[] ReceivingGameEventDaemon-30 tutorial.tictactoe.game.Listener - We got two players, starting game!
+2022-06-27 07:00:48,261 INFO  - T[193] P[0] M[] ReceivingGameEventDaemon-30 tutorial.tictactoe.game.Board - Cross = 1 Naught = 2
+2022-06-27 07:01:58,619 INFO  - T[201] P[1] M[] ReceivingGameEventDaemon-46 tutorial.tictactoe.game.Listener - Player joined!
+2022-06-27 07:02:05,740 INFO  - T[201] P[2] M[] ReceivingGameEventDaemon-75 tutorial.tictactoe.game.Listener - Player joined!
+2022-06-27 07:02:05,740 INFO  - T[201] P[2] M[] ReceivingGameEventDaemon-75 tutorial.tictactoe.game.Listener - We got two players, starting game!
+2022-06-27 07:02:08,748 INFO  - T[201] P[0] M[] ReceivingGameEventDaemon-22 tutorial.tictactoe.game.Board - Cross = 1 Naught = 2
+2022-06-27 07:02:53,876 INFO  - T[215] P[1] M[] ReceivingGameEventDaemon-76 tutorial.tictactoe.game.Listener - Player joined!
+2022-06-27 07:03:00,539 INFO  - T[215] P[2] M[] ReceivingGameEventDaemon-62 tutorial.tictactoe.game.Listener - Player joined!
+2022-06-27 07:03:00,539 INFO  - T[215] P[2] M[] ReceivingGameEventDaemon-62 tutorial.tictactoe.game.Listener - We got two players, starting game!
+2022-06-27 07:03:03,544 INFO  - T[215] P[0] M[] ReceivingGameEventDaemon-62 tutorial.tictactoe.game.Board - Cross = 1 Naught = 2
+2022-06-27 07:12:17,999 INFO  - T[215] P[2] M[] ReceivingGameEventDaemon-50 tutorial.tictactoe.game.Listener - Player joined!
+2022-06-27 07:12:22,304 INFO  - T[64] P[1] M[] ReceivingGameEventDaemon-88 tutorial.tictactoe.game.Listener - Player joined!
+2022-06-27 07:12:22,304 INFO  - T[64] P[1] M[] ReceivingGameEventDaemon-88 tutorial.tictactoe.game.Listener - We got two players, starting game!
+2022-06-27 07:12:25,306 INFO  - T[64] P[0] M[] ReceivingGameEventDaemon-6 tutorial.tictactoe.game.Board - Cross = 1 Naught = 2
+2022-06-27 07:13:25,740 INFO  - T[233] P[1] M[] ReceivingGameEventDaemon-94 tutorial.tictactoe.game.Listener - Player joined!
+2022-06-27 07:13:31,847 INFO  - T[233] P[2] M[] ReceivingGameEventDaemon-93 tutorial.tictactoe.game.Listener - Player joined!
+2022-06-27 07:13:31,847 INFO  - T[233] P[2] M[] ReceivingGameEventDaemon-93 tutorial.tictactoe.game.Listener - We got two players, starting game!
+2022-06-27 07:13:34,817 INFO  - T[233] P[0] M[] ReceivingGameEventDaemon-93 tutorial.tictactoe.game.Board - Cross = 1 Naught = 2
+2022-06-27 07:15:01,009 INFO  - T[190] P[1] M[] ReceivingGameEventDaemon-86 tutorial.tictactoe.game.Listener - Player joined!
+2022-06-27 07:15:01,009 INFO  - T[190] P[1] M[] ReceivingGameEventDaemon-86 tutorial.tictactoe.game.Listener - We got two players, starting game!
+2022-06-27 07:15:03,977 INFO  - T[190] P[0] M[] ReceivingGameEventDaemon-86 tutorial.tictactoe.game.Board - Cross = 1 Naught = 2
+2022-06-27 07:15:10,225 INFO  - T[190] P[2] M[] ReceivingGameEventDaemon-68 tutorial.tictactoe.game.Listener - Player joined!
+2022-06-27 07:15:10,225 INFO  - T[190] P[2] M[] ReceivingGameEventDaemon-68 tutorial.tictactoe.game.Listener - We got two players, starting game!
+2022-06-27 07:15:13,228 INFO  - T[190] P[0] M[] ReceivingGameEventDaemon-41 tutorial.tictactoe.game.Board - Cross = 1 Naught = 2
+2022-06-27 07:21:07,719 INFO  - T[249] P[1] M[] ReceivingGameEventDaemon-22 tutorial.tictactoe.game.Listener - Player joined!
+2022-06-27 07:21:16,024 INFO  - T[257] P[1] M[] ReceivingGameEventDaemon-5 tutorial.tictactoe.game.Listener - Player joined!
+2022-06-27 07:21:21,861 INFO  - T[257] P[2] M[] ReceivingGameEventDaemon-20 tutorial.tictactoe.game.Listener - Player joined!
+2022-06-27 07:21:21,861 INFO  - T[257] P[2] M[] ReceivingGameEventDaemon-20 tutorial.tictactoe.game.Listener - We got two players, starting game!
+2022-06-27 07:21:24,866 INFO  - T[257] P[0] M[] ReceivingGameEventDaemon-18 tutorial.tictactoe.game.Board - Cross = 1 Naught = 2
+2022-06-27 07:23:51,056 INFO  - T[256] P[1] M[] ReceivingGameEventDaemon-76 tutorial.tictactoe.game.Listener - Player joined!
+2022-06-27 07:23:56,397 INFO  - T[256] P[2] M[] ReceivingGameEventDaemon-62 tutorial.tictactoe.game.Listener - Player joined!
+2022-06-27 07:23:56,397 INFO  - T[256] P[2] M[] ReceivingGameEventDaemon-62 tutorial.tictactoe.game.Listener - We got two players, starting game!
+2022-06-27 07:23:59,400 INFO  - T[256] P[0] M[] ReceivingGameEventDaemon-91 tutorial.tictactoe.game.Board - Cross = 1 Naught = 2
+2022-06-27 07:25:20,468 INFO  - T[268] P[2] M[] ReceivingGameEventDaemon-78 tutorial.tictactoe.game.Listener - Player joined!
+2022-06-27 07:25:26,706 INFO  - T[268] P[1] M[] ReceivingGameEventDaemon-34 tutorial.tictactoe.game.Listener - Player joined!
+2022-06-27 07:25:26,707 INFO  - T[268] P[1] M[] ReceivingGameEventDaemon-34 tutorial.tictactoe.game.Listener - We got two players, starting game!
+2022-06-27 07:25:29,710 INFO  - T[268] P[0] M[] ReceivingGameEventDaemon-34 tutorial.tictactoe.game.Board - Cross = 1 Naught = 2
+2022-06-27 07:26:33,135 INFO  - T[280] P[1] M[] ReceivingGameEventDaemon-5 tutorial.tictactoe.game.Listener - Player joined!
+2022-06-27 07:26:38,672 INFO  - T[1] P[2] M[] ReceivingGameEventDaemon-20 tutorial.tictactoe.game.Listener - Player joined!
+2022-06-27 07:26:38,673 INFO  - T[1] P[2] M[] ReceivingGameEventDaemon-20 tutorial.tictactoe.game.Listener - We got two players, starting game!
+2022-06-27 07:26:41,677 INFO  - T[1] P[0] M[] ReceivingGameEventDaemon-26 tutorial.tictactoe.game.Board - Cross = 1 Naught = 2
+2022-06-27 07:26:48,005 INFO  - T[288] P[2] M[] ReceivingGameEventDaemon-11 tutorial.tictactoe.game.Listener - Player joined!
+2022-06-27 07:26:59,999 INFO  - T[288] P[1] M[] ReceivingGameEventDaemon-8 tutorial.tictactoe.game.Listener - Player joined!
+2022-06-27 07:26:59,999 INFO  - T[288] P[1] M[] ReceivingGameEventDaemon-8 tutorial.tictactoe.game.Listener - We got two players, starting game!
+2022-06-27 07:27:02,918 INFO  - T[288] P[0] M[] ReceivingGameEventDaemon-8 tutorial.tictactoe.game.Board - Cross = 1 Naught = 2
+2022-06-27 07:27:10,326 INFO  - T[288] P[1] M[] ReceivingGameEventDaemon-98 tutorial.tictactoe.game.TicTacToe - Ignoring action from 1, expected: 2
+2022-06-27 07:27:39,058 INFO  - T[288] P[1] M[] ReceivingGameEventDaemon-30 tutorial.tictactoe.game.TicTacToe - Ignoring action from 1, expected: 2
+2022-06-27 07:27:39,987 INFO  - T[288] P[1] M[] ReceivingGameEventDaemon-41 tutorial.tictactoe.game.TicTacToe - Ignoring action from 1, expected: 2
+2022-06-27 07:28:30,984 INFO  - T[281] P[1] M[] ReceivingGameEventDaemon-56 tutorial.tictactoe.game.Listener - Player joined!
+2022-06-27 07:28:42,941 INFO  - T[281] P[2] M[] ReceivingGameEventDaemon-97 tutorial.tictactoe.game.Listener - Player joined!
+2022-06-27 07:28:42,941 INFO  - T[281] P[2] M[] ReceivingGameEventDaemon-97 tutorial.tictactoe.game.Listener - We got two players, starting game!
+2022-06-27 07:28:45,946 INFO  - T[281] P[0] M[] ReceivingGameEventDaemon-97 tutorial.tictactoe.game.Board - Cross = 1 Naught = 2
+2022-06-27 07:31:55,385 INFO  - T[300] P[1] M[] ReceivingGameEventDaemon-33 tutorial.tictactoe.game.Listener - Player joined!
+2022-06-27 07:32:07,120 INFO  - T[300] P[2] M[] ReceivingGameEventDaemon-47 tutorial.tictactoe.game.Listener - Player joined!
+2022-06-27 07:32:07,121 INFO  - T[300] P[2] M[] ReceivingGameEventDaemon-47 tutorial.tictactoe.game.Listener - We got two players, starting game!
+2022-06-27 07:32:10,124 INFO  - T[300] P[0] M[] ReceivingGameEventDaemon-47 tutorial.tictactoe.game.Board - Cross = 1 Naught = 2
+2022-06-27 07:32:40,760 INFO  - T[300] P[0] M[] ReceivingGameEventDaemon-38 tutorial.tictactoe.game.Board - Cross = 1 Naught = 2
+2022-06-27 07:35:08,517 INFO  - T[310] P[1] M[] ReceivingGameEventDaemon-16 tutorial.tictactoe.game.Listener - Player joined!
+2022-06-27 07:35:13,804 INFO  - T[310] P[2] M[] ReceivingGameEventDaemon-64 tutorial.tictactoe.game.Listener - Player joined!
+2022-06-27 07:35:13,804 INFO  - T[310] P[2] M[] ReceivingGameEventDaemon-64 tutorial.tictactoe.game.Listener - We got two players, starting game!
+2022-06-27 07:35:16,808 INFO  - T[310] P[0] M[] ReceivingGameEventDaemon-64 tutorial.tictactoe.game.Board - Cross = 1 Naught = 2
+2022-06-27 07:35:53,529 INFO  - T[310] P[0] M[] ReceivingGameEventDaemon-54 tutorial.tictactoe.game.Board - Cross = 1 Naught = 2
+2022-06-27 07:36:18,629 INFO  - T[310] P[2] M[] ReceivingGameEventDaemon-55 tutorial.tictactoe.game.TicTacToe - Ignoring action from 2, expected: 1
+2022-06-27 07:36:20,885 INFO  - T[310] P[2] M[] ReceivingGameEventDaemon-83 tutorial.tictactoe.game.TicTacToe - Ignoring action from 2, expected: 1
+2022-06-27 07:36:21,089 INFO  - T[310] P[2] M[] ReceivingGameEventDaemon-53 tutorial.tictactoe.game.TicTacToe - Ignoring action from 2, expected: 1
+2022-06-27 07:36:30,400 INFO  - T[310] P[0] M[] ReceivingGameEventDaemon-56 tutorial.tictactoe.game.Board - Cross = 1 Naught = 2
+2022-06-27 07:38:26,350 INFO  - T[320] P[123] M[] ReceivingGameEventDaemon-97 tutorial.tictactoe.game.Listener - Player joined!
+2022-06-27 07:38:27,898 INFO  - T[320] P[123] M[] ReceivingGameEventDaemon-61 tutorial.tictactoe.game.TicTacToe - Ignoring action from 123, expected: 0
+2022-06-27 07:38:28,732 INFO  - T[320] P[123] M[] ReceivingGameEventDaemon-43 tutorial.tictactoe.game.TicTacToe - Ignoring action from 123, expected: 0
+2022-06-27 07:38:46,506 INFO  - T[320] P[123] M[] ReceivingGameEventDaemon-82 tutorial.tictactoe.game.Listener - Player joined!
+2022-06-27 07:38:49,194 INFO  - T[320] P[123] M[] ReceivingGameEventDaemon-1 tutorial.tictactoe.game.TicTacToe - Ignoring action from 123, expected: 0
+2022-06-27 07:38:59,355 INFO  - T[320] P[123] M[] ReceivingGameEventDaemon-46 tutorial.tictactoe.game.TicTacToe - Ignoring action from 123, expected: 0
+2022-06-27 07:39:01,171 INFO  - T[320] P[123] M[] ReceivingGameEventDaemon-72 tutorial.tictactoe.game.TicTacToe - Ignoring action from 123, expected: 0
+2022-06-27 07:39:02,276 INFO  - T[320] P[123] M[] ReceivingGameEventDaemon-48 tutorial.tictactoe.game.TicTacToe - Ignoring action from 123, expected: 0
+2022-06-27 07:39:13,499 INFO  - T[] P[] M[] shutdown hook SYSLOG - Server stopped [Mon Jun 27 07:39:13 UTC 2022]
+2022-06-27 07:39:13,504 INFO  - T[] P[] M[] pool-2-thread-52 firebase.server.master.MasterNode - Master node received node down for node: mtt1 (coordinator: true); This master is primary: true; This master is next primary: true
+2022-06-27 07:39:13,505 INFO  - T[] P[] M[] pool-2-thread-52 firebase.server.master.MasterNode - Before node down: ClusterNodeRegistry [{id: gam1[6ec92998650a[127.0.0.1:8635]]; role: GAME_NODE; isCoordinator: true} {id: cli1[6ec92998650a[127.0.0.1:8635]]; role: CLIENT_NODE; isCoordinator: true} {id: mtt1[6ec92998650a[127.0.0.1:8635]]; role: MTT_NODE; isCoordinator: true} {id: mas1[6ec92998650a[127.0.0.1:8635]]; role: MASTER_NODE; isCoordinator: true}]
+2022-06-27 07:39:13,509 INFO  - T[] P[] M[] pool-2-thread-53 firebase.server.instance.ServerInstance - Halting; Id: 805809537
+2022-06-27 07:39:13,514 WARN  - T[] P[] M[] pool-2-thread-52 SYSLOG - Cluster lost member mtt1[6ec92998650a[127.0.0.1:8635]]' which was coordinator for role MTT_NODE; Coordinator lost! Cluster is now in an incomplete state!
+2022-06-27 07:39:13,518 WARN  - T[] P[] M[] pool-2-thread-52 firebase.server.master.MasterNode - Lost member was coordinator for role MTT_NODE; Coordinator lost, cluster is in incomplete state!
+2022-06-27 07:39:13,518 INFO  - T[] P[] M[] pool-2-thread-52 SYSLOG - Master node processed node down for: mtt1
+2022-06-27 07:39:13,521 INFO  - T[] P[] M[] pool-2-thread-52 firebase.server.master.MasterNode - Resuming after processing node down for: mtt1; Halt id: 805809537
+2022-06-27 07:39:13,632 INFO  - T[] P[] M[] pool-2-thread-52 firebase.server.master.MasterNode - Master node received node down for node: cli1 (coordinator: true); This master is primary: true; This master is next primary: true
+2022-06-27 07:39:13,632 INFO  - T[] P[] M[] pool-2-thread-52 firebase.server.master.MasterNode - Before node down: ClusterNodeRegistry [{id: gam1[6ec92998650a[127.0.0.1:8635]]; role: GAME_NODE; isCoordinator: true} {id: cli1[6ec92998650a[127.0.0.1:8635]]; role: CLIENT_NODE; isCoordinator: true} {id: mas1[6ec92998650a[127.0.0.1:8635]]; role: MASTER_NODE; isCoordinator: true}]
+2022-06-27 07:39:13,632 INFO  - T[] P[] M[] pool-2-thread-53 firebase.server.instance.ServerInstance - Halting; Id: 805809537
+2022-06-27 07:39:13,632 WARN  - T[] P[] M[] pool-2-thread-52 SYSLOG - Cluster lost member cli1[6ec92998650a[127.0.0.1:8635]]' which was coordinator for role CLIENT_NODE; Coordinator lost! Cluster is now in an incomplete state!
+2022-06-27 07:39:13,636 WARN  - T[] P[] M[] pool-2-thread-52 firebase.server.master.MasterNode - Lost member was coordinator for role CLIENT_NODE; Coordinator lost, cluster is in incomplete state!
+2022-06-27 07:39:13,636 INFO  - T[] P[] M[] pool-2-thread-52 SYSLOG - Master node processed node down for: cli1
+2022-06-27 07:39:13,644 INFO  - T[] P[] M[] pool-2-thread-52 firebase.server.master.MasterNode - Resuming after processing node down for: cli1; Halt id: 805809537
+2022-06-27 07:39:13,653 INFO  - T[] P[] M[] pool-2-thread-52 firebase.server.master.MasterNode - Master node received node down for node: gam1 (coordinator: true); This master is primary: true; This master is next primary: true
+2022-06-27 07:39:13,653 INFO  - T[] P[] M[] pool-2-thread-52 firebase.server.master.MasterNode - Before node down: ClusterNodeRegistry [{id: gam1[6ec92998650a[127.0.0.1:8635]]; role: GAME_NODE; isCoordinator: true} {id: mas1[6ec92998650a[127.0.0.1:8635]]; role: MASTER_NODE; isCoordinator: true}]
+2022-06-27 07:39:13,653 INFO  - T[] P[] M[] pool-2-thread-53 firebase.server.instance.ServerInstance - Halting; Id: 805809537
+2022-06-27 07:39:13,654 WARN  - T[] P[] M[] pool-2-thread-52 service.mbus.local.InternalMapping - Non-empty partition 'Partition 'gam1' [Partition gam1, GAME]' dropped; 36 channels will evaporate!
+2022-06-27 07:39:13,655 WARN  - T[] P[] M[] pool-2-thread-52 SYSLOG - Cluster lost member gam1[6ec92998650a[127.0.0.1:8635]]' which was coordinator for role GAME_NODE; Coordinator lost! Cluster is now in an incomplete state!
+2022-06-27 07:39:13,665 WARN  - T[] P[] M[] pool-2-thread-52 firebase.server.master.MasterNode - Lost member was coordinator for role GAME_NODE; Coordinator lost, cluster is in incomplete state!
+2022-06-27 07:39:13,665 INFO  - T[] P[] M[] pool-2-thread-52 SYSLOG - Master node processed node down for: gam1
+2022-06-27 07:39:13,670 INFO  - T[] P[] M[] pool-2-thread-52 firebase.server.master.MasterNode - Resuming after processing node down for: gam1; Halt id: 805809537
+2022-06-27 07:39:26,184 INFO  - T[] P[] M[] main SYSLOG - Firebase Server Platform initializing; Server id: 6ec92998650a
+2022-06-27 07:39:33,517 INFO  - T[] P[] M[] main firebase.server.statistics.StatisticsLevel - Statistics level for the system: PROFILING
+2022-06-27 07:39:34,984 WARN  - T[] P[] M[] main jboss.cache.transaction.GenericTransactionManagerLookup - Falling back to DummyTransactionManager from JBossCache
+2022-06-27 07:39:35,619 INFO  - T[] P[] M[] main service.systemstate.cache.SystemStateCacheHandler - SystemState repl Queue: false
+2022-06-27 07:39:35,672 INFO  - T[] P[] M[] main service.systemstate.cache.SystemStateCacheHandler - System State TreeCache service started.
+2022-06-27 07:39:36,494 WARN  - T[] P[] M[] main cubeia.service.crossdomain.FlashCrossDomainService - Unable to open config file, using defaults
+2022-06-27 07:39:37,056 INFO  - T[] P[] M[] main cubeia.service.crossdomain.FlashCrossDomainServer - Flash cross domain policy server listening on port 4122
+2022-06-27 07:39:40,054 INFO  - T[] P[] M[] main server.deployment.game.GameDeployment - New game revision created: v:1 resource:com.cubeia.firebase.server.deployment.resources.DeploymentFolderSet@6676f6a0 def:tictactoe-game - id[888] class[com.cubeia.tutorial.tictactoe.game.GameImpl] activator[com.cubeia.tutorial.tictactoe.game.Activator] version[1.0-SNAPSHOT]
+2022-06-27 07:39:40,116 INFO  - T[] P[] M[] main SYSLOG - Deployed: tictactoe-game 1.0-SNAPSHOT; Internal ID: 888; Deployment Revision: 1
+2022-06-27 07:39:40,515 INFO  - T[] P[] M[] main SYSLOG - Master node 'mas1' initialized as [primary] master.
+2022-06-27 07:39:40,576 INFO  - T[] P[] M[] pool-2-thread-1 firebase.server.master.MasterNode - Received handshake for role GAME_NODE from id: gam1[6ec92998650a[127.0.0.1:8635]]; Halting
+2022-06-27 07:39:40,581 INFO  - T[] P[] M[] pool-2-thread-2 firebase.server.instance.ServerInstance - Halting; Id: 808969791
+2022-06-27 07:39:40,604 INFO  - T[] P[] M[] pool-2-thread-1 firebase.server.master.MasterNode - Promoting node; Id: gam1; Role: GAME_NODE
+2022-06-27 07:39:40,638 INFO  - T[] P[] M[] pool-2-thread-2 server.lobby.systemstate.StateLobby - Lobby broadcast period set to: 2000
+2022-06-27 07:39:41,021 INFO  - T[] P[] M[] pool-2-thread-1 SYSLOG - Master node processed handshake for role GAME_NODE from id: gam1[6ec92998650a[127.0.0.1:8635]]
+2022-06-27 07:39:41,027 INFO  - T[] P[] M[] pool-2-thread-1 firebase.server.master.MasterNode - Resuming after processing role GAME_NODE from: gam1[6ec92998650a[127.0.0.1:8635]]; Halt id: 808969791
+2022-06-27 07:39:41,048 INFO  - T[] P[] M[] main firebase.server.game.GameNode - Configuration found for node: gam1 (null)
+2022-06-27 07:39:41,683 INFO  - T[] P[] M[] pool-2-thread-1 firebase.server.instance.ServerInstance - Resuming; Id: 808969791
+2022-06-27 07:39:41,758 INFO  - T[] P[] M[] pool-2-thread-1 firebase.server.master.MasterNode - Received handshake for role CLIENT_NODE from id: cli1[6ec92998650a[127.0.0.1:8635]]; Halting
+2022-06-27 07:39:41,759 INFO  - T[] P[] M[] pool-2-thread-2 firebase.server.instance.ServerInstance - Halting; Id: 807997072
+2022-06-27 07:39:41,777 INFO  - T[] P[] M[] pool-2-thread-1 firebase.server.master.MasterNode - Promoting node; Id: cli1; Role: CLIENT_NODE
+2022-06-27 07:39:41,787 INFO  - T[] P[] M[] pool-2-thread-2 firebase.server.gateway.GatewayNode - Configuration found for node: cli1 (null)
+2022-06-27 07:39:41,795 INFO  - T[] P[] M[] pool-2-thread-2 firebase.server.gateway.GatewayNode - This node has been promoted to coordinator. Starting ClientReaper.
+2022-06-27 07:39:41,819 INFO  - T[] P[] M[] pool-2-thread-1 SYSLOG - Master node processed handshake for role CLIENT_NODE from id: cli1[6ec92998650a[127.0.0.1:8635]]
+2022-06-27 07:39:41,824 INFO  - T[] P[] M[] pool-2-thread-1 firebase.server.master.MasterNode - Resuming after processing role CLIENT_NODE from: cli1[6ec92998650a[127.0.0.1:8635]]; Halt id: 807997072
+2022-06-27 07:39:41,825 INFO  - T[] P[] M[] main firebase.server.gateway.GatewayNode - Init Client Gateway
+2022-06-27 07:39:41,827 INFO  - T[] P[] M[] main firebase.server.gateway.GatewayNode - Gateway ingoring minimum frequency protection
+2022-06-27 07:39:41,827 INFO  - T[] P[] M[] main firebase.server.gateway.GatewayNode - Gateway ingoring interval frequency protection
+2022-06-27 07:39:41,827 WARN  - T[] P[] M[] main firebase.server.gateway.GatewayNode - Gateway unprotected; Consider setting access frequency protection in the configuration.
+2022-06-27 07:39:42,327 INFO  - T[] P[] M[] pool-2-thread-1 firebase.server.instance.ServerInstance - Resuming; Id: 807997072
+2022-06-27 07:39:42,737 INFO  - T[] P[] M[] main gateway.comm.jetty.JettyServer - Static content is served from: /app/game/web
+2022-06-27 07:39:44,517 INFO  - T[] P[] M[] main SYSLOG - HTTP Server starting at: 0.0.0.0:8080; SSL configuration: Not Configured
+2022-06-27 07:39:44,538 INFO  - T[] P[] M[] pool-2-thread-1 firebase.server.master.MasterNode - Received handshake for role MTT_NODE from id: mtt1[6ec92998650a[127.0.0.1:8635]]; Halting
+2022-06-27 07:39:44,538 INFO  - T[] P[] M[] pool-2-thread-2 firebase.server.instance.ServerInstance - Halting; Id: 808772517
+2022-06-27 07:39:44,540 INFO  - T[] P[] M[] pool-2-thread-1 firebase.server.master.MasterNode - Promoting node; Id: mtt1; Role: MTT_NODE
+2022-06-27 07:39:44,541 INFO  - T[] P[] M[] pool-2-thread-1 SYSLOG - Master node processed handshake for role MTT_NODE from id: mtt1[6ec92998650a[127.0.0.1:8635]]
+2022-06-27 07:39:44,545 INFO  - T[] P[] M[] pool-2-thread-1 firebase.server.master.MasterNode - Resuming after processing role MTT_NODE from: mtt1[6ec92998650a[127.0.0.1:8635]]; Halt id: 808772517
+2022-06-27 07:39:44,552 INFO  - T[] P[] M[] main firebase.server.mtt.MttNode - Configuration found for node: mtt1 (null)
+2022-06-27 07:39:44,861 INFO  - T[] P[] M[] main tutorial.tictactoe.game.Activator - Default activator for game id 888 is used the default configuration
+2022-06-27 07:39:45,046 INFO  - T[] P[] M[] pool-2-thread-1 firebase.server.instance.ServerInstance - Resuming; Id: 808772517
+2022-06-27 07:39:45,408 INFO  - T[] P[] M[] main firebase.server.gateway.GatewayNode - Starting Client Gateway (cli1) ...
+2022-06-27 07:39:45,409 INFO  - T[] P[] M[] main service.clientreg.state.StateClientRegistry - Client Registry is now managing the following nodes (added): [cli1]
+2022-06-27 07:39:45,445 INFO  - T[] P[] M[] main SYSLOG - NIO Server started at: /0.0.0.0:4123
+2022-06-27 07:39:45,552 INFO  - T[] P[] M[] main SYSLOG - System [Java HotSpot(TM) 64-Bit Server VM 25.212-b10; Linux Linux (amd64)]
+2022-06-27 07:39:45,564 INFO  - T[] P[] M[] main SYSLOG - Server started [Mon Jun 27 07:39:45 UTC 2022]
+2022-06-27 07:39:45,567 INFO  - T[] P[] M[] main SYSLOG - Firebase Server Platform [version: 1.8.0-CE]
+2022-06-27 07:40:09,550 INFO  - T[] P[] M[] qtp280615803-77 firebase.server.login.LoginManagerImpl - Created executor for TrivialLoginHandler with 30 threads.
+2022-06-27 07:40:12,796 INFO  - T[1] P[1] M[] ReceivingGameEventDaemon-1 tutorial.tictactoe.game.Listener - Player joined!
+2022-06-27 07:40:27,440 INFO  - T[1] P[2] M[] ReceivingGameEventDaemon-1 tutorial.tictactoe.game.Listener - Player joined!
+2022-06-27 07:40:27,440 INFO  - T[1] P[2] M[] ReceivingGameEventDaemon-1 tutorial.tictactoe.game.Listener - We got two players, starting game!
+2022-06-27 07:40:30,504 INFO  - T[1] P[0] M[] ReceivingGameEventDaemon-2 tutorial.tictactoe.game.Board - Cross = 1 Naught = 2
+2022-06-27 07:40:53,727 INFO  - T[1] P[1] M[] ReceivingGameEventDaemon-1 tutorial.tictactoe.game.TicTacToe - Ignoring action from 1, expected: 2
+2022-06-27 07:40:54,114 INFO  - T[1] P[0] M[] ReceivingGameEventDaemon-8 tutorial.tictactoe.game.Board - Cross = 1 Naught = 2
+2022-06-27 07:41:09,035 INFO  - T[1] P[2] M[] ReceivingGameEventDaemon-3 tutorial.tictactoe.game.TicTacToe - Ignoring action from 2, expected: 1
+2022-06-27 07:41:20,791 INFO  - T[1] P[0] M[] ReceivingGameEventDaemon-6 tutorial.tictactoe.game.Board - Cross = 1 Naught = 2
+2022-06-27 07:42:44,981 INFO  - T[11] P[1] M[] ReceivingGameEventDaemon-26 tutorial.tictactoe.game.Listener - Player joined!
+2022-06-27 07:42:47,741 INFO  - T[11] P[2] M[] ReceivingGameEventDaemon-3 tutorial.tictactoe.game.Listener - Player joined!
+2022-06-27 07:42:47,741 INFO  - T[11] P[2] M[] ReceivingGameEventDaemon-3 tutorial.tictactoe.game.Listener - We got two players, starting game!
+2022-06-27 07:42:48,860 INFO  - T[11] P[2] M[] ReceivingGameEventDaemon-10 tutorial.tictactoe.game.TicTacToe - Ignoring action from 2, expected: 0
+2022-06-27 07:42:50,743 INFO  - T[11] P[0] M[] ReceivingGameEventDaemon-9 tutorial.tictactoe.game.Board - Cross = 1 Naught = 2
+2022-06-27 07:50:36,516 INFO  - T[1] P[3123] M[] ReceivingGameEventDaemon-13 tutorial.tictactoe.game.Listener - Player joined!
+2022-06-27 07:50:37,671 INFO  - T[1] P[3123] M[] ReceivingGameEventDaemon-15 tutorial.tictactoe.game.TicTacToe - Ignoring action from 3123, expected: 1
+2022-06-27 07:50:38,163 INFO  - T[1] P[3123] M[] ReceivingGameEventDaemon-26 tutorial.tictactoe.game.TicTacToe - Ignoring action from 3123, expected: 1
+2022-06-27 07:50:43,713 INFO  - T[1] P[3123] M[] ReceivingGameEventDaemon-27 tutorial.tictactoe.game.TicTacToe - Ignoring action from 3123, expected: 1
+2022-06-27 07:50:46,376 INFO  - T[1] P[3123] M[] ReceivingGameEventDaemon-3 tutorial.tictactoe.game.TicTacToe - Ignoring action from 3123, expected: 1
+2022-06-27 07:50:51,583 INFO  - T[1] P[3123] M[] ReceivingGameEventDaemon-28 tutorial.tictactoe.game.TicTacToe - Ignoring action from 3123, expected: 1
+2022-06-27 07:52:06,011 INFO  - T[11] P[1] M[] ReceivingGameEventDaemon-9 tutorial.tictactoe.game.Listener - Player joined!
+2022-06-27 07:52:12,474 INFO  - T[11] P[2] M[] ReceivingGameEventDaemon-30 tutorial.tictactoe.game.Listener - Player joined!
+2022-06-27 07:52:12,474 INFO  - T[11] P[2] M[] ReceivingGameEventDaemon-30 tutorial.tictactoe.game.Listener - We got two players, starting game!
+2022-06-27 07:52:14,108 INFO  - T[11] P[2] M[] ReceivingGameEventDaemon-4 tutorial.tictactoe.game.TicTacToe - Ignoring action from 2, expected: 1
+2022-06-27 07:52:15,477 INFO  - T[11] P[0] M[] ReceivingGameEventDaemon-19 tutorial.tictactoe.game.Board - Cross = 1 Naught = 2
+2022-06-27 07:52:32,496 INFO  - T[11] P[0] M[] ReceivingGameEventDaemon-34 tutorial.tictactoe.game.Board - Cross = 1 Naught = 2
+2022-06-27 07:55:43,530 INFO  - T[11] P[1] M[] ReceivingGameEventDaemon-12 tutorial.tictactoe.game.TicTacToe - Ignoring action from 1, expected: 2
+2022-06-27 07:55:44,025 INFO  - T[11] P[1] M[] ReceivingGameEventDaemon-24 tutorial.tictactoe.game.TicTacToe - Ignoring action from 1, expected: 2
+2022-06-27 07:55:44,433 INFO  - T[11] P[1] M[] ReceivingGameEventDaemon-22 tutorial.tictactoe.game.TicTacToe - Ignoring action from 1, expected: 2
+2022-06-27 07:55:45,148 INFO  - T[11] P[1] M[] ReceivingGameEventDaemon-2 tutorial.tictactoe.game.TicTacToe - Ignoring action from 1, expected: 2
+2022-06-27 07:55:45,569 INFO  - T[11] P[1] M[] ReceivingGameEventDaemon-14 tutorial.tictactoe.game.TicTacToe - Ignoring action from 1, expected: 2
+2022-06-27 07:55:46,590 INFO  - T[11] P[1] M[] ReceivingGameEventDaemon-36 tutorial.tictactoe.game.TicTacToe - Ignoring action from 1, expected: 2
+2022-06-27 07:56:44,443 INFO  - T[11] P[1] M[] ReceivingGameEventDaemon-8 tutorial.tictactoe.game.TicTacToe - Ignoring action from 1, expected: 2
+2022-06-27 07:56:44,753 INFO  - T[11] P[1] M[] ReceivingGameEventDaemon-38 tutorial.tictactoe.game.TicTacToe - Ignoring action from 1, expected: 2
+2022-06-27 07:57:01,597 INFO  - T[11] P[0] M[] ReceivingGameEventDaemon-26 tutorial.tictactoe.game.Board - Cross = 1 Naught = 2
+2022-06-27 07:57:23,349 INFO  - T[11] P[2] M[] ReceivingGameEventDaemon-71 tutorial.tictactoe.game.TicTacToe - Ignoring action from 2, expected: 1
+2022-06-27 07:57:31,862 ERROR - T[11] P[1] M[] ReceivingGameEventDaemon-72 firebase.server.game.ReceivingGameEventDaemon - Error when handling action, rolling back transaction
+java.lang.NumberFormatException: For input string: "hey"
+	at java.lang.NumberFormatException.forInputString(NumberFormatException.java:65)
+	at java.lang.Integer.parseInt(Integer.java:580)
+	at java.lang.Integer.parseInt(Integer.java:615)
+	at com.cubeia.tutorial.tictactoe.game.TicTacToe.handle(TicTacToe.java:27)
+	at com.cubeia.firebase.api.game.handler.DefaultGameActionHandler.visit(DefaultGameActionHandler.java:58)
+	at com.cubeia.firebase.api.action.GameDataAction.visit(GameDataAction.java:46)
+	at com.cubeia.firebase.server.processor.TableActionProcessor.handleAction(TableActionProcessor.java:321)
+	at com.cubeia.firebase.server.processor.TableActionProcessor.handleAction(TableActionProcessor.java:165)
+	at com.cubeia.space.handler.table.TableHandler.wrapAndDispatch(TableHandler.java:282)
+	at com.cubeia.space.handler.table.TableHandler.handle(TableHandler.java:191)
+	at com.cubeia.firebase.server.game.ReceivingGameEventDaemon.dispatch(ReceivingGameEventDaemon.java:133)
+	at com.cubeia.firebase.server.game.ReceivingGameEventDaemon.unwrapAndDispatch(ReceivingGameEventDaemon.java:239)
+	at com.cubeia.firebase.server.game.ReceivingGameEventDaemon.dispatch(ReceivingGameEventDaemon.java:111)
+	at com.cubeia.firebase.server.event.processing.ReceiverEventDaemonBase$Handler.innerRun(ReceiverEventDaemonBase.java:198)
+	at com.cubeia.util.threads.SafeRunnable.run(SafeRunnable.java:31)
+	at java.util.concurrent.Executors$RunnableAdapter.call(Executors.java:511)
+	at java.util.concurrent.FutureTask.run(FutureTask.java:266)
+	at java.util.concurrent.ScheduledThreadPoolExecutor$ScheduledFutureTask.access$201(ScheduledThreadPoolExecutor.java:180)
+	at java.util.concurrent.ScheduledThreadPoolExecutor$ScheduledFutureTask.run(ScheduledThreadPoolExecutor.java:293)
+	at java.util.concurrent.ThreadPoolExecutor.runWorker(ThreadPoolExecutor.java:1149)
+	at java.util.concurrent.ThreadPoolExecutor$Worker.run(ThreadPoolExecutor.java:624)
+	at java.lang.Thread.run(Thread.java:748)
+2022-06-27 07:57:34,615 ERROR - T[11] P[1] M[] ReceivingGameEventDaemon-3 firebase.server.game.ReceivingGameEventDaemon - Error when handling action, rolling back transaction
+java.lang.NumberFormatException: For input string: "hey"
+	at java.lang.NumberFormatException.forInputString(NumberFormatException.java:65)
+	at java.lang.Integer.parseInt(Integer.java:580)
+	at java.lang.Integer.parseInt(Integer.java:615)
+	at com.cubeia.tutorial.tictactoe.game.TicTacToe.handle(TicTacToe.java:27)
+	at com.cubeia.firebase.api.game.handler.DefaultGameActionHandler.visit(DefaultGameActionHandler.java:58)
+	at com.cubeia.firebase.api.action.GameDataAction.visit(GameDataAction.java:46)
+	at com.cubeia.firebase.server.processor.TableActionProcessor.handleAction(TableActionProcessor.java:321)
+	at com.cubeia.firebase.server.processor.TableActionProcessor.handleAction(TableActionProcessor.java:165)
+	at com.cubeia.space.handler.table.TableHandler.wrapAndDispatch(TableHandler.java:282)
+	at com.cubeia.space.handler.table.TableHandler.handle(TableHandler.java:191)
+	at com.cubeia.firebase.server.game.ReceivingGameEventDaemon.dispatch(ReceivingGameEventDaemon.java:133)
+	at com.cubeia.firebase.server.game.ReceivingGameEventDaemon.unwrapAndDispatch(ReceivingGameEventDaemon.java:239)
+	at com.cubeia.firebase.server.game.ReceivingGameEventDaemon.dispatch(ReceivingGameEventDaemon.java:111)
+	at com.cubeia.firebase.server.event.processing.ReceiverEventDaemonBase$Handler.innerRun(ReceiverEventDaemonBase.java:198)
+	at com.cubeia.util.threads.SafeRunnable.run(SafeRunnable.java:31)
+	at java.util.concurrent.Executors$RunnableAdapter.call(Executors.java:511)
+	at java.util.concurrent.FutureTask.run(FutureTask.java:266)
+	at java.util.concurrent.ScheduledThreadPoolExecutor$ScheduledFutureTask.access$201(ScheduledThreadPoolExecutor.java:180)
+	at java.util.concurrent.ScheduledThreadPoolExecutor$ScheduledFutureTask.run(ScheduledThreadPoolExecutor.java:293)
+	at java.util.concurrent.ThreadPoolExecutor.runWorker(ThreadPoolExecutor.java:1149)
+	at java.util.concurrent.ThreadPoolExecutor$Worker.run(ThreadPoolExecutor.java:624)
+	at java.lang.Thread.run(Thread.java:748)
+2022-06-27 08:08:22,200 INFO  - T[32] P[2] M[] ReceivingGameEventDaemon-80 tutorial.tictactoe.game.Listener - Player joined!
+2022-06-27 08:08:30,292 INFO  - T[32] P[2] M[] ReceivingGameEventDaemon-48 tutorial.tictactoe.game.TicTacToe - Ignoring action from 2, expected: 0
+2022-06-27 08:08:31,116 INFO  - T[32] P[2] M[] ReceivingGameEventDaemon-1 tutorial.tictactoe.game.TicTacToe - Ignoring action from 2, expected: 0
+2022-06-27 08:08:32,756 INFO  - T[1] P[1] M[] ReceivingGameEventDaemon-4 tutorial.tictactoe.game.Listener - Player joined!
+2022-06-27 08:08:32,756 INFO  - T[1] P[1] M[] ReceivingGameEventDaemon-4 tutorial.tictactoe.game.Listener - We got two players, starting game!
+2022-06-27 08:08:35,761 INFO  - T[1] P[0] M[] ReceivingGameEventDaemon-19 tutorial.tictactoe.game.Board - Cross = 1 Naught = 2
+2022-06-27 08:08:36,274 INFO  - T[32] P[2] M[] ReceivingGameEventDaemon-5 tutorial.tictactoe.game.TicTacToe - Ignoring action from 2, expected: 0
+2022-06-27 08:08:36,958 INFO  - T[32] P[2] M[] ReceivingGameEventDaemon-51 tutorial.tictactoe.game.TicTacToe - Ignoring action from 2, expected: 0
+2022-06-27 08:08:52,438 INFO  - T[32] P[2] M[] ReceivingGameEventDaemon-20 tutorial.tictactoe.game.Listener - Player joined!
+2022-06-27 08:08:54,588 INFO  - T[32] P[2] M[] ReceivingGameEventDaemon-55 tutorial.tictactoe.game.TicTacToe - Ignoring action from 2, expected: 0
+2022-06-27 08:08:56,340 INFO  - T[1] P[1] M[] ReceivingGameEventDaemon-16 tutorial.tictactoe.game.TicTacToe - Ignoring action from 1, expected: 2
+2022-06-27 08:08:56,893 INFO  - T[1] P[1] M[] ReceivingGameEventDaemon-49 tutorial.tictactoe.game.TicTacToe - Ignoring action from 1, expected: 2
+2022-06-27 08:08:57,478 INFO  - T[1] P[1] M[] ReceivingGameEventDaemon-11 tutorial.tictactoe.game.TicTacToe - Ignoring action from 1, expected: 2
+2022-06-27 08:09:04,091 INFO  - T[32] P[1] M[] ReceivingGameEventDaemon-100 tutorial.tictactoe.game.Listener - Player joined!
+2022-06-27 08:09:04,091 INFO  - T[32] P[1] M[] ReceivingGameEventDaemon-100 tutorial.tictactoe.game.Listener - We got two players, starting game!
+2022-06-27 08:09:05,115 INFO  - T[32] P[1] M[] ReceivingGameEventDaemon-12 tutorial.tictactoe.game.TicTacToe - Ignoring action from 1, expected: 0
+2022-06-27 08:09:05,623 INFO  - T[32] P[1] M[] ReceivingGameEventDaemon-24 tutorial.tictactoe.game.TicTacToe - Ignoring action from 1, expected: 0
+2022-06-27 08:09:05,832 INFO  - T[32] P[1] M[] ReceivingGameEventDaemon-22 tutorial.tictactoe.game.TicTacToe - Ignoring action from 1, expected: 0
+2022-06-27 08:09:06,961 INFO  - T[32] P[2] M[] ReceivingGameEventDaemon-61 tutorial.tictactoe.game.TicTacToe - Ignoring action from 2, expected: 0
+2022-06-27 08:09:07,096 INFO  - T[32] P[0] M[] ReceivingGameEventDaemon-58 tutorial.tictactoe.game.Board - Cross = 1 Naught = 2
+2022-06-27 08:09:07,121 INFO  - T[32] P[2] M[] ReceivingGameEventDaemon-14 tutorial.tictactoe.game.TicTacToe - Ignoring action from 2, expected: 1
+2022-06-27 08:09:07,982 INFO  - T[32] P[2] M[] ReceivingGameEventDaemon-36 tutorial.tictactoe.game.TicTacToe - Ignoring action from 2, expected: 1
+2022-06-27 08:09:08,500 INFO  - T[32] P[2] M[] ReceivingGameEventDaemon-64 tutorial.tictactoe.game.TicTacToe - Ignoring action from 2, expected: 1
+2022-06-27 08:09:08,803 INFO  - T[32] P[2] M[] ReceivingGameEventDaemon-65 tutorial.tictactoe.game.TicTacToe - Ignoring action from 2, expected: 1
+2022-06-27 08:09:09,215 INFO  - T[32] P[2] M[] ReceivingGameEventDaemon-66 tutorial.tictactoe.game.TicTacToe - Ignoring action from 2, expected: 1
+2022-06-27 08:09:09,523 INFO  - T[32] P[2] M[] ReceivingGameEventDaemon-39 tutorial.tictactoe.game.TicTacToe - Ignoring action from 2, expected: 1
+2022-06-27 08:09:10,342 INFO  - T[32] P[2] M[] ReceivingGameEventDaemon-68 tutorial.tictactoe.game.TicTacToe - Ignoring action from 2, expected: 1
+2022-06-27 08:15:15,094 INFO  - T[32] P[111] M[] ReceivingGameEventDaemon-73 tutorial.tictactoe.game.Listener - Player joined!
+2022-06-27 08:15:17,305 INFO  - T[32] P[222] M[] ReceivingGameEventDaemon-74 tutorial.tictactoe.game.Listener - Player joined!
+2022-06-27 08:15:17,305 INFO  - T[32] P[222] M[] ReceivingGameEventDaemon-74 tutorial.tictactoe.game.Listener - We got two players, starting game!
+2022-06-27 08:15:18,741 INFO  - T[32] P[222] M[] ReceivingGameEventDaemon-44 tutorial.tictactoe.game.TicTacToe - Ignoring action from 222, expected: 1
+2022-06-27 08:15:18,995 INFO  - T[32] P[222] M[] ReceivingGameEventDaemon-28 tutorial.tictactoe.game.TicTacToe - Ignoring action from 222, expected: 1
+2022-06-27 08:15:20,021 INFO  - T[32] P[111] M[] ReceivingGameEventDaemon-45 tutorial.tictactoe.game.TicTacToe - Ignoring action from 111, expected: 1
+2022-06-27 08:15:20,230 INFO  - T[32] P[111] M[] ReceivingGameEventDaemon-79 tutorial.tictactoe.game.TicTacToe - Ignoring action from 111, expected: 1
+2022-06-27 08:15:20,312 INFO  - T[32] P[0] M[] ReceivingGameEventDaemon-77 tutorial.tictactoe.game.Board - Cross = 111 Naught = 222
+2022-06-27 08:15:25,042 INFO  - T[32] P[222] M[] ReceivingGameEventDaemon-30 tutorial.tictactoe.game.TicTacToe - Ignoring action from 222, expected: 111
+2022-06-27 08:15:25,763 INFO  - T[32] P[222] M[] ReceivingGameEventDaemon-81 tutorial.tictactoe.game.TicTacToe - Ignoring action from 222, expected: 111
+2022-06-27 08:15:26,377 INFO  - T[32] P[222] M[] ReceivingGameEventDaemon-1 tutorial.tictactoe.game.TicTacToe - Ignoring action from 222, expected: 111
+2022-06-27 08:15:26,682 INFO  - T[32] P[222] M[] ReceivingGameEventDaemon-83 tutorial.tictactoe.game.TicTacToe - Ignoring action from 222, expected: 111
+2022-06-27 08:15:38,028 INFO  - T[32] P[222] M[] ReceivingGameEventDaemon-51 tutorial.tictactoe.game.TicTacToe - Ignoring action from 222, expected: 111
+2022-06-27 08:15:43,667 INFO  - T[32] P[111] M[] ReceivingGameEventDaemon-90 tutorial.tictactoe.game.TicTacToe - Ignoring action from 111, expected: 222
+2022-06-27 08:15:44,163 INFO  - T[32] P[0] M[] ReceivingGameEventDaemon-90 tutorial.tictactoe.game.Board - Cross = 111 Naught = 222
+2022-06-27 08:15:49,817 INFO  - T[32] P[222] M[] ReceivingGameEventDaemon-92 tutorial.tictactoe.game.TicTacToe - Ignoring action from 222, expected: 111
+2022-06-27 08:15:50,477 INFO  - T[32] P[222] M[] ReceivingGameEventDaemon-56 tutorial.tictactoe.game.TicTacToe - Ignoring action from 222, expected: 111
+2022-06-27 08:15:53,082 INFO  - T[32] P[111] M[] ReceivingGameEventDaemon-49 tutorial.tictactoe.game.TicTacToe - Ignoring action from 111, expected: 222
+2022-06-27 08:15:59,833 INFO  - T[32] P[111] M[] ReceivingGameEventDaemon-100 tutorial.tictactoe.game.TicTacToe - Ignoring action from 111, expected: 222
+2022-06-27 08:16:12,185 INFO  - T[32] P[0] M[] ReceivingGameEventDaemon-14 tutorial.tictactoe.game.Board - Cross = 111 Naught = 222
+2022-06-27 08:34:28,082 INFO  - T[41] P[1] M[] ReceivingGameEventDaemon-34 tutorial.tictactoe.game.Listener - Player joined!
+2022-06-27 08:34:29,033 INFO  - T[41] P[1] M[] ReceivingGameEventDaemon-63 tutorial.tictactoe.game.TicTacToe - Ignoring action from 1, expected: 0
+2022-06-27 08:34:29,284 INFO  - T[41] P[1] M[] ReceivingGameEventDaemon-8 tutorial.tictactoe.game.TicTacToe - Ignoring action from 1, expected: 0
+2022-06-27 08:34:29,501 INFO  - T[41] P[1] M[] ReceivingGameEventDaemon-94 tutorial.tictactoe.game.TicTacToe - Ignoring action from 1, expected: 0
+2022-06-27 08:34:42,504 INFO  - T[41] P[2] M[] ReceivingGameEventDaemon-35 tutorial.tictactoe.game.Listener - Player joined!
+2022-06-27 08:34:42,504 INFO  - T[41] P[2] M[] ReceivingGameEventDaemon-35 tutorial.tictactoe.game.Listener - We got two players, starting game!
+2022-06-27 08:34:45,512 INFO  - T[41] P[0] M[] ReceivingGameEventDaemon-38 tutorial.tictactoe.game.Board - Cross = 1 Naught = 2
+2022-06-27 08:35:15,785 INFO  - T[41] P[0] M[] ReceivingGameEventDaemon-2 tutorial.tictactoe.game.Board - Cross = 1 Naught = 2

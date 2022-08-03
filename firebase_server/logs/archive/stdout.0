@@ -1,0 +1,65 @@
+=====================================================
+2022-06-29 10:39:05 - Cubeia Firebase Starting
+=====================================================
+2022-06-29 10:39:10,487 INFO  SystemLogImpl - Firebase Server Platform initializing; Server id: 6ec92998650a
+ServerConfigFirectory:/app/conf
+2022-06-29 10:39:24,941 INFO  SystemLogImpl - Deployed: tictactoe-game 1.0-SNAPSHOT; Internal ID: 888; Deployment Revision: 1
+2022-06-29 10:39:25,322 INFO  SystemLogImpl - Master node 'mas1' initialized as [primary] master.
+2022-06-29 10:39:25,624 INFO  SystemLogImpl - Master node processed handshake for role GAME_NODE from id: gam1[6ec92998650a[127.0.0.1:8635]]
+2022-06-29 10:39:25,894 INFO  SystemLogImpl - Master node processed handshake for role CLIENT_NODE from id: cli1[6ec92998650a[127.0.0.1:8635]]
+2022-06-29 10:39:28,888 INFO  SystemLogImpl - HTTP Server starting at: 0.0.0.0:8080; SSL configuration: Not Configured
+2022-06-29 10:39:28,918 INFO  SystemLogImpl - Master node processed handshake for role MTT_NODE from id: mtt1[6ec92998650a[127.0.0.1:8635]]
+create game1
+create game2
+create game3
+create game4
+create game5
+create game6
+create game7
+create game8
+create game9
+create game10
+2022-06-29 10:39:29,732 INFO  SystemLogImpl - NIO Server started at: /0.0.0.0:4123
+2022-06-29 10:39:29,829 INFO  SystemLogImpl - System [Java HotSpot(TM) 64-Bit Server VM 25.212-b10; Linux Linux (amd64)]
+2022-06-29 10:39:29,839 INFO  SystemLogImpl - Server started [Wed Jun 29 10:39:29 UTC 2022]
+2022-06-29 10:39:29,842 INFO  SystemLogImpl - Firebase Server Platform [version: 1.8.0-CE]
+create game11
+create game12
+create game13
+create game14
+create game15
+create game16
+create game17
+create game18
+create game19
+create game20
+create game21
+create game22
+create game23
+create game24
+create game25
+create game26
+create game27
+create game28
+create game29
+create game30
+create game31
+create game32
+create game33
+create game34
+create game35
+create game36
+create game37
+create game38
+create game39
+create game40
+create game41
+create game42
+create game43
+create game44
+create game45
+create game46
+create game47
+create game48
+create game49
+create game50

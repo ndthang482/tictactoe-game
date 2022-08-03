@@ -1,0 +1,16 @@
+=====================================================
+2021-12-14 11:00:35 - Cubeia Firebase Starting
+=====================================================
+2021-12-14 03:00:40,514 INFO  SystemLogImpl - Firebase Server Platform initializing; Server id: 0454d9246265
+ServerConfigFirectory:/app/conf
+2021-12-14 03:00:53,017 INFO  SystemLogImpl - Deployed: Service userlq-services-1.0-SNAPSHOT; Id: com.athena.services:userlq-services
+ServiceImpl starting......
+2021-12-14 03:00:53,686 INFO  SystemLogImpl - Master node 'mas1' initialized as [primary] master.
+2021-12-14 03:00:53,944 INFO  SystemLogImpl - Master node processed handshake for role GAME_NODE from id: gam1[0454d9246265[127.0.0.1:8635]]
+2021-12-14 03:00:54,224 INFO  SystemLogImpl - Master node processed handshake for role CLIENT_NODE from id: cli1[0454d9246265[127.0.0.1:8635]]
+2021-12-14 03:00:57,024 INFO  SystemLogImpl - HTTP Server starting at: 0.0.0.0:8080; SSL configuration: Not Configured
+2021-12-14 03:00:57,061 INFO  SystemLogImpl - Master node processed handshake for role MTT_NODE from id: mtt1[0454d9246265[127.0.0.1:8635]]
+2021-12-14 03:00:57,190 INFO  SystemLogImpl - NIO Server started at: /0.0.0.0:4123
+2021-12-14 03:00:57,341 INFO  SystemLogImpl - System [Java HotSpot(TM) 64-Bit Server VM 25.212-b10; Linux Linux (amd64)]
+2021-12-14 03:00:57,354 INFO  SystemLogImpl - Server started [Tue Dec 14 03:00:57 UTC 2021]
+2021-12-14 03:00:57,361 INFO  SystemLogImpl - Firebase Server Platform [version: 1.8.0-CE]
