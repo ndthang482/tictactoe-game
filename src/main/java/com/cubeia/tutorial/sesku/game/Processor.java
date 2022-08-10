@@ -327,7 +327,7 @@ public class Processor implements GameProcessor, TournamentProcessor {
        
     public CheckBoard play(Table table,Board cell, int playerId) {
     	Board board = (Board) table.getGameState().getState();
-        if (board == cell) {
+        if (board == cell && playerId == board.playerToAct) {
         	 if(board.playerToAct == e) {
         		AG_min = AG_min * board.playerToAct;
         	}
@@ -347,14 +347,13 @@ public class Processor implements GameProcessor, TournamentProcessor {
         		AG_min = AG_min * board.playerToAct;
         	}
         }
-			return getWinner(table, playerId);
+			return getBet(table, playerId);
 		
     }
-    private CheckBoard getWinner(Table table, int playerId) {
-    	Board board = (Board) table.getGameState().getState(); 
-        CheckBoard winner = play(table, RandomBoard(table), board.playerToAct);
+    private CheckBoard getBet(Table table, int playerId) {
+        CheckBoard check = play(table, RandomBoard(table), playerId);
         for (int[] combos :getRowCombos()) {
-            if (winner == CheckBoard.EVEN) {
+            if (check == CheckBoard.EVEN) {
             	even = combos[0];
             	even = combos[5];
             	even = combos[6];
@@ -363,15 +362,15 @@ public class Processor implements GameProcessor, TournamentProcessor {
             	even = combos[9]; 
             	even = combos[18];
             	//check 4 white
-            if (winner == CheckBoard.FOUR_WHITE) {
+            if (check == CheckBoard.FOUR_WHITE) {
             	  four_white = combos[0];
                			
             	}//check 4 yellow
-             else if (winner == CheckBoard.FOUR_YELLOW) {
+             else if (check == CheckBoard.FOUR_YELLOW) {
              	 four_yellow = combos[18];
              	}
             } //check le
-            else if(winner == CheckBoard.ODD) {
+            else if(check == CheckBoard.ODD) {
             	odd = combos[1];
             	odd = combos[2];
             	odd = combos[3];
@@ -385,13 +384,13 @@ public class Processor implements GameProcessor, TournamentProcessor {
             	odd = combos[16];
             	odd = combos[17];
             	// check 3white 1yellow
-            	if(winner == CheckBoard.THREE_WHITE) {
+            	if(check == CheckBoard.THREE_WHITE) {
             		three_white = combos[10]; 
             		three_white = combos[11];
             		three_white = combos[12];
             		three_white = combos[13];
             	}//check 3 yellow 1white
-            	else if(winner == CheckBoard.THREE_YELLOW){
+            	else if(check == CheckBoard.THREE_YELLOW){
             		three_yellow = combos[14]; 
             		three_yellow = combos[15];
             		three_yellow = combos[16];
@@ -399,7 +398,8 @@ public class Processor implements GameProcessor, TournamentProcessor {
             	}
             }
         }
-        return winner;
+    	
+        return check;
     }
 
     private static List<int[]> getRowCombos() {
