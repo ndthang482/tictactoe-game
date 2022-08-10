@@ -3,21 +3,16 @@ import java.util.Random;
 
 import com.cubeia.firebase.api.action.GameDataAction;
 import com.cubeia.firebase.api.action.GameObjectAction;
-import com.cubeia.firebase.api.action.mtt.MttRoundReportAction;
 import com.cubeia.firebase.api.game.GameProcessor;
 import com.cubeia.firebase.api.game.TournamentProcessor;
-import com.cubeia.firebase.api.game.player.GenericPlayer;
 import com.cubeia.firebase.api.game.player.Player;
 import com.cubeia.firebase.api.game.table.Table;
-import com.cubeia.firebase.api.game.table.TablePlayerSet;
 import com.cubeia.firebase.api.game.table.TableType;
-import com.google.common.primitives.Chars;
 
 import net.sf.json.JSONObject;
 import org.apache.log4j.Logger;
 
 import java.util.ArrayList;
-import java.util.Iterator;
 import java.util.List;
 
 import static java.nio.ByteBuffer.wrap;
@@ -27,6 +22,14 @@ public class Processor implements GameProcessor, TournamentProcessor {
     private static final Logger log = Logger.getLogger(Processor.class);
 	private static final int OutGame = -1;
 	private static final int JoinGame = 1;
+	private static final int o = 3;
+	private static final int e = 6;
+	private static final int fw = 0;
+	private static final int fy = 4;
+	private static final int tw = -1;
+	private static final int ty = 1;
+	private static final int x2Bet = 2;
+	
     public int odd;
     public int even;
     public int four_white;
@@ -150,14 +153,6 @@ public class Processor implements GameProcessor, TournamentProcessor {
         table.getScheduler().scheduleAction(action, 5000);
     }
     
-    private void sendRoundReport(Table table, int winner) {
-        MttRoundReportAction roundReport = new MttRoundReportAction
-        		(table.getMetaData().getMttId(), table.getId());
-        roundReport.setAttachment(winner);
-        log.info("Sending round report where winner is " + winner + 
-        		" mttId is " + roundReport.getMttId() + " and tableId is " + roundReport.getTableId());
-        table.getTournamentNotifier().sendToTournament(roundReport);
-    }
 
     // check table
     protected boolean isTournamentTable(Table table) {
@@ -216,11 +211,6 @@ public class Processor implements GameProcessor, TournamentProcessor {
     	}
     }
 
-	@SuppressWarnings("unchecked")
-	private List<Player> players() {
-		return (List<Player>) players.iterator();
-	}
-    
 
     private void timeBet(Table table) {
     	GameObjectAction action = new GameObjectAction(table.getId());
@@ -299,7 +289,7 @@ public class Processor implements GameProcessor, TournamentProcessor {
     }
 	public void timeOutGame(Table table) {
     	GameObjectAction action = new GameObjectAction(table.getId());
-    	action.setAttachment("timeOutGame");
+    	action.setAttachment("OutGame");
     	table.getScheduler().scheduleAction(action, 2000);
     }
     
@@ -338,22 +328,22 @@ public class Processor implements GameProcessor, TournamentProcessor {
     public CheckBoard play(Table table,Board cell, int playerId) {
     	Board board = (Board) table.getGameState().getState();
         if (board == cell) {
-        	 if(board.playerToAct == even) {
+        	 if(board.playerToAct == e) {
         		AG_min = AG_min * board.playerToAct;
         	}
-        	else if(board.playerToAct == odd) {
+        	else if(board.playerToAct == o) {
         		AG_min = AG_min * board.playerToAct;
         	}
-        	else if(board.playerToAct == three_white) {
+        	else if(board.playerToAct == tw) {
         		AG_min = AG_min * board.playerToAct;
         	}
-        	else if(board.playerToAct == three_yellow) {
+        	else if(board.playerToAct == ty ){
         		AG_min = AG_min * board.playerToAct;
         	}
-        	else if(board.playerToAct == four_white) {
+        	else if(board.playerToAct == fw) {
         		AG_min = AG_min * board.playerToAct;
         	}
-        	else if(board.playerToAct == four_yellow) {
+        	else if(board.playerToAct == fy) {
         		AG_min = AG_min * board.playerToAct;
         	}
         }
@@ -441,13 +431,13 @@ public class Processor implements GameProcessor, TournamentProcessor {
     }
     public int Bet(Table table, int AG_min) {
     	Board board = (Board) table.getGameState().getState();
-    		if(board.playerToAct > 1) {
-    			AG_min = AG_min * board.playerToAct;
-    		}else if(board.playerToAct == 1){
+    		if(board.playerToAct == x2Bet) {
+    			AG_min = 2 * AG_min * board.playerToAct;
+    		}else {
     			AG_min = AG_min * board.playerToAct;
     		}
     	return AG_min;
-    }
+    } 
     
 //   start 3s
 	 @Override
@@ -465,6 +455,14 @@ public class Processor implements GameProcessor, TournamentProcessor {
 	     action.setAttachment("stop");
 	     table.getScheduler().scheduleAction(action, 30000);
 	 }
+	 
+	@SuppressWarnings("unchecked")
+	private List<Player> players() {
+		return (List<Player>) players.iterator();
+	}
+	public List<Player> getPlayers() {
+		return players;
+	}
 	 
 	 public int getAG_min() {
 	    return AG_min;
